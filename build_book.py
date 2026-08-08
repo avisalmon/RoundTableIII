@@ -7,6 +7,7 @@ from datetime import date
 from pathlib import Path
 
 import book_pdf
+import cover_pdf
 import kdp_report
 
 
@@ -15,6 +16,7 @@ MANUSCRIPT = ROOT / "book" / "manuscript.md"
 INDEX_HTML = ROOT / "index.html"
 BOOK_HTML = ROOT / "book.html"
 BOOK_PDF = ROOT / "book.pdf"
+COVER_PDF = ROOT / "cover.pdf"
 
 
 @dataclass
@@ -568,7 +570,16 @@ def main() -> int:
     )
     report = kdp_report.check(BOOK_PDF, result, headings)
     print(report.summary)
-    return 0 if report.ok else 1
+    if not report.ok:
+        return 1
+
+    page_count = report.pages or int(result["pages"])
+    cover = cover_pdf.build_cover(page_count=page_count)
+    print(
+        f"Generated {COVER_PDF.name}: {cover.full_width:.3f}x{cover.full_height:.3f}in, "
+        f"spine {cover.spine_width:.3f}in for {page_count} pages"
+    )
+    return 0
 
 
 if __name__ == "__main__":

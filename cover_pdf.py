@@ -24,7 +24,17 @@ PAGE_COUNT = 242
 PAPER_TYPE = "black-and-white white paper"
 SPINE_FACTOR_IN = 0.002252
 
-AUTHOR = "Avi Salmon"
+AUTHORS = [
+  "Avi Salmon",
+  "Dr. Eli Eisenberg",
+  "Prof. Arnon Bentur",
+  "Tamar Dayan",
+  "Yael Granot",
+  "Dr. Revital Duek",
+  "Inna",
+]
+AUTHOR = "; ".join(AUTHORS)
+SPINE_AUTHOR = "Avi Salmon et al."
 SERIES = "International STEM Skills Round Table Phase III"
 TITLE = "The Teacher Above AI"
 SUBTITLE = "STEM Education, Human Judgment, and the New Learning Ecosystem"
@@ -61,6 +71,7 @@ def cover_html(cover: CoverGeometry) -> str:
     barcode_left = cover.bleed + cover.trim_width - 2.35
     barcode_top = cover.bleed + cover.trim_height - 1.65
     safe = 0.28
+    author_lines = "<br>".join(AUTHORS)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -96,7 +107,7 @@ def cover_html(cover: CoverGeometry) -> str:
     .series {{ margin: 0; color: #efc978; font-size: 9pt; line-height: 1.35; letter-spacing: 0.13em; text-transform: uppercase; }}
     h1 {{ margin: 1.06in 0 0.16in; font-family: 'EB Garamond', serif; font-size: 54pt; line-height: 0.88; font-weight: 600; letter-spacing: 0; }}
     .subtitle {{ max-width: 4.7in; margin: 0; font-family: 'EB Garamond', serif; font-size: 20pt; line-height: 1.08; color: #f8e7bd; }}
-    .author {{ position: absolute; left: 0.66in; right: 0.66in; bottom: 0.78in; margin: 0; color: #efc978; font-size: 12pt; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; }}
+    .author {{ position: absolute; left: 0.66in; right: 0.66in; bottom: 0.52in; margin: 0; color: #efc978; font-size: 8.4pt; line-height: 1.35; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }}
     .network {{ position: absolute; right: 0.34in; bottom: 1.72in; width: 4.9in; height: 3.4in; opacity: 0.74; }}
     .network path, .network line {{ stroke: #efd58b; stroke-width: 1.2; fill: none; }}
     .network circle {{ fill: #fff8e6; }}
@@ -104,8 +115,8 @@ def cover_html(cover: CoverGeometry) -> str:
     .back p {{ margin: 0 0 0.16in; color: #f7ead0; font-size: 10.2pt; line-height: 1.48; }}
     .back .note {{ margin-top: 0.26in; padding-top: 0.19in; border-top: 1px solid rgba(239, 201, 120, 0.55); color: #d8c9aa; font-size: 8.7pt; line-height: 1.42; }}
     .barcode {{ position: absolute; left: {barcode_left:.3f}in; top: {barcode_top:.3f}in; width: 2.0in; height: 1.2in; background: #fff; color: #2a2a2a; display: flex; align-items: center; justify-content: center; padding: 0.08in; text-align: center; font-size: 7pt; line-height: 1.25; }}
-    .spine-title {{ position: absolute; top: 0.72in; left: 50%; transform: translateX(-50%) rotate(90deg); transform-origin: center; width: {cover.trim_height - 2.0:.3f}in; text-align: center; font-family: 'EB Garamond', serif; font-size: 13pt; line-height: 1; font-weight: 600; letter-spacing: 0.03em; white-space: nowrap; }}
-    .spine-author {{ position: absolute; bottom: 0.72in; left: 50%; transform: translateX(-50%) rotate(90deg); transform-origin: center; width: 2.0in; text-align: center; color: #efc978; font-size: 7pt; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; white-space: nowrap; }}
+    .spine-title {{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(90deg); transform-origin: center; width: {cover.trim_height - 2.0:.3f}in; text-align: center; font-family: 'EB Garamond', serif; font-size: 13pt; line-height: 1; font-weight: 600; letter-spacing: 0.03em; white-space: nowrap; }}
+    .spine-author {{ position: absolute; bottom: 0.72in; left: 50%; transform: translateX(-50%) rotate(90deg); transform-origin: center; width: 2.0in; text-align: center; color: #efc978; font-size: 7pt; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }}
     .fold {{ position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(255,255,255,0.16); }}
     .fold.back-spine {{ left: {spine_left:.3f}in; }}
     .fold.spine-front {{ left: {front_left:.3f}in; }}
@@ -118,12 +129,12 @@ def cover_html(cover: CoverGeometry) -> str:
       <p>AI can now explain, draft, summarize, calculate, and code. That does not make teachers less important. It changes the evidence of learning and raises the level of judgment expected from every STEM educator.</p>
       <p><em>{TITLE}</em> synthesizes the International STEM Skills Round Table Phase III into a professional compass for education in the age of generative AI. It follows the discussion across competencies, assessment, teacher roles, AI-supported learning, professional development, and the learning environments that connect schools, higher education, and industry.</p>
       <p>The book's central claim is direct: human judgment must remain above the machine. Teachers design the conditions for responsible learning. Students keep responsibility for thinking. AI supports the work, but does not govern it.</p>
-      <p class="note">A personal synthesis by {AUTHOR}. Not an official publication of the Samuel Neaman Institute or any organization represented in the Round Table.</p>
+      <p class="note">A synthesis by {AUTHOR}. Not an official publication of the Samuel Neaman Institute or any organization represented in the Round Table.</p>
     </div>
     <div class="barcode">Barcode / ISBN area<br>Leave blank for KDP-generated barcode</div>
     <div class="panel spine">
       <div class="spine-title">{TITLE}</div>
-      <div class="spine-author">{AUTHOR}</div>
+      <div class="spine-author">{SPINE_AUTHOR}</div>
     </div>
     <div class="panel front">
       <div class="safe-front">
@@ -145,7 +156,7 @@ def cover_html(cover: CoverGeometry) -> str:
         <circle cx="414" cy="206" r="7" /><circle cx="126" cy="92" r="6" />
         <circle cx="214" cy="132" r="8" /><circle cx="306" cy="86" r="6" />
       </svg>
-      <p class="author">{AUTHOR}</p>
+      <p class="author">{author_lines}</p>
     </div>
     <div class="fold back-spine"></div>
     <div class="fold spine-front"></div>

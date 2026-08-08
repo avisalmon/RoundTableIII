@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex,nofollow">
-  <title>International STEM Skills Round Table Phase III</title>
-  <style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex,nofollow">
+    <title>International STEM Skills Round Table Phase III</title>
+    <style>
 :root {
   --ink: #17201a;
   --muted: #5b655d;
@@ -44,6 +44,21 @@ a { color: var(--accent); }
 .site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
 .site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
 .site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
 .site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
 .disclaimer {
     margin: 18px 0 22px;
@@ -104,6 +119,37 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
 .reader-nav .toc-level-1 { margin-top: 10px; }
 .book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
 .book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
 .book-content h1 { font-size: 3.2rem; margin-top: 28px; }
 .book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
@@ -124,7 +170,8 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 @media (max-width: 820px) {
     .site-nav { align-items: flex-start; flex-direction: column; }
     .site-nav nav { justify-content: flex-start; }
-  .hero, .book-layout { grid-template-columns: 1fr; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate { grid-template-columns: 1fr; }
   .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
 }
 @media print {
@@ -138,16 +185,22 @@ pre.mermaid { background: none; border: 0; text-align: center; }
   a { color: #17201a; text-decoration: none; }
 }
 </style>
-  <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true });</script>
+    <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true });</script>
 </head>
 <body>
-    
+        
 <header class="site-nav" id="top">
     <a class="brand" href="index.html">International STEM Skills Round Table Phase III</a>
     <nav aria-label="Main site navigation">
         <a href="index.html">Home</a>
         <a href="book.html">Book</a>
-        <a href="book.pdf">PDF</a>
+        <details class="nav-menu">
+            <summary>PDF</summary>
+            <div class="nav-menu-panel">
+                <a href="cover.pdf">KDP Cover</a>
+                <a href="book.pdf">KDP Interior</a>
+            </div>
+        </details>
         <a href="index.html#main-skills">Main Skills</a>
         <a href="index.html#training-proposal">Training Proposal</a>
         <a href="index.html#model-reference">Model Reference</a>
@@ -155,11 +208,14 @@ pre.mermaid { background: none; border: 0; text-align: center; }
     </nav>
 </header>
 
-  <div class="book-layout">
-    <nav class="reader-nav">
-      <a class="top-link" href="index.html">Gateway</a>
-      <a class="top-link" href="book.pdf">PDF</a>
-      <a class="toc-level-1" href="book.html#international-stem-skills-round-table-phase-iii">International STEM Skills Round Table Phase III</a>
+    <div class="book-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="#cover">Cover</a>
+            <a class="top-link" href="#book-start">Book</a>
+            <a class="top-link" href="cover.pdf">KDP Cover PDF</a>
+            <a class="top-link" href="book.pdf">KDP Interior PDF</a>
+            <a class="toc-level-1" href="book.html#international-stem-skills-round-table-phase-iii">International STEM Skills Round Table Phase III</a>
 <a class="toc-level-2" href="book.html#the-teacher-above-ai-stem-education-human-judgment-and-the-new-learning-ecosystem">The Teacher Above AI: STEM Education, Human Judgment, and the New Learning Ecosystem</a>
 <a class="toc-level-1" href="book.html#editorial-note">Editorial Note</a>
 <a class="toc-level-1" href="book.html#preface">Preface</a>
@@ -203,15 +259,37 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 <a class="toc-level-2" href="book.html#appendix-e-external-sources-and-frameworks">Appendix E – External Sources and Frameworks</a>
 <a class="toc-level-2" href="book.html#appendix-f-six-day-teacher-training-program">Appendix F – Six-Day Teacher Training Program</a>
 <a class="toc-level-1" href="book.html#closing-note">Closing Note</a>
-    </nav>
-    <main class="book-content">
-      <h1 id="international-stem-skills-round-table-phase-iii">International STEM Skills Round Table Phase III</h1>
+        </nav>
+        <main class="book-content">
+            
+            <section class="book-cover-gate" id="cover">
+                <div class="cover-card" aria-label="Book cover">
+                    <div>
+                        <div class="series">International STEM Skills Round Table Phase III</div>
+                        <h2>The Teacher<br>Above AI</h2>
+                        <div class="cover-subtitle">STEM Education, Human Judgment, and the New Learning Ecosystem</div>
+                    </div>
+                    <div class="cover-authors">AVI SALMON<br>DR. ELI EISENBERG<br>PROF. ARNON BENTUR<br>TAMAR DAYAN<br>YAEL GRANOT<br>DR. REVITAL DUEK<br>INNA</div>
+                </div>
+                <div class="book-entry">
+                    <h2>Enter the Book</h2>
+                    <p>Start with the cover, then continue into the full web edition. The paperback files are available as separate KDP uploads: cover and book interior.</p>
+                    <div class="actions">
+                        <a class="button primary" href="#book-start">Start reading</a>
+                        <a class="button" href="cover.pdf">KDP Cover PDF</a>
+                        <a class="button" href="book.pdf">KDP Interior PDF</a>
+                    </div>
+                </div>
+            </section>
+        
+            <div class="book-start" id="book-start">
+                <h1 id="international-stem-skills-round-table-phase-iii">International STEM Skills Round Table Phase III</h1>
 <h2 id="the-teacher-above-ai-stem-education-human-judgment-and-the-new-learning-ecosystem">The Teacher Above AI: STEM Education, Human Judgment, and the New Learning Ecosystem</h2>
 <p>Draft version: 0.1 Date: 2026-08-07 Source base: International STEM Skills Round Table Phase III collected mail corpus, meeting summaries, presentations, discussion documents, and background sources.</p>
 <h1 id="editorial-note">Editorial Note</h1>
 <p>This manuscript is a first professional draft built from the collected Round Table materials. It is written as a synthesis, not as meeting minutes. Where the source material names speakers and summarizes their contributions, the manuscript refers to them by name and role. Where a source was available only as a meeting outline or steering summary, the manuscript treats it as a reported contribution and avoids direct quotation.</p>
-<p>This book is a personal synthesis by Avi Salmon, a participant in the Round Table. It is not an official publication of the Samuel Neaman Institute or of any organization represented in the discussions, and it does not speak on behalf of the participants named in it. The manuscript was drafted with assistance from generative AI tools working from the collected Round Table materials, then reviewed and edited by the author, who is responsible for the final text.</p>
-<p>The evidence base is uneven. Meetings 2, 3, and 4 are supported by presentation files, discussion documents, and summaries. Meetings 1, 5, and 6 are represented more thinly, in some cases through steering-team summaries, program outlines, invitations, and retrospective notes rather than full meeting transcripts. Where the text develops implications from those thinner records, it should be read as the author’s synthesis of the recorded themes rather than as a verbatim report of what each participant said.</p>
+<p>This book is a synthesis by Avi Salmon, Dr. Eli Eisenberg, Prof. Arnon Bentur, Tamar Dayan, Yael Granot, Dr. Revital Duek, and Inna. It is not an official publication of the Samuel Neaman Institute or of any organization represented in the discussions, and it does not speak on behalf of the participants named in it. The manuscript was drafted with assistance from generative AI tools working from the collected Round Table materials, then reviewed and edited by the authors, who are responsible for the final text.</p>
+<p>The evidence base is uneven. Meetings 2, 3, and 4 are supported by presentation files, discussion documents, and summaries. Meetings 1, 5, and 6 are represented more thinly, in some cases through steering-team summaries, program outlines, invitations, and retrospective notes rather than full meeting transcripts. Where the text develops implications from those thinner records, it should be read as the authors’ synthesis of the recorded themes rather than as a verbatim report of what each participant said.</p>
 <p>The draft uses external references that appear in the collected materials, including the <span class="source-ref">OECD Teaching Compass</span>, <a href="https://www.oecd.org/education/2030-project/teaching-and-learning/learning/">OECD Learning Compass 2030</a>, <a href="https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks">UNESCO AI competency frameworks</a>, <span class="source-ref">TALIS 2024 material</span>, and research references listed in the <span class="source-ref">Meeting 3 Round Table discussion document</span>. Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.</p>
 <h1 id="preface">Preface</h1>
 <p>The International STEM Skills Round Table Phase III took place at a moment when education systems were already feeling the pressure of generative artificial intelligence. AI tools had moved from novelty to everyday practice. Students could use them to explain a concept, solve a problem, write code, summarize a paper, generate a draft, translate a text, or rehearse an argument. Teachers and lecturers faced a difficult question: if AI can perform many routine intellectual tasks, what should human education now do?</p>
@@ -2993,7 +3071,8 @@ F --&gt; G[AI-era STEM education system]</pre><figcaption>Figure 24. Phase IV ro
 <p>Teachers present the change plan and explain how it avoids one-off training. A strong plan is modest, specific, evidence-based, respectful of colleagues’ workload, and connected to the human-first principles of the program.</p>
 <h1 id="closing-note">Closing Note</h1>
 <p>This edition is a working synthesis for review and improvement. Its central architecture is in place: AI-era STEM education requires a renewed educator profile, a stronger professional support system, and a practical compass that keeps human judgment at the center.</p>
-    </main>
-  </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>

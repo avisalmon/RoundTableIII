@@ -191,7 +191,11 @@ class Browser:
             if self.process.poll() is not None:
                 raise RuntimeError("The browser exited before opening a DevTools endpoint")
             if port_file.exists():
-                lines = port_file.read_text(encoding="utf-8").splitlines()
+                try:
+                    lines = port_file.read_text(encoding="utf-8").splitlines()
+                except OSError:
+                    time.sleep(0.05)
+                    continue
                 if len(lines) >= 2:
                     return f"ws://127.0.0.1:{lines[0]}{lines[1]}"
             time.sleep(0.05)

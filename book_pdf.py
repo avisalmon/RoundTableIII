@@ -53,7 +53,16 @@ DIAGRAM_TYPE_PX = 15
 FIGURE_TARGET_SCALE = 0.72
 FIGURE_MIN_SCALE = 0.64
 
-AUTHOR = "Avi Salmon"
+AUTHORS = [
+  "Avi Salmon",
+  "Dr. Eli Eisenberg",
+  "Prof. Arnon Bentur",
+  "Tamar Dayan",
+  "Yael Granot",
+  "Dr. Revital Duek",
+  "Inna",
+]
+AUTHOR = "; ".join(AUTHORS)
 CONTACT = "avi.salmon@gmail.com"
 
 
@@ -174,6 +183,7 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
     title = html.escape(meta.title)
     subtitle = html.escape(meta.subtitle)
     series = html.escape(meta.series)
+    author_lines = "<br>".join(html.escape(author) for author in AUTHORS)
     return f"""
 <section class="halftitle">
   <p class="halftitle-text">{title}</p>
@@ -183,7 +193,7 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
   <p class="title-series">{series}</p>
   <h1 class="title-main">{title}</h1>
   <p class="title-subtitle">{subtitle}</p>
-  <p class="title-author">{html.escape(AUTHOR)}</p>
+  <p class="title-author">{author_lines}</p>
 </section>
 
 <section class="copyright">
@@ -198,13 +208,13 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
      without the prior written permission of the author, except in the case of brief quotations
      embodied in critical reviews and certain other non-commercial uses permitted by copyright law.</p>
   <p class="copyright-note-heading">About this book</p>
-  <p>This book is a personal synthesis of the {series}, written by a participant in that Round
-     Table. It is not an official publication of the Samuel Neaman Institute or of any other
+    <p>This book is a synthesis of the {series}, written by Round Table participants and contributors.
+      It is not an official publication of the Samuel Neaman Institute or of any other
      organisation represented in the discussions, and it does not speak on behalf of the
      participants named in it.</p>
   <p>The manuscript was drafted with the assistance of generative AI tools working from the
-     collected Round Table materials, and every part of it was reviewed and edited by the author,
-     who is responsible for the final text. Where the sources named speakers and summarised their
+      collected Round Table materials, and every part of it was reviewed and edited by the authors,
+      who are responsible for the final text. Where the sources named speakers and summarised their
      contributions, the book refers to them by name and role rather than by direct quotation.</p>
   <p>Comments, corrections, and suggestions are welcome at {html.escape(CONTACT)}.</p>
   <p class="colophon">Set in EB Garamond and Inter. Generated from the manuscript on {meta.generated}.</p>

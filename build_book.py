@@ -292,7 +292,13 @@ def site_nav() -> str:
     <nav aria-label="Main site navigation">
         <a href="index.html">Home</a>
         <a href="book.html">Book</a>
-        <a href="book.pdf">PDF</a>
+        <details class="nav-menu">
+            <summary>PDF</summary>
+            <div class="nav-menu-panel">
+                <a href="cover.pdf">KDP Cover</a>
+                <a href="book.pdf">KDP Interior</a>
+            </div>
+        </details>
         <a href="index.html#main-skills">Main Skills</a>
         <a href="index.html#training-proposal">Training Proposal</a>
         <a href="index.html#model-reference">Model Reference</a>
@@ -342,6 +348,21 @@ a { color: var(--accent); }
 .site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
 .site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
 .site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
 .site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
 .disclaimer {
     margin: 18px 0 22px;
@@ -402,6 +423,37 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
 .reader-nav .toc-level-1 { margin-top: 10px; }
 .book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
 .book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
 .book-content h1 { font-size: 3.2rem; margin-top: 28px; }
 .book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
@@ -422,7 +474,8 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 @media (max-width: 820px) {
     .site-nav { align-items: flex-start; flex-direction: column; }
     .site-nav nav { justify-content: flex-start; }
-  .hero, .book-layout { grid-template-columns: 1fr; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate { grid-template-columns: 1fr; }
   .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
 }
 @media print {
@@ -439,30 +492,58 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 
 
 def render_book(body: str, headings: list[Heading]) -> str:
-    title = title_from_headings(headings)
-    toc = build_toc(headings)
-    return f"""<!doctype html>
+        title = title_from_headings(headings)
+        toc = build_toc(headings)
+        authors = "<br>".join(html.escape(author.upper()) for author in cover_pdf.AUTHORS)
+        cover_intro = f"""
+            <section class="book-cover-gate" id="cover">
+                <div class="cover-card" aria-label="Book cover">
+                    <div>
+                        <div class="series">International STEM Skills Round Table Phase III</div>
+                        <h2>The Teacher<br>Above AI</h2>
+                        <div class="cover-subtitle">STEM Education, Human Judgment, and the New Learning Ecosystem</div>
+                    </div>
+                    <div class="cover-authors">{authors}</div>
+                </div>
+                <div class="book-entry">
+                    <h2>Enter the Book</h2>
+                    <p>Start with the cover, then continue into the full web edition. The paperback files are available as separate KDP uploads: cover and book interior.</p>
+                    <div class="actions">
+                        <a class="button primary" href="#book-start">Start reading</a>
+                        <a class="button" href="cover.pdf">KDP Cover PDF</a>
+                        <a class="button" href="book.pdf">KDP Interior PDF</a>
+                    </div>
+                </div>
+            </section>
+        """
+        return f"""<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex,nofollow">
-  <title>{html.escape(title)}</title>
-  <style>{stylesheet()}</style>
-  <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({{ startOnLoad: true }});</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex,nofollow">
+    <title>{html.escape(title)}</title>
+    <style>{stylesheet()}</style>
+    <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({{ startOnLoad: true }});</script>
 </head>
 <body>
-    {site_nav()}
-  <div class="book-layout">
-    <nav class="reader-nav">
-      <a class="top-link" href="index.html">Gateway</a>
-      <a class="top-link" href="book.pdf">PDF</a>
-      {toc}
-    </nav>
-    <main class="book-content">
-      {body}
-    </main>
-  </div>
+        {site_nav()}
+    <div class="book-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="#cover">Cover</a>
+            <a class="top-link" href="#book-start">Book</a>
+            <a class="top-link" href="cover.pdf">KDP Cover PDF</a>
+            <a class="top-link" href="book.pdf">KDP Interior PDF</a>
+            {toc}
+        </nav>
+        <main class="book-content">
+            {cover_intro}
+            <div class="book-start" id="book-start">
+                {body}
+            </div>
+        </main>
+    </div>
 </body>
 </html>
 """
@@ -486,7 +567,7 @@ def render_index(headings: list[Heading]) -> str:
     {site_nav()}
   <main class="site-shell">
         <div class="disclaimer">
-            This website is a personal summary by Avi Salmon of the Round Table in which he participated. It is a draft generated with AI and reviewed by Avi Salmon, and it is not a formal document for publication.
+            This website is a draft synthesis by Avi Salmon, Dr. Eli Eisenberg, Prof. Arnon Bentur, Tamar Dayan, Yael Granot, Dr. Revital Duek, and Inna. It was generated with AI assistance and reviewed by the authors, and it is not a formal document for publication.
         </div>
     <section class="hero">
       <div>
@@ -495,7 +576,7 @@ def render_index(headings: list[Heading]) -> str:
         <p class="subtitle">This web page serves as a gateway to: Read the full book, download the PDF, review chapters and appendices, and open the source material library. Please send any comment for improvements, edits and changes to <a href="mailto:avi.salmon@gmail.com">avi.salmon@gmail.com</a>.</p>
         <div class="actions">
           <a class="button primary" href="book.html">Read the book</a>
-          <a class="button" href="book.pdf">Download PDF</a>
+          <a class="button" href="book.pdf">Download KDP interior PDF</a>
           <a class="button" href="book/manuscript.md">Open source manuscript</a>
           <a class="button" href="book/references.md">Source references</a>
         </div>

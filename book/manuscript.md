@@ -1,8 +1,8 @@
-# The Teacher Above AI
+# International STEM Skills Round Table Phase III
 
 <!-- markdownlint-disable MD025 MD024 -->
 
-## STEM Education, Human Judgment, and the New Learning Ecosystem
+## The Teacher Above AI: STEM Education, Human Judgment, and the New Learning Ecosystem
 
 Draft version: 0.1  
 Date: 2026-08-07  
@@ -2711,6 +2711,8 @@ Teacher-centered responsibility empowers educators, but can overload them. Insti
 
 Teachers need support, not only expectations. Leaders must create enabling conditions. Industry and community can contribute context. Policy must support continuity beyond individual champions.
 
+The [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf) material adds a practical design discipline to this ecosystem view. New educator roles should not be invented as slogans. They should be specified through concrete questions: what is the role called, where does it sit in the system, what responsibilities does it carry, what is it not responsible for, what qualifications are required or preferred, what compensation and working conditions make it sustainable, and what happens if the role is or is not filled. This turns the idea of an ecosystem into an organizational design task.
+
 ### Round Table Voices
 
 Meeting 6 asked whether the teacher alone can carry the responsibility or whether a full ecosystem is needed.
@@ -2755,8 +2757,9 @@ In practice:
 1. List the people and resources that currently support your teaching.
 2. Identify one missing support: peer planning, leadership time, AI guidance, assessment help, industry contact, community partner, or teaching center support.
 3. Ask for or create one concrete support structure.
-4. Share one teaching challenge with the ecosystem instead of solving it alone.
-5. Revisit the map each semester and strengthen weak links.
+4. Define the missing support as a real role: responsibility, boundaries, qualifications, time, and working conditions.
+5. Share one teaching challenge with the ecosystem instead of solving it alone.
+6. Revisit the map each semester and strengthen weak links.
 
 Classroom activity examples:
 
@@ -3054,7 +3057,183 @@ For personal development, the updated teacher should adopt an inquiry stance: le
 
 ## Appendix B - Speaker and Participant Directory
 
-This appendix should be completed from the source summaries. Initial speaker list includes Dr. Eli Eisenberg, Prof. Arnon Bentur, Dr. Avigdor Zonnenshain, Tamar Dayan, Avi Salmon, Dr. Marwa Maklada, Dr. Revital Duek, Dr. Yael Granot-Bein, Dr. Noa Ragonis, Prof. Sigal Tifferet, Dr. Gabi Shafat, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Russell Tytler, Emlen Metz, Jan Morrison, Prof. Gil Noam, Danielle Eisenberg, Dr. Iris Pinto, Dr. Rinat Itzhaki, Orly Rauch, and Dr. Olena Bekh.
+This appendix is a working participant directory for the International STEM Skills Round Table Phase III. It combines three evidence levels: roles confirmed in the collected Round Table materials, public web profiles that were accessible during this editorial pass, and entries that still require final public-profile verification. Where a reliable public source was not available, the entry is deliberately limited to the role and contribution visible in the manuscript and source corpus.
+
+### Dr. Eli Eisenberg
+
+Role in the Round Table: Initiator, organizer, opening speaker, moderator, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened Meeting 2 and Meeting 4, introduced later meeting dilemmas, and helped frame the Round Table as an active professional inquiry rather than only a documentation project.
+
+Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) identifies Dr. Eisenberg as a Senior Research Fellow specializing in technological and vocational education and training. His education includes a PhD and MSc in Education in Technology and Science from the Technion and a BSc in Electrical Engineering from the Technion.
+
+Main achievements, publications, and interests: His public profile describes him as a leading pedagogue in TVET, consultant to governments and international organizations, former Senior Deputy Director General of ORT Israel and Head of its Administration for R&D and Training, and author of many publications, research reports, and books in technology education and ICT in education and training. Relevant listed publications and projects include the National Skills Interface Program in STEM Subjects, Faculty Attitudes Toward Integration of Core Skills and Competencies into Academic Courses, the International Round Table for Advancing Skills in STEM Education Phase I and Phase II, Academy Interface, active online education, and engineering education for Industry 4.0.
+
+### Prof. Arnon Bentur
+
+Role in the Round Table: Senior conceptual framer and moderator. The Meeting 2 program assigns him the presentation of the key dilemmas and moderation of the discussion. He is also named as a co-author of the Meeting 3 and Meeting 4 discussion documents.
+
+Bio: In the source corpus, Prof. Bentur is presented as one of the Round Table's senior academic leaders. The public Neaman pages accessed during this pass repeatedly list him as a co-author on education, engineering education, academy-school interface, skills, competencies, lifelong learning, and STEM excellence publications, although a direct public profile page was not accessible in this pass.
+
+Main achievements, publications, and interests: Publicly visible Neaman publication listings connect him to the International Round Table Phase I and Phase II, the Skills Interface Program in STEM, faculty attitudes toward integrating competencies into academic courses, academy-school interface work, engineering education in the 21st century, digital engineering, lifelong learning, and university-industry relations. His contribution to the book is the systemic framing of educator profile, competencies, professional development, and learning environments as connected dilemmas rather than isolated topics.
+
+### Dr. Avigdor Zonnenshain
+
+Role in the Round Table: Senior systems and engineering-education voice. The Meeting 2 and Meeting 4 programs assign him the meeting summary role, and the manuscript uses his comments on lifelong learning, teamwork, industry realities, system design, and evidence.
+
+Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/avigdor-zonnenshain/) identifies Dr. Zonnenshain as a Senior Research Fellow specializing in quality, reliability and safety management, systems engineering and management, systems thinking, advanced manufacturing, engineering education, regional strategic development, and social responsibility. He holds a PhD in Systems Engineering from the University of Arizona, an MSc in Operations Research from the Technion, and a BSc in Industrial Engineering from the Technion.
+
+Main achievements, publications, and interests: His public profile describes senior roles in quality, reliability, project management, and systems engineering at Rafael, leadership of the Center for Quality and Excellence in the Prime Minister's Office, work at the Technion Gordon Center for Systems Engineering, chairing the Standardization Committee for Management and Quality at the Israel Standards Institute, and recognition as an INCOSE Fellow in 2010. Relevant listed publications and projects include AI Integration in Engineering and Systems Engineering, Engineering Leadership: Skills and Competencies, engineering education in the 21st century, digital engineering, lifelong learning, advanced manufacturing, and the methodology of generating information from round-table discussions.
+
+### Tamar Dayan
+
+Role in the Round Table: Research, information, and source-infrastructure contributor. The Neaman public pages list her as a member of the International Round Table for Advancing STEM Excellence Skills and as a co-author on Phase I, Phase II, and related skills publications.
+
+Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/tamar-dayan/) identifies Tamar Dayan as a researcher and information specialist at the Samuel Neaman Institute, with specializations in information science. Her education includes an MLS from the University of Haifa and a BA in Education and General Studies from the University of Haifa.
+
+Main achievements, publications, and interests: The public profile notes her participation in projects on Intel Israel's contribution to the national economy, engineering education in the 21st century, economic infrastructure in Northern Israel, continuing education for STEM graduates, the Forum for Engineering Education in the 21st Century, the Industry Forum of the Center for Industrial Excellence, and the International Round Table for Advancing STEM Excellence Skills. Relevant listed publications include Faculty Attitudes Toward Integration of Core Skills and Competencies into Academic Courses, the International Round Table Phase I and Phase II reports, Digital Engineering and its Assimilation in Engineering Education, and Academy Interface.
+
+### Avi Salmon
+
+Role in the Round Table: Industry perspective contributor and co-author of the Meeting 3 and Meeting 4 discussion documents. The manuscript repeatedly uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI.
+
+Bio: The Round Table source corpus identifies Avi Salmon as the industry voice in the discussion. A reliable public biography was not accessible in this pass, so this entry is limited to the source-confirmed Round Table role.
+
+Main achievements, publications, and interests: Within the Round Table materials, his areas of interest are AI-era STEM learning, industry-relevant skills, deep conceptual understanding, curiosity, program evaluation, experiential learning environments, makerspaces, and practical AI use. Public web verification should be completed before adding a fuller external biography.
+
+### Dr. Marwa Maklada
+
+Role in the Round Table: Assessment and policy contributor. The manuscript uses her contributions on competency-based tasks, formal assessment, matriculation processes, and the claim that AI should not design learning or control knowledge.
+
+Bio: The Round Table source corpus identifies Dr. Maklada as a participant contributing from the assessment and education-system perspective. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
+
+### Dr. Revital Duek
+
+Role in the Round Table: Discussion moderator and contributor on teamwork, visible thinking, and what must remain fundamentally human in the teacher-student-AI triangle. The Meeting 4 program lists her as a discussion moderator together with Dr. Yael Granot-Bein.
+
+Bio: The Round Table source corpus confirms her moderator and participant role. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: In the manuscript, her contribution centers on teamwork as a foundational competency, making students' thinking visible when AI is involved, and clarifying the non-delegable human role in learning. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Yael Granot-Bein
+
+Role in the Round Table: Discussion moderator and contributor on competency development, repeated practice, reflection, and faculty development. The Meeting 4 program lists her as a discussion moderator, and Meeting 5 steering context reports her presentation on academic faculty development.
+
+Bio: The Round Table source corpus connects Dr. Granot-Bein to higher-education faculty development and to the Edmond de Rothschild Center context reported in Meeting 5 steering materials. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her Round Table contribution emphasizes that competencies are internalized when linked to a discipline, reinforced over time, and supported by reflection. In the book, she anchors the professional-development question for academic lecturers. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Noa Ragonis
+
+Role in the Round Table: Participant and contributor on teacher-development gaps. The manuscript uses her point that teachers need preparation to lead students through complexity.
+
+Bio: The source corpus confirms her participation through the manuscript synthesis, but no reliable public profile was accessible in this pass.
+
+Main achievements, publications, and interests: In the book, her area of contribution is teacher preparation for AI-era STEM complexity and the development gap that appears when schools expect transformation without preparing educators. Public web verification should be completed before adding external achievements or publications.
+
+### Prof. Sigal Tifferet
+
+Role in the Round Table: Critical discussant on evidence and pedagogy. The manuscript uses her questions about whether embedding competencies inside disciplinary courses is evidence-based and whether transdisciplinary instruction or problem-based learning can weaken explicit instruction.
+
+Bio: The source corpus confirms Prof. Tifferet's participation through the manuscript synthesis. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. In the book, she strengthens the demand for evidence, explicit instruction, and careful design. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Gabi Shafat
+
+Role in the Round Table: Higher-education speaker in Meeting 2. Her [Afeka presentation](../materials/meeting-2-gabi-shafat-stem.pdf) is one of the main sources for the book's treatment of engineering education, graduate profiles, the future lecturer, AI use, project-based learning, continuous feedback, and team models.
+
+Bio: The Round Table source corpus identifies Dr. Shafat as representing Afeka Academic College of Engineering and presenting The Challenge in Engineering Higher Education. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her presentation describes Afeka's BSc and MSc engineering programs, the graduate profile, the Afeka learning experience, adaptive and dynamic course design, pre-assessment, flipped classroom practice, personalized learning, students teaching, AI as a learning-support tool, project/problem-based learning, continuous improvement, and fair assessment of individual contributions in team projects. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Tzur Karelitz
+
+Role in the Round Table: Assessment and trust discussant. The manuscript uses his Meeting 4 question about why the teacher should mediate between AI and students in evaluation.
+
+Bio: The Round Table source corpus confirms his participation through the manuscript synthesis. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: In the book, his contribution sharpens the trust issue: AI may propose evidence, but student context, bias, relationships, and interpretation still require human judgment. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Einat Sprinzak
+
+Role in the Round Table: Contributor on educator professional learning. The manuscript uses her point that teachers must experience new learning processes themselves before they can mediate them for students.
+
+Bio: The source corpus confirms her participation through the manuscript synthesis. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her Round Table contribution concerns teacher development, experiential professional learning, and the need for educators to internalize AI-era pedagogy by experiencing it as learners. Public web verification should be completed before adding external achievements or publications.
+
+### Prof. Russell Tytler
+
+Role in the Round Table: International expert contributor on science education and teacher professional development. Meeting 5 steering context reports his presentation on teacher professional development, and the manuscript uses his warning that AI can reduce deep, sustained thinking if students surrender control of reasoning.
+
+Bio: Public search identified Deakin University profile pages for Prof. Tytler, but those pages were blocked or timed out during extraction. This pass therefore treats the public biography as not yet fully verified in the manuscript.
+
+Main achievements, publications, and interests: In the Round Table materials, his areas of interest are science education, teacher professional development, deep thinking, AI literacy, critical reasoning, and the responsibility of teachers to cultivate long-term intellectual habits. A later editorial pass should add a verified public profile and selected publications.
+
+### Emlen Metz
+
+Role in the Round Table: International perspective contributor. The manuscript uses her warnings about thoughtful and critical AI use, independent thinking, decision-making, responsibility, and the learning environment. Meeting 6 steering context reports her presentation as one of the strongest in the series.
+
+Bio: The source corpus confirms her Round Table contribution, but a reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: In the book, her contribution centers on keeping students intellectually responsible when AI is available and on learning environments that support that responsibility. Public web verification should be completed before adding external achievements or publications.
+
+### Jan Morrison
+
+Role in the Round Table: Meeting 2 education-system speaker. The [TIES presentation](../materials/meeting-2-ties-jan-morrison.pptx) is a major source for the book's chapters on team-based teaching, transdisciplinary learning, externships, diverse educator pathways, career-connected learning, and STEM ecosystems.
+
+Bio: The [TIES About page](https://www.tiesteach.org/about-ties/) identifies Jan Morrison as Founder of TIES and describes the organization as emerging from the vision of a 35-year veteran teacher and principal. The [TIES Our Work page](https://www.tiesteach.org/our-work/) describes TIES as working across STEM ecosystems, emerging technologies, digital fabrication, school design, workforce development, government engagement, and STEM investment strategy.
+
+Main achievements, publications, and interests: The public TIES pages describe a 22-year organizational history, a mission to advance education and employment outcomes, STEM ecosystem work across almost 120 national and global communities, and more than 40 million learners connected to ecosystem spaces. In the Round Table, Morrison's main contribution is the argument that STEM teaching must become team-based, cross-sector, career-connected, and designed as a system rather than left to isolated teachers.
+
+### Prof. Gil Noam
+
+Role in the Round Table: Contributor on the distinction between school teachers and university lecturers, and on risks of AI increasing isolation and quick-answer behavior.
+
+Bio: The [PEAR profile](https://www.pearinc.org/gil-noam) identifies Gil Noam, Ed.D., Dr. Habil, as an associate professor at Harvard Medical School focusing on prevention and resilience, leader of the Institute for the Study of Resilience in Youth at McLean Hospital, former director of the Risk and Prevention Program, and founder of the RALLY Prevention Program.
+
+Main achievements, publications, and interests: The PEAR profile states that he has published over 200 papers, articles, and books in child and adolescent development, risk and resiliency in clinical, school, and afterschool settings, and served as editor-in-chief of New Directions for Youth Development. In the book, his contribution keeps the educator-profile discussion from flattening school and university contexts and highlights the social and relational risks of AI-rich learning.
+
+### Danielle Eisenberg
+
+Role in the Round Table: Meeting 4 speaker on AI, assessment, and system design. Her [Default or Design presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx) is the main source for the book's discussion of role-fluid AI, evidence design, the learning triangle, and the measurement triangle.
+
+Bio: The Round Table source corpus identifies Danielle Eisenberg as the presenter of the Ignite Ed material Default or Design. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her Round Table contribution argues that AI is already acting as content, tutor, evaluator, and collaborator; that AI may propose evidence but teachers decide; that assessment must see learning process and not only products; that patterns across artifacts are stronger than one polished submission; and that equity and bias risks require human oversight. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Iris Pinto
+
+Role in the Round Table: Meeting 4 speaker on futures and trends. Her [Future Trends Shaping Reality presentation](../materials/meeting-4-iris-pinto-future-trends.pdf) supports the book's treatment of VUCA, futures thinking, STEEP analysis, convergence, human-machine interfaces, multimodal and phygital AI, post-work questions, and the education-industry gap.
+
+Bio: The Round Table source corpus identifies Dr. Pinto as the speaker for the Meeting 4 future-trends presentation. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her presentation contributes a futures-literacy lens: education should prepare learners not only for today's tools but for unstable, converging, AI-mediated realities. Public web verification should be completed before adding external achievements or publications.
+
+### Dr. Rinat Itzhaki
+
+Role in the Round Table: Participant listed in the source summary speaker directory. The current manuscript does not yet attribute a distinct substantive claim to her.
+
+Bio: A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: This entry should be completed from source summaries, meeting recordings, or a verified public profile before publication.
+
+### Orly Rauch
+
+Role in the Round Table: Participant listed in the source summary speaker directory. The current manuscript does not yet attribute a distinct substantive claim to her.
+
+Bio: A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: This entry should be completed from source summaries, meeting recordings, or a verified public profile before publication.
+
+### Dr. Olena Bekh
+
+Role in the Round Table: Contributor on critical thinking and the human risk of over-dependence on AI. The manuscript uses her argument that critical thinking remains an essential human competency and that excessive AI dependence may reduce curiosity, creativity, empathy, and emotional engagement.
+
+Bio: The source corpus confirms her participation through the manuscript synthesis. A reliable public biography was not accessible in this pass.
+
+Main achievements, publications, and interests: Her Round Table contribution centers on critical thinking, curiosity, creativity, empathy, emotional engagement, and the human consequences of relying too heavily on AI. Public web verification should be completed before adding external achievements or publications.
 
 ## Appendix C - Presentation Inventory
 

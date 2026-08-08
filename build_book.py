@@ -2,12 +2,12 @@ from __future__ import annotations
 
 import html
 import re
-import shutil
-import subprocess
-import sys
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+
+import book_pdf
+import kdp_report
 
 
 ROOT = Path(__file__).resolve().parent
@@ -36,10 +36,20 @@ def slugify(text: str, used: set[str]) -> str:
     return slug
 
 
+def smart_typography(text: str) -> str:
+    """Book-quality punctuation: curly quotes, real apostrophes, en dashes."""
+    text = re.sub(r'(^|[\s(\[])"', "\\1\u201c", text)
+    text = text.replace('"', "\u201d")
+    text = re.sub(r"(?<=[A-Za-z])'(?=[A-Za-z]|\s|$)", "\u2019", text)
+    text = text.replace("...", "\u2026")
+    return re.sub(r"(?<=\S) - (?=\S)", " \u2013 ", text)
+
+
 def inline_markdown(text: str) -> str:
-    escaped = html.escape(text)
+    escaped = html.escape(smart_typography(text))
     escaped = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", convert_link, escaped)
     escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", escaped)
     escaped = re.sub(r"`([^`]+)`", r"<code>\1</code>", escaped)
     return escaped.replace("  \n", "<br>")
 
@@ -48,7 +58,7 @@ def convert_link(match: re.Match[str]) -> str:
     label = match.group(1)
     target = html.unescape(match.group(2))
     if target.startswith("../materials/"):
-        target = target.replace("../materials/", "materials/", 1)
+        return f'<span class="source-ref">{label}</span>'
     elif target.startswith("../book/"):
         target = target.replace("../book/", "book/", 1)
     return f'<a href="{html.escape(target, quote=True)}">{label}</a>'
@@ -70,18 +80,79 @@ def extract_headings(markdown: str) -> list[Heading]:
             continue
         if in_fence:
             continue
-        match = re.match(r"^(#{1,3})\s+(.+?)\s*$", line)
+        match = re.match(r"^(#{1,4})\s+(.+?)\s*$", line)
         if match:
             title = match.group(2).strip()
             headings.append(Heading(len(match.group(1)), title, slugify(title, used), line_number))
     return headings
 
 
+TABLE_ROW = re.compile(r"^\s*\|(.+)\|\s*$")
+TABLE_DIVIDER = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
+FIGURE_BLOCK = re.compile(
+    r'(?P<art><pre class="mermaid">.*?</pre>|<table>.*?</table>)'
+    r'\s*<p>(?P<caption>Figure\s+(?P<number>\d+)\.\s*.*?)</p>',
+    re.S,
+)
+
+
+def split_table_row(line: str) -> list[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+
+def column_alignments(divider: str) -> list[str]:
+    alignments = []
+    for cell in split_table_row(divider):
+        left, right = cell.startswith(":"), cell.endswith(":")
+        alignments.append("center" if left and right else "right" if right else "left")
+    return alignments
+
+
+def render_table(lines: list[str]) -> str:
+    alignments = column_alignments(lines[1])
+    header = split_table_row(lines[0])
+
+    def row(cells: list[str], tag: str) -> str:
+        rendered = []
+        for index, cell in enumerate(cells):
+            align = alignments[index] if index < len(alignments) else "left"
+            rendered.append(f'<{tag} class="align-{align}">{inline_markdown(cell)}</{tag}>')
+        return f"<tr>{''.join(rendered)}</tr>"
+
+    body = "".join(row(split_table_row(line), "td") for line in lines[2:])
+    return f"<table><thead>{row(header, 'th')}</thead><tbody>{body}</tbody></table>"
+
+
+def group_figures(document: str) -> str:
+    """Bind each mermaid diagram to the caption that follows it."""
+
+    def replace(match: re.Match[str]) -> str:
+        art = match.group("art")
+        kind = "diagram" if art.startswith("<pre") else "table"
+        # The manuscript writes captions as "Figure 1. Title: ...". The label reads as
+        # a template leftover once it is set as a real caption.
+        caption = re.sub(r"^(Figure\s+\d+\.)\s*Title:\s*", r"\1 ", match.group("caption"))
+        return (
+            f'<figure class="figure figure-{kind}" id="figure-{match.group("number")}">'
+            f"{art}<figcaption>{caption}</figcaption>"
+            "</figure>"
+        )
+
+    return FIGURE_BLOCK.sub(replace, document)
+
+
+def collect_figures(document: str) -> list[tuple[str, str]]:
+    """Return (anchor, caption) for every figure, in reading order."""
+    pattern = re.compile(r'<figure class="figure[^"]*" id="(figure-\d+)">.*?<figcaption>(.*?)</figcaption>', re.S)
+    return [(match.group(1), match.group(2)) for match in pattern.finditer(document)]
+
+
 def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
     anchor_by_line = {heading.line: heading.anchor for heading in headings}
+    lines = markdown.splitlines()
     output: list[str] = []
     paragraph: list[str] = []
-    list_stack: list[str] = []
+    list_stack: list[dict] = []
     in_fence = False
     fence_lang = ""
     fence_lines: list[str] = []
@@ -91,30 +162,37 @@ def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
             output.append(f"<p>{inline_markdown(' '.join(paragraph))}</p>")
             paragraph.clear()
 
-    def close_lists() -> None:
-        while list_stack:
-            output.append(f"</{list_stack.pop()}>")
+    def close_lists(indent: int = -1) -> None:
+        while list_stack and list_stack[-1]["indent"] > indent:
+            level = list_stack.pop()
+            if level["item_open"]:
+                output.append("</li>")
+            output.append(f"</{level['tag']}>")
 
-    for line_number, raw_line in enumerate(markdown.splitlines(), start=1):
+    index = 0
+    while index < len(lines):
+        raw_line = lines[index]
+        line_number = index + 1
+        index += 1
         line = raw_line.rstrip()
 
         if line.startswith("<!--") and line.endswith("-->"):
             continue
 
-        if line.startswith("```"):
+        if line.lstrip().startswith("```"):
             close_paragraph()
             close_lists()
             if not in_fence:
                 in_fence = True
-                fence_lang = line.strip("`").strip()
+                fence_lang = line.strip().strip("`").strip()
                 fence_lines = []
             else:
                 code = html.escape("\n".join(fence_lines))
-                lang_class = f" language-{html.escape(fence_lang)}" if fence_lang else ""
                 if fence_lang == "mermaid":
                     output.append(f'<pre class="mermaid">{code}</pre>')
                 else:
-                    output.append(f'<pre><code class="{lang_class.strip()}">{code}</code></pre>')
+                    lang_class = f"language-{html.escape(fence_lang)}" if fence_lang else ""
+                    output.append(f'<pre><code class="{lang_class}">{code}</code></pre>')
                 in_fence = False
                 fence_lang = ""
                 fence_lines = []
@@ -124,14 +202,24 @@ def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
             fence_lines.append(line)
             continue
 
-        heading = re.match(r"^(#{1,3})\s+(.+?)\s*$", line)
+        heading = re.match(r"^(#{1,4})\s+(.+?)\s*$", line)
         if heading:
             close_paragraph()
             close_lists()
             level = len(heading.group(1))
-            title = heading.group(2).strip()
             anchor = anchor_by_line[line_number]
-            output.append(f'<h{level} id="{anchor}">{inline_markdown(title)}</h{level}>')
+            output.append(f'<h{level} id="{anchor}">{inline_markdown(heading.group(2).strip())}</h{level}>')
+            continue
+
+        if TABLE_ROW.match(line) and index < len(lines) and TABLE_DIVIDER.match(lines[index]):
+            close_paragraph()
+            close_lists()
+            table_lines = [line, lines[index].rstrip()]
+            index += 1
+            while index < len(lines) and TABLE_ROW.match(lines[index]):
+                table_lines.append(lines[index].rstrip())
+                index += 1
+            output.append(render_table(table_lines))
             continue
 
         if not line.strip():
@@ -139,25 +227,34 @@ def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
             close_lists()
             continue
 
-        bullet = re.match(r"^[-*]\s+(.+)$", line)
-        numbered = re.match(r"^\d+\.\s+(.+)$", line)
+        stripped = line.lstrip()
+        indent = len(line) - len(stripped)
+        bullet = re.match(r"^[-*]\s+(.+)$", stripped)
+        numbered = re.match(r"^\d+\.\s+(.+)$", stripped)
         if bullet or numbered:
             close_paragraph()
             tag = "ul" if bullet else "ol"
-            if not list_stack or list_stack[-1] != tag:
-                close_lists()
+            close_lists(indent)
+            if not list_stack or list_stack[-1]["indent"] < indent:
                 output.append(f"<{tag}>")
-                list_stack.append(tag)
-            item_text = (bullet or numbered).group(1)
-            output.append(f"<li>{inline_markdown(item_text)}</li>")
+                list_stack.append({"tag": tag, "indent": indent, "item_open": False})
+            elif list_stack[-1]["tag"] != tag:
+                close_lists(indent - 1)
+                output.append(f"<{tag}>")
+                list_stack.append({"tag": tag, "indent": indent, "item_open": False})
+            level = list_stack[-1]
+            if level["item_open"]:
+                output.append("</li>")
+            output.append(f"<li>{inline_markdown((bullet or numbered).group(1))}")
+            level["item_open"] = True
             continue
 
         close_lists()
-        paragraph.append(line)
+        paragraph.append(stripped)
 
     close_paragraph()
     close_lists()
-    return "\n".join(output)
+    return group_figures("\n".join(output))
 
 
 def title_from_headings(headings: list[Heading]) -> str:
@@ -169,7 +266,8 @@ def build_toc(headings: list[Heading], max_level: int = 2) -> str:
     for heading in headings:
         if heading.level <= max_level:
             links.append(
-                f'<a class="toc-level-{heading.level}" href="book.html#{heading.anchor}">{html.escape(heading.title)}</a>'
+                f'<a class="toc-level-{heading.level}" href="book.html#{heading.anchor}">'
+                f"{html.escape(smart_typography(heading.title))}</a>"
             )
     return "\n".join(links)
 
@@ -179,7 +277,8 @@ def build_summaries(headings: list[Heading]) -> str:
     for heading in headings:
         if heading.level == 2 and (heading.title.startswith("Chapter ") or heading.title.startswith("Appendix ")):
             cards.append(
-                f'<a class="summary-card" href="book.html#{heading.anchor}"><span>{html.escape(heading.title)}</span></a>'
+                f'<a class="summary-card" href="book.html#{heading.anchor}">'
+                f"<span>{html.escape(smart_typography(heading.title))}</span></a>"
             )
     return "\n".join(cards)
 
@@ -196,23 +295,9 @@ def site_nav() -> str:
         <a href="index.html#training-proposal">Training Proposal</a>
         <a href="index.html#model-reference">Model Reference</a>
         <a href="index.html#summaries">Summaries</a>
-        <a href="materials/">Materials</a>
     </nav>
 </header>
 """
-
-
-def chrome_path() -> str | None:
-    candidates = [
-        Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
-        Path(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"),
-        Path(r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"),
-        Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
-    ]
-    for candidate in candidates:
-        if candidate.exists():
-            return str(candidate)
-    return shutil.which("chrome") or shutil.which("msedge")
 
 
 def stylesheet() -> str:
@@ -236,6 +321,7 @@ body {
   line-height: 1.65;
 }
 a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
 .site-nav {
     position: sticky;
     top: 0;
@@ -314,12 +400,22 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
 .reader-nav .toc-level-1 { margin-top: 10px; }
 .book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
-.book-content h1, .book-content h2, .book-content h3 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
 .book-content h1 { font-size: 3.2rem; margin-top: 28px; }
 .book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
 .book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
 .book-content p, .book-content li { font-size: 1.05rem; }
 pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
 .top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
 @media (max-width: 820px) {
     .site-nav { align-items: flex-start; flex-direction: column; }
@@ -340,15 +436,15 @@ pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px so
 """
 
 
-def render_book(markdown: str, headings: list[Heading]) -> str:
+def render_book(body: str, headings: list[Heading]) -> str:
     title = title_from_headings(headings)
-    body = markdown_to_html(markdown, headings)
     toc = build_toc(headings)
     return f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
   <title>{html.escape(title)}</title>
   <style>{stylesheet()}</style>
   <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({{ startOnLoad: true }});</script>
@@ -380,6 +476,7 @@ def render_index(headings: list[Heading]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
   <title>{html.escape(title)} - Gateway</title>
   <style>{stylesheet()}</style>
 </head>
@@ -398,7 +495,7 @@ def render_index(headings: list[Heading]) -> str:
           <a class="button primary" href="book.html">Read the book</a>
           <a class="button" href="book.pdf">Download PDF</a>
           <a class="button" href="book/manuscript.md">Open source manuscript</a>
-          <a class="button" href="materials/">Source materials</a>
+          <a class="button" href="book/references.md">Source references</a>
         </div>
       </div>
       <aside class="note-panel">
@@ -449,35 +546,29 @@ def render_index(headings: list[Heading]) -> str:
 """
 
 
-def write_outputs() -> None:
-    markdown = read_manuscript()
-    headings = extract_headings(markdown)
-    BOOK_HTML.write_text(render_book(markdown, headings), encoding="utf-8")
+def write_outputs(markdown: str, headings: list[Heading]) -> str:
+    body = markdown_to_html(markdown, headings)
+    BOOK_HTML.write_text(render_book(body, headings), encoding="utf-8")
     INDEX_HTML.write_text(render_index(headings), encoding="utf-8")
-
-
-def build_pdf() -> None:
-    browser = chrome_path()
-    if browser is None:
-        raise RuntimeError("Chrome or Edge was not found. HTML outputs were generated, but PDF cannot be rendered.")
-    subprocess.run(
-        [
-            browser,
-            "--headless=new",
-            "--disable-gpu",
-            "--no-pdf-header-footer",
-            f"--print-to-pdf={BOOK_PDF}",
-            BOOK_HTML.as_uri(),
-        ],
-        check=True,
-    )
+    return body
 
 
 def main() -> int:
-    write_outputs()
-    build_pdf()
-    print(f"Generated {INDEX_HTML.name}, {BOOK_HTML.name}, and {BOOK_PDF.name} from {MANUSCRIPT.relative_to(ROOT)}")
-    return 0
+    markdown = read_manuscript()
+    headings = extract_headings(markdown)
+    body = write_outputs(markdown, headings)
+    print(f"Generated {INDEX_HTML.name} and {BOOK_HTML.name} from {MANUSCRIPT.relative_to(ROOT)}")
+
+    result = book_pdf.build_pdf(
+        markdown=markdown,
+        headings=headings,
+        body_html=body,
+        generated=date.today().isoformat(),
+        figures=collect_figures(body),
+    )
+    report = kdp_report.check(BOOK_PDF, result, headings)
+    print(report.summary)
+    return 0 if report.ok else 1
 
 
 if __name__ == "__main__":

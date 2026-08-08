@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
   <title>International STEM Skills Round Table Phase III - Gateway</title>
   <style>
 :root {
@@ -24,6 +25,7 @@ body {
   line-height: 1.65;
 }
 a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
 .site-nav {
     position: sticky;
     top: 0;
@@ -102,12 +104,22 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
 .reader-nav .toc-level-1 { margin-top: 10px; }
 .book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
-.book-content h1, .book-content h2, .book-content h3 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
 .book-content h1 { font-size: 3.2rem; margin-top: 28px; }
 .book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
 .book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
 .book-content p, .book-content li { font-size: 1.05rem; }
 pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
 .top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
 @media (max-width: 820px) {
     .site-nav { align-items: flex-start; flex-direction: column; }
@@ -139,7 +151,6 @@ pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px so
         <a href="index.html#training-proposal">Training Proposal</a>
         <a href="index.html#model-reference">Model Reference</a>
         <a href="index.html#summaries">Summaries</a>
-        <a href="materials/">Materials</a>
     </nav>
 </header>
 
@@ -156,7 +167,7 @@ pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px so
           <a class="button primary" href="book.html">Read the book</a>
           <a class="button" href="book.pdf">Download PDF</a>
           <a class="button" href="book/manuscript.md">Open source manuscript</a>
-          <a class="button" href="materials/">Source materials</a>
+          <a class="button" href="book/references.md">Source references</a>
         </div>
       </div>
       <aside class="note-panel">
@@ -195,82 +206,82 @@ pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px so
         </section>
         <section class="section">
       <h2>Read by Chapter</h2>
-      <div class="summary-grid"><a class="summary-card" href="book.html#chapter-1-the-new-pressure-on-stem-education"><span>Chapter 1 - The New Pressure on STEM Education</span></a>
-<a class="summary-card" href="book.html#chapter-2-from-knowledge-transmission-to-competency-formation"><span>Chapter 2 - From Knowledge Transmission to Competency Formation</span></a>
-<a class="summary-card" href="book.html#chapter-3-the-five-competencies-in-an-ai-rich-world"><span>Chapter 3 - The Five Competencies in an AI-Rich World</span></a>
-<a class="summary-card" href="book.html#chapter-4-one-profile-or-many"><span>Chapter 4 - One Profile or Many?</span></a>
-<a class="summary-card" href="book.html#chapter-5-teaching-as-a-team-profession"><span>Chapter 5 - Teaching as a Team Profession</span></a>
-<a class="summary-card" href="book.html#chapter-6-the-engineering-education-case"><span>Chapter 6 - The Engineering Education Case</span></a>
-<a class="summary-card" href="book.html#chapter-7-possessing-versus-cultivating-competencies"><span>Chapter 7 - Possessing Versus Cultivating Competencies</span></a>
-<a class="summary-card" href="book.html#chapter-8-teacher-vulnerability-authority-and-not-knowing"><span>Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing</span></a>
-<a class="summary-card" href="book.html#chapter-9-assessing-enough-competency"><span>Chapter 9 - Assessing Enough Competency</span></a>
-<a class="summary-card" href="book.html#chapter-10-ai-enters-the-triangle"><span>Chapter 10 - AI Enters the Triangle</span></a>
-<a class="summary-card" href="book.html#chapter-11-default-or-design"><span>Chapter 11 - Default or Design</span></a>
-<a class="summary-card" href="book.html#chapter-12-the-futures-lens"><span>Chapter 12 - The Futures Lens</span></a>
-<a class="summary-card" href="book.html#chapter-13-risks-and-design-principles-for-ai-in-learning"><span>Chapter 13 - Risks and Design Principles for AI in Learning</span></a>
-<a class="summary-card" href="book.html#chapter-14-who-is-responsible-for-teacher-development"><span>Chapter 14 - Who Is Responsible for Teacher Development?</span></a>
-<a class="summary-card" href="book.html#chapter-15-beyond-one-off-training"><span>Chapter 15 - Beyond One-Off Training</span></a>
-<a class="summary-card" href="book.html#chapter-16-evidence-evaluation-and-institutional-learning"><span>Chapter 16 - Evidence, Evaluation, and Institutional Learning</span></a>
-<a class="summary-card" href="book.html#chapter-17-the-classroom-was-built-for-a-different-problem"><span>Chapter 17 - The Classroom Was Built for a Different Problem</span></a>
-<a class="summary-card" href="book.html#chapter-18-virtual-xr-vr-and-ai-supported-learning-spaces"><span>Chapter 18 - Virtual, XR, VR, and AI-Supported Learning Spaces</span></a>
-<a class="summary-card" href="book.html#chapter-19-industry-as-a-learning-partner"><span>Chapter 19 - Industry as a Learning Partner</span></a>
-<a class="summary-card" href="book.html#chapter-20-ecosystem-around-the-teacher"><span>Chapter 20 - Ecosystem Around the Teacher</span></a>
-<a class="summary-card" href="book.html#chapter-21-insights-across-the-six-meetings"><span>Chapter 21 - Insights Across the Six Meetings</span></a>
-<a class="summary-card" href="book.html#chapter-22-guiding-principles"><span>Chapter 22 - Guiding Principles</span></a>
-<a class="summary-card" href="book.html#chapter-23-recommendations-by-audience"><span>Chapter 23 - Recommendations by Audience</span></a>
-<a class="summary-card" href="book.html#chapter-24-open-questions-and-phase-iv"><span>Chapter 24 - Open Questions and Phase IV</span></a>
-<a class="summary-card" href="book.html#appendix-a-meeting-timeline"><span>Appendix A - Meeting Timeline</span></a>
-<a class="summary-card" href="book.html#appendix-b-speaker-and-participant-directory"><span>Appendix B - Speaker and Participant Directory</span></a>
-<a class="summary-card" href="book.html#appendix-c-presentation-inventory"><span>Appendix C - Presentation Inventory</span></a>
-<a class="summary-card" href="book.html#appendix-d-recording-inventory"><span>Appendix D - Recording Inventory</span></a>
-<a class="summary-card" href="book.html#appendix-e-external-sources-and-frameworks"><span>Appendix E - External Sources and Frameworks</span></a>
-<a class="summary-card" href="book.html#appendix-f-six-day-teacher-training-program"><span>Appendix F - Six-Day Teacher Training Program</span></a></div>
+      <div class="summary-grid"><a class="summary-card" href="book.html#chapter-1-the-new-pressure-on-stem-education"><span>Chapter 1 – The New Pressure on STEM Education</span></a>
+<a class="summary-card" href="book.html#chapter-2-from-knowledge-transmission-to-competency-formation"><span>Chapter 2 – From Knowledge Transmission to Competency Formation</span></a>
+<a class="summary-card" href="book.html#chapter-3-the-five-competencies-in-an-ai-rich-world"><span>Chapter 3 – The Five Competencies in an AI-Rich World</span></a>
+<a class="summary-card" href="book.html#chapter-4-one-profile-or-many"><span>Chapter 4 – One Profile or Many?</span></a>
+<a class="summary-card" href="book.html#chapter-5-teaching-as-a-team-profession"><span>Chapter 5 – Teaching as a Team Profession</span></a>
+<a class="summary-card" href="book.html#chapter-6-the-engineering-education-case"><span>Chapter 6 – The Engineering Education Case</span></a>
+<a class="summary-card" href="book.html#chapter-7-possessing-versus-cultivating-competencies"><span>Chapter 7 – Possessing Versus Cultivating Competencies</span></a>
+<a class="summary-card" href="book.html#chapter-8-teacher-vulnerability-authority-and-not-knowing"><span>Chapter 8 – Teacher Vulnerability, Authority, and Not-Knowing</span></a>
+<a class="summary-card" href="book.html#chapter-9-assessing-enough-competency"><span>Chapter 9 – Assessing Enough Competency</span></a>
+<a class="summary-card" href="book.html#chapter-10-ai-enters-the-triangle"><span>Chapter 10 – AI Enters the Triangle</span></a>
+<a class="summary-card" href="book.html#chapter-11-default-or-design"><span>Chapter 11 – Default or Design</span></a>
+<a class="summary-card" href="book.html#chapter-12-the-futures-lens"><span>Chapter 12 – The Futures Lens</span></a>
+<a class="summary-card" href="book.html#chapter-13-risks-and-design-principles-for-ai-in-learning"><span>Chapter 13 – Risks and Design Principles for AI in Learning</span></a>
+<a class="summary-card" href="book.html#chapter-14-who-is-responsible-for-teacher-development"><span>Chapter 14 – Who Is Responsible for Teacher Development?</span></a>
+<a class="summary-card" href="book.html#chapter-15-beyond-one-off-training"><span>Chapter 15 – Beyond One-Off Training</span></a>
+<a class="summary-card" href="book.html#chapter-16-evidence-evaluation-and-institutional-learning"><span>Chapter 16 – Evidence, Evaluation, and Institutional Learning</span></a>
+<a class="summary-card" href="book.html#chapter-17-the-classroom-was-built-for-a-different-problem"><span>Chapter 17 – The Classroom Was Built for a Different Problem</span></a>
+<a class="summary-card" href="book.html#chapter-18-virtual-xr-vr-and-ai-supported-learning-spaces"><span>Chapter 18 – Virtual, XR, VR, and AI-Supported Learning Spaces</span></a>
+<a class="summary-card" href="book.html#chapter-19-industry-as-a-learning-partner"><span>Chapter 19 – Industry as a Learning Partner</span></a>
+<a class="summary-card" href="book.html#chapter-20-ecosystem-around-the-teacher"><span>Chapter 20 – Ecosystem Around the Teacher</span></a>
+<a class="summary-card" href="book.html#chapter-21-insights-across-the-six-meetings"><span>Chapter 21 – Insights Across the Six Meetings</span></a>
+<a class="summary-card" href="book.html#chapter-22-guiding-principles"><span>Chapter 22 – Guiding Principles</span></a>
+<a class="summary-card" href="book.html#chapter-23-recommendations-by-audience"><span>Chapter 23 – Recommendations by Audience</span></a>
+<a class="summary-card" href="book.html#chapter-24-open-questions-and-phase-iv"><span>Chapter 24 – Open Questions and Phase IV</span></a>
+<a class="summary-card" href="book.html#appendix-a-meeting-timeline"><span>Appendix A – Meeting Timeline</span></a>
+<a class="summary-card" href="book.html#appendix-b-speaker-and-participant-directory"><span>Appendix B – Speaker and Participant Directory</span></a>
+<a class="summary-card" href="book.html#appendix-c-presentation-inventory"><span>Appendix C – Presentation Inventory</span></a>
+<a class="summary-card" href="book.html#appendix-d-recording-inventory"><span>Appendix D – Recording Inventory</span></a>
+<a class="summary-card" href="book.html#appendix-e-external-sources-and-frameworks"><span>Appendix E – External Sources and Frameworks</span></a>
+<a class="summary-card" href="book.html#appendix-f-six-day-teacher-training-program"><span>Appendix F – Six-Day Teacher Training Program</span></a></div>
     </section>
     <section class="section">
       <h2>Full Table of Contents</h2>
       <div class="toc-grid"><a class="toc-level-1" href="book.html#international-stem-skills-round-table-phase-iii">International STEM Skills Round Table Phase III</a>
 <a class="toc-level-2" href="book.html#the-teacher-above-ai-stem-education-human-judgment-and-the-new-learning-ecosystem">The Teacher Above AI: STEM Education, Human Judgment, and the New Learning Ecosystem</a>
-<a class="toc-level-2" href="book.html#editorial-note">Editorial Note</a>
+<a class="toc-level-1" href="book.html#editorial-note">Editorial Note</a>
 <a class="toc-level-1" href="book.html#preface">Preface</a>
 <a class="toc-level-1" href="book.html#methodology">Methodology</a>
-<a class="toc-level-1" href="book.html#part-i-why-stem-education-must-change-now">Part I - Why STEM Education Must Change Now</a>
-<a class="toc-level-2" href="book.html#chapter-1-the-new-pressure-on-stem-education">Chapter 1 - The New Pressure on STEM Education</a>
-<a class="toc-level-2" href="book.html#chapter-2-from-knowledge-transmission-to-competency-formation">Chapter 2 - From Knowledge Transmission to Competency Formation</a>
-<a class="toc-level-2" href="book.html#chapter-3-the-five-competencies-in-an-ai-rich-world">Chapter 3 - The Five Competencies in an AI-Rich World</a>
-<a class="toc-level-1" href="book.html#part-ii-the-future-profile-of-the-teacher-and-lecturer">Part II - The Future Profile of the Teacher and Lecturer</a>
-<a class="toc-level-2" href="book.html#chapter-4-one-profile-or-many">Chapter 4 - One Profile or Many?</a>
-<a class="toc-level-2" href="book.html#chapter-5-teaching-as-a-team-profession">Chapter 5 - Teaching as a Team Profession</a>
-<a class="toc-level-2" href="book.html#chapter-6-the-engineering-education-case">Chapter 6 - The Engineering Education Case</a>
-<a class="toc-level-1" href="book.html#part-iii-must-teachers-possess-the-skills-they-teach">Part III - Must Teachers Possess the Skills They Teach?</a>
-<a class="toc-level-2" href="book.html#chapter-7-possessing-versus-cultivating-competencies">Chapter 7 - Possessing Versus Cultivating Competencies</a>
-<a class="toc-level-2" href="book.html#chapter-8-teacher-vulnerability-authority-and-not-knowing">Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing</a>
-<a class="toc-level-2" href="book.html#chapter-9-assessing-enough-competency">Chapter 9 - Assessing Enough Competency</a>
-<a class="toc-level-1" href="book.html#part-iv-the-teacher-the-student-and-ai">Part IV - The Teacher, the Student, and AI</a>
-<a class="toc-level-2" href="book.html#chapter-10-ai-enters-the-triangle">Chapter 10 - AI Enters the Triangle</a>
-<a class="toc-level-2" href="book.html#chapter-11-default-or-design">Chapter 11 - Default or Design</a>
-<a class="toc-level-2" href="book.html#chapter-12-the-futures-lens">Chapter 12 - The Futures Lens</a>
-<a class="toc-level-2" href="book.html#chapter-13-risks-and-design-principles-for-ai-in-learning">Chapter 13 - Risks and Design Principles for AI in Learning</a>
-<a class="toc-level-1" href="book.html#part-v-professional-development-as-system-infrastructure">Part V - Professional Development as System Infrastructure</a>
-<a class="toc-level-2" href="book.html#chapter-14-who-is-responsible-for-teacher-development">Chapter 14 - Who Is Responsible for Teacher Development?</a>
-<a class="toc-level-2" href="book.html#chapter-15-beyond-one-off-training">Chapter 15 - Beyond One-Off Training</a>
-<a class="toc-level-2" href="book.html#chapter-16-evidence-evaluation-and-institutional-learning">Chapter 16 - Evidence, Evaluation, and Institutional Learning</a>
-<a class="toc-level-1" href="book.html#part-vi-environments-industry-and-experiential-learning">Part VI - Environments, Industry, and Experiential Learning</a>
-<a class="toc-level-2" href="book.html#chapter-17-the-classroom-was-built-for-a-different-problem">Chapter 17 - The Classroom Was Built for a Different Problem</a>
-<a class="toc-level-2" href="book.html#chapter-18-virtual-xr-vr-and-ai-supported-learning-spaces">Chapter 18 - Virtual, XR, VR, and AI-Supported Learning Spaces</a>
-<a class="toc-level-2" href="book.html#chapter-19-industry-as-a-learning-partner">Chapter 19 - Industry as a Learning Partner</a>
-<a class="toc-level-2" href="book.html#chapter-20-ecosystem-around-the-teacher">Chapter 20 - Ecosystem Around the Teacher</a>
-<a class="toc-level-1" href="book.html#part-vii-a-compass-for-stem-education-in-the-ai-era">Part VII - A Compass for STEM Education in the AI Era</a>
-<a class="toc-level-2" href="book.html#chapter-21-insights-across-the-six-meetings">Chapter 21 - Insights Across the Six Meetings</a>
-<a class="toc-level-2" href="book.html#chapter-22-guiding-principles">Chapter 22 - Guiding Principles</a>
-<a class="toc-level-2" href="book.html#chapter-23-recommendations-by-audience">Chapter 23 - Recommendations by Audience</a>
-<a class="toc-level-2" href="book.html#chapter-24-open-questions-and-phase-iv">Chapter 24 - Open Questions and Phase IV</a>
+<a class="toc-level-1" href="book.html#part-i-why-stem-education-must-change-now">Part I – Why STEM Education Must Change Now</a>
+<a class="toc-level-2" href="book.html#chapter-1-the-new-pressure-on-stem-education">Chapter 1 – The New Pressure on STEM Education</a>
+<a class="toc-level-2" href="book.html#chapter-2-from-knowledge-transmission-to-competency-formation">Chapter 2 – From Knowledge Transmission to Competency Formation</a>
+<a class="toc-level-2" href="book.html#chapter-3-the-five-competencies-in-an-ai-rich-world">Chapter 3 – The Five Competencies in an AI-Rich World</a>
+<a class="toc-level-1" href="book.html#part-ii-the-future-profile-of-the-teacher-and-lecturer">Part II – The Future Profile of the Teacher and Lecturer</a>
+<a class="toc-level-2" href="book.html#chapter-4-one-profile-or-many">Chapter 4 – One Profile or Many?</a>
+<a class="toc-level-2" href="book.html#chapter-5-teaching-as-a-team-profession">Chapter 5 – Teaching as a Team Profession</a>
+<a class="toc-level-2" href="book.html#chapter-6-the-engineering-education-case">Chapter 6 – The Engineering Education Case</a>
+<a class="toc-level-1" href="book.html#part-iii-must-teachers-possess-the-skills-they-teach">Part III – Must Teachers Possess the Skills They Teach?</a>
+<a class="toc-level-2" href="book.html#chapter-7-possessing-versus-cultivating-competencies">Chapter 7 – Possessing Versus Cultivating Competencies</a>
+<a class="toc-level-2" href="book.html#chapter-8-teacher-vulnerability-authority-and-not-knowing">Chapter 8 – Teacher Vulnerability, Authority, and Not-Knowing</a>
+<a class="toc-level-2" href="book.html#chapter-9-assessing-enough-competency">Chapter 9 – Assessing Enough Competency</a>
+<a class="toc-level-1" href="book.html#part-iv-the-teacher-the-student-and-ai">Part IV – The Teacher, the Student, and AI</a>
+<a class="toc-level-2" href="book.html#chapter-10-ai-enters-the-triangle">Chapter 10 – AI Enters the Triangle</a>
+<a class="toc-level-2" href="book.html#chapter-11-default-or-design">Chapter 11 – Default or Design</a>
+<a class="toc-level-2" href="book.html#chapter-12-the-futures-lens">Chapter 12 – The Futures Lens</a>
+<a class="toc-level-2" href="book.html#chapter-13-risks-and-design-principles-for-ai-in-learning">Chapter 13 – Risks and Design Principles for AI in Learning</a>
+<a class="toc-level-1" href="book.html#part-v-professional-development-as-system-infrastructure">Part V – Professional Development as System Infrastructure</a>
+<a class="toc-level-2" href="book.html#chapter-14-who-is-responsible-for-teacher-development">Chapter 14 – Who Is Responsible for Teacher Development?</a>
+<a class="toc-level-2" href="book.html#chapter-15-beyond-one-off-training">Chapter 15 – Beyond One-Off Training</a>
+<a class="toc-level-2" href="book.html#chapter-16-evidence-evaluation-and-institutional-learning">Chapter 16 – Evidence, Evaluation, and Institutional Learning</a>
+<a class="toc-level-1" href="book.html#part-vi-environments-industry-and-experiential-learning">Part VI – Environments, Industry, and Experiential Learning</a>
+<a class="toc-level-2" href="book.html#chapter-17-the-classroom-was-built-for-a-different-problem">Chapter 17 – The Classroom Was Built for a Different Problem</a>
+<a class="toc-level-2" href="book.html#chapter-18-virtual-xr-vr-and-ai-supported-learning-spaces">Chapter 18 – Virtual, XR, VR, and AI-Supported Learning Spaces</a>
+<a class="toc-level-2" href="book.html#chapter-19-industry-as-a-learning-partner">Chapter 19 – Industry as a Learning Partner</a>
+<a class="toc-level-2" href="book.html#chapter-20-ecosystem-around-the-teacher">Chapter 20 – Ecosystem Around the Teacher</a>
+<a class="toc-level-1" href="book.html#part-vii-a-compass-for-stem-education-in-the-ai-era">Part VII – A Compass for STEM Education in the AI Era</a>
+<a class="toc-level-2" href="book.html#chapter-21-insights-across-the-six-meetings">Chapter 21 – Insights Across the Six Meetings</a>
+<a class="toc-level-2" href="book.html#chapter-22-guiding-principles">Chapter 22 – Guiding Principles</a>
+<a class="toc-level-2" href="book.html#chapter-23-recommendations-by-audience">Chapter 23 – Recommendations by Audience</a>
+<a class="toc-level-2" href="book.html#chapter-24-open-questions-and-phase-iv">Chapter 24 – Open Questions and Phase IV</a>
 <a class="toc-level-1" href="book.html#appendices">Appendices</a>
-<a class="toc-level-2" href="book.html#appendix-a-meeting-timeline">Appendix A - Meeting Timeline</a>
-<a class="toc-level-2" href="book.html#appendix-b-speaker-and-participant-directory">Appendix B - Speaker and Participant Directory</a>
-<a class="toc-level-2" href="book.html#appendix-c-presentation-inventory">Appendix C - Presentation Inventory</a>
-<a class="toc-level-2" href="book.html#appendix-d-recording-inventory">Appendix D - Recording Inventory</a>
-<a class="toc-level-2" href="book.html#appendix-e-external-sources-and-frameworks">Appendix E - External Sources and Frameworks</a>
-<a class="toc-level-2" href="book.html#appendix-f-six-day-teacher-training-program">Appendix F - Six-Day Teacher Training Program</a>
+<a class="toc-level-2" href="book.html#appendix-a-meeting-timeline">Appendix A – Meeting Timeline</a>
+<a class="toc-level-2" href="book.html#appendix-b-speaker-and-participant-directory">Appendix B – Speaker and Participant Directory</a>
+<a class="toc-level-2" href="book.html#appendix-c-presentation-inventory">Appendix C – Presentation Inventory</a>
+<a class="toc-level-2" href="book.html#appendix-d-recording-inventory">Appendix D – Recording Inventory</a>
+<a class="toc-level-2" href="book.html#appendix-e-external-sources-and-frameworks">Appendix E – External Sources and Frameworks</a>
+<a class="toc-level-2" href="book.html#appendix-f-six-day-teacher-training-program">Appendix F – Six-Day Teacher Training Program</a>
 <a class="toc-level-1" href="book.html#closing-note">Closing Note</a></div>
     </section>
   </main>

@@ -1,0 +1,19 @@
+# Local agent/editor state
+state/
+tools/
+collected_mail/
+
+# Generated book drafts, outlines, meeting notes, and progress trackers
+book/*
+!book/manuscript.md
+!book/references.md
+!materials/
+!materials/**
+
+# Common local/transient files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.log

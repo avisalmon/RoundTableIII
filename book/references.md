@@ -1,6 +1,6 @@
 # References and External Source Notes
 
-This file lists external references and frameworks found in the collected materials. Each reference below links either to a tracked local source material in `materials/` or to a public web source. It is not yet a final formatted bibliography. The next editorial pass should verify exact publication data and citation style.
+This page lists the external references and frameworks the book draws on, and records where each one is used. Entries marked as internal project materials are third-party documents the project does not hold publication rights to, so they are named but not distributed.
 
 ## Core External Frameworks
 
@@ -169,4 +169,4 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 
 ### Recordings
 
-The collected materials include YouTube recording links for meetings 2 and 4 inside the meeting summaries. The collected mail corpus also includes one direct [YouTube link found in the mail corpus](https://youtu.be/zAtAT7lsPac). Zoom join links were found for meetings 3, 5, and 6, but no direct recording links were found in the collected emails.
+Recordings of meetings 2 and 4 were published as YouTube links inside the meeting summaries, including [this session recording](https://youtu.be/zAtAT7lsPac). Meetings 3, 5, and 6 were held on Zoom and no published recording is available.

@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>References and External Source Notes</title>
+    <style>
+:root {
+  --ink: #17201a;
+  --muted: #5b655d;
+  --paper: #fffdf6;
+  --panel: #f4efe2;
+  --line: #d9ceb7;
+  --accent: #1f6b5b;
+  --accent-2: #b6532b;
+  --shadow: rgba(44, 35, 20, 0.13);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #f2e1c8 0, transparent 34rem), var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 253, 246, 0.96);
+    backdrop-filter: blur(12px);
+    font-family: Verdana, sans-serif;
+}
+.brand { font-weight: 700; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
+.site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
+.site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
+.site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
+.hero {
+  min-height: 74vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.eyebrow { color: var(--accent-2); font: 700 0.8rem/1.2 Verdana, sans-serif; letter-spacing: 0; text-transform: uppercase; }
+h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20px; font-weight: 500; }
+.subtitle { font-size: 1.25rem; color: var(--muted); max-width: 48rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  font: 700 0.9rem/1.2 Verdana, sans-serif;
+  background: #fffaf0;
+}
+.button.primary { background: var(--ink); color: #fffdf6; }
+.note-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 22px;
+  box-shadow: 0 16px 40px var(--shadow);
+}
+.section { padding: 42px 0; border-bottom: 1px solid var(--line); }
+.section h2 { font-size: 2rem; line-height: 1.1; margin: 0 0 18px; }
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.overview p { margin-top: 0; }
+.toc-grid { columns: 2 280px; column-gap: 36px; }
+.toc-grid a { display: block; break-inside: avoid; padding: 5px 0; text-decoration: none; }
+.toc-level-1 { font-weight: 700; color: var(--accent-2); margin-top: 12px; }
+.toc-level-2 { padding-left: 12px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.summary-card { min-height: 86px; display: flex; align-items: end; padding: 14px; background: #fffaf0; border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.summary-card:hover { border-color: var(--accent); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.link-card {
+  display: block;
+  padding: 20px;
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.link-card:hover { border-color: var(--accent); box-shadow: 0 10px 24px var(--shadow); }
+.link-card h3 { margin: 0 0 10px; font-size: 1.2rem; color: var(--accent-2); }
+.link-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+.page-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; max-width: 1180px; margin: 0 auto; padding: 24px; }
+.page-content { max-width: 780px; }
+.page-content h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 8px 0 22px; }
+.page-content h2 { font-size: 1.75rem; margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line); line-height: 1.15; }
+.page-content h3 { font-size: 1.15rem; margin-top: 30px; color: var(--accent-2); }
+.page-content p, .page-content li { font-size: 1.05rem; }
+.page-content h1 + p { font-size: 1.22rem; color: var(--muted); }
+.page-content table { width: 100%; margin: 24px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.steps-card {
+  width: min(100%, 520px);
+  aspect-ratio: 1.586;
+  margin: 30px 0;
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  color: #fff8e6;
+  font-family: Verdana, sans-serif;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(235, 185, 82, 0.5), transparent 38%),
+    radial-gradient(circle at 12% 84%, rgba(111, 182, 164, 0.42), transparent 36%),
+    linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+  box-shadow: 0 14px 34px var(--shadow);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.steps-card-head { color: #efc978; font: 700 0.72rem/1.3 Verdana, sans-serif; letter-spacing: 0.11em; text-transform: uppercase; }
+.steps-card-list {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.steps-card-list li { display: flex; align-items: center; gap: 9px; font-size: 0.78rem; line-height: 1.15; }
+.steps-card .step-number {
+  flex: none;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 201, 120, 0.55);
+  color: #efc978;
+  font-size: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-card .step-highlight { color: #f8e7bd; font-weight: 700; }
+.steps-card .step-highlight .step-number { background: #efc978; border-color: #efc978; color: #10251f; }
+@media (max-width: 520px) {
+  .steps-card { aspect-ratio: auto; }
+  .steps-card-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; row-gap: 7px; }
+}
+.book-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 36px; max-width: 1320px; margin: 0 auto; padding: 24px; }
+.reader-nav { position: sticky; top: 0; align-self: start; height: 100vh; overflow: auto; border-right: 1px solid var(--line); padding: 16px 18px 16px 0; font-family: Verdana, sans-serif; font-size: 0.88rem; }
+.reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
+.reader-nav .toc-level-1 { margin-top: 10px; }
+.book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1 { font-size: 3.2rem; margin-top: 28px; }
+.book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
+.book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
+.book-content p, .book-content li { font-size: 1.05rem; }
+pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
+.top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
+@media (max-width: 820px) {
+    .site-nav { align-items: flex-start; flex-direction: column; }
+    .site-nav nav { justify-content: flex-start; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate, .page-layout { grid-template-columns: 1fr; }
+  .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media print {
+  body { background: #fff; }
+    .site-nav, .reader-nav, .top-link { display: none; }
+  .book-layout { display: block; padding: 0; }
+  .book-content { max-width: none; }
+  .book-content h1 { page-break-before: always; }
+  .book-content h1:first-child { page-break-before: auto; }
+  .book-content h2 { page-break-before: always; border-top: 0; }
+  a { color: #17201a; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+    
+<header class="site-nav" id="top">
+    <a class="brand" href="index.html">International STEM Skills Round Table Phase III</a>
+    <nav aria-label="Main site navigation">
+        <a href="index.html">Home</a>
+        <a href="book.html">Book</a>
+        <details class="nav-menu">
+            <summary>PDF</summary>
+            <div class="nav-menu-panel">
+                <a href="cover.pdf">KDP Cover</a>
+                <a href="book.pdf">KDP Interior</a>
+            </div>
+        </details>
+        <a href="skills.html">Main Skills</a>
+        <a href="model.html">Lesson Model</a>
+        <a href="training.html">Training Proposal</a>
+    </nav>
+</header>
+
+    <div class="page-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="book.html">Full book</a>
+            <a class="toc-level-2" href="#core-external-frameworks">Core External Frameworks</a>
+<a class="toc-level-2" href="#research-references-listed-in-the-round-table-materials">Research References Listed in the Round Table Materials</a>
+<a class="toc-level-2" href="#ai-and-education-references-listed-in-the-round-table-materials">AI and Education References Listed in the Round Table Materials</a>
+<a class="toc-level-2" href="#round-table-internal-sources">Round Table Internal Sources</a>
+        </nav>
+        <main class="page-content">
+            <h1 id="references-and-external-source-notes">References and External Source Notes</h1>
+<p>This page lists the external references and frameworks the book draws on, and records where each one is used. Entries marked as internal project materials are third-party documents the project does not hold publication rights to, so they are named but not distributed.</p>
+<h2 id="core-external-frameworks">Core External Frameworks</h2>
+<h3 id="oecd-teaching-compass-materials-oecd-teaching-compass-pdf"><span class="source-ref">OECD Teaching Compass</span></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Teacher agency.
+</li>
+<li>Teacher professional identity.
+</li>
+<li>Teacher competencies.
+</li>
+<li>Teacher well-being.
+</li>
+<li>The link between teacher development and learner agency.
+</li>
+<li>Reimagining teachers as agents of curriculum change.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Local tracked source: <span class="source-ref">OECD Teaching Compass</span>.
+</li>
+</ul>
+<h3 id="oecd-learning-compass-2030-https-www-oecd-org-education-2030-project-teaching-and-learning-learning"><a href="https://www.oecd.org/education/2030-project/teaching-and-learning/learning/">OECD Learning Compass 2030</a></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Future-oriented learning.
+</li>
+<li>Student agency.
+</li>
+<li>Knowledge, skills, attitudes, and values.
+</li>
+<li>Transformative competencies.
+</li>
+<li>Anticipation, action, and reflection.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Web source: <a href="https://www.oecd.org/education/2030-project/teaching-and-learning/learning/">OECD Learning Compass 2030</a>.
+</li>
+</ul>
+<h3 id="talis-2024-materials-talis-2024-us-short-pdf"><span class="source-ref">TALIS 2024</span></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Teacher professional context.
+</li>
+<li>Teaching conditions.
+</li>
+<li>Professional development background.
+</li>
+<li>International comparison.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Local tracked source: <span class="source-ref">TALIS 2024 short material</span>.
+</li>
+</ul>
+<h3 id="unesco-ai-competency-framework-for-teachers-https-www-unesco-org-en-articles-ai-competency-framework-teachers"><a href="https://www.unesco.org/en/articles/ai-competency-framework-teachers">UNESCO AI Competency Framework for Teachers</a></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>AI-era teacher competencies.
+</li>
+<li>Human-centered AI use.
+</li>
+<li>Ethics and responsible use.
+</li>
+<li>Teacher professional learning in AI-rich environments.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Web source: <a href="https://www.unesco.org/en/articles/ai-competency-framework-teachers">UNESCO AI Competency Framework for Teachers</a>.
+</li>
+<li>Local Round Table reference: <span class="source-ref">Meeting 3 discussion document</span>.
+</li>
+</ul>
+<h3 id="ai-literacy-framework-https-ailiteracyframework-org"><a href="https://ailiteracyframework.org/">AI Literacy Framework</a></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Youth AI literacy.
+</li>
+<li>Responsible AI use.
+</li>
+<li>Student preparation for AI-rich learning and work.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Web source: <a href="https://ailiteracyframework.org/">AI Literacy Framework</a>.
+</li>
+<li>Local Round Table reference: <span class="source-ref">Meeting 3 discussion document</span>.
+</li>
+</ul>
+<h3 id="iste-standards-for-educators-https-iste-org-standards-educators-and-iste-standards-for-students-https-iste-org-standards-students"><a href="https://iste.org/standards/educators">ISTE Standards for Educators</a> and <a href="https://iste.org/standards/students">ISTE Standards for Students</a></h3>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Technology-rich teaching.
+</li>
+<li>Digital citizenship.
+</li>
+<li>Educator and learner roles in technology-supported environments.
+</li>
+</ul>
+<p>Source status:</p>
+<ul>
+<li>Web sources: <a href="https://iste.org/standards/educators">ISTE Standards for Educators</a> and <a href="https://iste.org/standards/students">ISTE Standards for Students</a>.
+</li>
+<li>Local Round Table reference: <span class="source-ref">Meeting 3 discussion document</span>.
+</li>
+</ul>
+<h2 id="research-references-listed-in-the-round-table-materials">Research References Listed in the Round Table Materials</h2>
+<h3 id="cognitive-apprenticeship-materials-meeting-3-teacher-in-ai-era-discussion-docx"><span class="source-ref">Cognitive Apprenticeship</span></h3>
+<p>Collins, Brown, and Holum are referenced in the <span class="source-ref">Meeting 3 discussion document</span>.</p>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Learning through expert modeling.
+</li>
+<li>Making thinking visible.
+</li>
+<li>Teacher modeling of reasoning and judgment.
+</li>
+</ul>
+<h3 id="self-efficacy-materials-meeting-3-teacher-in-ai-era-discussion-docx"><span class="source-ref">Self-Efficacy</span></h3>
+<p>Bandura is referenced in the <span class="source-ref">Meeting 3 discussion document</span>.</p>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Learner agency.
+</li>
+<li>Belief in capability.
+</li>
+<li>Teacher and student confidence in new learning environments.
+</li>
+</ul>
+<h3 id="transfer-of-learning-materials-meeting-3-teacher-in-ai-era-discussion-docx"><span class="source-ref">Transfer of Learning</span></h3>
+<p>Perkins and Salomon are referenced in the <span class="source-ref">Meeting 3 discussion document</span>.</p>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Transfer of competencies across contexts.
+</li>
+<li>Risks of teaching skills separately from disciplinary practice.
+</li>
+</ul>
+<h3 id="moral-development-in-the-professions-materials-meeting-3-teacher-in-ai-era-discussion-docx"><span class="source-ref">Moral Development in the Professions</span></h3>
+<p>Rest and Narvaez are referenced in the <span class="source-ref">Meeting 3 discussion document</span>.</p>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Ethical judgment.
+</li>
+<li>Professional responsibility.
+</li>
+<li>Moral reasoning in AI-supported learning and work.
+</li>
+</ul>
+<h3 id="critical-thinking-instruction-materials-meeting-3-teacher-in-ai-era-discussion-docx"><span class="source-ref">Critical Thinking Instruction</span></h3>
+<p>Abrami and colleagues are referenced in the <span class="source-ref">Meeting 3 discussion document</span>.</p>
+<p>Used in the manuscript for:</p>
+<ul>
+<li>Teaching critical thinking explicitly.
+</li>
+<li>Designing learning that goes beyond output quality.
+</li>
+</ul>
+<h2 id="ai-and-education-references-listed-in-the-round-table-materials">AI and Education References Listed in the Round Table Materials</h2>
+<p>The <span class="source-ref">Meeting 3 discussion document</span> references several AI and education sources. These should be verified before final publication:</p>
+<ul>
+<li><span class="source-ref">Generative AI and critical thinking, Microsoft Research, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">AI in teacher education, Jose et al., listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">ChatGPT meta-analysis, Wang and Fan, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">Generative AI and critical thinking in higher education, Nasr et al., listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">Inoculation-based approach to AI misinformation, Zarzosa et al., listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">What Should Teachers Teach in an AI Future, OECD, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">Teachers’ Professional Learning for the AI Era, OECD Education 2040, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">AI trust gap between students and teachers, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">Student AI adoption reporting from Campus Technology, listed in the Meeting 3 discussion document</span>.
+</li>
+<li><span class="source-ref">Education Week reporting on AI use in schools, listed in the Meeting 3 discussion document</span>.
+</li>
+</ul>
+<h2 id="round-table-internal-sources">Round Table Internal Sources</h2>
+<h3 id="phase-iii-meeting-materials">Phase III Meeting Materials</h3>
+<ul>
+<li><span class="source-ref">Meeting 2 presentation</span>.
+</li>
+<li><span class="source-ref">TIES Jan Morrison presentation</span>.
+</li>
+<li><span class="source-ref">Dr. Gabi Shafat STEM material</span>.
+</li>
+<li><span class="source-ref">Meeting 3 discussion document, The Teacher in the AI Era</span>.
+</li>
+<li><span class="source-ref">Meeting 4 discussion document</span>.
+</li>
+<li><span class="source-ref">Meeting 4 presentation</span>.
+</li>
+<li><span class="source-ref">Danielle Eisenberg / Ignite Ed presentation</span>.
+</li>
+<li><span class="source-ref">Dr. Iris Pinto, Future Trends Shaping Reality</span>.
+</li>
+<li><a href="https://www.neaman.org.il/">Meeting 5 context, Samuel Neaman Institute</a>.
+</li>
+<li><a href="https://www.neaman.org.il/">Meeting 6 context, Samuel Neaman Institute</a>.
+</li>
+<li><a href="https://www.neaman.org.il/">Final steering context, Samuel Neaman Institute</a>.
+</li>
+</ul>
+<h3 id="recordings">Recordings</h3>
+<p>Recordings of meetings 2 and 4 were published as YouTube links inside the meeting summaries, including <a href="https://youtu.be/zAtAT7lsPac">this session recording</a>. Meetings 3, 5, and 6 were held on Zoom and no published recording is available.</p>
+        </main>
+    </div>
+</body>
+</html>

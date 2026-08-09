@@ -13,34 +13,40 @@ import kdp_report
 
 ROOT = Path(__file__).resolve().parent
 MANUSCRIPT = ROOT / "book" / "manuscript.md"
-PAGES_DIR = ROOT / "book" / "pages"
 INDEX_HTML = ROOT / "index.html"
 BOOK_HTML = ROOT / "book.html"
 BOOK_PDF = ROOT / "book.pdf"
 COVER_PDF = ROOT / "cover.pdf"
 
-# Standalone companion pages: (markdown source, output file, nav label, blurb for the gateway).
+# Standalone companion pages: (markdown source, output file, card title, card blurb).
 COMPANION_PAGES = [
     (
-        "main_skills.md",
+        "book/pages/main_skills.md",
         "skills.html",
         "Main Skills",
         "The five competencies the Round Table converged on, what AI changed about each, "
         "and why AI literacy is a layer across all five rather than a sixth item.",
     ),
     (
-        "lesson_model.md",
+        "book/pages/lesson_model.md",
         "model.html",
         "Lesson Model",
         "The Human-First AI Learning Cycle as a lesson skeleton: ten steps, a worked example, "
         "the three ways it fails, and how to assess the path rather than the artifact.",
     ),
     (
-        "training_program.md",
+        "book/pages/training_program.md",
         "training.html",
         "Training Proposal",
         "A six-day teacher training program in three sections \u2014 AI knowledge, pedagogy, "
         "and leading change \u2014 with a deliverable and an evaluation for every day.",
+    ),
+    (
+        "book/references.md",
+        "references.html",
+        "Source References",
+        "The external frameworks and project materials behind the book, with a note on "
+        "where each one is used.",
     ),
 ]
 
@@ -683,7 +689,7 @@ def render_index(headings: list[Heading]) -> str:
         <div class="actions">
           <a class="button primary" href="book.html">Read the book</a>
           <a class="button" href="book.pdf">Download KDP interior PDF</a>
-          <a class="button" href="book/references.md">Source references</a>
+          <a class="button" href="references.html">Source references</a>
         </div>
       </div>
     </section>
@@ -755,7 +761,7 @@ def write_outputs(markdown: str, headings: list[Heading]) -> str:
     INDEX_HTML.write_text(render_index(headings), encoding="utf-8")
     for source_name, output_name, _, _ in COMPANION_PAGES:
         (ROOT / output_name).write_text(
-            render_companion_page(PAGES_DIR / source_name), encoding="utf-8"
+            render_companion_page(ROOT / source_name), encoding="utf-8"
         )
     return body
 

@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Six-Day Teacher Training Program</title>
+    <style>
+:root {
+  --ink: #17201a;
+  --muted: #5b655d;
+  --paper: #fffdf6;
+  --panel: #f4efe2;
+  --line: #d9ceb7;
+  --accent: #1f6b5b;
+  --accent-2: #b6532b;
+  --shadow: rgba(44, 35, 20, 0.13);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #f2e1c8 0, transparent 34rem), var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 253, 246, 0.96);
+    backdrop-filter: blur(12px);
+    font-family: Verdana, sans-serif;
+}
+.brand { font-weight: 700; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
+.site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
+.site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
+.site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
+.hero {
+  min-height: 74vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.eyebrow { color: var(--accent-2); font: 700 0.8rem/1.2 Verdana, sans-serif; letter-spacing: 0; text-transform: uppercase; }
+h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20px; font-weight: 500; }
+.subtitle { font-size: 1.25rem; color: var(--muted); max-width: 48rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  font: 700 0.9rem/1.2 Verdana, sans-serif;
+  background: #fffaf0;
+}
+.button.primary { background: var(--ink); color: #fffdf6; }
+.note-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 22px;
+  box-shadow: 0 16px 40px var(--shadow);
+}
+.section { padding: 42px 0; border-bottom: 1px solid var(--line); }
+.section h2 { font-size: 2rem; line-height: 1.1; margin: 0 0 18px; }
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.overview p { margin-top: 0; }
+.toc-grid { columns: 2 280px; column-gap: 36px; }
+.toc-grid a { display: block; break-inside: avoid; padding: 5px 0; text-decoration: none; }
+.toc-level-1 { font-weight: 700; color: var(--accent-2); margin-top: 12px; }
+.toc-level-2 { padding-left: 12px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.summary-card { min-height: 86px; display: flex; align-items: end; padding: 14px; background: #fffaf0; border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.summary-card:hover { border-color: var(--accent); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.link-card {
+  display: block;
+  padding: 20px;
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.link-card:hover { border-color: var(--accent); box-shadow: 0 10px 24px var(--shadow); }
+.link-card h3 { margin: 0 0 10px; font-size: 1.2rem; color: var(--accent-2); }
+.link-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+.page-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; max-width: 1180px; margin: 0 auto; padding: 24px; }
+.page-content { max-width: 780px; }
+.page-content h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 8px 0 22px; }
+.page-content h2 { font-size: 1.75rem; margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line); line-height: 1.15; }
+.page-content h3 { font-size: 1.15rem; margin-top: 30px; color: var(--accent-2); }
+.page-content p, .page-content li { font-size: 1.05rem; }
+.page-content h1 + p { font-size: 1.22rem; color: var(--muted); }
+.page-content table { width: 100%; margin: 24px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.steps-card {
+  width: min(100%, 520px);
+  aspect-ratio: 1.586;
+  margin: 30px 0;
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  color: #fff8e6;
+  font-family: Verdana, sans-serif;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(235, 185, 82, 0.5), transparent 38%),
+    radial-gradient(circle at 12% 84%, rgba(111, 182, 164, 0.42), transparent 36%),
+    linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+  box-shadow: 0 14px 34px var(--shadow);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.steps-card-head { color: #efc978; font: 700 0.72rem/1.3 Verdana, sans-serif; letter-spacing: 0.11em; text-transform: uppercase; }
+.steps-card-list {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.steps-card-list li { display: flex; align-items: center; gap: 9px; font-size: 0.78rem; line-height: 1.15; }
+.steps-card .step-number {
+  flex: none;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 201, 120, 0.55);
+  color: #efc978;
+  font-size: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-card .step-highlight { color: #f8e7bd; font-weight: 700; }
+.steps-card .step-highlight .step-number { background: #efc978; border-color: #efc978; color: #10251f; }
+@media (max-width: 520px) {
+  .steps-card { aspect-ratio: auto; }
+  .steps-card-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; row-gap: 7px; }
+}
+.book-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 36px; max-width: 1320px; margin: 0 auto; padding: 24px; }
+.reader-nav { position: sticky; top: 0; align-self: start; height: 100vh; overflow: auto; border-right: 1px solid var(--line); padding: 16px 18px 16px 0; font-family: Verdana, sans-serif; font-size: 0.88rem; }
+.reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
+.reader-nav .toc-level-1 { margin-top: 10px; }
+.book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1 { font-size: 3.2rem; margin-top: 28px; }
+.book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
+.book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
+.book-content p, .book-content li { font-size: 1.05rem; }
+pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
+.top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
+@media (max-width: 820px) {
+    .site-nav { align-items: flex-start; flex-direction: column; }
+    .site-nav nav { justify-content: flex-start; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate, .page-layout { grid-template-columns: 1fr; }
+  .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media print {
+  body { background: #fff; }
+    .site-nav, .reader-nav, .top-link { display: none; }
+  .book-layout { display: block; padding: 0; }
+  .book-content { max-width: none; }
+  .book-content h1 { page-break-before: always; }
+  .book-content h1:first-child { page-break-before: auto; }
+  .book-content h2 { page-break-before: always; border-top: 0; }
+  a { color: #17201a; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+    
+<header class="site-nav" id="top">
+    <a class="brand" href="index.html">International STEM Skills Round Table Phase III</a>
+    <nav aria-label="Main site navigation">
+        <a href="index.html">Home</a>
+        <a href="book.html">Book</a>
+        <details class="nav-menu">
+            <summary>PDF</summary>
+            <div class="nav-menu-panel">
+                <a href="cover.pdf">KDP Cover</a>
+                <a href="book.pdf">KDP Interior</a>
+            </div>
+        </details>
+        <a href="skills.html">Main Skills</a>
+        <a href="model.html">Lesson Model</a>
+        <a href="training.html">Training Proposal</a>
+    </nav>
+</header>
+
+    <div class="page-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="book.html">Full book</a>
+            <a class="toc-level-2" href="#program-outcomes">Program Outcomes</a>
+<a class="toc-level-2" href="#program-structure">Program Structure</a>
+<a class="toc-level-2" href="#section-1-ai-knowledge">Section 1 – AI Knowledge</a>
+<a class="toc-level-2" href="#section-2-pedagogy">Section 2 – Pedagogy</a>
+<a class="toc-level-2" href="#section-3-leading-change">Section 3 – Leading Change</a>
+        </nav>
+        <main class="page-content">
+            <h1 id="six-day-teacher-training-program">Six-Day Teacher Training Program</h1>
+<p>A proposed professional development program for teachers who want to adopt the principles of the book in STEM classrooms. It is designed to help teachers use AI technically and responsibly, redesign classroom learning around human-first inquiry, and prepare for leading change in their own schools or institutions.</p>
+<p>The program is built around three sections:</p>
+<ol>
+<li><strong>AI knowledge</strong> — practical use of AI for research, learning, software building, simulations, classroom preparation, and feedback.
+</li>
+<li><strong>Pedagogy</strong> — translating the book’s principles into classroom design, student skills, assessment, activities, and the Human-First AI Learning Cycle.
+</li>
+<li><strong>Leading change</strong> — preparing teacher leaders to influence colleagues and systems.
+</li>
+</ol>
+<h2 id="program-outcomes">Program Outcomes</h2>
+<p>By the end of the six days, participating teachers should be able to:</p>
+<ol>
+<li>Use AI tools for research, explanation, lesson preparation, software generation, simulator building, feedback, and classroom support.
+</li>
+<li>Identify the limits, risks, and reliability problems of AI outputs.
+</li>
+<li>Design STEM learning activities that begin with observation, questioning, experimentation, prediction, and human explanation before AI use.
+</li>
+<li>Build classroom routines that keep student thinking visible.
+</li>
+<li>Assess student learning through process evidence, oral explanation, reflection, verification, and responsible AI use.
+</li>
+<li>Create one implementable AI-era STEM lesson or unit based on the principles of the book.
+</li>
+<li>Prepare an initial plan for influencing colleagues and leading school-level change.
+</li>
+</ol>
+<h2 id="program-structure">Program Structure</h2>
+<table><thead><tr><th class="align-left">Day</th><th class="align-left">Section</th><th class="align-left">Focus</th><th class="align-left">Main deliverable</th></tr></thead><tbody><tr><td class="align-left">Day 1</td><td class="align-left">AI knowledge</td><td class="align-left">AI for research, learning, explanation, and teacher productivity</td><td class="align-left">Personal AI research and learning workflow</td></tr><tr><td class="align-left">Day 2</td><td class="align-left">AI knowledge</td><td class="align-left">AI for software, simulations, data, and classroom tool building</td><td class="align-left">Working AI-supported simulator or digital learning artifact</td></tr><tr><td class="align-left">Day 3</td><td class="align-left">Pedagogy</td><td class="align-left">Skills, competencies, and human-first STEM learning</td><td class="align-left">Human-First AI Learning Cycle activity plan</td></tr><tr><td class="align-left">Day 4</td><td class="align-left">Pedagogy</td><td class="align-left">Teacher-student-AI triangle, visible thinking, and assessment</td><td class="align-left">AI-aware lesson design with assessment evidence</td></tr><tr><td class="align-left">Day 5</td><td class="align-left">Pedagogy</td><td class="align-left">Learning environments, projects, industry links, and implementation</td><td class="align-left">Full classroom implementation plan</td></tr><tr><td class="align-left">Day 6</td><td class="align-left">Leading change</td><td class="align-left">Teacher leadership and institutional influence</td><td class="align-left">Initial school or department change plan</td></tr></tbody></table>
+<h2 id="section-1-ai-knowledge">Section 1 – AI Knowledge</h2>
+<p>The first section gives teachers practical fluency with AI tools. The purpose is not to turn every teacher into a software engineer. The purpose is to make teachers confident enough to use AI, test AI, explain AI-supported work to students, and design tasks in which AI strengthens learning rather than replacing it.</p>
+<h3 id="day-1-ai-for-research-learning-and-teacher-productivity">Day 1 – AI for Research, Learning, and Teacher Productivity</h3>
+<p><strong>Training focus:</strong> Teachers learn how to use AI as a research assistant, learning partner, planning assistant, and explanation engine while keeping professional judgment above the tool.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>What generative AI can and cannot do.
+</li>
+<li>Prompting as professional questioning, not magic wording.
+</li>
+<li>Using AI to explain unfamiliar topics at different levels.
+</li>
+<li>Using AI to summarize, compare, and organize sources.
+</li>
+<li>Checking AI claims against reliable sources.
+</li>
+<li>Asking AI to produce examples, analogies, misconceptions, and questions.
+</li>
+<li>Using AI for lesson planning, differentiation, rubrics, feedback drafts, and student support.
+</li>
+<li>Recognizing hallucinations, bias, shallow explanations, and overconfident answers.
+</li>
+<li>Responsible disclosure and privacy when using AI for school work.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>Research workflow exercise. Each teacher chooses one STEM topic and asks AI to explain it at three levels: middle school, high school, and adult professional. Teachers compare the outputs and identify what changed.
+</li>
+<li>Source-checking exercise. Teachers ask AI for a short research summary, then verify claims against external sources. They mark which claims are reliable, unsupported, or unclear.
+</li>
+<li>Misconception exercise. Teachers ask AI to list common student misconceptions about a topic, then evaluate which misconceptions are real and useful for their classroom.
+</li>
+<li>Lesson-support exercise. Teachers ask AI to generate a lesson outline, three student questions, one formative assessment, and one extension task. They revise the output using their own professional judgment.
+</li>
+<li>AI failure exercise. Teachers intentionally ask a weak or ambiguous question and analyze how the AI response can mislead students.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher creates a personal AI research and learning workflow that includes:</p>
+<ol>
+<li>A prompt pattern for learning a new topic.
+</li>
+<li>A prompt pattern for checking misconceptions.
+</li>
+<li>A source-checking routine.
+</li>
+<li>A rule for what they will never send to AI because of privacy or ethics.
+</li>
+<li>A short reflection on where AI helped and where teacher judgment was still needed.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers are evaluated through a short oral explanation and an annotated AI-use example. They must show what they asked AI, what they trusted, what they changed, what they checked externally, and what decision remained their own.</p>
+<h3 id="day-2-ai-for-software-simulators-data-and-classroom-tool-building">Day 2 – AI for Software, Simulators, Data, and Classroom Tool Building</h3>
+<p><strong>Training focus:</strong> Teachers learn how AI can help build simple software artifacts, simulations, models, spreadsheets, quizzes, visualizations, and classroom tools. The emphasis is on building, testing, debugging, and validating against reality or disciplinary knowledge.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>AI as a coding assistant for non-specialists.
+</li>
+<li>Asking AI to build small tools: calculators, simulations, visualizations, worksheets, quizzes, and practice generators.
+</li>
+<li>Software literacy for teachers: inputs, outputs, variables, assumptions, errors, and testing.
+</li>
+<li>Building simple simulators for STEM phenomena.
+</li>
+<li>Using spreadsheets and code to model data.
+</li>
+<li>Debugging AI-generated code or formulas.
+</li>
+<li>Validating digital models against measurement, theory, or known examples.
+</li>
+<li>Teaching students to critique a simulator rather than trust it automatically.
+</li>
+<li>Safety, privacy, copyright, and school policy concerns in digital tool building.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>Build a simple simulator. Teachers choose a familiar phenomenon, such as a swing, cooling water, projectile motion, population growth, electric circuits, or chemical concentration. They use AI to help build a simple spreadsheet, code snippet, or interactive model.
+</li>
+<li>Define variables and assumptions. Teachers list what the simulator includes, what it ignores, and which assumptions may be too simple.
+</li>
+<li>Test with known cases. Teachers compare the simulator with a known formula, measured data, textbook example, or real classroom observation.
+</li>
+<li>Debugging practice. Teachers introduce or discover an error and ask AI to help debug it. They must still explain the correction themselves.
+</li>
+<li>Classroom adaptation. Teachers turn the simulator into a student activity that requires prediction before use and validation after use.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher produces one AI-supported digital artifact:</p>
+<ol>
+<li>A simulator, spreadsheet, simple code tool, visualization, or interactive classroom model.
+</li>
+<li>A short explanation of the phenomenon being modeled.
+</li>
+<li>A list of variables and assumptions.
+</li>
+<li>A validation check against reality, data, or disciplinary knowledge.
+</li>
+<li>A classroom instruction sheet that tells students how to use the tool critically.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers present the artifact and answer four questions:</p>
+<ol>
+<li>What does the model show?
+</li>
+<li>What does it hide or simplify?
+</li>
+<li>How was it validated?
+</li>
+<li>How will students remain responsible for understanding rather than only operating the tool?
+</li>
+</ol>
+<h2 id="section-2-pedagogy">Section 2 – Pedagogy</h2>
+<p>The second section translates the book into classroom practice. It focuses on skills, competencies, the teacher-student-AI triangle, human-first activity design, evidence of learning, classroom environments, and assessment. Teachers do not only discuss the principles. They build classroom-ready materials.</p>
+<h3 id="day-3-skills-competencies-and-the-human-first-ai-learning-cycle">Day 3 – Skills, Competencies, and the Human-First AI Learning Cycle</h3>
+<p><strong>Training focus:</strong> Teachers learn to design STEM activities that develop skills and competencies through disciplinary learning. The day centers on the Human-First AI Learning Cycle.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>The shift from knowledge transmission to competency formation.
+</li>
+<li>The difference between content knowledge, skill, competency, and evidence of learning.
+</li>
+<li>Human judgment, curiosity, creativity, teamwork, communication, reflection, AI literacy, and ethical responsibility.
+</li>
+<li>Why students should observe, explain, measure, and predict before using AI.
+</li>
+<li>The Human-First AI Learning Cycle as a reusable classroom structure.
+</li>
+<li>Keeping disciplinary foundations strong while making thinking visible.
+</li>
+<li>Designing student tasks that require process, not only final answers.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>Phenomenon selection. Teachers choose one STEM phenomenon from their curriculum that can be observed or demonstrated.
+</li>
+<li>Human-first activity design. Teachers design the first four steps: observe, form a thesis, experiment or measure, and predict before AI.
+</li>
+<li>AI entry design. Teachers decide exactly when AI enters the activity and what students may ask it to do.
+</li>
+<li>Verbal explanation routine. Teachers create prompts for student oral explanation before and after AI use.
+</li>
+<li>Peer critique. Teachers exchange plans and check whether AI enters too early, too late, or in the right place.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher creates a one-page Human-First AI Learning Cycle plan for a STEM topic. The plan must include:</p>
+<ol>
+<li>The phenomenon.
+</li>
+<li>Student observation task.
+</li>
+<li>First human explanation task.
+</li>
+<li>Measurement or experiment.
+</li>
+<li>Prediction before AI.
+</li>
+<li>AI learning prompt.
+</li>
+<li>Verbal explanation task.
+</li>
+<li>Simulator or model idea.
+</li>
+<li>Validation method.
+</li>
+<li>Reflection on human responsibility.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers are evaluated by whether the activity keeps student thinking visible before AI, uses AI for comparison and extension, and ends with validation and responsibility.</p>
+<h3 id="day-4-teacher-student-ai-triangle-visible-thinking-and-assessment">Day 4 – Teacher-Student-AI Triangle, Visible Thinking, and Assessment</h3>
+<p><strong>Training focus:</strong> Teachers learn how to manage AI as part of the learning relationship and how to assess student success when AI is involved.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>The teacher-student-AI triangle.
+</li>
+<li>The teacher as designer, mediator, evaluator, and guardian of human judgment.
+</li>
+<li>The student as responsible learner, not passive AI user.
+</li>
+<li>AI as support for explanation, feedback, simulation, practice, and comparison.
+</li>
+<li>Visible thinking routines: reasoning trail, draft history, prompt log, comparison, reflection, and oral defense.
+</li>
+<li>Assessment beyond the final answer.
+</li>
+<li>Portfolio evidence, process evidence, oral explanation, peer feedback, and validation evidence.
+</li>
+<li>Designing rubrics for AI-supported work.
+</li>
+<li>Equity risks when students use AI differently.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>AI-use agreement. Teachers write a classroom agreement defining allowed AI use, limited use, disclosure, and student responsibility.
+</li>
+<li>Visible thinking redesign. Teachers take an existing assignment and add process evidence: prompts, draft, explanation, verification, and reflection.
+</li>
+<li>Rubric design. Teachers build a rubric with criteria for content quality, reasoning, AI transparency, verification, oral explanation, and reflection.
+</li>
+<li>Oral defense simulation. Teachers practice asking students questions that reveal understanding rather than memorized output.
+</li>
+<li>Equity check. Teachers review their redesigned task and identify which students may need extra support to use AI responsibly.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher produces an AI-aware assessment package:</p>
+<ol>
+<li>Classroom AI-use agreement.
+</li>
+<li>Redesigned assignment.
+</li>
+<li>Student process-evidence checklist.
+</li>
+<li>Rubric.
+</li>
+<li>Oral defense question set.
+</li>
+<li>Equity support note.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers present their assessment package and explain how it distinguishes between polished output and real learning. The package should show how the teacher will see student thinking, verify understanding, and protect student responsibility.</p>
+<h3 id="day-5-learning-environments-projects-industry-links-and-classroom-implementation">Day 5 – Learning Environments, Projects, Industry Links, and Classroom Implementation</h3>
+<p><strong>Training focus:</strong> Teachers turn the principles into a complete classroom implementation plan. The day connects physical and digital learning environments, project-based learning, industry context, collaboration, and evidence loops.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>The classroom as a learning environment, not only a room.
+</li>
+<li>Frontal classroom, flexible classroom, makerspace, virtual space, and workplace-linked learning.
+</li>
+<li>Project-based and problem-based STEM learning.
+</li>
+<li>Collaboration and teamwork as explicit competencies.
+</li>
+<li>Using industry or community context without reducing education to job training.
+</li>
+<li>Physical plus virtual learning: simulation, measurement, building, testing, and reflection.
+</li>
+<li>Evidence loops for improving teaching after implementation.
+</li>
+<li>Planning realistic implementation under school constraints.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>Environment audit. Teachers map their real classroom constraints: space, time, tools, student needs, policy, assessment, and support.
+</li>
+<li>Project design. Teachers expand the Human-First AI Learning Cycle plan into a larger classroom project or unit.
+</li>
+<li>Collaboration design. Teachers define student roles such as observer, measurer, AI checker, model builder, skeptic, presenter, and evidence lead.
+</li>
+<li>Industry or community connection. Teachers identify one possible external connection: guest question, real constraint, site visit, mentor, local problem, or professional feedback.
+</li>
+<li>Implementation planning. Teachers create a timeline, materials list, risk list, and evidence plan.
+</li>
+<li>Peer review. Teachers present the plan and receive feedback from colleagues.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher leaves with a complete implementation plan:</p>
+<ol>
+<li>Topic and learning goals.
+</li>
+<li>Target skills and competencies.
+</li>
+<li>Human-First AI Learning Cycle sequence.
+</li>
+<li>AI-use rules.
+</li>
+<li>Student roles.
+</li>
+<li>Learning environment setup.
+</li>
+<li>Assessment evidence.
+</li>
+<li>Timeline.
+</li>
+<li>Materials and tools.
+</li>
+<li>Risk and equity plan.
+</li>
+<li>Optional industry or community link.
+</li>
+<li>Reflection and improvement plan after teaching.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers complete a final presentation of their classroom implementation plan. Evaluation focuses on whether the plan is practical, grounded in STEM content, skill-rich, AI-aware, assessable, and faithful to the principle that students remain above AI.</p>
+<h2 id="section-3-leading-change">Section 3 – Leading Change</h2>
+<p>This section turns the training program outward, from classroom design to professional leadership.</p>
+<h3 id="day-6-leading-ai-era-stem-change">Day 6 – Leading AI-Era STEM Change</h3>
+<p><strong>Training focus:</strong> Teachers learn how to turn one classroom implementation into a small, evidence-based change effort with colleagues, leaders, and partners.</p>
+<p><strong>Core topics:</strong></p>
+<ol>
+<li>Teacher leadership identity.
+</li>
+<li>Influencing colleagues without coercion.
+</li>
+<li>Building a school or department change team.
+</li>
+<li>Creating shared language around AI-era STEM education.
+</li>
+<li>Supporting new teachers.
+</li>
+<li>Working with resistance.
+</li>
+<li>Building evidence for change.
+</li>
+<li>Communicating with leadership, parents, policy makers, and industry partners.
+</li>
+<li>Sustaining change over time.
+</li>
+</ol>
+<p><strong>Hands-on practice:</strong></p>
+<ol>
+<li>Change goal definition. Teachers choose one practice from the program that should spread beyond their own classroom.
+</li>
+<li>Stakeholder map. Teachers identify colleagues, leaders, students, parents, technical support, and external partners whose cooperation is needed.
+</li>
+<li>Resistance analysis. Teachers name likely concerns and prepare responses that protect professional dignity rather than blame teachers.
+</li>
+<li>Evidence plan. Teachers define what evidence will show that the change improved learning, not only that an activity took place.
+</li>
+<li>First-month plan. Teachers write the first four weeks of action: one colleague conversation, one shared artifact, one trial lesson, one feedback meeting, and one leadership update.
+</li>
+</ol>
+<p><strong>Teacher deliverable:</strong></p>
+<p>Each teacher produces an initial change plan that includes:</p>
+<ol>
+<li>The practice to spread.
+</li>
+<li>The reason it matters for student learning.
+</li>
+<li>The people who need to be involved.
+</li>
+<li>The support they will need.
+</li>
+<li>The evidence to collect.
+</li>
+<li>The first-month action plan.
+</li>
+<li>A communication note for school or department leadership.
+</li>
+</ol>
+<p><strong>Evaluation of teacher learning:</strong></p>
+<p>Teachers present the change plan and explain how it avoids one-off training. A strong plan is modest, specific, evidence-based, respectful of colleagues’ workload, and connected to the human-first principles of the program.</p>
+        </main>
+    </div>
+</body>
+</html>

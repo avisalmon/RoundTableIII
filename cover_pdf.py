@@ -28,10 +28,10 @@ AUTHORS = [
   "Avi Salmon",
   "Dr. Eli Eisenberg",
   "Prof. Arnon Bentur",
-  "Tamar Dayan",
-  "Yael Granot",
+  "Dr. Yael Granot-Bein",
   "Dr. Revital Duek",
-  "Inna",
+  "Tamar Dayan",
+  "Inna Zertser",
 ]
 AUTHOR = "; ".join(AUTHORS)
 SPINE_AUTHOR = "Avi Salmon et al."

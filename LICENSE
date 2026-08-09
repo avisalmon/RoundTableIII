@@ -1,0 +1,48 @@
+Copyright (c) 2026 Avi Salmon, Dr. Eli Eisenberg, Prof. Arnon Bentur,
+Dr. Yael Granot-Bein, Dr. Revital Duek, Tamar Dayan, and Inna Zertser.
+
+This repository contains two kinds of work, under two different terms.
+
+
+1. THE BOOK — ALL RIGHTS RESERVED
+---------------------------------
+
+The manuscript and every derived edition of it — including but not limited to
+book/manuscript.md, book/references.md, book.html, book.pdf, cover.pdf, and
+index.html — are the copyrighted work of the authors named above.
+
+No part of the book may be reproduced, distributed, or transmitted in any form
+or by any means, including photocopying, recording, or other electronic or
+mechanical methods, without the prior written permission of the authors, except
+in the case of brief quotations embodied in critical reviews and certain other
+non-commercial uses permitted by copyright law.
+
+The book quotes and cites third-party documents, including material published by
+the OECD, UNESCO, and other organisations. Those documents remain the property of
+their respective rights holders and are not licensed by this file. They are not
+distributed with this repository.
+
+
+2. THE BUILD SCRIPTS — MIT LICENSE
+----------------------------------
+
+The tooling that produces the book — build_book.py, book_pdf.py, cover_pdf.py,
+chrome_pdf.py, kdp_report.py, and the scripts under tools/ — is released under
+the MIT License:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -13,10 +13,36 @@ import kdp_report
 
 ROOT = Path(__file__).resolve().parent
 MANUSCRIPT = ROOT / "book" / "manuscript.md"
+PAGES_DIR = ROOT / "book" / "pages"
 INDEX_HTML = ROOT / "index.html"
 BOOK_HTML = ROOT / "book.html"
 BOOK_PDF = ROOT / "book.pdf"
 COVER_PDF = ROOT / "cover.pdf"
+
+# Standalone companion pages: (markdown source, output file, nav label, blurb for the gateway).
+COMPANION_PAGES = [
+    (
+        "main_skills.md",
+        "skills.html",
+        "Main Skills",
+        "The five competencies the Round Table converged on, what AI changed about each, "
+        "and why AI literacy is a layer across all five rather than a sixth item.",
+    ),
+    (
+        "lesson_model.md",
+        "model.html",
+        "Lesson Model",
+        "The Human-First AI Learning Cycle as a lesson skeleton: ten steps, a worked example, "
+        "the three ways it fails, and how to assess the path rather than the artifact.",
+    ),
+    (
+        "training_program.md",
+        "training.html",
+        "Training Proposal",
+        "A six-day teacher training program in three sections \u2014 AI knowledge, pedagogy, "
+        "and leading change \u2014 with a deliverable and an evaluation for every day.",
+    ),
+]
 
 
 @dataclass
@@ -149,6 +175,25 @@ def collect_figures(document: str) -> list[tuple[str, str]]:
     return [(match.group(1), match.group(2)) for match in pattern.finditer(document)]
 
 
+def render_steps_card(lines: list[str]) -> str:
+    """Fenced `steps-card` block: first line is the card title, the rest are steps.
+    A step prefixed with * is the highlighted one."""
+    entries = [line.strip() for line in lines if line.strip()]
+    title, steps = entries[0], entries[1:]
+    items = []
+    for number, step in enumerate(steps, start=1):
+        highlighted = step.startswith("*")
+        label = html.escape(step.lstrip("*").strip())
+        css_class = ' class="step-highlight"' if highlighted else ""
+        items.append(f'<li{css_class}><span class="step-number">{number}</span><span>{label}</span></li>')
+    return (
+        '<div class="steps-card">'
+        f'<div class="steps-card-head">{html.escape(title)}</div>'
+        f'<ol class="steps-card-list">{"".join(items)}</ol>'
+        "</div>"
+    )
+
+
 def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
     anchor_by_line = {heading.line: heading.anchor for heading in headings}
     lines = markdown.splitlines()
@@ -192,6 +237,8 @@ def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
                 code = html.escape("\n".join(fence_lines))
                 if fence_lang == "mermaid":
                     output.append(f'<pre class="mermaid">{code}</pre>')
+                elif fence_lang == "steps-card":
+                    output.append(render_steps_card(fence_lines))
                 else:
                     lang_class = f"language-{html.escape(fence_lang)}" if fence_lang else ""
                     output.append(f'<pre><code class="{lang_class}">{code}</code></pre>')
@@ -299,10 +346,9 @@ def site_nav() -> str:
                 <a href="book.pdf">KDP Interior</a>
             </div>
         </details>
-        <a href="index.html#main-skills">Main Skills</a>
-        <a href="index.html#training-proposal">Training Proposal</a>
-        <a href="index.html#model-reference">Model Reference</a>
-        <a href="index.html#summaries">Summaries</a>
+        <a href="skills.html">Main Skills</a>
+        <a href="model.html">Lesson Model</a>
+        <a href="training.html">Training Proposal</a>
     </nav>
 </header>
 """
@@ -364,19 +410,10 @@ a { color: var(--accent); }
 }
 .nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
 .site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
-.disclaimer {
-    margin: 18px 0 22px;
-    padding: 14px 18px;
-    border: 1px solid var(--accent-2);
-    background: #fff4e6;
-    color: #54311f;
-    font-family: Verdana, sans-serif;
-    font-size: 0.92rem;
-}
 .hero {
   min-height: 74vh;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 48px;
   align-items: center;
   border-bottom: 1px solid var(--line);
@@ -414,10 +451,79 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
 .summary-card { min-height: 86px; display: flex; align-items: end; padding: 14px; background: #fffaf0; border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
 .summary-card:hover { border-color: var(--accent); }
-.placeholder-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
-.placeholder-card { min-height: 140px; padding: 16px; background: #fffaf0; border: 1px dashed var(--accent); }
-.placeholder-card h3 { margin: 0 0 8px; font-size: 1.1rem; color: var(--accent-2); }
-.placeholder-card p { margin: 0; color: var(--muted); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.link-card {
+  display: block;
+  padding: 20px;
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.link-card:hover { border-color: var(--accent); box-shadow: 0 10px 24px var(--shadow); }
+.link-card h3 { margin: 0 0 10px; font-size: 1.2rem; color: var(--accent-2); }
+.link-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+.page-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; max-width: 1180px; margin: 0 auto; padding: 24px; }
+.page-content { max-width: 780px; }
+.page-content h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 8px 0 22px; }
+.page-content h2 { font-size: 1.75rem; margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line); line-height: 1.15; }
+.page-content h3 { font-size: 1.15rem; margin-top: 30px; color: var(--accent-2); }
+.page-content p, .page-content li { font-size: 1.05rem; }
+.page-content h1 + p { font-size: 1.22rem; color: var(--muted); }
+.page-content table { width: 100%; margin: 24px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.steps-card {
+  width: min(100%, 520px);
+  aspect-ratio: 1.586;
+  margin: 30px 0;
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  color: #fff8e6;
+  font-family: Verdana, sans-serif;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(235, 185, 82, 0.5), transparent 38%),
+    radial-gradient(circle at 12% 84%, rgba(111, 182, 164, 0.42), transparent 36%),
+    linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+  box-shadow: 0 14px 34px var(--shadow);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.steps-card-head { color: #efc978; font: 700 0.72rem/1.3 Verdana, sans-serif; letter-spacing: 0.11em; text-transform: uppercase; }
+.steps-card-list {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.steps-card-list li { display: flex; align-items: center; gap: 9px; font-size: 0.78rem; line-height: 1.15; }
+.steps-card .step-number {
+  flex: none;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 201, 120, 0.55);
+  color: #efc978;
+  font-size: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-card .step-highlight { color: #f8e7bd; font-weight: 700; }
+.steps-card .step-highlight .step-number { background: #efc978; border-color: #efc978; color: #10251f; }
+@media (max-width: 520px) {
+  .steps-card { aspect-ratio: auto; }
+  .steps-card-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; row-gap: 7px; }
+}
 .book-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 36px; max-width: 1320px; margin: 0 auto; padding: 24px; }
 .reader-nav { position: sticky; top: 0; align-self: start; height: 100vh; overflow: auto; border-right: 1px solid var(--line); padding: 16px 18px 16px 0; font-family: Verdana, sans-serif; font-size: 0.88rem; }
 .reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
@@ -475,7 +581,7 @@ pre.mermaid { background: none; border: 0; text-align: center; }
     .site-nav { align-items: flex-start; flex-direction: column; }
     .site-nav nav { justify-content: flex-start; }
     .nav-menu-panel { left: 0; right: auto; }
-    .hero, .book-layout, .book-cover-gate { grid-template-columns: 1fr; }
+    .hero, .book-layout, .book-cover-gate, .page-layout { grid-template-columns: 1fr; }
   .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
 }
 @media print {
@@ -553,7 +659,10 @@ def render_index(headings: list[Heading]) -> str:
     title = title_from_headings(headings)
     toc = build_toc(headings)
     summaries = build_summaries(headings)
-    generated = date.today().isoformat()
+    cards = "\n".join(
+        f'<a class="link-card" href="{output}"><h3>{html.escape(label)}</h3><p>{html.escape(blurb)}</p></a>'
+        for _, output, label, blurb in COMPANION_PAGES
+    )
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -566,9 +675,6 @@ def render_index(headings: list[Heading]) -> str:
 <body>
     {site_nav()}
   <main class="site-shell">
-        <div class="disclaimer">
-            This website is a draft synthesis by Avi Salmon, Dr. Eli Eisenberg, Prof. Arnon Bentur, Tamar Dayan, Yael Granot, Dr. Revital Duek, and Inna. It was generated with AI assistance and reviewed by the authors, and it is not a formal document for publication.
-        </div>
     <section class="hero">
       <div>
         <div class="eyebrow">International STEM Skills Round Table Phase III</div>
@@ -577,15 +683,9 @@ def render_index(headings: list[Heading]) -> str:
         <div class="actions">
           <a class="button primary" href="book.html">Read the book</a>
           <a class="button" href="book.pdf">Download KDP interior PDF</a>
-          <a class="button" href="book/manuscript.md">Open source manuscript</a>
           <a class="button" href="book/references.md">Source references</a>
         </div>
       </div>
-      <aside class="note-panel">
-        <p><strong>Golden source:</strong> book/manuscript.md</p>
-        <p><strong>Generated:</strong> {generated}</p>
-        <p><strong>Rule:</strong> edit and comment on the manuscript only. Regenerate this website and PDF from that file.</p>
-      </aside>
     </section>
         <section class="section" id="overview">
             <h2>Project Summary</h2>
@@ -595,25 +695,8 @@ def render_index(headings: list[Heading]) -> str:
             </div>
         </section>
         <section class="section" id="site-sections">
-            <h2>Site Sections in Progress</h2>
-            <div class="placeholder-grid">
-                <article class="placeholder-card" id="main-skills">
-                    <h3>Main Skills</h3>
-                    <p>Placeholder for the core STEM and AI-era skills framework.</p>
-                </article>
-                <article class="placeholder-card" id="training-proposal">
-                    <h3>Training Proposal</h3>
-                    <p>Placeholder for the teacher training program and implementation plan.</p>
-                </article>
-                <article class="placeholder-card" id="model-reference">
-                    <h3>Model Reference</h3>
-                    <p>Placeholder for the short model, diagrams, and reusable educator profile reference.</p>
-                </article>
-                <article class="placeholder-card" id="summaries">
-                    <h3>Summaries</h3>
-                    <p>Placeholder for short summaries, meeting notes, and reader-facing extracts.</p>
-                </article>
-            </div>
+            <h2>Companion Pages</h2>
+            <div class="card-grid">{cards}</div>
         </section>
         <section class="section">
       <h2>Read by Chapter</h2>
@@ -629,10 +712,51 @@ def render_index(headings: list[Heading]) -> str:
 """
 
 
+def render_companion_page(source: Path) -> str:
+    markdown = source.read_text(encoding="utf-8")
+    headings = extract_headings(markdown)
+    body = markdown_to_html(markdown, headings)
+    title = title_from_headings(headings)
+    section_links = "\n".join(
+        f'<a class="toc-level-{heading.level}" href="#{heading.anchor}">'
+        f"{html.escape(smart_typography(heading.title))}</a>"
+        for heading in headings
+        if heading.level == 2
+    )
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>{html.escape(title)}</title>
+    <style>{stylesheet()}</style>
+</head>
+<body>
+    {site_nav()}
+    <div class="page-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="book.html">Full book</a>
+            {section_links}
+        </nav>
+        <main class="page-content">
+            {body}
+        </main>
+    </div>
+</body>
+</html>
+"""
+
+
 def write_outputs(markdown: str, headings: list[Heading]) -> str:
     body = markdown_to_html(markdown, headings)
     BOOK_HTML.write_text(render_book(body, headings), encoding="utf-8")
     INDEX_HTML.write_text(render_index(headings), encoding="utf-8")
+    for source_name, output_name, _, _ in COMPANION_PAGES:
+        (ROOT / output_name).write_text(
+            render_companion_page(PAGES_DIR / source_name), encoding="utf-8"
+        )
     return body
 
 
@@ -640,7 +764,8 @@ def main() -> int:
     markdown = read_manuscript()
     headings = extract_headings(markdown)
     body = write_outputs(markdown, headings)
-    print(f"Generated {INDEX_HTML.name} and {BOOK_HTML.name} from {MANUSCRIPT.relative_to(ROOT)}")
+    page_names = ", ".join(output for _, output, _, _ in COMPANION_PAGES)
+    print(f"Generated {INDEX_HTML.name}, {BOOK_HTML.name} and {page_names}")
 
     result = book_pdf.build_pdf(
         markdown=markdown,

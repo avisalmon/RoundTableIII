@@ -57,13 +57,15 @@ AUTHORS = [
   "Avi Salmon",
   "Dr. Eli Eisenberg",
   "Prof. Arnon Bentur",
-  "Tamar Dayan",
-  "Yael Granot",
+  "Dr. Yael Granot-Bein",
   "Dr. Revital Duek",
-  "Inna",
+  "Tamar Dayan",
+  "Inna Zertser",
 ]
 AUTHOR = "; ".join(AUTHORS)
 CONTACT = "avi.salmon@gmail.com"
+# Set to the KDP-assigned ISBN before publishing. Empty means the line is omitted.
+ISBN = ""
 
 
 @dataclass
@@ -184,6 +186,7 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
     subtitle = html.escape(meta.subtitle)
     series = html.escape(meta.series)
     author_lines = "<br>".join(html.escape(author) for author in AUTHORS)
+    isbn_line = f"<p>ISBN: {html.escape(ISBN)}</p>" if ISBN else ""
     return f"""
 <section class="halftitle">
   <p class="halftitle-text">{title}</p>
@@ -202,7 +205,7 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
   <p>Copyright &copy; {meta.year} {html.escape(AUTHOR)}</p>
   <p>All rights reserved.</p>
   <p>First edition, {meta.year}</p>
-  <p>ISBN: 000-0-0000000-0-0 &nbsp;<span class="placeholder">[replace with your KDP ISBN before publishing]</span></p>
+  {isbn_line}
   <p>No part of this publication may be reproduced, distributed, or transmitted in any form or by
      any means, including photocopying, recording, or other electronic or mechanical methods,
      without the prior written permission of the author, except in the case of brief quotations

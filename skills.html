@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Main Skills</title>
+    <style>
+:root {
+  --ink: #17201a;
+  --muted: #5b655d;
+  --paper: #fffdf6;
+  --panel: #f4efe2;
+  --line: #d9ceb7;
+  --accent: #1f6b5b;
+  --accent-2: #b6532b;
+  --shadow: rgba(44, 35, 20, 0.13);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #f2e1c8 0, transparent 34rem), var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 253, 246, 0.96);
+    backdrop-filter: blur(12px);
+    font-family: Verdana, sans-serif;
+}
+.brand { font-weight: 700; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
+.site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
+.site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
+.site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
+.hero {
+  min-height: 74vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.eyebrow { color: var(--accent-2); font: 700 0.8rem/1.2 Verdana, sans-serif; letter-spacing: 0; text-transform: uppercase; }
+h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20px; font-weight: 500; }
+.subtitle { font-size: 1.25rem; color: var(--muted); max-width: 48rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  font: 700 0.9rem/1.2 Verdana, sans-serif;
+  background: #fffaf0;
+}
+.button.primary { background: var(--ink); color: #fffdf6; }
+.note-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 22px;
+  box-shadow: 0 16px 40px var(--shadow);
+}
+.section { padding: 42px 0; border-bottom: 1px solid var(--line); }
+.section h2 { font-size: 2rem; line-height: 1.1; margin: 0 0 18px; }
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.overview p { margin-top: 0; }
+.toc-grid { columns: 2 280px; column-gap: 36px; }
+.toc-grid a { display: block; break-inside: avoid; padding: 5px 0; text-decoration: none; }
+.toc-level-1 { font-weight: 700; color: var(--accent-2); margin-top: 12px; }
+.toc-level-2 { padding-left: 12px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.summary-card { min-height: 86px; display: flex; align-items: end; padding: 14px; background: #fffaf0; border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.summary-card:hover { border-color: var(--accent); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.link-card {
+  display: block;
+  padding: 20px;
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.link-card:hover { border-color: var(--accent); box-shadow: 0 10px 24px var(--shadow); }
+.link-card h3 { margin: 0 0 10px; font-size: 1.2rem; color: var(--accent-2); }
+.link-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+.page-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; max-width: 1180px; margin: 0 auto; padding: 24px; }
+.page-content { max-width: 780px; }
+.page-content h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 8px 0 22px; }
+.page-content h2 { font-size: 1.75rem; margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line); line-height: 1.15; }
+.page-content h3 { font-size: 1.15rem; margin-top: 30px; color: var(--accent-2); }
+.page-content p, .page-content li { font-size: 1.05rem; }
+.page-content h1 + p { font-size: 1.22rem; color: var(--muted); }
+.page-content table { width: 100%; margin: 24px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.steps-card {
+  width: min(100%, 520px);
+  aspect-ratio: 1.586;
+  margin: 30px 0;
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  color: #fff8e6;
+  font-family: Verdana, sans-serif;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(235, 185, 82, 0.5), transparent 38%),
+    radial-gradient(circle at 12% 84%, rgba(111, 182, 164, 0.42), transparent 36%),
+    linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+  box-shadow: 0 14px 34px var(--shadow);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.steps-card-head { color: #efc978; font: 700 0.72rem/1.3 Verdana, sans-serif; letter-spacing: 0.11em; text-transform: uppercase; }
+.steps-card-list {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.steps-card-list li { display: flex; align-items: center; gap: 9px; font-size: 0.78rem; line-height: 1.15; }
+.steps-card .step-number {
+  flex: none;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 201, 120, 0.55);
+  color: #efc978;
+  font-size: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-card .step-highlight { color: #f8e7bd; font-weight: 700; }
+.steps-card .step-highlight .step-number { background: #efc978; border-color: #efc978; color: #10251f; }
+@media (max-width: 520px) {
+  .steps-card { aspect-ratio: auto; }
+  .steps-card-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; row-gap: 7px; }
+}
+.book-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 36px; max-width: 1320px; margin: 0 auto; padding: 24px; }
+.reader-nav { position: sticky; top: 0; align-self: start; height: 100vh; overflow: auto; border-right: 1px solid var(--line); padding: 16px 18px 16px 0; font-family: Verdana, sans-serif; font-size: 0.88rem; }
+.reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
+.reader-nav .toc-level-1 { margin-top: 10px; }
+.book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1 { font-size: 3.2rem; margin-top: 28px; }
+.book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
+.book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
+.book-content p, .book-content li { font-size: 1.05rem; }
+pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
+.top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
+@media (max-width: 820px) {
+    .site-nav { align-items: flex-start; flex-direction: column; }
+    .site-nav nav { justify-content: flex-start; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate, .page-layout { grid-template-columns: 1fr; }
+  .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media print {
+  body { background: #fff; }
+    .site-nav, .reader-nav, .top-link { display: none; }
+  .book-layout { display: block; padding: 0; }
+  .book-content { max-width: none; }
+  .book-content h1 { page-break-before: always; }
+  .book-content h1:first-child { page-break-before: auto; }
+  .book-content h2 { page-break-before: always; border-top: 0; }
+  a { color: #17201a; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+    
+<header class="site-nav" id="top">
+    <a class="brand" href="index.html">International STEM Skills Round Table Phase III</a>
+    <nav aria-label="Main site navigation">
+        <a href="index.html">Home</a>
+        <a href="book.html">Book</a>
+        <details class="nav-menu">
+            <summary>PDF</summary>
+            <div class="nav-menu-panel">
+                <a href="cover.pdf">KDP Cover</a>
+                <a href="book.pdf">KDP Interior</a>
+            </div>
+        </details>
+        <a href="skills.html">Main Skills</a>
+        <a href="model.html">Lesson Model</a>
+        <a href="training.html">Training Proposal</a>
+    </nav>
+</header>
+
+    <div class="page-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="book.html">Full book</a>
+            <a class="toc-level-2" href="#the-five-competencies">The Five Competencies</a>
+<a class="toc-level-2" href="#ai-literacy-is-a-layer-not-a-sixth-skill">AI Literacy Is a Layer, Not a Sixth Skill</a>
+<a class="toc-level-2" href="#what-about-curiosity-and-creativity">What About Curiosity and Creativity</a>
+<a class="toc-level-2" href="#an-architecture-not-a-list">An Architecture, Not a List</a>
+<a class="toc-level-2" href="#keep-the-human-above-the-machine">Keep the Human Above the Machine</a>
+<a class="toc-level-2" href="#read-more-in-the-book">Read More in the Book</a>
+        </nav>
+        <main class="page-content">
+            <h1 id="main-skills">Main Skills</h1>
+<p>The Round Table converged on five competencies, with AI literacy running across all five rather than sitting beside them as a sixth. The first four came from the Phase I consensus. The fifth was added in Phase III because AI raises questions of integrity, ownership, fairness and accountability that cut through everything else.</p>
+<p>The argument of the book is that AI did not add one competency to the list. It changed the meaning of every competency already on it.</p>
+<h2 id="the-five-competencies">The Five Competencies</h2>
+<h3 id="1-critical-thinking">1. Critical thinking</h3>
+<p>Judging whether a claim, a method, or a result deserves to be believed.</p>
+<p><strong>What AI changed.</strong> The object of scrutiny moved. Students no longer only evaluate their own reasoning and the textbook’s; they evaluate fluent, confident, well-formatted output that carries no signal of its own reliability. A student may reason well about a physics problem and still accept an AI explanation that is subtly wrong, because nothing in its surface says so.</p>
+<p><strong>What it looks like in class.</strong> The student can state what would make the answer wrong, check it against evidence they collected themselves, and identify the assumption the model is quietly making.</p>
+<h3 id="2-self-directed-learning">2. Self-directed learning</h3>
+<p>Setting a direction, monitoring your own understanding, and continuing without being pushed.</p>
+<p><strong>What AI changed.</strong> The natural stopping point moved earlier. An automated answer feels like the end of the task, so the question becomes whether the student knows when to keep going past it. Self-direction now includes recognising the difference between having an answer and understanding it.</p>
+<p><strong>What it looks like in class.</strong> The student can say what they still do not understand after receiving a correct answer, and what they did about it.</p>
+<h3 id="3-teamwork-and-interpersonal-communication">3. Teamwork and interpersonal communication</h3>
+<p>Working with others in a way that makes contribution and responsibility visible.</p>
+<p><strong>What AI changed.</strong> Teams are no longer only human. Collaboration now spans human-machine work, where the risk is that AI use hides who did what. A group can produce excellent work in which no member can explain the reasoning.</p>
+<p><strong>What it looks like in class.</strong> Contribution is traceable, and each member can defend the part of the work that carries their name.</p>
+<h3 id="4-solving-complex-problems">4. Solving complex problems</h3>
+<p>Framing a problem, choosing constraints, and working through a situation that has no clean answer.</p>
+<p><strong>What AI changed.</strong> Execution became cheap and framing became decisive. The scarce skill is deciding what problem to solve, what constraints are real, and what a good enough solution looks like — the parts a model cannot be handed.</p>
+<p><strong>What it looks like in class.</strong> The student can defend the framing, not only the solution: why these constraints, why this simplification, why this counts as solved.</p>
+<h3 id="5-ethical-judgment-and-responsible-use">5. Ethical judgment and responsible use</h3>
+<p>Deciding what should be done, disclosed, refused, or attributed.</p>
+<p><strong>What AI changed.</strong> Nothing about this competency is new, but it stopped being occasional. Integrity, transparency, attribution and fairness now arise in ordinary homework, not only in edge cases. This is the competency Phase III added explicitly, in the Meeting 3 discussion document prepared by Dr. Eli Eisenberg, Prof. Arnon Bentur and Avi Salmon.</p>
+<p><strong>What it looks like in class.</strong> The student discloses AI use without being asked, and can explain a case where they decided not to use it.</p>
+<h2 id="ai-literacy-is-a-layer-not-a-sixth-skill">AI Literacy Is a Layer, Not a Sixth Skill</h2>
+<p>AI literacy is treated as an operating layer across all five competencies. The book is explicit that it is not “knowing how to prompt.” It has four ascending layers, and only the last two are educationally interesting:</p>
+<table><thead><tr><th class="align-left">Layer</th><th class="align-left">The student can</th><th class="align-left">Why it is not enough on its own</th></tr></thead><tbody><tr><td class="align-left">Capability</td><td class="align-left">Perform or take part in the activity</td><td class="align-left">Operating a tool is not understanding</td></tr><tr><td class="align-left">Understanding</td><td class="align-left">Say why the action or answer makes sense</td><td class="align-left">Explanation without evaluation still accepts the frame</td></tr><tr><td class="align-left">Judgment</td><td class="align-left">Evaluate quality, limits, risks and alternatives</td><td class="align-left">Judgment without ownership stays hypothetical</td></tr><tr><td class="align-left">Responsibility</td><td class="align-left">Explain and defend the decision to use, revise, reject or disclose AI support</td><td class="align-left">This is the level the book argues for</td></tr></tbody></table>
+<p>The same ladder applies to teachers. A teacher needs enough AI literacy to design meaningful learning, enough ethical judgment to set boundaries, enough pedagogical confidence to make thinking visible, and enough professional agency to adapt as the tools change.</p>
+<h2 id="what-about-curiosity-and-creativity">What About Curiosity and Creativity</h2>
+<p>Curiosity, creativity, communication and reflection appear throughout the book and throughout the Round Table discussions. They are treated as manifestations of the five competencies rather than separate list items — creativity shows up inside solving complex problems, reflection inside self-directed learning, communication inside teamwork.</p>
+<p>This is a deliberate choice against list inflation. A framework that names fifteen competencies is a framework nobody assesses.</p>
+<h2 id="an-architecture-not-a-list">An Architecture, Not a List</h2>
+<p>The harder claim in the book is not the list itself but where the competencies live. They are not a separate subject. They develop inside disciplinary work or not at all: critical thinking inside a physics problem, teamwork inside an engineering project, ethical judgment inside an AI-supported design task.</p>
+<p>That choice has a cost, and the book states it. Embedded competencies are harder to see, harder to assess, and depend on every teacher understanding how to design for them. The counter-argument — that competency and transfer claims of this kind are under-evidenced — is set out in full in the chapter written against the book’s own thesis.</p>
+<h2 id="keep-the-human-above-the-machine">Keep the Human Above the Machine</h2>
+<p>The governing principle attached to the five competencies. In practice it means every STEM task involving AI should ask the student for six pieces of evidence:</p>
+<ol>
+<li>What they asked the AI to do.
+</li>
+<li>What they accepted, rejected, or changed.
+</li>
+<li>How they checked the output.
+</li>
+<li>What they learned independently.
+</li>
+<li>What ethical or practical risks they considered.
+</li>
+<li>Why the final answer is their responsibility.
+</li>
+</ol>
+<p>This is not anti-AI education. It is the minimum that keeps the student, rather than the tool, as the author of the work.</p>
+<h2 id="read-more-in-the-book">Read More in the Book</h2>
+<ul>
+<li><a href="book.html#chapter-2-from-knowledge-transmission-to-competency-formation">Chapter 2 – From Knowledge Transmission to Competency Formation</a>
+</li>
+<li><a href="book.html#chapter-3-the-five-competencies-in-an-ai-rich-world">Chapter 3 – The Five Competencies in an AI-Rich World</a>
+</li>
+<li><a href="book.html#chapter-4-one-profile-or-many">Chapter 4 – One Profile or Many?</a>
+</li>
+<li><a href="book.html#chapter-16-evidence-evaluation-and-institutional-learning">Chapter 16 – Evidence, Evaluation, and Institutional Learning</a>
+</li>
+<li><a href="book.html#chapter-24-the-case-against-this-book">Chapter 24 – The Case Against This Book</a>
+</li>
+</ul>
+        </main>
+    </div>
+</body>
+</html>

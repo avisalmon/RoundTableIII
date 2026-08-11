@@ -15,7 +15,7 @@ This book is not an official publication of the Samuel Neaman Institute or of an
 
 The author was himself a participant in the Round Table and presented at the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
 
-The evidence base is uneven across the book. Meetings one, two, three, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting five left steering-team summaries and outlines but no primary record of the session itself. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them. Chapters that rest mainly on retrospective summaries say so in their sources, and the reader should treat their attributions as reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used here on that basis.
+The evidence base is uneven across the book. Meetings one, two, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting three left a discussion document prepared before the session rather than a record of it, so the chapters drawn from that meeting report the questions put to the room more faithfully than the answers given in it. Meeting five left only steering-team summaries and outlines, with no primary record of the session itself. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them. Chapters that rest mainly on retrospective summaries say so in their sources, and the reader should treat their attributions as reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used here on that basis.
 
 This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
 
@@ -3015,7 +3015,7 @@ This book's answer is that the measurement systems should change, which is true 
 
 ### The Evidence Base Is Uneven and Partly Retrospective
 
-Meeting five left no primary record of the session itself. Several attributed positions there come from steering-team summaries written after the fact. The book says so in its Editorial Note, but a reader should hold the attributions accordingly: these are reported contributions, filtered through a summarizer, then synthesized by an editor who was himself a participant.
+Meetings three and five left no primary record of the session itself. Part III rests largely on a discussion document written before Meeting 3, which means it reports the questions the organizers posed rather than the answers the room gave. Part V rests on steering-team summaries written after Meeting 5. Several attributed positions in both parts are therefore reported at second hand. The book says so in its Editorial Note, but a reader should hold the attributions accordingly: these are reported contributions, filtered through a summarizer, then synthesized by an editor who was himself a participant.
 
 ### AI Capability May Outrun the Argument
 
@@ -3333,10 +3333,10 @@ The following people took part in Phase III sessions. This book does not attribu
 ## Appendix B - Meeting Timeline
 
 - Meeting 1: 16.12.2025, introduction and AI-era skills. A full meeting summary and a published recording exist for this meeting. The invitation circulated in November 2025 announced 02.12.2025; the meeting summary is headed 16.12.2025, and this book follows the summary.
-- Meeting 2: 20.01.2026, uniform or diverse teacher and lecturer profiles.
-- Meeting 3: 10.03.2026, possessing versus cultivating competencies.
-- Meeting 4: 28.04.2026, teacher-student-AI triangle.
-- Meeting 5: 09.06.2026, professional development responsibility.
+- Meeting 2: 20.01.2026, uniform or diverse teacher and lecturer profiles. A full meeting summary, both presentation decks, and a published recording exist for this meeting.
+- Meeting 3: 10.03.2026, possessing versus cultivating competencies. No meeting summary was found in the collected materials. The record for this session is the discussion document circulated on 22.02.2026, before the meeting.
+- Meeting 4: 28.04.2026, teacher-student-AI triangle. A full meeting summary, presentation files, and a published recording exist for this meeting.
+- Meeting 5: 09.06.2026, professional development responsibility. No meeting summary and no presentation files were found. The steering summaries written before and after the session are the only record.
 - Meeting 6: 21.07.2026, learning environments, industry, XR/VR, mentors. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was still circulating as a draft for participant comment when this edition was prepared, so its attributions are reported rather than finally approved.
 - Steering-committee discussions: 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026. Where no full meeting summary or presentation file was available, these steering summaries are the primary record for the synthesis.
 
@@ -3359,6 +3359,8 @@ Additional presentation or background materials:
 - [The Teacher in the AI Era discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
 - [Meeting 1 draft summary, 16.12.2025](../materials/meeting-1-summary.docx).
+- [Meeting 2 draft summary, 20.01.2026](../materials/meeting-2-summary.docx).
+- [Meeting 4 draft summary, 28.04.2026](../materials/meeting-4-summary.docx).
 - [Meeting 6 draft summary, 21.07.2026](../materials/meeting-6-summary.docx).
 - [International Round Table for Advancing Skills in STEM Education, Phase I report](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II report, March 2025](../materials/phase-2-report.pdf).

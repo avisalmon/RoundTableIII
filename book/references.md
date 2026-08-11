@@ -156,11 +156,13 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 ### Phase III Meeting Materials
 
 - [Meeting 1 draft summary, 16.12.2025](../materials/meeting-1-summary.docx).
+- [Meeting 2 draft summary, 20.01.2026](../materials/meeting-2-summary.docx).
 - [Meeting 2 presentation](../materials/meeting-2-presentation.pptx).
 - [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx).
 - [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 - [Meeting 3 discussion document, The Teacher in the AI Era](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
+- [Meeting 4 draft summary, 28.04.2026](../materials/meeting-4-summary.docx).
 - [Meeting 4 presentation](../materials/meeting-4-presentation.pptx).
 - [Danielle Eisenberg / Ignite Ed presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 - [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
@@ -178,4 +180,4 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 
 Recordings were published as YouTube links inside the meeting summaries. They cover [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 4](https://youtu.be/zAtAT7lsPac), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo). Meetings 3 and 5 were held on Zoom and no published recording is available.
 
-The Meeting 1 and Meeting 6 summaries were circulated to participants as drafts for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared.
+The Meeting 1, 2, 4, and 6 summaries were circulated to participants as drafts for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared. No summary was found for Meeting 3 or Meeting 5.

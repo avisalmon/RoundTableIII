@@ -27,7 +27,7 @@ One name appears on the cover of this book, and that is a statement about editor
 
 **The people who made Phase III happen.** Dr. Eli Eisenberg initiated and led the Round Table. He opened the meetings, introduced each dilemma, moderated the discussion, and insisted that the process be an active professional inquiry rather than a documentation exercise. Prof. Arnon Bentur gave the inquiry its conceptual spine. The sequence of dilemmas he set out at the second meeting - educator profile, possession versus cultivation of competencies, the teacher-student-AI relationship, professional development, learning environments - is the sequence this book follows chapter by chapter. Dr. Avigdor Zonnenshain brought the systems and engineering-education perspective and summarized the sessions. Tamar Dayan organized the meetings and built the source library on which every citation in this book depends; without that record there would be nothing to synthesize. Dr. Yael Granot-Bein and Dr. Revital Duek moderated discussions and shaped the treatment of competency development, repeated practice, teamwork, and visible thinking. Inna Zertser supported the Round Table process throughout Phase III.
 
-Each of these six people was closely involved in the work that produced this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the editor's own, and it would be unfair to attach their names to judgments they did not make.
+Each of the six named above as leading the work was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the editor's own, and it would be unfair to attach their names to judgments they did not make.
 
 **The people whose arguments the chapters are built from.** Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6. Their material is the primary evidence behind large parts of this book.
 
@@ -1243,7 +1243,7 @@ Each object requires different evidence. A student portfolio is not the same as 
 
 | Kind of evidence | What the student produces | What it can show | What it cannot show |
 | --- | --- | --- | --- |
-| Product | Final answer, report, artefact, design, code | Quality of the outcome against a standard | Whether the student, or a tool, did the thinking |
+| Product | Final answer, report, artifact, design, code | Quality of the outcome against a standard | Whether the student, or a tool, did the thinking |
 | Process | Drafts, prompts, verification steps, rejected suggestions, team logs | Reasoning, AI use, collaboration, and where judgment was applied | Whether the student can transfer the competency elsewhere |
 | Reflection | Written or spoken account of what changed and why | Growth, ownership, responsibility, and transfer | Technical accuracy on its own |
 
@@ -1386,7 +1386,7 @@ The triangle becomes dangerous when AI replaces thinking, hides inequity, weaken
 flowchart TB
 T["Teacher<br>designs, guides, judges"]
 S["Student<br>learns, discloses, reflects"]
-A["AI<br>explains, practises, gives feedback"]
+A["AI<br>explains, practices, gives feedback"]
 T -- "sets the task and the boundaries" --> S
 S -- "shows reasoning and asks for help" --> T
 S -- "queries, checks, rejects" --> A
@@ -1661,7 +1661,7 @@ The future cannot be predicted, but learners can be prepared to navigate it.
 
 The futures lens changes the definition of STEM education. STEM is not only science, technology, engineering, and mathematics as separate domains. It becomes a way to understand complex socio-technological systems. It asks students to connect technical knowledge with human values, uncertainty, ethics, identity, and responsibility.
 
-This is why the Round Table repeatedly returned to STEAM rather than only STEM. Art, ethics, humanities, philosophy, social understanding, and communication are not decorations around technical knowledge. They are necessary for judging what technology means and how it should be used.
+This is why the Meeting 4 discussion reached toward STEAM rather than only STEM. Art, ethics, humanities, philosophy, social understanding, and communication are not decorations around technical knowledge. They are necessary for judging what technology means and how it should be used.
 
 The teacher's role becomes even more important under this lens. AI can provide information and simulation, but teachers help students frame questions, compare futures, examine values, and resist simplistic answers.
 
@@ -2818,7 +2818,7 @@ In practice:
 
 Classroom activity examples:
 
-1. Six insights reflection. Students choose one insight, such as visible thinking or equity by design, and explain how the class practiced it during the unit.
+1. Seven insights reflection. Students choose one insight, such as visible thinking or equity by design, and explain how the class practiced it during the unit.
 2. Human above machine review. After an AI-supported task, students identify where human judgment mattered most.
 3. Equity check discussion. Students examine whether a learning tool or activity helped all learners equally, and propose one adjustment.
 
@@ -2826,7 +2826,7 @@ Evaluation method:
 
 Evaluate success through synthesis. The student should connect classroom experience to the larger Round Table insights: human judgment, competencies, evidence, equity, AI responsibility, and support systems. Strong work shows that the student can move from one activity to a broader principle.
 
-For your own development, review the six-meeting insights at the end of each semester and ask: where did I keep human judgment central, where did I make thinking visible, where did I support equity, and where did I still work alone? This turns the Round Table synthesis into a recurring teacher reflection tool.
+For your own development, review the seven insights at the end of each semester and ask: where did I keep human judgment central, where did I make thinking visible, where did I support equity, and where did I still work alone? This turns the Round Table synthesis into a recurring teacher reflection tool.
 
 ## Chapter 22 - Guiding Principles
 
@@ -3165,7 +3165,7 @@ This appendix records who took part in the International STEM Skills Round Table
 
 ### Dr. Eli Eisenberg
 
-Role in the Round Table: Initiator, organizer, opening speaker, moderator, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened Meeting 2, Meeting 4, and Meeting 6, introduced later meeting dilemmas, delivered the closing remarks that set the Phase IV agendaing dilemmas, delivered the closing remarks that set the Phase IV agendaing dilemmas, delivered the closing remarks that set the Phase IV agenda, and helped frame the Round Table as an active professional inquiry rather than only a documentation project. He is not related to Danielle Eisenberg, the Meeting 4 speaker listed later in this appendix.
+Role in the Round Table: Initiator, organizer, opening speaker, moderator, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened Meeting 2, Meeting 4, and Meeting 6, introduced later meeting dilemmas, delivered the closing remarks that set the Phase IV agenda, and helped frame the Round Table as an active professional inquiry rather than only a documentation project. He is not related to Danielle Eisenberg, the Meeting 4 speaker listed later in this appendix.
 
 Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) identifies Dr. Eisenberg as a Senior Research Fellow specializing in technological and vocational education and training. His education includes a PhD and MSc in Education in Technology and Science from the Technion and a BSc in Electrical Engineering from the Technion.
 
@@ -3173,7 +3173,7 @@ Main achievements, publications, and interests: His public profile describes him
 
 ### Prof. Arnon Bentur
 
-Role in the Round Table: Senior conceptual framer and moderator. The Meeting 2 program assigns him the presentation of the key dilemmas and moderation of the discussion, and he moderated both question sessions at Meeting 6, and he moderated both question sessions at Meeting 6, and he moderated both question sessions at Meeting 6. He is also named as a co-author of the Meeting 3 and Meeting 4 discussion documents.
+Role in the Round Table: Senior conceptual framer and moderator. The Meeting 2 program assigns him the presentation of the key dilemmas and moderation of the discussion, and he moderated both question sessions at Meeting 6. He is also named as a co-author of the Meeting 3 and Meeting 4 discussion documents.
 
 Bio: Prof. Bentur is one of the Round Table's senior academic leaders. Samuel Neaman Institute publication listings name him as a co-author on education, engineering education, academy-school interface, skills, competencies, lifelong learning, and STEM excellence work.
 
@@ -3181,7 +3181,7 @@ Main achievements, publications, and interests: Neaman publication listings conn
 
 ### Dr. Avigdor Zonnenshain
 
-Role in the Round Table: Senior systems and engineering-education voice. The Meeting 2, Meeting 4, and Meeting 6 programs assign him the meeting summary role, and this book uses his comments on lifelong learning, teamwork, industry realities, system design, evidence, and learning by doingevidence, and learning by doingevidence, and learning by doing.
+Role in the Round Table: Senior systems and engineering-education voice. The Meeting 2, Meeting 4, and Meeting 6 programs assign him the meeting summary role, and this book uses his comments on lifelong learning, teamwork, industry realities, system design, evidence, and learning by doing.
 
 Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/avigdor-zonnenshain/) identifies Dr. Zonnenshain as a Senior Research Fellow specializing in quality, reliability and safety management, systems engineering and management, systems thinking, advanced manufacturing, engineering education, regional strategic development, and social responsibility. He holds a PhD in Systems Engineering from the University of Arizona, an MSc in Operations Research from the Technion, and a BSc in Industrial Engineering from the Technion.
 
@@ -3201,7 +3201,7 @@ Role in the Round Table: Industry perspective contributor, Meeting 6 speaker, an
 
 Bio: Avi Salmon took part as an industry voice from the Innovation Department of Intel Israel.
 
-Main achievements, publications, and interests: His [Meeting 6 presentation, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx), describes engineering upskilling through hands-on formats and school-facing programs in which students teach younger students or build alongside their parents, and names curiosity, determination, and humility as the qualities that decide who learns in an AI-rich environment. His [Meeting 6 presentation, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx), describes engineering upskilling through hands-on formats and school-facing programs in which students teach younger students or build alongside their parents, and names curiosity, determination, and humility as the qualities that decide who learns in an AI-rich environment. Within the Round Table, his areas of interest are AI-era STEM learning, industry-relevant skills, deep conceptual understanding, curiosity, program evaluation, experiential learning environments, makerspaces, and practical AI use.
+Main achievements, publications, and interests: His [Meeting 6 presentation, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx), describes engineering upskilling through hands-on formats and school-facing programs in which students teach younger students or build alongside their parents, and names curiosity, determination, and humility as the qualities that decide who learns in an AI-rich environment. Within the Round Table, his areas of interest are AI-era STEM learning, industry-relevant skills, deep conceptual understanding, curiosity, program evaluation, experiential learning environments, makerspaces, and practical AI use.
 
 ### Dr. Marwa Maklada
 
@@ -3217,7 +3217,7 @@ Role in the Round Table: Discussion moderator and contributor on teamwork, visib
 
 Bio: Dr. Duek took part as a policy advisor on STEM.
 
-Main achievements, publications, and interests: In this book, her contribution centers on teamwork as a foundational competency, making students' thinking visible when AI is involved, and clarifying the non-delegable human role in learning. Her opening question at Meeting 6, whether learning environments would look different if education were designed around skills and competencies rather than knowledge, frames Chapter 17. Her opening question at Meeting 6, whether learning environments would look different if education were designed around skills and competencies rather than knowledge, frames Chapter 17.
+Main achievements, publications, and interests: In this book, her contribution centers on teamwork as a foundational competency, making students' thinking visible when AI is involved, and clarifying the non-delegable human role in learning. Her opening question at Meeting 6, whether learning environments would look different if education were designed around skills and competencies rather than knowledge, frames Chapter 17.
 
 ### Dr. Yael Granot-Bein
 
@@ -3249,7 +3249,7 @@ Role in the Round Table: Higher-education speaker in Meeting 2. His [Afeka prese
 
 Bio: Dr. Shafat represented Afeka Academic College of Engineering and presented The Challenge in Engineering Higher Education.
 
-Main achievements, publications, and interests: His presentation describes Afeka's BSc and MSc engineering programs, the graduate profile, the Afeka learning experience, adaptive and dynamic course design, pre-assessment, flipped classroom practice, personalized learning, students teaching, AI as a learning-support tool, project/problem-based learning, continuous improvement, and fair assessment of individual contributions in team projects. At Meeting 6 he described roughly twenty-four maker clubs at Afeka, applied projects including a fuel-free electric vehicle designed to travel from Dan to Eilat and an autonomous marine vessel entered in an international competition, and the institutional funding, space, equipment, and faculty mentorship that make them work. At Meeting 6 he described roughly twenty-four maker clubs at Afeka, applied projects including a fuel-free electric vehicle designed to travel from Dan to Eilat and an autonomous marine vessel entered in an international competition, and the institutional funding, space, equipment, and faculty mentorship that make them work.
+Main achievements, publications, and interests: His presentation describes Afeka's BSc and MSc engineering programs, the graduate profile, the Afeka learning experience, adaptive and dynamic course design, pre-assessment, flipped classroom practice, personalized learning, students teaching, AI as a learning-support tool, project/problem-based learning, continuous improvement, and fair assessment of individual contributions in team projects. At Meeting 6 he described roughly twenty-four maker clubs at Afeka, applied projects including a fuel-free electric vehicle designed to travel from Dan to Eilat and an autonomous marine vessel entered in an international competition, and the institutional funding, space, equipment, and faculty mentorship that make them work.
 
 ### Dr. Tzur Karelitz
 
@@ -3265,7 +3265,7 @@ Role in the Round Table: Contributor on educator professional learning. This boo
 
 Bio: Dr. Sprinzak took part from the Davidson Institute at the Weizmann Institute of Science.
 
-Main achievements, publications, and interests: Her Round Table contribution concerns teacher development, experiential professional learning, and the need for educators to internalize AI-era pedagogy by experiencing it as learners. At Meeting 6 she argued for the educational value of simulations and technology-enhanced environments while insisting that technology complement rather than replace hands-on learning and active participation. At Meeting 6 she argued for the educational value of simulations and technology-enhanced environments while insisting that technology complement rather than replace hands-on learning and active participation.
+Main achievements, publications, and interests: Her Round Table contribution concerns teacher development, experiential professional learning, and the need for educators to internalize AI-era pedagogy by experiencing it as learners. At Meeting 6 she argued for the educational value of simulations and technology-enhanced environments while insisting that technology complement rather than replace hands-on learning and active participation.
 
 ### Prof. Russell Tytler
 
@@ -3289,7 +3289,7 @@ Role in the Round Table: Meeting 2 education-system speaker. The [TIES presentat
 
 Bio: The [TIES About page](https://www.tiesteach.org/about-ties/) identifies Jan Morrison as Founder of TIES and describes the organization as emerging from the vision of a 35-year veteran teacher and principal. The [TIES Our Work page](https://www.tiesteach.org/our-work/) describes TIES as working across STEM ecosystems, emerging technologies, digital fabrication, school design, workforce development, government engagement, and STEM investment strategy.
 
-Main achievements, publications, and interests: The public TIES pages describe a 22-year organizational history, a mission to advance education and employment outcomes, STEM ecosystem work across almost 120 national and global communities, and more than 40 million learners connected to ecosystem spaces. In the Round Table, Morrison's main contribution is the argument that STEM teaching must become team-based, cross-sector, career-connected, and designed as a system rather than left to isolated teachers. At Meeting 6 she pressed the question of how teacher education institutions should prepare future teachers to work in makerspaces, and proposed that the Round Table itself connect with other international round tables and professional networks to exchange expertise and avoid duplicated effort. At Meeting 6 she pressed the question of how teacher education institutions should prepare future teachers to work in makerspaces, and proposed that the Round Table itself connect with other international round tables and professional networks to exchange expertise and avoid duplicated effort.
+Main achievements, publications, and interests: The public TIES pages describe a 22-year organizational history, a mission to advance education and employment outcomes, STEM ecosystem work across almost 120 national and global communities, and more than 40 million learners connected to ecosystem spaces. In the Round Table, Morrison's main contribution is the argument that STEM teaching must become team-based, cross-sector, career-connected, and designed as a system rather than left to isolated teachers. At Meeting 6 she pressed the question of how teacher education institutions should prepare future teachers to work in makerspaces, and proposed that the Round Table itself connect with other international round tables and professional networks to exchange expertise and avoid duplicated effort.
 
 ### Prof. Gil Noam
 
@@ -3297,7 +3297,7 @@ Role in the Round Table: Contributor on the distinction between school teachers 
 
 Bio: The [PEAR profile](https://www.pearinc.org/gil-noam) identifies Gil Noam, Ed.D., Dr. Habil, as an associate professor at Harvard Medical School focusing on prevention and resilience, leader of the Institute for the Study of Resilience in Youth at McLean Hospital, former director of the Risk and Prevention Program, and founder of the RALLY Prevention Program.
 
-Main achievements, publications, and interests: The PEAR profile states that he has published over 200 papers, articles, and books in child and adolescent development, risk and resiliency in clinical, school, and afterschool settings, and served as editor-in-chief of New Directions for Youth Development. In the book, his contribution keeps the educator-profile discussion from flattening school and university contexts and highlights the social and relational risks of AI-rich learning. At Meeting 6 he reframed the debate away from AI versus hands-on learning and toward AI as a collaborative learning partner: systems designed to ask questions rather than give answers, students collaborating with one another while using AI, and teachers strengthened in the role of facilitating collective reflection. At Meeting 6 he reframed the debate away from AI versus hands-on learning and toward AI as a collaborative learning partner: systems designed to ask questions rather than give answers, students collaborating with one another while using AI, and teachers strengthened in the role of facilitating collective reflection.
+Main achievements, publications, and interests: The PEAR profile states that he has published over 200 papers, articles, and books in child and adolescent development, risk and resiliency in clinical, school, and afterschool settings, and served as editor-in-chief of New Directions for Youth Development. In the book, his contribution keeps the educator-profile discussion from flattening school and university contexts and highlights the social and relational risks of AI-rich learning. At Meeting 6 he reframed the debate away from AI versus hands-on learning and toward AI as a collaborative learning partner: systems designed to ask questions rather than give answers, students collaborating with one another while using AI, and teachers strengthened in the role of facilitating collective reflection.
 
 ### Danielle Eisenberg
 

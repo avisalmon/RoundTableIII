@@ -155,6 +155,7 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 
 ### Phase III Meeting Materials
 
+- [Meeting 1 draft summary, 16.12.2025](../materials/meeting-1-summary.docx).
 - [Meeting 2 presentation](../materials/meeting-2-presentation.pptx).
 - [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx).
 - [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
@@ -164,9 +165,17 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 - [Danielle Eisenberg / Ignite Ed presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 - [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
 - [Meeting 5 context, Samuel Neaman Institute](https://www.neaman.org.il/).
-- [Meeting 6 context, Samuel Neaman Institute](https://www.neaman.org.il/).
+- [Meeting 6 draft summary, 21.07.2026](../materials/meeting-6-summary.docx).
+- [Meeting 6 presentation](../materials/meeting-6-presentation.pptx).
+- [Emlen Metz, Balancing In-Person vs. Computer-Based and AI Experiences in Education](../materials/meeting-6-ai-use-in-education.pptx).
+- [Avi Salmon, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx).
 - [Final steering context, Samuel Neaman Institute](https://www.neaman.org.il/).
+- [International Round Table Phase I for Advancing Skills in STEM Education](https://www.neaman.org.il/en/international-round-table-phase-i-for-advancing-skills-in-stem-education/), also held as a [report file](../materials/phase-1-report.pdf).
+- [International Round Table for Advancing Skills in STEM Education, Phase II](https://www.neaman.org.il/en/advancing-skills-in-stem-education-phase-ii/), also held as a [report file](../materials/phase-2-report.pdf).
+- Steering-team summaries of 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026, held as internal Round Table documents.
 
 ### Recordings
 
-Recordings of meetings 2 and 4 were published as YouTube links inside the meeting summaries, including [this session recording](https://youtu.be/zAtAT7lsPac). Meetings 3, 5, and 6 were held on Zoom and no published recording is available.
+Recordings were published as YouTube links inside the meeting summaries. They cover [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 4](https://youtu.be/zAtAT7lsPac), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo). Meetings 3 and 5 were held on Zoom and no published recording is available.
+
+The Meeting 1 and Meeting 6 summaries were circulated to participants as drafts for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared.

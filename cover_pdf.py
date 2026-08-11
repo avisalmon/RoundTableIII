@@ -26,15 +26,9 @@ SPINE_FACTOR_IN = 0.002252
 
 AUTHORS = [
   "Avi Salmon",
-  "Dr. Eli Eisenberg",
-  "Prof. Arnon Bentur",
-  "Dr. Yael Granot-Bein",
-  "Dr. Revital Duek",
-  "Tamar Dayan",
-  "Inna Zertser",
 ]
 AUTHOR = "; ".join(AUTHORS)
-SPINE_AUTHOR = "Avi Salmon et al."
+SPINE_AUTHOR = "Avi Salmon"
 SERIES = "International STEM Skills Round Table Phase III"
 TITLE = "The Teacher Above AI"
 SUBTITLE = "STEM Education, Human Judgment, and the New Learning Ecosystem"

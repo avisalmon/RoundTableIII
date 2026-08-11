@@ -19,7 +19,7 @@ Source status:
 
 - Local tracked source: [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
 
-### [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/)
+### [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html)
 
 Used in the manuscript for:
 
@@ -31,7 +31,7 @@ Used in the manuscript for:
 
 Source status:
 
-- Web source: [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/).
+- Web source: [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
 
 ### [TALIS 2024](../materials/talis-2024-us-short.pdf)
 
@@ -136,20 +136,20 @@ Used in the manuscript for:
 - Teaching critical thinking explicitly.
 - Designing learning that goes beyond output quality.
 
-## AI and Education References Listed in the Round Table Materials
+## AI and Education References Named in the Round Table Materials
 
-The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx) references several AI and education sources. These should be verified before final publication:
+The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx) names the sources below. This book has not checked them against the original publications, and none of them is used here to support a claim in the text. They are listed so that a reader can see what the Round Table was reading.
 
-- [Generative AI and critical thinking, Microsoft Research, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [AI in teacher education, Jose et al., listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [ChatGPT meta-analysis, Wang and Fan, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [Generative AI and critical thinking in higher education, Nasr et al., listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [Inoculation-based approach to AI misinformation, Zarzosa et al., listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [What Should Teachers Teach in an AI Future, OECD, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [Teachers' Professional Learning for the AI Era, OECD Education 2040, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [AI trust gap between students and teachers, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [Student AI adoption reporting from Campus Technology, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
-- [Education Week reporting on AI use in schools, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
+- Generative AI and critical thinking, Microsoft Research.
+- AI in teacher education, Jose and colleagues.
+- ChatGPT meta-analysis, Wang and Fan.
+- Generative AI and critical thinking in higher education, Nasr and colleagues.
+- Inoculation-based approach to AI misinformation, Zarzosa and colleagues.
+- What Should Teachers Teach in an AI Future, OECD.
+- Teachers' Professional Learning for the AI Era, OECD Education 2040.
+- AI trust gap between students and teachers.
+- Student AI adoption reporting, Campus Technology.
+- Education Week reporting on AI use in schools.
 
 ## Round Table Internal Sources
 
@@ -166,12 +166,11 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 - [Meeting 4 presentation](../materials/meeting-4-presentation.pptx).
 - [Danielle Eisenberg / Ignite Ed presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 - [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
-- [Meeting 5 context, Samuel Neaman Institute](https://www.neaman.org.il/).
+- Meeting 5, 09.06.2026. No summary, presentation, or discussion document was found. The only record of that meeting is the steering-team summaries listed at the end of this section.
 - [Meeting 6 draft summary, 21.07.2026](../materials/meeting-6-summary.docx).
 - [Meeting 6 presentation](../materials/meeting-6-presentation.pptx).
 - [Emlen Metz, Balancing In-Person vs. Computer-Based and AI Experiences in Education](../materials/meeting-6-ai-use-in-education.pptx).
 - [Avi Salmon, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx).
-- [Final steering context, Samuel Neaman Institute](https://www.neaman.org.il/).
 - [International Round Table Phase I for Advancing Skills in STEM Education](https://www.neaman.org.il/en/international-round-table-phase-i-for-advancing-skills-in-stem-education/), also held as a [report file](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II](https://www.neaman.org.il/en/advancing-skills-in-stem-education-phase-ii/), also held as a [report file](../materials/phase-2-report.pdf).
 - Steering-team summaries of 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026, held as internal Round Table documents.

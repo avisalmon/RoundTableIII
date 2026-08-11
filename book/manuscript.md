@@ -17,7 +17,7 @@ The author was himself a participant in the Round Table and presented at the six
 
 The evidence base is uneven across the book. Meetings one, two, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting three left a discussion document prepared before the session rather than a record of it, so the chapters drawn from that meeting report the questions put to the room more faithfully than the answers given in it. Meeting five left only steering-team summaries and outlines, with no primary record of the session itself. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them. Chapters that rest mainly on retrospective summaries say so in their sources, and the reader should treat their attributions as reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used here on that basis.
 
-This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
+This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
 
 Source citations that point to `../materials/` refer to the project's internal working library. Those files are third-party documents that the project does not hold publication rights to, so they are not distributed with the book or the public repository. They are listed so that the chain of evidence behind each chapter is visible.
 
@@ -62,9 +62,11 @@ The main Phase III meetings addressed the following sequence:
 5. How professional development of teachers and lecturers can be ensured over time.
 6. How physical, virtual, workplace, and industry-connected environments should support future STEM skills.
 
-Every meeting ran to the same two-hour format, fixed by the steering team and visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers then addressed the dilemma of the day, usually one from Israel and one from abroad, each followed by a short question period moderated by Prof. Arnon Bentur. Dr. Yael Granot-Bein and Dr. Revital Duek moderated the open discussion. Dr. Avigdor Zonnenshain summarized, and Dr. Eli Eisenberg closed by introducing the dilemma of the next meeting. A background document was circulated in advance of each session.
+The meetings ran to a two-hour format that the steering team fixed and then kept to, and that is visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers addressed the dilemma of the day, one from Israel and one from abroad, each followed by a short question period. An open discussion followed. Dr. Avigdor Zonnenshain summarized the meeting, and Dr. Eli Eisenberg closed by introducing the dilemma of the next one. A background document was circulated in advance of each session, prepared by Avi Salmon, Prof. Arnon Bentur, and Dr. Eli Eisenberg.
 
-The proportions of that format matter for reading this book. In the Meeting 4 outline, the two presentations and their question periods occupy fifty minutes and the open discussion forty. A good deal of what this book reports as a Round Table position was therefore stated by an invited speaker rather than argued out by the group, and Chapter 24 returns to what that implies.
+The format took a meeting or two to settle, and the details matter for the attributions in this book. Meeting 1 was an introductory session: a round of self-introductions from every participant, then a single lecture and discussion. At Meeting 2, Prof. Arnon Bentur presented the Phase III dilemmas and moderated the open discussion, while Dr. Eli Eisenberg moderated the two question periods. From Meeting 4 onward the steering team held to the division of roles it had written down: Prof. Arnon Bentur on the question periods, Dr. Yael Granot-Bein and Dr. Revital Duek on the open discussion. Meeting 6 closed with first insights and the question of what comes next rather than with another dilemma.
+
+The proportions of that format matter too. In the Meeting 4 and Meeting 6 outlines, the two presentations and their question periods occupy fifty minutes and the open discussion forty; Meeting 2 gave the discussion five minutes more than the presentations. Either way, a good deal of what this book reports as a Round Table position was stated by an invited speaker rather than argued out by the group. Chapter 24 returns to what follows from a group that mostly heard from its own members.
 
 This book follows that sequence and organizes the material into a repeated professional pattern:
 
@@ -495,7 +497,7 @@ For your own development, build a personal AI competency journal. Once a week, t
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [AI Literacy Framework](https://ailiteracyframework.org/).
+[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [AI Literacy Framework](https://ailiteracyframework.org/), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 # Part II - The Future Profile of the Teacher and Lecturer
 
@@ -656,8 +658,6 @@ If the future of STEM learning requires transdisciplinary problems, project-base
 
 ### Main Positions
 
-The individual teacher model preserves autonomy and simplicity. The team-based model distributes expertise and models collaboration. The ecosystem model adds industry, mentors, communities, technology specialists, and institutional support.
-
 The individual model sees teaching as a craft practiced by one educator with one group of students. It values responsibility, continuity, classroom intimacy, and professional autonomy.
 
 The team model sees teaching as shared professional design. Teachers plan together, divide strengths, observe one another, co-assess, and build learning sequences that no one teacher could design alone.
@@ -702,7 +702,7 @@ Danielle Eisenberg's question to Jan Morrison about whether change was happening
 
 Prof. Sigal Tifferet raised criticism of transdisciplinary instruction, especially the concern that problem-based learning may reduce explicit instruction. This is a serious point. Team-based and transdisciplinary approaches should not become excuses for weak teaching. They must protect disciplinary clarity while expanding the context of learning.
 
-Jan Morrison's response was that criticism often reflects poor implementation in systems not designed for the pedagogy. This distinction is central. A good idea can fail when inserted into the wrong structure.
+Jan Morrison's response was that criticism often reflects poor implementation in systems not designed for the pedagogy. That distinction is real, and a good idea can fail when inserted into the wrong structure. It does not dispose of the whole objection. Tifferet's point also has an evidence dimension that implementation quality does not answer: for students who do not yet know a domain, explicit instruction with worked examples generally outperforms minimally guided inquiry, and no amount of good implementation changes that. Chapter 24 states the objection at full strength. The position this book holds is the narrower one, that project and team-based work needs explicit instruction inside it rather than instead of it.
 
 ### Synthesis
 
@@ -1032,7 +1032,7 @@ For your own development, choose one competency per semester for deliberate grow
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx).
+[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing
 
@@ -1156,7 +1156,7 @@ For your own development, rehearse transparent authority. Before class, identify
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx).
+[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
 
 ## Chapter 9 - Assessing Enough Competency
 
@@ -1177,8 +1177,6 @@ The Meeting 3 document asked: if possession matters, what does evaluation look l
 At the same time, avoiding assessment entirely is not acceptable. If systems cannot tell whether teachers, courses, or programs are developing competencies, reforms remain aspirational. The dilemma is how to assess deeply without reducing complex professional practice to shallow indicators.
 
 ### Main Positions
-
-Formal standards create clarity. Portfolios capture practice. Peer review brings professional judgment. Support-first approaches encourage growth. Each has value and each has limits.
 
 The standards position says that systems need explicit expectations. Teachers and lecturers should know what is required. Institutions and policy makers need benchmarks.
 
@@ -1290,7 +1288,7 @@ For your own development, build a teacher-practice portfolio as well. Save one r
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part IV - The Teacher, the Student, and AI
 
@@ -1315,8 +1313,6 @@ The dilemma is not only about technology adoption. It asks whether the structure
 The Meeting 4 document placed one principle above all configurations: the teacher's professional judgment must remain the final authority over the educational process. The question is not whether to eliminate the teacher. The question is how much of the instructional relationship should be shared with, or mediated by, AI.
 
 ### Main Positions
-
-The tool model treats AI as an aid selected by the teacher. The student-AI direct model recognizes independent student use. The educational triangle model defines roles for teacher, student, and AI.
 
 The teacher-led model keeps the teacher as the sole orchestrator of learning. AI is a tool the teacher may choose to deploy. The educational relationship remains teacher-student, and the teacher decides if, when, and how AI enters the process.
 
@@ -1438,7 +1434,7 @@ For your own development, use AI hands-on before setting policy. Test the tool o
 
 ### Sources
 
-[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks).
+[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
 
 ## Chapter 11 - Default or Design
 
@@ -1465,8 +1461,6 @@ Danielle Eisenberg framed three central questions for the discussion:
 3. If privileged students augment with AI while disadvantaged students replace thinking with AI, who is responsible for equity, and what authority do they have?
 
 ### Main Positions
-
-Restriction tries to block use. Permission gives broad principles. Design creates structured roles and visible learning processes.
 
 Restriction says that AI is too risky and should be blocked or minimized. This position may protect some forms of academic integrity in the short term, but it ignores actual student behavior.
 
@@ -1605,8 +1599,6 @@ This dilemma is especially sharp for universities. Their traditional model treat
 
 ### Main Positions
 
-One position focuses on current market needs. Another focuses on general adaptability. A third uses futures thinking to help students and institutions navigate uncertainty.
-
 The current-market position is practical. It asks what employers need now and designs curricula accordingly. This can strengthen employability, but it may narrow education to the demands of the present.
 
 The general-adaptability position emphasizes creativity, critical thinking, problem-solving, and lifelong learning. This is closer to the Round Table's spirit, but it still needs concrete pedagogy and assessment.
@@ -1719,7 +1711,7 @@ For your own development, keep a small futures notebook. Once a month, record on
 
 ### Sources
 
-[Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/).
+[Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
 
 ## Chapter 13 - Risks and Design Principles for AI in Learning
 
@@ -1740,8 +1732,6 @@ The central principle from the [Meeting 3 discussion document](../materials/meet
 This creates a practical dilemma. If AI is too restricted, students may lose access to useful support and may use tools secretly. If AI is too open, students may outsource thinking, writing, verification, and even moral responsibility. If AI is designed into learning, teachers must have time, training, assessment infrastructure, and institutional authority.
 
 ### Main Positions
-
-AI can be used as an efficiency tool, a thinking partner, or a controlled support inside human-centered pedagogy.
 
 The efficiency position uses AI to save time: summarizing, generating examples, grading, tutoring, and producing feedback. It is attractive because education systems are overloaded. Its danger is that efficiency can become the main value, pushing aside reflection, effort, and relationship.
 
@@ -1896,8 +1886,6 @@ The Round Table materials therefore point toward shared responsibility, but shar
 
 ### Main Positions
 
-Individual responsibility emphasizes teacher agency. Institutional responsibility emphasizes local implementation. National responsibility creates coherence. Shared responsibility combines levels.
-
 The individual responsibility position says that teachers and lecturers are professionals, and professionals must keep learning. This position protects agency and dignity. It also aligns with the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), which emphasizes teacher agency, professional identity, and continuous learning.
 
 The institutional responsibility position says that educators cannot transform practice alone. Leaders must provide time, recognition, resources, peer structures, and incentives. Without institutional involvement, professional learning becomes voluntary enrichment for the already motivated.
@@ -2042,8 +2030,6 @@ Implementation support is harder to count. It requires coaching, peer observatio
 
 ### Main Positions
 
-Training events provide exposure. Continuous professional learning supports growth. Implementation accompaniment helps teachers move from knowing to doing.
-
 The exposure position says educators need initial access to new ideas, research, tools, and examples. This is true. Without exposure, teachers may not know what is possible.
 
 The continuous learning position says that professional competence develops over time through cycles of practice, reflection, collaboration, and adjustment. This aligns with the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf) view of teaching as a lifelong professional journey rather than a one-time qualification.
@@ -2149,7 +2135,7 @@ For your own development, experience the new pedagogy as a learner before teachi
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf).
+[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 16 - Evidence, Evaluation, and Institutional Learning
 
@@ -2170,8 +2156,6 @@ The dilemma is between accountability and learning. Accountability asks whether 
 Education systems often confuse the two. They collect data for reporting rather than improvement, or they avoid evaluation because meaningful learning is hard to measure. The Round Table materials point toward a different stance: measurement should support continuous improvement and iteration, not only external accountability.
 
 ### Main Positions
-
-Quantitative outcomes support accountability. Qualitative evidence captures context. Mixed evidence combines both. Developmental evaluation fits complex change.
 
 Quantitative evidence includes participation rates, course completion, assessment results, retention, progression, and other comparable indicators. It helps leaders see scale and patterns.
 
@@ -2297,7 +2281,7 @@ For your own development, conduct a small practice inquiry each semester. Choose
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
+[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part VI - Environments, Industry, and Experiential Learning
 
@@ -2320,8 +2304,6 @@ The dilemma is not only architectural. It is organizational. A school may have a
 The Round Table question was sharper: can creativity, teamwork, and complex problem solving be developed in classrooms and organizations built for frontal learning?
 
 ### Main Positions
-
-Existing classrooms can be adapted. Specialized spaces such as makerspaces can support active learning. Broader ecosystem redesign can align space, time, roles, tools, and partnerships.
 
 The adaptation position says that systems cannot wait for new buildings. Teachers can rearrange rooms, use digital tools, create project cycles, invite external partners, and redesign assignments inside existing constraints.
 
@@ -2439,7 +2421,7 @@ For your own development, keep an environment log for one month. Record which ar
 
 ### Sources
 
-[Meeting 6 summary](../materials/meeting-6-summary.docx), [Avi Salmon's Meeting 6 presentation](../materials/meeting-6-avi-salmon-training-by-experience.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/).
+[Meeting 6 summary](../materials/meeting-6-summary.docx), [Avi Salmon's Meeting 6 presentation](../materials/meeting-6-avi-salmon-training-by-experience.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
 
 ## Chapter 18 - Virtual, XR, VR, and AI-Supported Learning Spaces
 
@@ -2462,8 +2444,6 @@ Virtual learning offers access, safety, repeatability, and scale. Students can s
 The dilemma is that both are necessary. A purely physical model may be limited, expensive, and unequal. A purely virtual model may weaken embodied experience, social negotiation, and contact with real-world complexity.
 
 ### Main Positions
-
-Physical-first learning values embodied experience. Virtual-first learning values access and simulation. Blended experiential learning combines both.
 
 The physical-first position says students should learn through real materials, real tools, real collaboration, and real consequences. This is especially important in engineering, science, design, and makerspace learning.
 
@@ -2563,7 +2543,7 @@ For your own development, test one digital or AI-supported environment as a lear
 
 ### Sources
 
-[Meeting 6 summary](../materials/meeting-6-summary.docx), [Emlen Metz's Meeting 6 presentation](../materials/meeting-6-ai-use-in-education.pptx), [Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/).
+[Meeting 6 summary](../materials/meeting-6-summary.docx), [Emlen Metz's Meeting 6 presentation](../materials/meeting-6-ai-use-in-education.pptx), [Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
 
 ## Chapter 19 - Industry as a Learning Partner
 
@@ -3039,7 +3019,7 @@ Meetings three and five left no primary record of the session itself. Part III r
 
 The steering team's summary of 24 March 2026 is harder on the process than most of this book is. Reviewing Meeting 3, it recorded two faults. The first was an imbalance in the discussion itself: the conversation leaned toward the school system at the expense of academia, and the steering team asked for the academic component to be strengthened in later meetings. The second is more serious. In academia, the summary observed, there is openness to these ideas at the level of principle, and a gap between that openness and any ability to act on it, because of institutional constraints and the absence of incentives. Elsewhere the same summary noted the difficulty of embedding change in academia given academic freedom and faculty resistance.
 
-That is the gatekeeper objection again, arriving from inside the organizing group. The people running the discussion could see that the institutions they were addressing were willing in conversation and unable in practice. The remedies they proposed were a background document circulated before each meeting, dedicated webinars, and a wider but still selective circle of participants. Those are improvements in communication, and the problem they had identified was not a problem of communication.
+That is the gatekeeper objection again, arriving from inside the organizing group. The people running the discussion could see that the institutions they were addressing were willing in conversation and unable in practice. The remedies they proposed were dedicated webinars and a wider but still selective circle of participants. Those are improvements in communication, and the problem they had identified was not a problem of communication.
 
 The same summary records a decision that a reader should weigh. The steering team resolved to prefer speakers from among the Round Table's own participants, as a leading principle of the initiative. That decision gave six meetings an unusual continuity, and it also means that the range of positions in this book is narrower than the range of positions in the field. A group that mostly hears from itself will find more agreement than actually exists.
 
@@ -3397,7 +3377,7 @@ Additional presentation or background materials:
 External references appearing in the collected materials include:
 
 - [OECD Teaching Compass: Reimagining Teachers as Agents of Curriculum Change](../materials/oecd-teaching-compass.pdf).
-- [OECD Learning Compass 2030](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/).
+- [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
 - [TALIS 2024 material](../materials/talis-2024-us-short.pdf).
 - [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers).
 - [UNESCO AI competency framework overview](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks).

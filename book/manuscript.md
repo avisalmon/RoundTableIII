@@ -3013,6 +3013,10 @@ Every recommendation in this book asks a teacher, a lecturer, or an institution 
 
 This book's answer is that the measurement systems should change, which is true and is not a plan. Until matriculation, admissions, and hiring recognize the competencies described here, the model in these pages will keep working in individual classrooms and keep failing to become the system.
 
+So the question stays open, and it is better stated plainly than buried. What would make an examination board, an admissions officer, or an employer actually value the competencies described in this book? Not what should make them, which is easy to assert and costs nothing. What would. Who moves first, what evidence would persuade them, and what does a school do in the years before any of that happens.
+
+The Round Table did not answer that, and neither does this book. It is left here as an open question, and it is the most important one this work hands on.
+
 ### The Evidence Base Is Uneven and Partly Retrospective
 
 Meetings three and five left no primary record of the session itself. Part III rests largely on a discussion document written before Meeting 3, which means it reports the questions the organizers posed rather than the answers the room gave. Part V rests on steering-team summaries written after Meeting 5. Several attributed positions in both parts are therefore reported at second hand. The book says so in its Editorial Note, but a reader should hold the attributions accordingly: these are reported contributions, filtered through a summarizer, then synthesized by an editor who was himself a participant.

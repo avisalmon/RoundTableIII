@@ -62,6 +62,10 @@ The main Phase III meetings addressed the following sequence:
 5. How professional development of teachers and lecturers can be ensured over time.
 6. How physical, virtual, workplace, and industry-connected environments should support future STEM skills.
 
+Every meeting ran to the same two-hour format, fixed by the steering team and visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers then addressed the dilemma of the day, usually one from Israel and one from abroad, each followed by a short question period moderated by Prof. Arnon Bentur. Dr. Yael Granot-Bein and Dr. Revital Duek moderated the open discussion. Dr. Avigdor Zonnenshain summarized, and Dr. Eli Eisenberg closed by introducing the dilemma of the next meeting. A background document was circulated in advance of each session.
+
+The proportions of that format matter for reading this book. In the Meeting 4 outline, the two presentations and their question periods occupy fifty minutes and the open discussion forty. A good deal of what this book reports as a Round Table position was therefore stated by an invited speaker rather than argued out by the group, and Chapter 24 returns to what that implies.
+
 This book follows that sequence and organizes the material into a repeated professional pattern:
 
 - The challenge.

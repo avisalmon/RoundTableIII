@@ -400,9 +400,16 @@ code {{ font-family: 'Inter', monospace; font-size: 0.92em; }}
    body-relative and in step with the folios. */
 .bookbody {{ break-before: right; counter-reset: page 1; }}
 h1.part-opener {{
-  break-before: right; break-after: page;
-  margin: 0; padding-top: 2.9in; text-align: center; font-weight: 400;
+  break-before: right; break-after: avoid;
+  margin: 0; padding-top: 2.1in; text-align: center; font-weight: 400;
 }}
+/* The orienting paragraphs that open each part sit under the part title rather than
+   on the following verso, which would otherwise read as a stray page. */
+h1.part-opener + p, h1.part-opener + p + p {{
+  margin: 0.34in auto 0; max-width: 3.7in; text-indent: 0;
+  font-size: 10pt; line-height: 1.5; text-align: left;
+}}
+h1.part-opener + p + p {{ margin-top: 0.14in; }}
 h1.part-opener .opener-label {{
   display: block; font-family: 'Inter', sans-serif; font-size: 10pt; font-weight: 600;
   letter-spacing: 0.24em; text-transform: uppercase;

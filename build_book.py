@@ -124,7 +124,9 @@ def extract_headings(markdown: str) -> list[Heading]:
 TABLE_ROW = re.compile(r"^\s*\|(.+)\|\s*$")
 TABLE_DIVIDER = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
 FIGURE_BLOCK = re.compile(
-    r'(?P<art><pre class="mermaid">.*?</pre>|<table>.*?</table>)'
+    # Each alternative is pinned to its own closing tag. A bare .*? backtracks past it
+    # and swallows every block up to the next captioned one.
+    r'(?P<art><pre class="mermaid">(?:(?!</pre>).)*</pre>|<table>(?:(?!</table>).)*</table>)'
     r'\s*<p>(?P<caption>Figure\s+(?P<number>\d+)\.\s*.*?)</p>',
     re.S,
 )

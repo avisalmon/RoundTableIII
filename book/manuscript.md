@@ -4,6 +4,8 @@
 
 ## The Teacher Above AI: STEM Education, Human Judgment, and the New Learning Ecosystem
 
+Avi Salmon
+
 First edition: 2026  
 Source base: International STEM Skills Round Table Phase III meeting summaries, presentations, discussion documents, steering-team records, and background sources.
 
@@ -15,7 +17,11 @@ This book is not an official publication of the Samuel Neaman Institute or of an
 
 The author was himself a participant in the Round Table and presented at the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
 
-The evidence base is uneven across the book. Meetings one, two, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting three left a discussion document prepared before the session rather than a record of it, so the chapters drawn from that meeting report the questions put to the room more faithfully than the answers given in it. Meeting five left only steering-team summaries and outlines, with no primary record of the session itself. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them. Chapters that rest mainly on retrospective summaries say so in their sources, and the reader should treat their attributions as reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used here on that basis.
+The evidence base is uneven across the book, and the unevenness is not distributed randomly. Meetings one, two, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting three left a discussion document prepared before the session rather than a record of it, so the chapters drawn from it report the questions put to the room more faithfully than the answers given in it. Meeting five left no primary record at all, only steering-team summaries written before and after.
+
+Three consequences follow, and the reader should hold all three. Parts III and V rest on second-hand material, and their attributions are reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used on that basis. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them.
+
+Appendix B records, meeting by meeting, exactly what evidence exists. It is short, and a reader who intends to rely on any attribution in this book should read it first.
 
 This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
 
@@ -27,11 +33,11 @@ One name appears on the cover of this book, and that is a statement about editor
 
 **The people who made Phase III happen.** Dr. Eli Eisenberg initiated and led the Round Table. He opened the meetings, introduced each dilemma, moderated the discussion, and insisted that the process be an active professional inquiry rather than a documentation exercise. Prof. Arnon Bentur gave the inquiry its conceptual spine. The sequence of dilemmas he set out at the second meeting - educator profile, possession versus cultivation of competencies, the teacher-student-AI relationship, professional development, learning environments - is the sequence this book follows chapter by chapter. Dr. Avigdor Zonnenshain brought the systems and engineering-education perspective and summarized the sessions. Tamar Dayan organized the meetings and built the source library on which every citation in this book depends; without that record there would be nothing to synthesize. Dr. Yael Granot-Bein and Dr. Revital Duek moderated discussions and shaped the treatment of competency development, repeated practice, teamwork, and visible thinking. Inna Zertser supported the Round Table process throughout Phase III.
 
-Each of the six named above as leading the work was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the editor's own, and it would be unfair to attach their names to judgments they did not make.
+Each of the six named above as leading the work was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the author's own, and it would be unfair to attach their names to judgments they did not make.
 
 **The people whose arguments the chapters are built from.** Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6. Their material is the primary evidence behind large parts of this book.
 
-Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Prof. Sigal Tifferet, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, and Dr. Olena Bekh. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Dr. Rinat Itzhaki and Orly Rauch took part in the sessions.
+Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Prof. Sigal Tifferet, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Olena Bekh, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser, Orly Rauch, and Golan Tamir took part in the sessions and the steering work behind them.
 
 Appendix A records each contributor's role and background in full. The attributions throughout the book are drawn from meeting summaries, presentation files, discussion documents, and steering-team records. Where a source reported a contribution rather than recording it verbatim, the book says so. Any misattribution is unintended, and corrections are welcome.
 
@@ -45,11 +51,39 @@ This book captures the arc of that discussion. It follows the six Phase III meet
 
 The book's central claim is simple: AI does not remove the need for teachers. It raises the bar for teaching. The educator is no longer only a transmitter of content. The educator becomes a designer of learning environments, a mediator of judgment, a cultivator of human competencies, a connector between knowledge and practice, and a guardian of the principle that the human must remain above the machine.
 
+# How to Read This Book
+
+This book follows the Round Table's own sequence. Each of the first six parts takes one meeting, states the dilemma that meeting was convened to argue, and works it through over three or four chapters. The seventh part stops reporting and starts arguing.
+
+| Part | Meeting | The dilemma put to the room | Chapters |
+| --- | --- | --- | --- |
+| I | 1, 16.12.2025 | What is a STEM education for, once a machine can produce a fluent answer? | 1 to 3 |
+| II | 2, 20.01.2026 | Should the profile of teachers and lecturers be uniform, or diverse? | 4 to 6 |
+| III | 3, 10.03.2026 | Must educators possess the competencies they are asked to cultivate? | 7 to 9 |
+| IV | 4, 28.04.2026 | Is teaching still teacher and student, or a triangle that includes AI? | 10 to 13 |
+| V | 5, 09.06.2026 | Who is responsible for sustaining professional development over time? | 14 to 16 |
+| VI | 6, 21.07.2026 | What balance of physical, virtual, and workplace environments does STEM learning need? | 17 to 20 |
+| VII | Synthesis | What the six meetings add up to, and what they failed to settle | 21 to 26 |
+
+Chapters 1 to 20 all follow the same ten-part pattern, set out in the Methodology below. Once you have read one chapter you know the shape of the other nineteen, and you can enter any of them at the section you need. *Round Table Voices* is where the participants speak. *Practical Recommendation for Teachers* is where the chapter turns into something to do on Monday morning.
+
+Three ways through:
+
+- **If you have an hour.** Chapters 23, 24, and 25: the model, the case against it, and what to do anyway.
+- **If you teach.** Chapters 1, 3, 11, 13, and 23, then the *Practical Recommendation for Teachers* section of any chapter whose dilemma you recognize.
+- **If you run an institution.** Chapters 4, 14, 16, 17, and 20, then Chapter 24, which names the reasons an institution will agree with this book and still not act.
+
+Chapter 24 argues against the rest of the book. It is not a list of caveats at the back; it is the chapter to read first if you read only one.
+
+Three companion documents sit alongside the book and are shorter and more practical than the chapters they summarize: a competency summary, a one-page lesson model, and a six-day training program. They are published at <https://avisalmon.github.io/RoundTableIII/>.
+
 # Methodology
 
 This book is based on the materials of the International STEM Skills Round Table Phase III: meeting summaries, steering-team summaries, presentation files, discussion documents, program outlines, correspondence, and background papers.
 
-Two earlier phases stand behind this one. The [Phase I report](../materials/phase-1-report.pdf), published in January 2025 from meetings held in 2022, set out definitions, teaching methodologies, and evaluation tools for three competency clusters: self-directed learning and lifelong learning; teamwork, collaboration, and cooperation; and complex problem solving with critical thinking. The [Phase II report](../materials/phase-2-report.pdf), published in March 2025, turned those clusters into a practical guide for educators and added a systematic literature review and a Delphi consensus on how AI in education might support each of them. Phase III keeps those competencies and changes the subject. It asks what the educator has to become for any of them to be cultivated at all. Four of the five competencies used in this book are inherited from Phase I; the fifth, ethical judgment, was added in Phase III.
+Two earlier phases stand behind this one. The [Phase I report](../materials/phase-1-report.pdf), published in January 2025 from meetings held in 2022, set out definitions, teaching methodologies, and evaluation tools for three competency clusters: self-directed learning and lifelong learning; teamwork, collaboration, and cooperation; and complex problem solving with critical thinking. The [Phase II report](../materials/phase-2-report.pdf), published in March 2025, turned those clusters into a practical guide for educators and added a systematic literature review and a Delphi consensus on how AI in education might support each of them. Phase III keeps those competencies and changes the subject. It asks what the educator has to become for any of them to be cultivated at all.
+
+The number of competencies changes between the phases, and it is worth being clear about why, because the sources themselves count differently. The Phase I report groups its findings into three clusters, the third of which is complex problem solving together with critical thinking. The Meeting 1 summary describes the same ground as four competencies, separating complex problem solving from critical thinking. This book follows the four-item reading and adds a fifth, ethical judgment and responsible use, because AI raises questions of integrity, ownership, fairness, transparency, and accountability that cut across the other four. Nothing was dropped between the phases. One cluster was split in two.
 
 The six questions were not chosen in the meetings. They were set by the steering team at its opening session on 19 October 2025, which defined the target of Phase III as the profile of the lecturer and teacher in the era of generative AI for cultivating STEM competencies in higher education and high school, fixed the rhythm at a round table every six weeks from late 2025 to August 2026, and required that the recommendations be practical and separated into personal, institutional, and policy levels. This book keeps that separation, and Chapter 25 follows it directly.
 
@@ -68,24 +102,30 @@ The format took a meeting or two to settle, and the details matter for the attri
 
 The proportions of that format matter too. In the Meeting 4 and Meeting 6 outlines, the two presentations and their question periods occupy fifty minutes and the open discussion forty; Meeting 2 gave the discussion five minutes more than the presentations. Either way, a good deal of what this book reports as a Round Table position was stated by an invited speaker rather than argued out by the group. Chapter 24 returns to what follows from a group that mostly heard from its own members.
 
-This book follows that sequence and organizes the material into a repeated professional pattern:
+This book follows that sequence. Chapters 1 to 20 are built on the same ten-part pattern, and these are the headings the reader will meet in every one of them:
 
-- The challenge.
-- The dilemma.
-- The main positions.
-- Pros and cons.
-- Points of view from different sectors.
-- Round Table voices.
-- Synthesis.
-- Recommendation in the spirit of the discussion.
+- **The Challenge.** What changed, and why the previous answer stopped working.
+- **The Dilemma.** The question the meeting was convened to argue, stated as a real choice rather than a settled one.
+- **Main Positions.** The positions taken, each on its own terms.
+- **Pros and Cons.** What each position buys, and what it costs.
+- **Where Each Sector Stands.** How the question looks from schools, higher education, policy, industry, and research, which is rarely the same way.
+- **Round Table Voices.** What named participants said, including where they disagreed with each other.
+- **Synthesis.** What the discussion converged on, and what it left open.
+- **Recommendation.** What the system should do.
+- **Practical Recommendation for Teachers.** What one educator can do without waiting for the system.
+- **Sources.** The Round Table materials the chapter rests on.
 
-This approach is intended to preserve the complexity of the Round Table. The goal is not to force consensus where the discussion remained open. The goal is to present a coherent professional compass that reflects the direction, tensions, and insights of the group.
+The two recommendation sections do different work, and the distinction is worth stating once. *Recommendation* addresses whoever holds the budget, the timetable, and the assessment regime. *Practical Recommendation for Teachers* assumes none of that changes, and asks what is still possible in a single classroom on Monday.
+
+This structure is meant to preserve the complexity of the Round Table rather than flatten it. The goal is not to force consensus where the discussion remained open, but to present a coherent professional compass that reflects the direction, the tensions, and the unresolved questions of the group.
 
 Chapters one to twenty each carry their own source list. The closing chapters draw on the whole body of material rather than on any single meeting, so they carry no separate source list; their evidence is the twenty chapters that precede them.
 
 Chapter 24 departs from this pattern deliberately. It collects the strongest objections to the book's own argument, including objections raised inside the Round Table itself and objections from research literature that the Round Table did not resolve.
 
 # Part I - Why STEM Education Must Change Now
+
+Meeting 1, on 16 December 2025, opened Phase III with a round of introductions and a single lecture on skills and competencies in the era of artificial intelligence. Underneath it sat the question the Round Table would spend the following year on: if a machine can produce a fluent answer, what is a STEM education for? These three chapters set out the pressure that question creates, the competencies the Round Table inherited from its earlier phases, and what those competencies now have to mean.
 
 ## Chapter 1 - The New Pressure on STEM Education
 
@@ -131,7 +171,7 @@ The competency-first approach is future-facing. It recognizes that employers and
 
 The integrated approach is strongest, but hardest. It asks teachers and lecturers to design learning tasks in which content and competencies develop together. It asks institutions to change assessment, scheduling, professional development, class size, collaboration time, and learning environments. It also asks policy makers to recognize that competency development is not free. It requires investment.
 
-### Point of View Map
+### Where Each Sector Stands
 
 From an industry perspective, Avi Salmon emphasized that employers, especially in high technology, are becoming less interested in routine technical skills that AI can easily perform and more interested in deep conceptual understanding, curiosity, and genuine engagement with the profession. His point was not that technical skill no longer matters. It was that technical skill must be connected to judgment, meaning, and the ability to keep learning. Schools should help develop love of the profession. Higher education should deepen conceptual understanding beyond curriculum coverage.
 
@@ -215,9 +255,11 @@ Evaluation method:
 
 Evaluate success through evidence of visible thinking, not only the correctness of the final answer. The student should be able to explain assumptions, identify tool use, verify claims, correct errors, and take responsibility for the conclusion. A strong performance includes a defensible answer, a clear reasoning trail, and at least one explicit check of reliability.
 
-For your own development, practice the same task yourself. Take one familiar lesson, use AI to solve or explain it in several ways, identify where the tool is strong and weak, and redesign the lesson so students must think beyond the output. This follows the Round Table spirit expressed by Avi Salmon, Emlen Metz, Prof. Russell Tytler, Jan Morrison, and Dr. Gabi Shafat: AI use must deepen judgment, not replace it.
+For your own development, practice the same task yourself. Take one familiar lesson, use AI to solve or explain it in several ways, identify where the tool is strong and weak, and redesign the lesson so students must think beyond the output.
 
 ### Sources
+
+*A note on this section, which appears at the end of every chapter. Titles set in italic are Round Table documents that were never published and therefore cannot be linked; Appendix C lists all of them. Titles that appear as links point to material anyone can open.*
 
 [Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [TALIS 2024 background](../materials/talis-2024-us-short.pdf).
 
@@ -267,7 +309,7 @@ Program-level mapping creates coherence. It prevents skills from being left to c
 
 The ecosystem approach has the greatest long-term potential, but it is also the most demanding. It requires policy, leadership, professional development, data, time, collaboration, and investment. This is why the Afeka presentation is important. It did not present competency formation as a slogan. It presented it as course design, graduate profile work, dynamic learning processes, feedback, student presentations, flipped learning, AI-supported problem solving, project-based learning, industry visits, and evaluation.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Higher education needs graduate profiles and program-level mapping. The Afeka example, presented by Dr. Gabi Shafat, shows how engineering education can move from a collection of courses toward a coherent profile of the graduate. The presentation described the future lecturer profile, the Afeka learning experience, the limits of the traditional lecturer model, and the need for team-based structures that combine teaching, project-based learning, industry engagement, AI, and faculty development.
 
@@ -344,7 +386,7 @@ Evaluation method:
 
 Evaluate success by looking for transfer of the competency inside the discipline. The student should show accurate content knowledge and also demonstrate the named competency in action: explaining, collaborating, questioning, reflecting, or making a justified decision. Use a rubric with two equal parts: disciplinary quality and competency evidence.
 
-For your own development, map one course or semester and ask: where is each competency introduced, practiced, assessed, and revisited? This follows Dr. Yael Granot-Bein's point that competencies are internalized when linked to discipline, repeated over time, and supported by reflection, and it follows [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) on defining and evaluating skills inside courses.
+For your own development, map one course or semester and ask: where is each competency introduced, practiced, assessed, and revisited?
 
 ### Sources
 
@@ -361,6 +403,8 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 This move is important. It means that AI does not merely add one more technical requirement to STEM education. It changes the conditions under which every competency must be understood. Critical thinking now includes judging AI output. Self-directed learning now includes knowing when to continue learning beyond an automated answer. Teamwork and interpersonal communication now include collaboration in human-machine environments without hiding human contribution. Solving complex problems now includes framing the problem that AI cannot frame for the learner. Ethical judgment and responsible use become cross-cutting conditions for all four.
 
 The five competencies used in this chapter are therefore: critical thinking; self-directed learning; teamwork and interpersonal communication; solving complex problems; and ethical judgment and responsible use. The chapter also treats AI literacy as a necessary operating layer across all five rather than as a replacement for them.
+
+Four words that recur throughout this book are not on that list, and their absence is deliberate. Curiosity is what starts self-directed learning; without it the competency is a procedure nobody runs. Creativity is what solving complex problems looks like when the problem has no known solution. Communication sits inside teamwork, and is named there because collaboration that cannot be explained is not collaboration. Reflection is the mechanism by which all five improve, and it is the one an AI tool most easily removes, because a tool that supplies the answer also removes the pause in which a learner would have noticed what they did not yet understand. These four are treated throughout as ways the five competencies show themselves in practice, not as separate items to be listed and assessed. A framework of nine competencies is a framework nobody uses.
 
 ### The Dilemma
 
@@ -390,7 +434,7 @@ Integration is stronger. It says that ethical judgment and responsible AI use sh
 
 Professional mirroring is essential but demanding. It prevents the system from asking teachers to cultivate capacities that they are not supported to practice themselves. But it requires time, professional development, leadership, trust, and attention to teacher well-being.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need definitions they can teach. A vague call for "future skills" is not enough. Educators need to know what each competency looks like in a lesson, in a project, in feedback, in assessment, and in AI-supported work.
 
@@ -501,6 +545,8 @@ For your own development, build a personal AI competency journal. Once a week, t
 
 # Part II - The Future Profile of the Teacher and Lecturer
 
+Meeting 2, on 20 January 2026, asked whether the profile of teachers and lecturers should be uniform or diverse. Prof. Arnon Bentur set out the sequence of dilemmas that Phase III would follow, Jan Morrison spoke from the school system and Dr. Gabi Shafat from higher education. These three chapters take the profile question outward in stages: from the individual educator, to the teaching team, to a whole engineering faculty that rebuilt its curriculum around it.
+
 ## Chapter 4 - One Profile or Many?
 
 ### The Challenge
@@ -541,7 +587,7 @@ The ecosystem model is even stronger when implemented well. It recognizes that S
 
 The Round Table discussion suggests that this is the real tradeoff. Uniformity without realism produces overload. Diversity without structure produces incoherence. A coordinated ecosystem can produce both professional dignity and practical capacity.
 
-### Point of View Map
+### Where Each Sector Stands
 
 School teachers often work under prescribed curricula and closer regulation. University lecturers may have greater academic freedom, especially in advanced courses. Prof. Gil Noam warned against treating school teachers and university lecturers as identical. His concern is important because a shared vocabulary can hide very different professional conditions.
 
@@ -676,7 +722,7 @@ Jan Morrison's criticism of failed transdisciplinary instruction is important he
 
 The Egyptian STEM schools example, as reported in the meeting summary, illustrates the opposite condition. When the educational structure itself is intentionally redesigned to support transdisciplinary teaching, industry and university involvement, and long-term iteration, the approach can become sustainable. The lesson is not that every country should copy one model. The lesson is that team-based STEM learning needs system design.
 
-### Point of View Map
+### Where Each Sector Stands
 
 From the TIES perspective, represented by Jan Morrison, future STEM teaching must be transdisciplinary, team-based, career-connected, and supported by systems. Industry can provide context, real problems, mentors, and externship opportunities.
 
@@ -755,7 +801,7 @@ Evaluation method:
 
 Evaluate success through the quality of collaboration as well as the quality of the solution. Evidence should include role clarity, contribution records, response to feedback, and the team's ability to combine disciplinary perspectives. Individual assessment should include what each student added to the collective result.
 
-For your own development, experience professional teamwork yourself. Join or create a small educator design group that meets regularly to build, test, and improve learning tasks. This follows [Jan Morrison's TIES argument](../materials/meeting-2-ties-jan-morrison.pptx) that career-connected, transdisciplinary learning requires a system shift, not isolated heroic teachers.
+For your own development, experience professional teamwork yourself. Join or create a small educator design group that meets regularly to build, test, and improve learning tasks. [Jan Morrison's TIES argument](../materials/meeting-2-ties-jan-morrison.pptx) is the reason to insist on the team version rather than the individual one: career-connected, transdisciplinary learning requires a system shift, not isolated heroic teachers.
 
 ### Sources
 
@@ -801,7 +847,7 @@ The Afeka example shows the cost of doing this seriously. It requires adaptive a
 
 There are also limits. Dr. Shafat noted that AI-supported approaches do not work effectively in very large groups without investment. Post-hoc grading alone has little educational impact. Take-home assignments lose value when students can rely heavily on AI-generated solutions. Team-based projects raise fairness questions about individual contribution. These are not reasons to abandon redesign. They are reasons to treat redesign as serious professional work.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Students need motivation and connection. In the Advanced Digital Signal Processing course described in the presentation, drivers of change included teamwork, flipped classroom, personalized learning, students teaching, AI as a tool to improve learning processes, and project-based or problem-based learning. Each lecture began with a problem to solve. Students prepared presentations. Pre-class preparation included videos or instructional content. Discussion was used to bridge knowledge gaps.
 
@@ -899,6 +945,10 @@ For your own development, redesign one course artifact using the Afeka logic: gr
 
 # Part III - Must Teachers Possess the Skills They Teach?
 
+Meeting 3, on 10 March 2026, asked whether educators must themselves possess the competencies they are expected to cultivate. It is the sharpest question in the book. Answer yes and the demand on an already stretched workforce becomes very large; answer no and the obvious reply is that nobody can teach what they have never done.
+
+This part carries a caveat the reader should hold throughout it. No summary of Meeting 3 was found in the collected materials. These three chapters rest largely on the discussion document written before the session, which records the questions put to the room more faithfully than the answers given in it.
+
 ## Chapter 7 - Possessing Versus Cultivating Competencies
 
 ### The Challenge
@@ -953,7 +1003,7 @@ Developmental expectations support professional growth. Their risk is vagueness 
 
 The professional-development tradeoff is real. Training time and resources are limited. If all time is spent building teachers' own competencies, pedagogy may suffer. If all time is spent on how to teach competencies, teachers may lack the lived experience to model them credibly. A strong system must do both, but not all at once and not at the same depth for every role.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need expectations they can meet. If the profile becomes too idealized, teachers may experience it as accusation rather than professional direction.
 
@@ -1028,7 +1078,7 @@ Evaluation method:
 
 Evaluate success by looking for student awareness of the competency and evidence of use in more than one setting. A student succeeds when they can name the competency, apply it, explain how it helped the work, and recognize what level of guidance or expertise was needed.
 
-For your own development, choose one competency per semester for deliberate growth. For example, if the focus is ethical AI use, use AI yourself, test its limits, read one relevant framework, design one classroom routine, and discuss results with colleagues. This follows the Meeting 3 balance: teachers need enough lived practice to model and judge, while specialist depth can be distributed across teams.
+For your own development, choose one competency per semester for deliberate growth. For example, if the focus is ethical AI use, use AI yourself, test its limits, read one relevant framework, design one classroom routine, and discuss results with colleagues. The balance Meeting 3 arrived at was this: a teacher needs enough lived practice to model a competency and to judge it, while specialist depth can be distributed across a team.
 
 ### Sources
 
@@ -1074,7 +1124,7 @@ Cognitive apprenticeship adds a practical method. The teacher can model thinking
 
 The danger is performance vulnerability. A teacher saying "I do not know" without showing the next professional move may weaken trust. A teacher saying "I do not know yet, so here is how we will find out" strengthens trust.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Younger students may need stronger structure. Older students can benefit from explicit modeling of uncertainty. In AI-rich classrooms, all students need to see how claims are checked, compared, and judged.
 
@@ -1198,7 +1248,7 @@ AI-supported assessment can help surface patterns, but it introduces bias, priva
 
 The deepest risk is that assessment becomes another burden on teachers without improving learning. The Meeting 5 steering-team materials warned that professional development cannot be one-time training. It requires implementation coaching, implementation support, institutional infrastructure, resources, evaluation, and policy backing. The same is true of assessment.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need assessment that helps them improve. Evidence should point to next steps: what to redesign, what to practice, what support is needed, what student evidence shows.
 
@@ -1284,13 +1334,15 @@ Evaluation method:
 
 Evaluate success through a portfolio and short defense, not only a final score. The student should show growth, revision, evidence of contribution, and ability to explain decisions under questioning. A successful portfolio contains artifacts from the process and a reflection that connects effort to improved understanding.
 
-For your own development, build a teacher-practice portfolio as well. Save one redesigned task, one rubric, one student evidence sample, one reflection, and one improvement decision. This follows Dr. Gabi Shafat's course-evaluation approach, Danielle Eisenberg's evidence-design logic, Avi Salmon's call for data-based evaluation, and Dr. Tzur Karelitz's concern that AI evidence needs human interpretation.
+For your own development, build a teacher-practice portfolio as well. Save one redesigned task, one rubric, one student evidence sample, one reflection, and one improvement decision.
 
 ### Sources
 
 [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part IV - The Teacher, the Student, and AI
+
+Meeting 4, on 28 April 2026, asked whether teaching is still a relationship between a teacher and a student, or has become a triangle that includes AI. Dr. Iris Pinto spoke on the trends shaping the next decade and Danielle Eisenberg on the difference between default and design. These four chapters work through the competing models, the design choice each implies, the futures lens the meeting introduced, and the risks that follow from getting the design wrong.
 
 ## Chapter 10 - AI Enters the Triangle
 
@@ -1332,7 +1384,7 @@ The student-AI direct model supports agency, personalization, and access. It car
 
 The triangle model is the most realistic and most demanding. It recognizes that AI is already active, but insists that teacher judgment, student responsibility, and institutional design must shape its role. It requires teachers to understand AI, students to disclose and reflect on use, and institutions to redesign assessment and policy.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need role clarity. If AI can explain and assess, teachers must know what remains uniquely human: judgment, relationships, motivation, values, context, and the design of meaningful learning.
 
@@ -1430,7 +1482,7 @@ Evaluation method:
 
 Evaluate success by checking whether the student understands the roles in the learning triangle. The student should know when AI is a helper, when the teacher is the designer and evaluator, and when the student must act independently. Evidence can include an AI-use contract, annotated drafts, and a short explanation of personal responsibility.
 
-For your own development, use AI hands-on before setting policy. Test the tool on the same assignment students will face. Notice what it explains well, where it misleads, and what judgment students will need. This follows Avi Salmon's point that teachers must gain practical AI experience and Dr. Marwa Maklada's insistence that the teacher remains the architect of learning.
+For your own development, use AI hands-on before setting policy. Test the tool on the same assignment students will face. Notice what it explains well, where it misleads, and what judgment students will need.
 
 ### Sources
 
@@ -1480,7 +1532,7 @@ Design also requires product discipline. Human-in-the-loop should be core archit
 
 Design requires educational courage. It forces institutions to ask what evidence of learning is defensible in an AI-rich environment. It also forces them to admit that a single artifact, such as one essay or one homework submission, is a weak signal.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Students use AI unevenly. Advantaged students may use it to extend and refine thinking. Disadvantaged students may be more vulnerable to using it as a replacement for thinking. The same tool can produce opposite outcomes.
 
@@ -1569,7 +1621,7 @@ Evaluation method:
 
 Evaluate success through patterns across evidence. The teacher should look for consistency between prompts, drafts, decisions, checks, and final work. A successful student makes the learning process visible and can explain why AI suggestions were accepted, rejected, or changed.
 
-For your own development, learn evidence design, not only AI tool operation. Take one assignment and redesign it so the thinking around AI becomes visible. This follows Danielle Eisenberg's principle: AI proposes, teachers decide, and patterns across artifacts are stronger than a single polished submission.
+For your own development, learn evidence design, not only AI tool operation. Take one assignment and redesign it so the thinking around AI becomes visible.
 
 ### Sources
 
@@ -1617,7 +1669,7 @@ It also has risks. Poorly taught futures work can become speculation, slogans, o
 
 The solution is not to turn every teacher into a futurist. It is to embed futures habits into STEM learning: ask what trends are visible, what assumptions may fail, what systems are connected, who benefits, who is harmed, and what future should be preferred.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Policy makers need long-term planning. They must prepare systems for futures that cannot be reduced to a single forecast.
 
@@ -1707,7 +1759,7 @@ Evaluation method:
 
 Evaluate success by assessing the quality of futures reasoning. The student should identify signals, consider more than one possible future, explain assumptions, and connect preferred futures to present choices. Strong work avoids prediction as certainty and shows thoughtful links between technology, society, values, and action.
 
-For your own development, keep a small futures notebook. Once a month, record one emerging technology or social trend, one classroom implication, and one question for students. This follows Dr. Iris Pinto's futures approach: do not predict the future as prophecy, identify signals in the present and act toward a preferred future.
+For your own development, keep a small futures notebook. Once a month, record one emerging technology or social trend, one classroom implication, and one question for students. Dr. Iris Pinto's futures approach is what makes this workable: do not predict the future as prophecy, identify signals already present and act toward a preferred version of it.
 
 ### Sources
 
@@ -1749,7 +1801,7 @@ The risks are also real. The [Meeting 4 discussion document](../materials/meetin
 
 The danger is not that students use AI. The danger is that AI use becomes invisible, unexamined, and detached from human judgment.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need to govern AI use. Students need to learn critical use. Institutions need integrity and equity mechanisms. Society needs citizens who do not delegate judgment to machines.
 
@@ -1779,7 +1831,7 @@ Dr. Gabi Shafat described using AI on challenging problems where tools may fail 
 
 This is an important design principle. Students should not only use AI where it works smoothly. They should also encounter cases where AI gives biased, incomplete, or incorrect responses. Comparing different tools and discussing their failures turns AI from an answer machine into an object of inquiry.
 
-Dr. Marwa Maklada stated that AI should not design learning or control knowledge. The teacher must remain the architect, guiding learning, preserving deep thinking, and ensuring values-based education.
+Dr. Marwa Maklada's position, set out in Chapter 10, applies directly to risk: if AI is allowed to design learning or control knowledge, there is no longer a human decision point at which any of these risks can be caught.
 
 Prof. Gil Noam warned that AI may increase isolation and encourage students to seek quick answers rather than genuine learning. He emphasized curiosity, critical thinking, teamwork, and human relationships.
 
@@ -1850,13 +1902,17 @@ Evaluation method:
 
 Evaluate success through risk awareness and verification behavior. The student should recognize failure modes, slow down before accepting output, and use at least one independent method to check claims. Strong performance includes a correct answer and a documented reason for trusting it.
 
-For your own development, collect a bank of AI failure cases from the discipline. Use them to teach critical evaluation. This follows Dr. Gabi Shafat's example of using challenging AI problems, Emlen Metz's warning about responsibility, Prof. Russell Tytler's concern about losing deep thinking, and Avi Salmon's warning against students downloading their brains into AI.
+For your own development, collect a bank of AI failure cases from the discipline. Use them to teach critical evaluation.
 
 ### Sources
 
 [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
 
 # Part V - Professional Development as System Infrastructure
+
+Meeting 5, on 9 June 2026, asked who is responsible for sustaining the professional development of teachers and lecturers over time, and who has the capacity to do it. Prof. Russell Tytler and Dr. Yael Granot-Bein presented.
+
+This part carries a heavier caveat than Part III. No record of Meeting 5 itself was found: no summary, no presentation decks, no discussion document. These three chapters rest on steering-team summaries written before and after the session, and every attribution in them is reported at second hand.
 
 ## Chapter 14 - Who Is Responsible for Teacher Development?
 
@@ -1906,7 +1962,7 @@ There is also a motivation problem. Some educators lead change willingly. Some s
 
 This means responsibility cannot be defined only as attendance at training. Responsibility must include authority, incentives, support, evidence, and follow-up.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers cannot carry the burden alone. Institutions need structures and incentives. Policy makers must create durable mechanisms. Professional bodies can provide standards and communities.
 
@@ -2004,7 +2060,7 @@ Evaluation method:
 
 Evaluate student success by looking at how well students understand learning as a shared responsibility. The student should be able to identify what they own, what the teacher supports, and what the wider environment contributes. In older classes, success includes proposing a practical support or improvement, not only describing a problem.
 
-For your own development, build a responsibility map: what I own, what my department owns, what the institution owns, and what policy or national infrastructure should own. This follows the Meeting 5 conclusion that no single actor currently carries clear responsibility, and that professional development must become systematic and continuous.
+For your own development, build a responsibility map: what I own, what my department owns, what the institution owns, and what policy or national infrastructure should own. Meeting 5 concluded that no single actor currently carries clear responsibility for this, and that professional development has to become systematic and continuous before the question of who owns it can be answered at all.
 
 ### Sources
 
@@ -2046,7 +2102,7 @@ Long-term professional learning can address this, but only when institutions pro
 
 Implementation accompaniment is strongest when it is close to real problems. It can help a lecturer redesign an assessment, help a teacher structure AI use, help a department embed teamwork across courses, or help a school build project-based learning. But it cannot succeed if it is disconnected from leadership, scheduling, and evaluation.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need time, confidence, and peer support. Leaders must protect time and resources. Students benefit only when professional learning changes practice. Policy must fund implementation, not only courses.
 
@@ -2131,7 +2187,7 @@ Evaluation method:
 
 Evaluate success through adaptation and reflection. The student should show willingness to try a new learning routine, give useful feedback, and adjust behavior after reflection. Evidence can include journal entries, revised work, and a short explanation of what changed between attempts.
 
-For your own development, experience the new pedagogy as a learner before teaching it. Try the AI tool, teamwork method, reflection routine, or project structure personally. This follows Dr. Einat Sprinzak's point that teachers must experience learning processes themselves, and Avi Salmon's point that educators internalize change through direct experience.
+For your own development, experience the new pedagogy as a learner before teaching it. Try the AI tool, teamwork method, reflection routine, or project structure personally.
 
 ### Sources
 
@@ -2177,7 +2233,7 @@ The main risk of mixed evaluation is complexity. It requires institutions to bui
 
 The main risk of developmental evaluation is discomfort. Leaders may prefer simple answers, while complex reforms require learning from partial and changing evidence.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Policy needs evidence for funding and scaling. Institutions need learning loops. Teachers need evaluation that improves practice. Industry values evidence of real capability, not grades alone.
 
@@ -2195,7 +2251,7 @@ Industry needs graduates who can perform in authentic contexts. This requires ev
 
 Avi Salmon proposed professional, data-based evaluation of programs.
 
-This point appeared in the Meeting 5 steering-team materials regarding Academia 360. Avi Salmon supported a data-based examination and proposed a professional evaluation of the program, similar to evaluations conducted in other projects. The significance is that large educational initiatives should not rely on impressions alone. They should be studied seriously.
+This point appeared in the Meeting 5 steering-team materials regarding Academia 360, where the proposal recorded in Chapter 14 was for an independent, data-based evaluation of the program rather than a report by the people running it. The significance for this chapter is narrower and harder: a large educational initiative that is never evaluated cannot be defended when its budget is questioned, and cannot be corrected when it is wrong.
 
 Dr. Gabi Shafat described continuous feedback and evaluation in courses.
 
@@ -2277,13 +2333,15 @@ Evaluation method:
 
 Evaluate success with evidence of change over time. The teacher should compare early and later artifacts, looking for stronger reasoning, better questions, improved accuracy, and clearer reflection. Student feedback about the learning design can also become evidence, but it should be interpreted with the teacher's professional judgment.
 
-For your own development, conduct a small practice inquiry each semester. Choose a question about your teaching, collect evidence, interpret it with a colleague, and revise the design. This follows Jan Morrison's measurement-for-improvement logic, Dr. Gabi Shafat's continuous course evaluation, Danielle Eisenberg's evidence design, and Avi Salmon's call for professional, data-based evaluation.
+For your own development, conduct a small practice inquiry each semester. Choose a question about your teaching, collect evidence, interpret it with a colleague, and revise the design.
 
 ### Sources
 
 [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part VI - Environments, Industry, and Experiential Learning
+
+Meeting 6, on 21 July 2026, asked what balance of physical, virtual, and workplace environments STEM learning needs, and how mentors from industry can be brought into it without the arrangement collapsing into hospitality. Emlen Metz and Avi Salmon presented. These four chapters move outward from the room the teacher stands in to the ecosystem that is supposed to hold that teacher up.
 
 ## Chapter 17 - The Classroom Was Built for a Different Problem
 
@@ -2321,7 +2379,7 @@ Specialized spaces can signal seriousness and give students access to richer exp
 
 Ecosystem redesign is more powerful because it aligns the environment with the intended learning. It asks whether schedules allow project work, whether teachers can co-plan, whether assessment rewards process, whether industry partners are involved, and whether AI is used as a working tool rather than a novelty.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need spaces that support intended pedagogy. Students need active and collaborative learning. Institutions need investment and scheduling models. Industry can help connect spaces to real practice.
 
@@ -2349,7 +2407,7 @@ Dr. Gabi Shafat gave the higher-education version. Afeka runs roughly twenty-fou
 
 Prof. Arnon Bentur then named the constraint that blocks most of this in universities: many classes are extremely large, and interactive learning cannot become central until the student-to-faculty ratio changes. This is the environment question in its least glamorous and most decisive form.
 
-Danielle Eisenberg reframed the whole problem. The obstacle to educational innovation, she argued, is not a shortage of successful programs. It is the inability to scale them, because assessment systems, university admissions, and workforce expectations continue to reward traditional academic achievement rather than the competencies these environments are built to develop. Chapter 16 returns to this point and Chapter 24 treats it as an objection the book cannot dismiss.
+Danielle Eisenberg reframed the whole problem. The obstacle to educational innovation, she argued, is not a shortage of successful programs. It is the inability to scale them, because assessment systems, university admissions, and workforce expectations continue to reward traditional academic achievement rather than the competencies these environments are built to develop. Chapter 16 set out the evidence problem that sits behind this, and Chapter 24 treats it as the objection the book cannot dismiss.
 
 Dr. Rinat Itzhaki argued that the target audience should be teacher education, and that the model and its objectives must be defined before implementation begins, so that everyone involved shares the same understanding of the intended outcome.
 
@@ -2417,7 +2475,7 @@ Evaluation method:
 
 Evaluate success by observing how the environment changes student action. The student should participate actively, use space or materials purposefully, collaborate with others, and explain how the setting affected thinking. Evidence can include prototypes, observation notes, peer feedback, and a short environment reflection.
 
-For your own development, keep an environment log for one month. Record which arrangements supported active learning and which pushed the class back toward passive listening. This follows Meeting 6's question about whether classrooms built for frontal learning can develop creativity, teamwork, and complex problem solving.
+For your own development, keep an environment log for one month. Record which arrangements supported active learning and which pushed the class back toward passive listening. Meeting 6 opened on exactly this question: whether a classroom built for frontal learning can develop creativity, teamwork, and complex problem solving at all.
 
 ### Sources
 
@@ -2461,7 +2519,7 @@ They are weakest when they are used as novelty. A simulated lab that merely ente
 
 Blended learning is strongest when the teacher intentionally connects the virtual and the physical. Students simulate, test, build, compare, revise, explain, and reflect. The virtual environment becomes a bridge into deeper understanding, not an escape from effort.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Students need both access and authenticity. Teachers need tools that serve pedagogy, not novelty. Institutions need infrastructure and evaluation. Industry can provide realistic scenarios and tools.
 
@@ -2539,7 +2597,7 @@ Evaluation method:
 
 Evaluate success through the student's ability to connect virtual or AI-supported experience to real understanding. The student should explain what the tool revealed, what it hid, and how the experience changed their reasoning. Strong work includes critique of the tool, not only enjoyment or technical use.
 
-For your own development, test one digital or AI-supported environment as a learner, then write a short design note: what it made visible, what it hid, what student action it required, and how it should be assessed. This follows Dr. Iris Pinto's phygital and multimodal AI framing, Emlen Metz's distinction between productive and passive AI use, and Dr. Noa Ragonis's conclusion that virtual and physical laboratories should complement one another.
+For your own development, test one digital or AI-supported environment as a learner, then write a short design note: what it made visible, what it hid, what student action it required, and how it should be assessed.
 
 ### Sources
 
@@ -2575,7 +2633,7 @@ Equity is the risk most often underestimated. Partnerships form where the partne
 
 Continuity is the second risk. Partnerships are usually built on one committed engineer and one committed teacher. When either moves on, the partnership ends. Partnerships survive when they are attached to a role and a calendar rather than to two individuals.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Industry can provide real problems, tools, mentors, and professional context. Teachers need support translating industry experience into pedagogy. Students need exposure without narrow vocational tracking. Policy must define partnership models and safeguards.
 
@@ -2642,7 +2700,7 @@ Evaluation method:
 
 Evaluate success by looking at how students use professional context to improve their work. The student should ask relevant questions, respond to constraints, revise based on feedback, and explain what changed because of the industry connection. The assessment should protect learning depth, not reward contact with industry as a symbolic event.
 
-For your own development, build one sustained professional connection per year: an externship, site visit, mentor relationship, or recurring project partner. This follows Jan Morrison's emphasis on externships and career-connected learning, Avi Salmon's industry perspective, and Dr. Iris Pinto's warning about the disconnect between education and industry.
+For your own development, build one sustained professional connection per year: an externship, site visit, mentor relationship, or recurring project partner.
 
 ### Sources
 
@@ -2674,7 +2732,7 @@ Teacher-centered responsibility empowers educators, but can overload them. Insti
 
 Coordination is not free. Every additional partner adds meetings, alignment work, and points of failure. An ecosystem with seven weak links is worse than three strong ones. The practical advice is to build the ecosystem one link at a time and to strengthen a link before adding another.
 
-### Point of View Map
+### Where Each Sector Stands
 
 Teachers need support, not only expectations. Leaders must create enabling conditions. Industry and community can contribute context. Policy must support continuity beyond individual champions.
 
@@ -2751,6 +2809,8 @@ For your own development, move from self-improvement to ecosystem-building. This
 [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [Meeting 6 summary](../materials/meeting-6-summary.docx).
 
 # Part VII - A Compass for STEM Education in the AI Era
+
+The Round Table closed in August 2026. These chapters stop reporting and start arguing. They gather what the six meetings converged on, set out a lesson model built from it, put the strongest case that can be made against that model, and say what each audience might do next. Chapter 24 is the one to read if you read only one.
 
 ## Chapter 21 - Insights Across the Six Meetings
 
@@ -2872,7 +2932,7 @@ Evaluation method:
 
 Evaluate success by asking students to produce evidence for a principle, not only repeat the principle. A student succeeds when they can show an artifact, decision, revision, or reflection that proves visible thinking, responsible AI use, collaboration, equity, or another guiding principle in action.
 
-For your own development, choose three principles as annual growth priorities. For example: visible thinking, lived experience with AI, and continuous professional learning. At the end of the year, gather evidence of progress for each. This makes the book's compass operational rather than decorative.
+For your own development, treat these principles as a checklist rather than a second to-do list. At the end of the term, take the one insight you chose in Chapter 21 and ask which of these principles it served and which it quietly ignored. That is a shorter exercise than an annual plan, and it is far more likely to actually happen.
 
 ## Chapter 23 - The Human-First AI Learning Cycle
 
@@ -2977,7 +3037,7 @@ This book proceeds anyway, on the grounds that the alternative, assessing studen
 
 ### Explicit Instruction Usually Beats Discovery for Novices
 
-The book repeatedly recommends inquiry, projects, problem-based learning, and student-led investigation. The research on novice learners points the other way. For students who lack domain knowledge, minimally guided instruction is generally less effective than explicit instruction with worked examples, because novices lack the schemas needed to direct their own search and their working memory is consumed by the search itself.
+The book repeatedly recommends inquiry, projects, problem-based learning, and student-led investigation. The research on novice learners points the other way. For students who lack domain knowledge, minimally guided instruction is generally less effective than explicit instruction with worked examples, because novices lack the schemas needed to direct their own search and their working memory is consumed by the search itself. The argument is set out at length by Kirschner, Sweller, and Clark in *Why Minimal Guidance During Instruction Does Not Work* (Educational Psychologist, 2006), and it rests on a substantial body of cognitive load research. No participant in the Round Table raised it.
 
 The Human-First Learning Cycle in Chapter 23 is vulnerable to this objection. Asking a student to form a thesis about a phenomenon they have no conceptual vocabulary for may produce confident nonsense rather than productive struggle. The defense is that the cycle is bounded, guided, and followed by instruction, not that discovery works.
 
@@ -2997,7 +3057,7 @@ This book makes something close to a hundred practical recommendations. Each is 
 
 No serious costing accompanies any of it. Neither does any account of what should be removed to make room. A reform program that only adds is not a program. It is a wish, and teachers have learned to recognize the difference.
 
-The most useful thing a reader can do with this book is to pick two recommendations and ignore the rest.
+The most useful thing a reader can do with this book is to take one recommendation, run it for a term, and ignore the rest until that one works.
 
 ### Nothing Here Scales While the Gatekeepers Reward Something Else
 
@@ -3177,7 +3237,7 @@ Main achievements, publications, and interests: The public profile notes her par
 
 ### Avi Salmon
 
-Role in the Round Table: Industry perspective contributor, Meeting 6 speaker, and co-author of the Meeting 3 and Meeting 4 discussion documents. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the editor of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
+Role in the Round Table: Industry perspective contributor, speaker at Meeting 1 and Meeting 6, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened the substantive discussion of Phase III with a lecture titled The Future Educator in the Age of AI. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the author of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
 
 Bio: Avi Salmon took part as an industry voice from the Innovation Department of Intel Israel.
 
@@ -3273,7 +3333,7 @@ Main achievements, publications, and interests: The public TIES pages describe a
 
 ### Prof. Gil Noam
 
-Role in the Round Table: Contributor on the distinction between school teachers and university lecturers, and on risks of AI increasing isolation and quick-answer behavior.
+Role in the Round Table: Contributor on the distinction between school teachers and university lecturers, and on risks of AI increasing isolation and quick-answer behavior. He is not related to Dr. Yair Noam, listed later in this appendix.
 
 Bio: The [PEAR profile](https://www.pearinc.org/gil-noam) identifies Gil Noam, Ed.D., Dr. Habil, as an associate professor at Harvard Medical School focusing on prevention and resilience, leader of the Institute for the Study of Resilience in Youth at McLean Hospital, former director of the Risk and Prevention Program, and founder of the RALLY Prevention Program.
 
@@ -3313,11 +3373,19 @@ Main achievements, publications, and interests: Her Round Table contribution con
 
 ### Dr. Yair Noam
 
-Role in the Round Table: Contributor from the defense sector. Lt. Col. (res.) Dr. Noam took part from the Behavioral Sciences Department of the Israel Defense Forces and joined the Phase III sessions from the first meeting onward.
+Role in the Round Table: Contributor from the defense sector. Lt. Col. (res.) Dr. Noam took part from the Behavioral Sciences Department of the Israel Defense Forces and joined the Phase III sessions from the first meeting onward. He is not related to Prof. Gil Noam, listed earlier in this appendix.
 
 Bio: Dr. Noam represents the Behavioral Sciences Center of the IDF.
 
 Main achievements, publications, and interests: His stated interest in the Round Table was the retention of professional personnel and the strengthening of competencies among commanders and leaders, and the translation of wider educational thinking into structured development processes inside a large institution that is not a school.
+
+### Inna Zertser
+
+Role in the Round Table: Steering-team member and process contributor. She took part in the Phase III sessions and in the steering discussions that set the sequence of dilemmas and the format of the meetings.
+
+Bio: Inna Zertser is an organizational consultant at the Samuel Neaman Institute specializing in skills development and human capital.
+
+Main achievements, publications, and interests: Her contribution to Phase III was to the running of the inquiry rather than to any single argument inside it. This book does not attribute a quoted position to her, and that absence reflects what the written record captured rather than the size of her part in the work.
 
 ### Oren Baratz
 
@@ -3331,7 +3399,6 @@ Main achievements, publications, and interests: His stated interest is how ethic
 
 The following people took part in Phase III sessions. This book does not attribute a specific quoted position to them, and their inclusion here records attendance rather than authorship of any argument above.
 
-- Inna Zertser, Samuel Neaman Institute. An organizational consultant specializing in skills development and human capital, and a member of the Phase III steering team.
 - Golan Tamir, Samuel Neaman Institute.
 - Orly Rauch, Social Finance Israel. Her work concerns the measurement of skills development and the generation of actionable insight for STEM initiatives run with several municipalities in partnership with the Cleveland Federation.
 - Ruchie Avital, English-Hebrew interpreter for the sessions.
@@ -3364,10 +3431,10 @@ Additional presentation or background materials:
 - [Future Trends Shaping Reality, Dr. Iris Pinto](../materials/meeting-4-iris-pinto-future-trends.pdf).
 - [The Teacher in the AI Era discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
-- [Meeting 1 draft summary, 16.12.2025](../materials/meeting-1-summary.docx).
-- [Meeting 2 draft summary, 20.01.2026](../materials/meeting-2-summary.docx).
-- [Meeting 4 draft summary, 28.04.2026](../materials/meeting-4-summary.docx).
-- [Meeting 6 draft summary, 21.07.2026](../materials/meeting-6-summary.docx).
+- [Meeting 1 summary, 16.12.2025](../materials/meeting-1-summary.docx).
+- [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx).
+- [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx).
+- [Meeting 6 summary, 21.07.2026](../materials/meeting-6-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
 - [International Round Table for Advancing Skills in STEM Education, Phase I report](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II report, March 2025](../materials/phase-2-report.pdf).
 - Steering-team summaries, 19.10.2025 through 04.08.2026, held as internal Round Table documents.
@@ -3396,5 +3463,7 @@ External references appearing in the collected materials include:
 The Round Table did not settle the question it opened. It sharpened it.
 
 What the six meetings established is an architecture rather than an answer: AI-era STEM education requires a renewed educator profile, a stronger professional support system, and a practical compass that keeps human judgment at the center. What they did not establish is how any education system pays for it, staffs it, or sustains it past the enthusiasm of the people who started it.
+
+Chapter 24 puts the sharper version of that doubt, and it is worth carrying away rather than the architecture. The part of this book most likely to still be true in ten years is a single observation: producing a correct-looking answer no longer shows that anyone has learned anything. Everything else in these pages is a response to that observation, and responses can be wrong.
 
 That is the work of the next phase, and of the readers of this book. If a single unit is redesigned so that a student has to think before the tool answers, the discussion recorded here will have done more than most discussions do.

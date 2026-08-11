@@ -49,6 +49,10 @@ The book's central claim is simple: AI does not remove the need for teachers. It
 
 This book is based on the materials of the International STEM Skills Round Table Phase III: meeting summaries, steering-team summaries, presentation files, discussion documents, program outlines, correspondence, and background papers.
 
+Two earlier phases stand behind this one. The [Phase I report](../materials/phase-1-report.pdf), published in January 2025 from meetings held in 2022, set out definitions, teaching methodologies, and evaluation tools for three competency clusters: self-directed learning and lifelong learning; teamwork, collaboration, and cooperation; and complex problem solving with critical thinking. The [Phase II report](../materials/phase-2-report.pdf), published in March 2025, turned those clusters into a practical guide for educators and added a systematic literature review and a Delphi consensus on how AI in education might support each of them. Phase III keeps those competencies and changes the subject. It asks what the educator has to become for any of them to be cultivated at all. Four of the five competencies used in this book are inherited from Phase I; the fifth, ethical judgment, was added in Phase III.
+
+The six questions were not chosen in the meetings. They were set by the steering team at its opening session on 19 October 2025, which defined the target of Phase III as the profile of the lecturer and teacher in the era of generative AI for cultivating STEM competencies in higher education and high school, fixed the rhythm at a round table every six weeks from late 2025 to August 2026, and required that the recommendations be practical and separated into personal, institutional, and policy levels. This book keeps that separation, and Chapter 25 follows it directly.
+
 The main Phase III meetings addressed the following sequence:
 
 1. Introduction and skills in the era of artificial intelligence.
@@ -135,7 +139,7 @@ From an international education-system perspective, Jan Morrison's examples sugg
 
 ### Round Table Voices
 
-Dr. Eli Eisenberg opened the first meeting by naming the shift that defines Phase III. Phase I had described the generic STEM competencies. Phase II had produced practical tools for educators. Phase III moves the question from the profile of the graduate to the profile of the teacher and the lecturer, and treats AI both as an educational tool and as a force that changes which skills are worth having.
+Dr. Eli Eisenberg opened the first meeting by naming the shift that defines Phase III. Phase I had described the generic STEM competencies, working through definitions, teaching methods, and assessment tools for self-directed learning, for teamwork, and for complex problem solving with critical thinking. Phase II had turned that into a practical guide for educators and had examined how AI might support each of the three. Phase III moves the question from the profile of the graduate to the profile of the teacher and the lecturer, and treats AI both as an educational tool and as a force that changes which skills are worth having.
 
 Avi Salmon opened the substantive discussion with the industry view of what that pressure looks like from outside the school. Teachers, he argued, are frustrated, working with methods built for a different era, and often feel behind their own students. Some leave the profession. This is not a complaint about teachers. It is a description of a system whose tools have moved faster than its design.
 
@@ -1942,6 +1946,12 @@ It also concluded that professional development cannot be reduced to one-time tr
 
 The Meeting 5 steering-team materials emphasized institutional involvement. Effective professional development requires infrastructure: teaching and learning centers, leadership, organizational policy, and resources. Reliance on personal motivation alone is not enough to create broad, sustained change.
 
+The steering team had reached the core of this question much earlier. Its summary of 19 October 2025 argued that teaching promotion centers in higher education can no longer be satisfied with a technical role supporting instruction. In an era when STEM teaching requires the integration of learning technologies and artificial intelligence, those centers have to become a strategic actor leading pedagogical change. The summary gave them a double task: developing individual members of the teaching staff, and driving the cultural and systemic change that would make competency-based teaching an integral part of STEM instruction rather than an initiative at the edge of it. It added a third task that is easy to overlook, which is brokering between the institution and the wider ecosystem of teaching, research, and innovation outside it, so that evidence-based methods travel in both directions.
+
+That summary also named the structural gap this chapter has to work around. Teacher colleges provide full pedagogical training. Universities usually provide none. A lecturer may be an authority in the discipline and have no background whatever in cultivating competencies, and the two populations cannot be served by the same program. The steering team's conclusion was that uniform training should be avoided and that a differential model is required, matched to the individual lecturer's strengths, field of knowledge, and academic goals, with recruitment and development adapted accordingly.
+
+The same summary pointed outward for capacity. Rather than expecting every institution to build pedagogical expertise internally, it proposed sustained partnership with professional bodies that specialize in cultivating STEM competencies, naming several operating in Israel, including the National Center for Skills and Competencies, Methodica, Beit Berl College, and the Davidson Institute. The principle generalizes past those particular names. An institution without internal capacity can acquire it by partnership, provided the partnership is continuous rather than a series of visits.
+
 ### Synthesis
 
 Professional development must be treated as infrastructure, not optional enrichment.
@@ -2006,7 +2016,7 @@ For your own development, build a responsibility map: what I own, what my depart
 
 ### Sources
 
-[OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), steering-team summaries for Meeting 5.
+[Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), steering-team summaries for Meeting 5.
 
 ## Chapter 15 - Beyond One-Off Training
 
@@ -3020,6 +3030,14 @@ The Round Table did not answer that, and neither does this book. It is left here
 ### The Evidence Base Is Uneven and Partly Retrospective
 
 Meetings three and five left no primary record of the session itself. Part III rests largely on a discussion document written before Meeting 3, which means it reports the questions the organizers posed rather than the answers the room gave. Part V rests on steering-team summaries written after Meeting 5. Several attributed positions in both parts are therefore reported at second hand. The book says so in its Editorial Note, but a reader should hold the attributions accordingly: these are reported contributions, filtered through a summarizer, then synthesized by an editor who was himself a participant.
+
+### The Round Table Saw Part of This and Did Not Solve It
+
+The steering team's summary of 24 March 2026 is harder on the process than most of this book is. Reviewing Meeting 3, it recorded two faults. The first was an imbalance in the discussion itself: the conversation leaned toward the school system at the expense of academia, and the steering team asked for the academic component to be strengthened in later meetings. The second is more serious. In academia, the summary observed, there is openness to these ideas at the level of principle, and a gap between that openness and any ability to act on it, because of institutional constraints and the absence of incentives. Elsewhere the same summary noted the difficulty of embedding change in academia given academic freedom and faculty resistance.
+
+That is the gatekeeper objection again, arriving from inside the organizing group. The people running the discussion could see that the institutions they were addressing were willing in conversation and unable in practice. The remedies they proposed were a background document circulated before each meeting, dedicated webinars, and a wider but still selective circle of participants. Those are improvements in communication, and the problem they had identified was not a problem of communication.
+
+The same summary records a decision that a reader should weigh. The steering team resolved to prefer speakers from among the Round Table's own participants, as a leading principle of the initiative. That decision gave six meetings an unusual continuity, and it also means that the range of positions in this book is narrower than the range of positions in the field. A group that mostly hears from itself will find more agreement than actually exists.
 
 ### AI Capability May Outrun the Argument
 

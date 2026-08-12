@@ -169,7 +169,9 @@ The content-first approach protects rigor. It reminds educators that AI fluency 
 
 The competency-first approach is future-facing. It recognizes that employers and societies need people who can think, judge, create, cooperate, and keep learning. Its weakness is that competencies can become vague if they are separated from disciplinary practice. A student does not become a critical thinker in general. A student learns to think critically through repeated work with specific materials, methods, claims, tools, and consequences.
 
-The integrated approach is strongest, but hardest. It asks teachers and lecturers to design learning tasks in which content and competencies develop together. It asks institutions to change assessment, scheduling, professional development, class size, collaboration time, and learning environments. It also asks policy makers to recognize that competency development is not free. It requires investment.
+The integrated approach is the strongest and the hardest. It asks teachers and lecturers to design tasks in which content and competencies develop together, and it asks institutions to change assessment, scheduling, professional development, class size, collaboration time, and learning environments so that such tasks are possible.
+
+The failure mode is predictable. Institutions adopt the language and skip the scheduling. Integration is announced in a strategy document, teachers are asked to deliver it inside the timetable they already have, and within two years the initiative is remembered as something that did not work. The design did not fail. The decision to fund the announcement and not the conditions did.
 
 ### Where Each Sector Stands
 
@@ -301,13 +303,15 @@ The ecosystem position goes one step further. It argues that competencies requir
 
 ### Pros and Cons
 
-Separate skills courses provide clarity. They can be easy to schedule and communicate. Their risk is that students may treat them as secondary or fail to transfer them into real disciplinary work.
+Separate skills courses are easy to schedule, easy to describe, and easy to point at when someone asks what the institution is doing. Students read them accurately as peripheral, because a course that no later course depends on is peripheral. Transfer into disciplinary work rarely happens on its own.
 
-Embedded skills feel more authentic. They connect competencies to actual problems, repeated practice, and disciplinary identity. Their risk is that implementation depends heavily on teacher preparation. If teachers are not supported, the term "embedded" may mean only that the competency is mentioned in the syllabus but never deliberately taught.
+Embedded competencies connect to real problems, repeated practice, and disciplinary identity, which is why they work when they work. They also depend entirely on teacher preparation. Without it, "embedded" means the competency appears in the syllabus and nowhere in the teaching, and from outside the room the two are indistinguishable.
 
-Program-level mapping creates coherence. It prevents skills from being left to chance. Its cost is institutional coordination. Departments, teachers, lecturers, and assessment systems must work together.
+Program-level mapping stops competencies from being left to chance, and its cost is coordination across departments, teachers, lecturers, and assessment systems. The usual failure is a map drawn once by a committee, distributed, and never opened again, because nothing in the teaching week requires anyone to consult it.
 
 The ecosystem approach has the greatest long-term potential, but it is also the most demanding. It requires policy, leadership, professional development, data, time, collaboration, and investment. This is why the Afeka presentation is important. It did not present competency formation as a slogan. It presented it as course design, graduate profile work, dynamic learning processes, feedback, student presentations, flipped learning, AI-supported problem solving, project-based learning, industry visits, and evaluation.
+
+The risk most often underestimated is teacher preparation. Every option above except the separate course asks lecturers to teach something they were not trained to teach and are not evaluated on. Institutions budget for the curriculum change and not for the people who have to deliver it, and then read the resulting failure as evidence that competency work does not suit their discipline.
 
 ### Where Each Sector Stands
 
@@ -426,13 +430,13 @@ A fourth position, implied by the [OECD Teaching Compass](../materials/oecd-teac
 
 ### Pros and Cons
 
-Continuity offers stability. Teachers and institutions need frameworks they can implement. But continuity can understate the specific risks created by AI.
+Continuity is the choice most systems make by default, and it has a real argument behind it: a framework that changes every three years is never implemented at all. What continuity understates is that AI altered the conditions of the existing competencies rather than adding to their number. Keeping the list intact can therefore look like stability while the meaning of every item drifts underneath it.
 
-Expansion addresses the new reality directly. But if every new technology adds another competency, teachers and curricula become overloaded.
+Expansion has the merit of naming the new thing directly and the defect of setting a precedent. A framework that grows by one competency per technology becomes unteachable within a decade, and teachers respond to an overloaded list the way they always have, by quietly selecting the three items they were already doing.
 
-Integration is stronger. It says that ethical judgment and responsible AI use should be present in critical thinking, self-directed learning, teamwork and interpersonal communication, and solving complex problems. Its challenge is assessment. Cross-cutting competencies are harder to measure.
+Integration is the strongest position and carries the hardest problem. It holds that ethical judgment and responsible AI use belong inside critical thinking, self-directed learning, teamwork and interpersonal communication, and complex problem solving rather than beside them. The problem is assessment. A competency that lives everywhere is measured nowhere, and in most systems what is measured nowhere is taught nowhere.
 
-Professional mirroring is essential but demanding. It prevents the system from asking teachers to cultivate capacities that they are not supported to practice themselves. But it requires time, professional development, leadership, trust, and attention to teacher well-being.
+Professional mirroring has the clearest moral case and the largest bill. It blocks a system from asking teachers to cultivate capacities it has never supported them to practice. It also requires time, professional development, leadership, trust, and attention to teacher well-being, all of which are recurring costs rather than one-time ones. Chapter 15 argues that recurring cost is precisely what systems avoid.
 
 ### Where Each Sector Stands
 
@@ -714,11 +718,11 @@ The cross-sector ecosystem model connects educators with industry experts, commu
 
 ### Pros and Cons
 
-The individual model is familiar. It is easy to schedule and govern. But it overloads teachers and limits the kinds of learning they can support.
+The individual model survives because it is easy to schedule and easy to govern: one teacher, one room, one accountable name on the timetable. It overloads that teacher and limits the kinds of learning any single person can support, and neither effect appears in an administrative record.
 
-The team model allows teachers to share expertise. It also models the collaborative behavior students need to learn. But it requires time, trust, scheduling, leadership, and recognition.
+The team model lets teachers share expertise and shows students the collaborative behavior they are being asked to learn. It requires time, trust, scheduling, leadership, and recognition. Of those five, recognition is the one most often forgotten: a teacher whose advancement still depends on individually observed lessons will not invest in a team.
 
-The ecosystem model connects school and higher education to real practice. But it requires governance. Without clear educational purpose, partnerships can become superficial.
+The ecosystem model connects school and higher education to real practice, and it fails without governance. Partnerships built on goodwill drift toward whatever the external partner finds easy to give, which is usually a talk and a site visit rather than sustained work on a real problem.
 
 Jan Morrison's criticism of failed transdisciplinary instruction is important here. Problem-based and transdisciplinary learning are often criticized when they do not work. But the failure may not be in the pedagogy itself. It may be in the system around it. Without time for faculty collaboration, cross-sector training, and structured teamwork, such approaches are likely to fail and then be dismissed as ineffective.
 
@@ -839,11 +843,11 @@ The AI position inside this model is also balanced. AI is neither rejected nor w
 
 ### Pros and Cons
 
-The traditional sequence is clear and rigorous. Its weakness is that students may not connect early foundations to engineering practice.
+The traditional sequence is clear, rigorous, and easy to defend at an accreditation review. Its cost falls on students, who spend the early years on foundations before meeting the practice those foundations serve, and are left to make the connection between the two on their own.
 
-The graduate-profile approach creates coherence and relevance. Its weakness is that faculty buy-in and assessment redesign are difficult.
+The graduate-profile approach creates coherence, and it asks faculty to accept that their course exists to serve a program rather than a discipline. That is the harder sell. Assessment redesign follows from it, and is usually where the effort stops.
 
-The hybrid approach is the most practical. It keeps fundamentals but asks every stage of learning to connect to purpose.
+The hybrid approach is the most practical of the three. It keeps the fundamentals and asks every stage of learning to earn its place by connecting to purpose, a demand that traditional sequences never make of their own early courses.
 
 The Afeka example shows the cost of doing this seriously. It requires adaptive and dynamic course design, lecturer availability, pre-assessment, student preparation, active tasks, formative feedback, industry visits, and careful assessment of learning outcomes. It is not a matter of adding one AI assignment to a traditional course.
 
@@ -993,15 +997,15 @@ The developmental position argues that teacher competency should be seen as grow
 
 ### Pros and Cons
 
-Possession gives credibility. It allows teachers to model thinking and practice. Its risk is unrealistic expectations.
+Possession gives credibility. A teacher who has genuinely worked through an open-ended problem can model what that looks like, and students can tell the difference. The risk is a standard nobody meets. If every teacher must personally possess every competency, the profession becomes impossible to enter.
 
-Cultivation focuses on pedagogy. It recognizes that teachers help students grow beyond the teacher's own experience. Its risk is hollow instruction if the teacher lacks any lived understanding.
+Cultivation focuses on pedagogy and accepts that students routinely grow past their teachers, which is true and is much of the point of teaching. The risk is instruction with nothing behind it. A teacher who has never sustained a difficult inquiry can assign one, mark it, and never notice that the class never actually did it.
 
-The balanced approach is most workable. It requires defining levels of competence and support.
+The balanced approach is the workable one, and it survives only if someone defines the levels. Chapter 9 attempts that definition and is candid about falling short of it.
 
-Distributed expertise reduces overload and reflects real professional life. Its risk is fragmentation if roles are not coordinated.
+Distributed expertise reduces overload and matches how real professional work is organized. Its risk is that a shared responsibility becomes an unassigned one. When four people hold a competency between them and none of them owns it, it is taught by nobody while everyone reports that it is covered.
 
-Developmental expectations support professional growth. Their risk is vagueness unless institutions define evidence of progress.
+Developmental expectations support growth across a career rather than demanding everything at entry. They become decorative unless institutions state what evidence of progress looks like, and most do not.
 
 The professional-development tradeoff is real. Training time and resources are limited. If all time is spent building teachers' own competencies, pedagogy may suffer. If all time is spent on how to teach competencies, teachers may lack the lived experience to model them credibly. A strong system must do both, but not all at once and not at the same depth for every role.
 
@@ -1116,11 +1120,11 @@ A fourth position, grounded in cognitive apprenticeship, says that expert thinki
 
 ### Pros and Cons
 
-Traditional authority gives clarity and trust. Its weakness is brittleness. If authority depends on always knowing, it fails in fast-changing contexts.
+Traditional authority gives clarity and trust, and it is brittle. Authority that rests on always knowing has to survive the first student who checks an answer against a tool during the lesson, and in an AI-rich classroom that happens every week.
 
-Vulnerability models lifelong learning. Its weakness is that it can confuse students if not framed with care.
+Vulnerability models lifelong learning, and it confuses students when it is left unframed. A teacher who is uncertain in public without showing what uncertainty leads to has taught the doubt and withheld the method.
 
-Guided authority is strongest. The teacher does not pretend to know everything. The teacher demonstrates how responsible learners handle what they do not know.
+Guided authority is the strongest of the three. The teacher demonstrates how responsible learners handle what they do not know, and the demonstration is itself the lesson.
 
 Cognitive apprenticeship adds a practical method. The teacher can model thinking aloud, coach students through uncertainty, scaffold the task, and gradually transfer responsibility. In an AI-rich classroom, this may mean comparing an AI explanation with a textbook, asking students to identify unsupported claims, showing how to verify a result, or explaining why a fluent answer is still not trustworthy.
 
@@ -1378,8 +1382,6 @@ The Round Table did not treat these models as slogans. It used them to ask hard 
 
 ### Pros and Cons
 
-The tool model is safer and easier to govern, but ignores much student use. The direct model supports independence, but risks shallow learning and hidden dependency. The triangle model is more realistic, but requires new pedagogy and assessment.
-
 The teacher-led model protects accountability and gives teachers control. Its weakness is that it may not match reality. Students already use AI outside formal teacher control, and pretending otherwise leaves educators blind to actual learning processes.
 
 The student-AI direct model supports agency, personalization, and access. It carries the promise of something like personal tutoring at scale. But it also risks cognitive offloading, misinformation, social isolation, shallow understanding, and unequal use.
@@ -1526,7 +1528,7 @@ The design position is the only one that treats AI as a system condition rather 
 
 ### Pros and Cons
 
-Restriction may protect integrity briefly, but it is unrealistic. Permission is flexible, but often too vague. Design is harder, but it is the only durable approach.
+Restriction protects integrity for about as long as it takes a student to find a tool the policy did not name. Permission is flexible and usually too vague to guide anyone: a rule allowing AI use with acknowledgement tells a student nothing about what the acknowledgement is for. Design is harder than either, and it is the only one of the three that survives the next model release.
 
 Design is harder because it requires infrastructure. Danielle Eisenberg's presentation argued for assessment infrastructure that sees inside learning, funding the teacher's role as system designer, defining AI as a policy lever with equity guardrails, and training teachers in evidence design rather than only AI tools.
 
@@ -1663,7 +1665,7 @@ In this view, futures thinking becomes a literacy for modern STEM learning.
 
 ### Pros and Cons
 
-Current-market preparation is concrete, but it can become obsolete. General adaptability is valuable, but can become abstract. Futures thinking offers tools for uncertainty, but requires teacher preparation and institutional culture.
+Current-market preparation is concrete, and it trains students for the job advertisements of the year they entered school. General adaptability avoids that trap by declining to commit to anything, which is why it is so easy to endorse and so hard to teach. Futures thinking gives students real tools for uncertainty, and asks more of teachers than either alternative.
 
 Futures thinking has a strong advantage: it helps learners move beyond passive prediction. Students learn that the future is partly shaped by present decisions. This supports agency, responsibility, and moral imagination.
 
@@ -1795,7 +1797,7 @@ The human-centered design position treats AI as a bounded support inside teacher
 
 ### Pros and Cons
 
-Efficiency gives speed and access, but may encourage cognitive offloading. A thinking partner can prompt exploration, but may mislead. Controlled support preserves human judgment, but requires careful design.
+Efficiency gives speed and access, and teaches students that the fastest route to an acceptable answer is the route worth taking. A thinking partner prompts exploration and will mislead confidently while doing it. Controlled support preserves human judgment at the cost of design work for which nobody has been given time.
 
 The benefits are real. AI can offer individualized explanation, practice, simulation, translation, feedback, and access to resources. It can help students rehearse ideas and help teachers review evidence more efficiently.
 
@@ -1954,7 +1956,7 @@ The shared responsibility position says that professional development must be or
 
 ### Pros and Cons
 
-Individual responsibility is motivating, but inequitable. Institutional responsibility is close to practice, but uneven. National responsibility creates scale, but can become bureaucratic. Shared responsibility is strongest, but requires governance.
+Individual responsibility is motivating and inequitable, because it rewards the educators who already have time, money, and a supportive institution. Institutional responsibility sits close to practice and varies enormously between institutions that look similar on paper. National responsibility creates scale and reliably produces compliance rather than change. Shared responsibility is the strongest of the four, and the only one that requires somebody to govern it.
 
 The steering discussion before Meeting 5 highlighted major differences between schools and higher education. In schools, teaching is the core profession. In academia, many lecturers are promoted mainly through research rather than teaching quality. A single professional development model may therefore fail unless it is adapted to different incentive systems.
 
@@ -2096,7 +2098,7 @@ The implementation accompaniment position goes further. It argues that professio
 
 ### Pros and Cons
 
-Training events are visible and manageable, but transfer weakly into practice. Continuous learning supports change, but requires time and budget. Accompaniment is powerful, but needs mentors and institutional commitment.
+Training events are visible, manageable, countable, and largely inert: attendance is recorded and practice is not. Continuous learning changes practice, and costs time and budget every year rather than once. Accompaniment is the most powerful of the three and depends on mentors who are themselves scarce, which is why it is so often piloted and so rarely scaled.
 
 One-off training also tends to favor the already motivated. Those who attend are often the educators already inclined toward innovation. Those most in need of change may remain outside the process.
 

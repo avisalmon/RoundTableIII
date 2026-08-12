@@ -2227,8 +2227,6 @@ Developmental evaluation is especially relevant when reforms are still evolving.
 
 ### Pros and Cons
 
-Quantitative evidence is comparable, but may miss deeper learning. Qualitative evidence captures process, but can be harder to scale. Mixed models are richer, but require expertise. Developmental evaluation fits innovation, but may be less familiar to policy systems.
-
 The main risk of quantitative evaluation is false precision. A number may look rigorous while hiding whether students actually became more capable.
 
 The main risk of qualitative evaluation is inconsistency. Rich evidence can become anecdotal unless it is structured, reviewed, and connected to clear questions.
@@ -2236,6 +2234,8 @@ The main risk of qualitative evaluation is inconsistency. Rich evidence can beco
 The main risk of mixed evaluation is complexity. It requires institutions to build capacity for data interpretation, evidence review, and improvement cycles.
 
 The main risk of developmental evaluation is discomfort. Leaders may prefer simple answers, while complex reforms require learning from partial and changing evidence.
+
+The risk running under all four is that an evaluation reports on whatever its commissioner asked about. A ministry funding an evaluation of its own reform receives an account of that reform's activities, because that is what the terms of reference requested. Danielle Eisenberg's point about scale applies here as well: the measurement systems with real consequences attached are not the ones being redesigned, and an evaluation that never touches them changes nothing whatever its method.
 
 ### Where Each Sector Stands
 
@@ -2525,7 +2525,7 @@ Blended learning is strongest when the teacher intentionally connects the virtua
 
 ### Where Each Sector Stands
 
-Students need both access and authenticity. Teachers need tools that serve pedagogy, not novelty. Institutions need infrastructure and evaluation. Industry can provide realistic scenarios and tools.
+The sector that most often gets this wrong is the one holding the budget. New learning technology is usually bought at institutional level, specified by people who will not teach with it, and handed to teachers as a completed decision. What each group needs is not hard to state. What is hard is that the needs are usually met in reverse order of their importance.
 
 Students need opportunities to practice in multiple modes: physical, digital, collaborative, reflective, and AI-supported. They also need to understand the limits of each mode.
 
@@ -2732,9 +2732,11 @@ The strongest objection to the ecosystem position deserves stating plainly: when
 
 ### Pros and Cons
 
-Teacher-centered responsibility empowers educators, but can overload them. Institution-centered responsibility creates support, but can become top-down. Ecosystem responsibility is strongest, but requires coordination.
+Teacher-centered responsibility empowers educators and quietly transfers the system's unsolved problems to them. It is also the cheapest of the three and therefore the one most often chosen, because it needs no budget line and no reorganization. Institution-centered responsibility creates real support and tends to arrive top-down, reaching teachers as a program they were enrolled in rather than one they shaped. Ecosystem responsibility is the strongest of the three, and the only one that cannot be put in place by a single decision.
 
 Coordination is not free. Every additional partner adds meetings, alignment work, and points of failure. An ecosystem with seven weak links is worse than three strong ones. The practical advice is to build the ecosystem one link at a time and to strengthen a link before adding another.
+
+The failure mode specific to ecosystems is diffusion of accountability. When a school, a university, a ministry, and an industry partner each hold part of a commitment, the part nobody explicitly owns is the part that does not happen, and every party can point at the others once it has not. The remedy is unglamorous: name one accountable role for each link, and put a date on it.
 
 ### Where Each Sector Stands
 

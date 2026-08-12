@@ -4,9 +4,9 @@ A proposed professional development program for teachers who want to adopt the p
 
 The program is built around three sections:
 
-1. **AI knowledge** — practical use of AI for research, learning, software building, simulations, classroom preparation, and feedback.
-2. **Pedagogy** — translating the book's principles into classroom design, student skills, assessment, activities, and the Human-First AI Learning Cycle.
-3. **Leading change** — preparing teacher leaders to influence colleagues and systems.
+1. **AI knowledge** - practical use of AI for research, learning, software building, simulations, classroom preparation, and feedback.
+2. **Pedagogy** - translating the book's principles into classroom design, student skills, assessment, activities, and the Human-First AI Learning Cycle.
+3. **Leading change** - preparing teacher leaders to influence colleagues and systems.
 
 ## Program Outcomes
 

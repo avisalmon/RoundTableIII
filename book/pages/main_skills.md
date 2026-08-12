@@ -18,7 +18,7 @@ Judging whether a claim, a method, or a result deserves to be believed.
 
 Setting a direction, monitoring your own understanding, and continuing without being pushed.
 
-**What AI changed.** The natural stopping point moved earlier. An automated answer feels like the end of the task, so the question becomes whether the student knows when to keep going past it. Self-direction now includes recognising the difference between having an answer and understanding it.
+**What AI changed.** The natural stopping point moved earlier. An automated answer feels like the end of the task, so the question becomes whether the student knows when to keep going past it. Self-direction now includes recognizing the difference between having an answer and understanding it.
 
 **What it looks like in class.** The student can say what they still do not understand after receiving a correct answer, and what they did about it.
 
@@ -34,7 +34,7 @@ Working with others in a way that makes contribution and responsibility visible.
 
 Framing a problem, choosing constraints, and working through a situation that has no clean answer.
 
-**What AI changed.** Execution became cheap and framing became decisive. The scarce skill is deciding what problem to solve, what constraints are real, and what a good enough solution looks like — the parts a model cannot be handed.
+**What AI changed.** Execution became cheap and framing became decisive. The scarce skill is deciding what problem to solve, what constraints are real, and what a good enough solution looks like - the parts a model cannot be handed.
 
 **What it looks like in class.** The student can defend the framing, not only the solution: why these constraints, why this simplification, why this counts as solved.
 
@@ -61,7 +61,7 @@ The same ladder applies to teachers. A teacher needs enough AI literacy to desig
 
 ## What About Curiosity and Creativity
 
-Curiosity, creativity, communication and reflection appear throughout the book and throughout the Round Table discussions. They are treated as manifestations of the five competencies rather than separate list items — creativity shows up inside solving complex problems, reflection inside self-directed learning, communication inside teamwork.
+Curiosity, creativity, communication and reflection appear throughout the book and throughout the Round Table discussions. They are treated as manifestations of the five competencies rather than separate list items - creativity shows up inside solving complex problems, reflection inside self-directed learning, communication inside teamwork.
 
 This is a deliberate choice against list inflation. A framework that names fifteen competencies is a framework nobody assesses.
 
@@ -69,7 +69,7 @@ This is a deliberate choice against list inflation. A framework that names fifte
 
 The harder claim in the book is not the list itself but where the competencies live. They are not a separate subject. They develop inside disciplinary work or not at all: critical thinking inside a physics problem, teamwork inside an engineering project, ethical judgment inside an AI-supported design task.
 
-That choice has a cost, and the book states it. Embedded competencies are harder to see, harder to assess, and depend on every teacher understanding how to design for them. The counter-argument — that competency and transfer claims of this kind are under-evidenced — is set out in full in the chapter written against the book's own thesis.
+That choice has a cost, and the book states it. Embedded competencies are harder to see, harder to assess, and depend on every teacher understanding how to design for them. The counter-argument - that competency and transfer claims of this kind are under-evidenced - is set out in full in the chapter written against the book's own thesis.
 
 ## Keep the Human Above the Machine
 
@@ -86,8 +86,8 @@ This is not anti-AI education. It is the minimum that keeps the student, rather 
 
 ## Read More in the Book
 
-- [Chapter 2 – From Knowledge Transmission to Competency Formation](book.html#chapter-2-from-knowledge-transmission-to-competency-formation)
-- [Chapter 3 – The Five Competencies in an AI-Rich World](book.html#chapter-3-the-five-competencies-in-an-ai-rich-world)
-- [Chapter 4 – One Profile or Many?](book.html#chapter-4-one-profile-or-many)
-- [Chapter 16 – Evidence, Evaluation, and Institutional Learning](book.html#chapter-16-evidence-evaluation-and-institutional-learning)
-- [Chapter 24 – The Case Against This Book](book.html#chapter-24-the-case-against-this-book)
+- [Chapter 2 - From Knowledge Transmission to Competency Formation](book.html#chapter-2-from-knowledge-transmission-to-competency-formation)
+- [Chapter 3 - The Five Competencies in an AI-Rich World](book.html#chapter-3-the-five-competencies-in-an-ai-rich-world)
+- [Chapter 4 - One Profile or Many?](book.html#chapter-4-one-profile-or-many)
+- [Chapter 16 - Evidence, Evaluation, and Institutional Learning](book.html#chapter-16-evidence-evaluation-and-institutional-learning)
+- [Chapter 24 - The Case Against This Book](book.html#chapter-24-the-case-against-this-book)

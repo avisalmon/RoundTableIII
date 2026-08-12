@@ -1,6 +1,6 @@
 # The Lesson Skeleton
 
-The Human-First AI Learning Cycle is the book's single most transferable proposal: an order of operations a teacher can use on Monday. Students meet the world before they meet AI. AI enters after observation, early reasoning, measurement and prediction, and its job is to expand, compare, model and validate — not to supply the frame.
+The Human-First AI Learning Cycle is the book's single most transferable proposal: an order of operations a teacher can use on Monday. Students meet the world before they meet AI. AI enters after observation, early reasoning, measurement and prediction, and its job is to expand, compare, model and validate - not to supply the frame.
 
 ## Why the Order Is the Whole Argument
 
@@ -14,7 +14,7 @@ If AI comes after the student's own explanation, its role inverts. It becomes so
 
 | # | Step | The teacher's job | What to look for |
 | --- | --- | --- | --- |
-| 1 | Observe the phenomenon | Put something real in front of them; forbid formulas and tools | Description, sketch, recording — in the student's own words |
+| 1 | Observe the phenomenon | Put something real in front of them; forbid formulas and tools | Description, sketch, recording - in the student's own words |
 | 2 | Form a human thesis | Ask what is happening and why; accept incomplete answers, reject vague ones | A specific, falsifiable claim |
 | 3 | Experiment and measure | Provide the simplest possible instrument | Evidence the student actually collected |
 | 4 | Predict before AI | Require a number, and require what would prove them wrong | A written prediction, committed before any tool opens |
@@ -89,6 +89,6 @@ That pull is what the sequence is designed to resist.
 
 ## Read More in the Book
 
-- [Chapter 22 – Guiding Principles](book.html#chapter-22-guiding-principles)
-- [Chapter 23 – The Human-First AI Learning Cycle](book.html#chapter-23-the-human-first-ai-learning-cycle)
-- [Chapter 24 – The Case Against This Book](book.html#chapter-24-the-case-against-this-book)
+- [Chapter 22 - Guiding Principles](book.html#chapter-22-guiding-principles)
+- [Chapter 23 - The Human-First AI Learning Cycle](book.html#chapter-23-the-human-first-ai-learning-cycle)
+- [Chapter 24 - The Case Against This Book](book.html#chapter-24-the-case-against-this-book)

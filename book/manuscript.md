@@ -17,9 +17,9 @@ This book is not an official publication of the Samuel Neaman Institute or of an
 
 The author was himself a participant in the Round Table and presented at the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
 
-The evidence base is uneven across the book, and the unevenness is not distributed randomly. Meetings one, two, four, and six left detailed written summaries, and most of them also left presentation decks. Meeting three left a discussion document prepared before the session rather than a record of it, so the chapters drawn from it report the questions put to the room more faithfully than the answers given in it. Meeting five left no primary record at all, only steering-team summaries written before and after.
+All six meetings left detailed written summaries, and five of the six also left presentation decks. Meeting 1 was an introductory session and left a summary but no deck, so the opening lecture is reported rather than reproduced. The summaries of Meetings 3, 5, and 6 reached the author as drafts circulated for participant comment, and are used on that basis.
 
-Three consequences follow, and the reader should hold all three. Parts III and V rest on second-hand material, and their attributions are reported rather than verbatim. The Meeting 6 summary reached the author as a draft circulated for participant comment, and is used on that basis. The Meeting 1 summary and the Phase I and Phase II reports reached the author late in the preparation of this edition, and the affected chapters were revised to use them.
+Two consequences follow. The first is that every attribution in this book passes through a summarizer. The meeting records are careful and detailed, and they are still summaries: each speaker appears in reported prose, not in transcript, and the compression is invisible on the page. The second is a matter of sequence. The Meeting 1 summary, the Phase I and Phase II reports, and later the Meeting 3 and Meeting 5 summaries and decks all reached the author after the first draft was written. Each arrival changed chapters that had already been drafted, and those chapters were rewritten rather than patched.
 
 Appendix B records, meeting by meeting, exactly what evidence exists. It is short, and a reader who intends to rely on any attribution in this book should read it first.
 
@@ -35,9 +35,9 @@ One name appears on the cover of this book, and that is a statement about editor
 
 Each of the six named above as leading the work was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the author's own, and it would be unfair to attach their names to judgments they did not make.
 
-**The people whose arguments the chapters are built from.** Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6. Their material is the primary evidence behind large parts of this book.
+**The people whose arguments the chapters are built from.** Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation presented at Meeting 3. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6. Their material is the primary evidence behind large parts of this book.
 
-Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Prof. Sigal Tifferet, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Olena Bekh, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser, Orly Rauch, and Golan Tamir took part in the sessions and the steering work behind them.
+Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Edith Manny-Ikan, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser, Orly Rauch, and Golan Tamir took part in the sessions and the steering work behind them.
 
 Appendix A records each contributor's role and background in full. The attributions throughout the book are drawn from meeting summaries, presentation files, discussion documents, and steering-team records. Where a source reported a contribution rather than recording it verbatim, the book says so. Any misattribution is unintended, and corrections are welcome.
 
@@ -953,7 +953,7 @@ For your own development, redesign one course artifact using the Afeka logic: gr
 
 Meeting 3, on 10 March 2026, asked whether educators must themselves possess the competencies they are expected to cultivate. It is the sharpest question in the book. Answer yes and the demand on an already stretched workforce becomes very large; answer no and the obvious reply is that nobody can teach what they have never done.
 
-This part carries a caveat the reader should hold throughout it. No summary of Meeting 3 was found in the collected materials. These three chapters rest largely on the discussion document written before the session, which records the questions put to the room more faithfully than the answers given in it.
+Two presentations opened it. Prof. Sigal Tifferet of Ruppin Academic Center reviewed what the research actually shows about training teachers to teach skills, and Dr. Olena Bekh of the European Training Foundation presented the ETF reference model for educators in the twenty-first century. The discussion that followed did not settle the dilemma, and it moved it somewhere more useful. The argument shifted off whether teachers must possess the competencies and onto how concrete the thing they possess has to be.
 
 ## Chapter 7 - Possessing Versus Cultivating Competencies
 
@@ -1025,11 +1025,27 @@ Industry and society need trust. If graduates are expected to work responsibly w
 
 ### Round Table Voices
 
-Dr. Eli Eisenberg, Prof. Arnon Bentur, and Avi Salmon framed this dilemma in the Meeting 3 document.
+Prof. Sigal Tifferet opened Meeting 3 with the research position, and it is less encouraging than the field usually admits. Meta-analyses of teacher training show effects that are statistically significant and small, in the range of 0.05 to 0.09. Her reading was not that training fails but that it compounds, and that nobody should expect a workshop to transform practice. She proposed extending the familiar TPACK model, which crosses technology, pedagogy, and content knowledge, into what she called TSPAC by adding a skills axis and taking every intersection seriously.
 
-Emlen Metz warned against students delegating thinking and responsibility to machines. This implies that teachers must be able to guide responsible use.
+Her practical conclusion was the sharpest claim made at the meeting. Skills run from the general, such as creativity, to the specific, such as brainstorming used as a tool for fluency. For beginning teachers, and for university lecturers with no pedagogical training, teaching the specific tool works where teaching the abstract skill does not. A concrete tool is learnable, usable the following week, and produces a sense of success. Abstraction can wait for the experienced.
 
-Prof. Russell Tytler expressed concern that AI may reduce deep, sustained thinking. This strengthens the case for teachers who can model intellectual discipline.
+Dr. Olena Bekh of the European Training Foundation presented the ETF reference model, which identifies six domains for the modern educator: learner-driven practice, adaptability, sustainability and inclusion, collaboration and engagement, lifelong learning and reflection, and digital technologies. Her answer to the dilemma was to refuse it in its binary form. Teachers are not superhuman, and deep understanding and practical experience are not alternatives but requirements that vary by role and context. What she would not concede was the possibility of teaching a competency one does not model. Her phrase for it was teach as we preach.
+
+Prof. Russell Tytler agreed that skills should be taught concretely and would not let the matter rest there. Competencies such as creativity and problem solving are context-dependent and do not decompose into fixed components, which makes the translation into practice different in every discipline. For experienced teachers he argued that training must begin with pedagogical content knowledge, because anything else produces surface learning.
+
+Prof. Tifferet conceded the structure of the objection without conceding the practical point. Skills probably contain both general and context-dependent components, much as intelligence does. Some of it transfers and some does not, and the question is empirical and still open.
+
+Dr. Yael Granot-Bein moved the discussion off pre-service training, where it is comfortable, and onto veteran educators, where it is not. Many experienced teachers are willing to change and were never trained to teach skills, and they cannot begin from scratch. She also rejected the framing of skills instruction as a burden added to teaching. Done properly it improves teaching instead of slowing it, though it requires a shift away from frontal delivery, and it cannot be left to individual teachers to lead.
+
+Avi Salmon argued for practical tools as the entry point to deeper competencies, on an analogy from industry. Change comes through hands-on experience, not through theory. Teachers have to experience learning as students, using the new tools themselves, before they can carry the method into their own classrooms.
+
+Dr. Edith Manny-Ikan gave the meeting its dissent, and it was the most useful contribution in the room. Teachers feel overwhelmed by the expectation to teach extensive content and new competencies at once. Under time pressure and assessment demands they choose content, and many lack the clarity and the capacity to implement competency-based approaches at all. Her warning was about the distance between policy conversation and classroom reality, and about the habit of designing reform around the already motivated.
+
+Dr. Revital Duek answered from a pilot run at Tel Aviv University with Yale and the Edmond de Rothschild Bridge, where lecturers raised the same concerns and, by the end of the year, reported that the experience had been easier than they expected. Integrating the approach into syllabus planning, she argued, need not increase workload and can improve student engagement with the content.
+
+Dr. Marwa Maklada described the national STEM Skills Interface program, a three-year initiative involving hundreds of teachers and expanding gradually, driven by motivated lighthouse teachers. Its results rest on continuous support during implementation and on internal system capacity rather than bought-in solutions. Her list of what remains hard is worth keeping: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage.
+
+Emlen Metz warned at Meeting 6 against students delegating thinking and responsibility to machines, which implies that teachers must be able to guide responsible use.
 
 Avi Salmon argued in Meeting 2 that teachers and lecturers must remain above AI. In this chapter, that claim becomes a competency requirement. The educator does not need to know more than every AI system. The educator does need enough judgment to keep the human process of learning, responsibility, and meaning above the machine.
 
@@ -1084,11 +1100,11 @@ Evaluation method:
 
 Evaluate success by looking for student awareness of the competency and evidence of use in more than one setting. A student succeeds when they can name the competency, apply it, explain how it helped the work, and recognize what level of guidance or expertise was needed.
 
-For your own development, choose one competency per semester for deliberate growth. For example, if the focus is ethical AI use, use AI yourself, test its limits, read one relevant framework, design one classroom routine, and discuss results with colleagues. The balance Meeting 3 arrived at was this: a teacher needs enough lived practice to model a competency and to judge it, while specialist depth can be distributed across a team.
+For your own development, choose one competency per semester for deliberate growth. For example, if the focus is ethical AI use, use AI yourself, test its limits, read one relevant framework, design one classroom routine, and discuss results with colleagues. Meeting 3 produced no threshold, and it did point somewhere practical: begin with a concrete tool you can use yourself, not with the abstract competency it belongs to. A teacher needs enough lived practice to model a competency and to judge it, and specialist depth can be distributed across a team.
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Prof. Sigal Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx), [Dr. Olena Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing
 
@@ -1146,7 +1162,7 @@ From the AI design perspective, the Meeting 4 and Danielle Eisenberg materials p
 
 ### Round Table Voices
 
-The Meeting 3 document explicitly asked about the role of teacher vulnerability and not-knowing.
+Dr. Olena Bekh answered this question directly at Meeting 3, and her answer is stronger than it first sounds. Teacher vulnerability, by which she meant the recognition of what one does not yet know, is what drives professional growth. She placed it beside teacher autonomy and agency as a condition of continuous development rather than a risk to be managed. That makes not-knowing part of professional competence rather than a gap in it, which is the opposite of how most evaluation systems treat it.
 
 Avi Salmon argued that teachers and lecturers must remain above AI. That is a claim about leading the human process of judgment, and says nothing about knowing more facts than every tool.
 
@@ -1212,7 +1228,7 @@ For your own development, rehearse transparent authority. Before class, identify
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Dr. Olena Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
 
 ## Chapter 9 - Assessing Enough Competency
 
@@ -1252,7 +1268,7 @@ Program evaluation can reveal whether reforms work, but it requires careful desi
 
 AI-supported assessment can help surface patterns, but it introduces bias, privacy, trust, and interpretation problems. The Meeting 4 materials are relevant here: AI can propose analysis and feedback, but the teacher who knows the student and context must remain the interpretive layer.
 
-The deepest risk is that assessment becomes another burden on teachers without improving learning. The Meeting 5 steering-team materials warned that professional development cannot be one-time training. It requires implementation coaching, implementation support, institutional infrastructure, resources, evaluation, and policy backing. The same is true of assessment.
+The deepest risk is that assessment becomes another burden on teachers without improving learning. Meeting 5 established that professional development cannot be one-time training. It requires implementation coaching, institutional infrastructure, resources, evaluation, and policy backing. The same is true of assessment.
 
 ### Where Each Sector Stands
 
@@ -1276,7 +1292,15 @@ Avi Salmon argued for professional, data-based evaluation of programs.
 
 Dr. Marwa Maklada described work on validating competency-based tasks and assessment processes.
 
-The Meeting 5 steering-team materials add that there is no single actor with clear responsibility for sustained professional development. This matters for assessment because no assessment system can work if no one owns the follow-up. Evidence without support becomes judgment without improvement.
+Meeting 3 produced the most concrete exchange on this question in the whole Round Table, and it went badly for the optimists. Prof. Arnon Bentur put the contradiction to the room: the education system and academia both describe graduate profiles built on competencies, and neither reflects that emphasis in how it assesses. He then asked Dr. Edith Manny-Ikan, who works on the matriculation examinations, how competencies are actually represented in them.
+
+Her answer stated a sequence most reform proposals get backwards. Competencies must be assessed before they can be taught, because what is not examined does not survive contact with a timetable. Building them into high-stakes examinations is hard for a reason that is not bureaucratic timidity: competency-based questions are perceived as more difficult and may disadvantage some students, so policy makers move slowly and pilot rather than mandate. The constraint here is equity, and it does not dissolve because the pedagogy is sound.
+
+Prof. Sigal Tifferet had already named the practical version of the same problem. Any institution deciding to teach skills has to decide how much time is allocated, since skills instruction is not a single event, and how the skills will be evaluated, whether by self-assessment, peer assessment, or the teacher. Neither question has a default answer, and leaving them unanswered is how a skills initiative quietly becomes a slogan.
+
+Dr. Revital Duek drew the three conditions together at the close of that meeting. The change requires policy backing, measurement, and an implementation plan, and it cannot be carried by the field alone.
+
+Meeting 5 added the missing piece. No single actor carries clear responsibility for sustained professional development, which matters for assessment because no assessment system works if nobody owns the follow-up. Evidence without support becomes judgment without improvement.
 
 [Danielle Eisenberg's Meeting 4 material](../materials/meeting-4-default-or-design-ignite-ed.pptx) argued that traditional assessment measures outputs and cannot detect shallow AI use, equity gaps, or whether AI-supported learning is actually producing understanding. It proposed visibility into process, not only products.
 
@@ -1344,7 +1368,7 @@ For your own development, build a teacher-practice portfolio as well. Save one r
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part IV - The Teacher, the Student, and AI
 
@@ -1916,7 +1940,7 @@ For your own development, collect a bank of AI failure cases from the discipline
 
 Meeting 5, on 9 June 2026, asked who is responsible for sustaining the professional development of teachers and lecturers over time, and who has the capacity to do it. Prof. Russell Tytler and Dr. Yael Granot-Bein presented.
 
-This part carries a heavier caveat than Part III. No record of Meeting 5 itself was found: no summary, no presentation decks, no discussion document. These three chapters rest on steering-team summaries written before and after the session, and every attribution in them is reported at second hand.
+Dr. Granot-Bein's presentation gives this part its structure. She put four candidate owners on the table, namely individual faculty, teaching and learning centers, institutional leadership, and national support structures, and worked through what each can and cannot carry. Chapter 14 follows that analysis directly. Prof. Tytler supplied the school-system half of the same question, and his answer from Australia was that no national framework exists there either.
 
 ## Chapter 14 - Who Is Responsible for Teacher Development?
 
@@ -1947,6 +1971,8 @@ The Round Table materials therefore point toward shared responsibility, but shar
 ### Main Positions
 
 The individual responsibility position says that teachers and lecturers are professionals, and professionals must keep learning. This position protects agency and dignity. It also aligns with the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), which emphasizes teacher agency, professional identity, and continuous learning.
+
+The teaching-center position says the work belongs to people who hold pedagogical expertise as their profession, which is what teaching and learning centers are for. They can train, coach, consult, and redesign courses. Dr. Yael Granot-Bein's verdict on them at Meeting 5 was blunter than their advocates would like: their authority and resources are limited, they often reach only a small proportion of faculty, and they cannot drive institutional change alone.
 
 The institutional responsibility position says that educators cannot transform practice alone. Leaders must provide time, recognition, resources, peer structures, and incentives. Without institutional involvement, professional learning becomes voluntary enrichment for the already motivated.
 
@@ -1984,19 +2010,29 @@ Funders and foundations can support innovation, but the Round Table logic implie
 
 ### Round Table Voices
 
-The Meeting 5 steering-team materials reported Prof. Russell Tytler's presentation on teacher professional development and Dr. Yael Granot-Bein's presentation on academic faculty development.
+Dr. Yael Granot-Bein brought numbers to a question the Round Table had until then argued from impression. A Samuel Neaman Institute survey of faculty found that ninety percent regard transferable skills as highly important, sixty-one percent have never received any formal training in teaching them, and eighty-four percent of those not currently teaching them would like to learn how. The three figures together dismantle the most common explanation for why nothing changes. Faculty are not the obstacle. The willingness is already there and the training is not.
 
-No separate presentation decks for Meeting 5 were found in the collected materials. The available evidence comes from the steering summaries before and after the meeting. Those summaries report that Prof. Russell Tytler addressed professional development for teachers and the question of who is responsible for advancing it and sustaining it over time. Dr. Yael Granot-Bein addressed professional development of lecturers in academia, focusing on activities of the Edmond de Rothschild Bridge for Higher Education and Employment and insights emerging from them.
+She then named the assumption that the willingness gets wasted on. Understanding that skills matter is not the same as knowing how to teach them, and knowing how to teach them does not by itself change what happens in a lecture hall. Two gaps, not one, and most institutional effort is spent closing the first, which was never the binding constraint.
 
-The steering-team summary reported that the Academia 360 program's aim, as explained by Prof. Arnon Bentur, was to integrate different initiatives under a comprehensive concept of skills and competency development at the undergraduate level, not simply to add new budgets.
+Her framework is the spine of this chapter. Four actors can carry faculty development, and each fails differently. Individual faculty bring autonomy, curiosity, and motivation, and reach mainly innovators, scale poorly, and depend on personal commitment: necessary but insufficient. Teaching and learning centers bring pedagogical expertise, coaching, and consultation, and hold limited authority and resources and often reach only a fraction of the faculty. Institutional leadership sets priorities, allocates resources, creates incentives, and shapes culture, and is what turns faculty development into institutional change. National support structures supply shared language, common tools, cross-institutional collaboration, and capacity building. Her observation about the last of these is the one worth remembering: research has national support structures and teaching usually does not.
+
+She offered a working example, not a proposal. The Maarag Yeda initiative operates across twenty-three higher education institutions, uses teaching and learning centers as local change agents, supports faculty development and course redesign, and builds a national community of practice with shared language and peer learning. It is what the four-actor model looks like when someone actually assembles it.
+
+Her point about framing is easy to skip and expensive to ignore. Faculty engage with transferable skills when the skills are connected to academic excellence, research quality, student learning, and disciplinary identity. They disengage when the case is made through employability and labor market demand. The same program, described in academic terms rather than economic ones, gets a different level of participation. That is a finding about how faculty understand their own work, and it means the argument this book makes in Chapter 1 has to be translated before it will land in a university.
+
+Prof. Russell Tytler answered the same question from the school system, and his answer was that Australia has not solved it either. Professional development in STEM skills there is largely informal and decentralized. Responsibility rests with individual schools, which decide whether to organize anything or bring in outside expertise. Universities and professional development centers offer programs, and no national framework guides any of it, so provision varies with local priorities and individual initiative. Teacher shortages make releasing staff difficult and replacing them expensive. He was explicit that he does not regard the Australian arrangement as a model.
+
+His second observation is more uncomfortable for this book's subject. In Victoria, science and mathematics teachers do take part in structured, long-term professional learning, and STEM skills are almost never treated as a topic in their own right. They are folded into broader pedagogical work, while the themes that actually attract attention are AI, programming, coding, and robotics. Professional development organizes itself around whatever is currently urgent, and competencies are not currently urgent.
+
+Prof. Arnon Bentur put the counterweight. Over two years the Council for Higher Education and the Planning and Budgeting Committee have run the Academia 360 initiative, which has required every university and college to define graduate profiles, redesign curricula and pedagogy, strengthen faculty development, engage institutional leadership, and build partnerships with industry. In his assessment it has raised faculty awareness of transferable skills substantially and is already changing the system.
+
+Prof. Sigal Tifferet disagreed, and her objection is the sharpest challenge to the national-infrastructure position anywhere in the Round Table. Different levels of the system send conflicting messages: faculty are urged through workshops and training to integrate skills, and are not given the resources, incentives, or conditions to do it, and the result is frustration and burnout instead of change. On Academia 360 specifically, her understanding was that part of its funding came at the expense of earlier programs that had already supported skills development, industry engagement, and community partnership, and that in some cases the new budget was smaller than the ones it replaced. Ambitious plans went unrealized. A national initiative can consume the capacity it was meant to create.
+
+Dr. Granot-Bein's response to Prof. Bentur split the difference and conceded nothing important. Academia 360 has made a real contribution and has raised transferable skills on the institutional agenda. Working directly with universities and colleges, she still finds considerable uncertainty about who is responsible for faculty development, where that responsibility should sit, and who should lead it. National priority shifted; local ownership did not follow.
+
+Dr. Eli Eisenberg asked for time. The program is still being implemented, its effects will vary between institutions, and it is too early to judge. That is a fair procedural point and it is also the answer that every large initiative receives during the years in which it cannot be evaluated.
 
 Avi Salmon supported a data-based examination and proposed a professional evaluation of the program, similar to evaluations conducted in other projects. This links professional development to institutional learning rather than anecdotal success.
-
-The steering team concluded that no single actor currently carries clear overall responsibility for sustained professional development.
-
-It also concluded that professional development cannot be reduced to one-time training. The question is how educators receive guidance, support, and development across years, which no workshop schedule answers.
-
-The Meeting 5 steering-team materials emphasized institutional involvement. Effective professional development requires infrastructure: teaching and learning centers, leadership, organizational policy, and resources. Reliance on personal motivation alone is not enough to create broad, sustained change.
 
 The steering team had reached the core of this question much earlier. Its summary of 19 October 2025 argued that teaching promotion centers in higher education can no longer be satisfied with a technical role supporting instruction. In an era when STEM teaching requires the integration of learning technologies and artificial intelligence, those centers have to become a strategic actor leading pedagogical change. The summary gave them a double task: developing individual members of the teaching staff, and driving the cultural and systemic change that would make competency-based teaching an integral part of STEM instruction rather than an initiative at the edge of it. It added a third task that is easy to overlook, which is brokering between the institution and the wider ecosystem of teaching, research, and innovation outside it, so that evidence-based methods travel in both directions.
 
@@ -2064,11 +2100,11 @@ Evaluation method:
 
 Evaluate student success by looking at how well students understand learning as a shared responsibility. The student should be able to identify what they own, what the teacher supports, and what the wider environment contributes. In older classes, success includes proposing a practical support or improvement, not only describing a problem.
 
-For your own development, build a responsibility map: what I own, what my department owns, what the institution owns, and what policy or national infrastructure should own. Meeting 5 concluded that no single actor currently carries clear responsibility for this, and that professional development has to become systematic and continuous before the question of who owns it can be answered at all.
+For your own development, build a responsibility map: what I own, what my department owns, what the institution owns, and what policy or national infrastructure should own. Meeting 5 concluded that no single actor currently carries clear responsibility for this. Dr. Granot-Bein's answer was not to nominate one but to insist that the four levels be aligned, because each of them can block the other three.
 
 ### Sources
 
-[Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), steering-team summaries for Meeting 5.
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Dr. Yael Granot-Bein, Who Sustains Faculty Development for Transferable Skills?](../materials/meeting-5-yael-granot-bein-faculty-development.pdf), [Prof. Russell Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf).
 
 ## Chapter 15 - Beyond One-Off Training
 
@@ -2076,7 +2112,7 @@ For your own development, build a responsibility map: what I own, what my depart
 
 Workshops are easy to count. Practice change is harder. Teachers and lecturers need support while they implement new pedagogy, AI use, assessment, and collaboration.
 
-The Meeting 5 steering-team materials were explicit: professional development cannot be reduced to one-time training. The question is how a system creates guidance, support, and growth over years, which reaches well past who delivers a course.
+Dr. Eli Eisenberg closed Meeting 5 on this point, and he put it as the lesson of years, not as a proposal. Training educators is not enough. Teachers and lecturers cannot be handed a professional development program and expected to apply it successfully on their own. What they need is accompaniment through implementation, and the question a system has to answer is how it provides guidance, mentoring, and support over years, which reaches well past who delivers a course.
 
 This distinction matters because AI-era teaching is not a technique that can be explained once and then applied mechanically. It changes the teacher's role, the student's role, assessment evidence, classroom dialogue, curriculum design, and institutional expectations. A short workshop may create awareness. It rarely changes practice by itself.
 
@@ -2120,17 +2156,21 @@ Students are the final test. A professional development system is successful onl
 
 ### Round Table Voices
 
-The Meeting 5 steering-team materials emphasized the need to move from training to support during implementation.
+The central challenge is the absence of a clear, coordinated, binding system for continuous professional development. Initiatives and training opportunities are plentiful. This is a crucial distinction. The problem is not activity. The problem is system design.
 
-It stated that the central challenge is the absence of a clear, coordinated, binding system for continuous professional development. Initiatives and training opportunities are plentiful. This is a crucial distinction. The problem is not activity. The problem is system design.
+Dr. Avigdor Zonnenshain gave the closest thing to a working mechanism, drawn from the national STEM skills initiative. It runs through a network of teachers of teachers who meet regularly, share what is happening in the field, and provide continuous guidance. His emphasis was on how the guidance is delivered rather than that it exists. Advice from a distance does not work. Mentors have to sit alongside teachers, watch them teach, and help them implement in a real classroom. He also noted what such a network produces that a course cannot: the learning runs both ways, and the mentors keep improving too.
 
-Dr. Einat Sprinzak argued that teachers must experience learning processes themselves as learners.
+Dr. Einat Sprinzak turned the same instinct into a design at the Davidson Institute, where the work is with serving science teachers. Rather than treating professional development as exposure to ideas, she and her colleagues identified specific teaching skills they consider essential, such as hands-on and minds-on science teaching, and built a framework that answers three questions for each: what the skill is, why it matters, and how a teacher can implement it better tomorrow. They are also building tools that let teachers assess their own development in each skill.
 
-Her argument gives professional development a pedagogical principle: teachers should not only hear about active learning, teamwork, AI use, or reflection. They should participate in such learning, feel its difficulty, and understand what students experience.
+Her constraint is worth stating plainly, because it disqualifies most of what is offered to teachers. Teachers and professors are extremely busy and need to know what they can do in their classroom the next morning. Theoretical discussion does not survive that filter. Her example makes the point concrete: teachers running an experiment need support not only to conduct the activity but to help students analyze and make sense of what they did, and that second part is where the professional skill actually lies.
 
-Avi Salmon emphasized that professors must become involved by experiencing new pedagogical and technological realities.
+Prof. Russell Tytler distinguished two models of professional development that are usually conflated. In the first, teachers attend activities and workshops and collect ideas and strategies. In the second, a school assembles teams of science, mathematics, and technology teachers to redesign their curricula together across disciplines, supported by ongoing workshops in which they share ideas and gradually build new practice. The second requires commitment from school leadership, particularly the principal, and it aims at something the first cannot reach: a shift in the school's STEM culture rather than an addition to its activity list.
 
-He argued that immersing educators in emerging practices increases the chance that they will internalize change and adapt their teaching. This places experience before formal curriculum decisions. People change practice more deeply when they have felt the new reality, not only read about it.
+His warning about sustainability applies to both. Professional learning fails when it is a series of isolated workshops. It works when it includes collaboration, reflection, and the chance to apply ideas in practice, and when teachers are given time to experiment and build confidence. Lasting improvement comes from professional learning communities, not from training events.
+
+Dr. Tzur Karelitz raised the problem underneath all of this, which is pace. Educators are expected to adapt quickly to new technologies and approaches, and the expectation itself produces uncertainty and overload. His conclusion was that professional development should build confidence, adaptability, and the capacity for continuous learning, not technical knowledge of particular tools. Educators do not need to master every new technology. They need to be able to judge a tool critically, understand its educational value, and integrate it deliberately, inside a culture where experimenting and reflecting together is normal.
+
+Avi Salmon emphasized that educators must become involved by experiencing new pedagogical and technological realities for themselves, and argued that this applies to AI with particular force. Professional development should spend less time teaching specific tools and more time giving educators hands-on experience with AI, because only an educator who is comfortable using it can guide a student in using it responsibly.
 
 Jan Morrison's Meeting 2 contribution adds another warning. Problem-based and transdisciplinary learning are often criticized when they are implemented inside systems not designed to support them. Without time for faculty collaboration, cross-sector training, and structured teamwork, strong pedagogical ideas can fail for organizational reasons.
 
@@ -2195,7 +2235,7 @@ For your own development, experience the new pedagogy as a learner before teachi
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Prof. Russell Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 16 - Evidence, Evaluation, and Institutional Learning
 
@@ -2255,7 +2295,7 @@ Industry needs graduates who can perform in authentic contexts. This requires ev
 
 Avi Salmon proposed professional, data-based evaluation of programs.
 
-This point appeared in the Meeting 5 steering-team materials regarding Academia 360, where the proposal recorded in Chapter 14 was for an independent, data-based evaluation of the program rather than a report by the people running it. The significance for this chapter is narrower and harder: a large educational initiative that is never evaluated cannot be defended when its budget is questioned, and cannot be corrected when it is wrong.
+He made it at Meeting 5 about Academia 360, and the proposal recorded in Chapter 14 was for an independent, data-based evaluation of the program rather than a report by the people running it. The significance for this chapter is narrower and harder: a large educational initiative that is never evaluated cannot be defended when its budget is questioned, and cannot be corrected when it is wrong.
 
 Dr. Gabi Shafat described continuous feedback and evaluation in courses.
 
@@ -2268,6 +2308,14 @@ Her contribution connects evaluation to national school assessment. Competency-b
 Jan Morrison described TIES as using measurement for continuous improvement and iteration rather than accountability alone. She also pointed to systems where sustained implementation is supported by long-term data and continuous iteration.
 
 [Danielle Eisenberg's Meeting 4 presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx) added the idea of evidence design. AI may propose skill evidence and confidence ratings, but the teacher interprets. Patterns across artifacts are stronger than single submissions. This is a practical evaluation principle for AI-rich learning.
+
+Dr. Revital Duek asked the question this chapter exists to answer, and asked it of a room that had spent an hour describing professional development. How do we know that professional development actually changed teaching and learning? Nobody in the discussion claimed to know.
+
+Dr. Eli Eisenberg came closest to an answer, and it is the most useful piece of evidence the Round Table produced. The national Interface Skills in STEM Education program began four years earlier with five pilot schools and has reached three hundred and fifty-three. It is evaluated annually by the Henrietta Szold Institute, which means the expansion is documented rather than asserted. Two findings came out of that evaluation and both cut against comfortable practice. Embedding skills inside subject content is not sufficient on its own: the skills have to be made explicit, discussed openly, and reflected on by teachers and students, because learning does not happen without reflection. And the skills have to be assessed, formatively and summatively, or the claim that students developed them cannot be checked.
+
+Prof. Gil Noam pressed on exactly the point that evaluation record does not settle. Is there evidence comparing the two approaches, teaching durable skills directly as standalone skills against embedding them in STEM subjects and activities? He supports the connection between social-emotional and teamwork capabilities and STEM learning, and he warned that the concept goes vague without clearly defined skills and explicit pedagogy. Students do not necessarily develop communication, teamwork, or critical thinking by taking part in an activity. He wanted systematic research on which approach works and under what conditions, and the Round Table had none to give him.
+
+Dr. Einat Sprinzak named the same gap from the practitioner's side. It is not enough to expose teachers to new ideas. The real question is whether the exposure changed what happens in the classroom, and answering it requires accessible tools for reflection and self-assessment that teachers can actually use.
 
 Dr. Eli Eisenberg emphasized that meaningful learning requires reflection and evaluation, and that establishing effective feedback, evaluation, and assessment mechanisms is a major challenge across higher education, schools, and the education system as a whole.
 
@@ -2341,7 +2389,7 @@ For your own development, conduct a small practice inquiry each semester. Choose
 
 ### Sources
 
-[Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part VI - Environments, Industry, and Experiential Learning
 
@@ -2826,7 +2874,7 @@ First, the future educator profile should be common in foundation but diverse in
 
 Second, competencies must be embedded in disciplinary learning. Skills become real through practice, reflection, feedback, and repeated use in meaningful contexts. [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) is the strongest evidence for this, because it shows competency work built into engineering courses rather than added beside them. The cost is curriculum time, and no meeting produced an account of what comes out to make room.
 
-Third, teachers need lived experience with the competencies they cultivate, but they do not need to be perfect models of everything. The system should distribute expertise. Meeting 3 was convened to settle this and did not, and no summary of it survives to say how close it came. What the discussion document proposed, and what this book adopts, is that a teacher needs enough lived practice to model a competency and to judge it. That is a lower bar than mastery and a higher one than familiarity. Chapter 9 admits that nobody has defined enough.
+Third, teachers need lived experience with the competencies they cultivate, but they do not need to be perfect models of everything. The system should distribute expertise. Meeting 3 was convened to settle this and did not. It relocated the question instead. Prof. Sigal Tifferet argued that for educators without pedagogical training the workable answer is concrete tools rather than abstract skills, and Prof. Russell Tytler replied that competencies such as creativity and problem solving are context-dependent and do not decompose into fixed components. What this book adopts is that a teacher needs enough lived practice to model a competency and to judge it. That is a lower bar than mastery and a higher one than familiarity. Chapter 9 admits that nobody has defined enough.
 
 Fourth, AI must be designed into learning. Ignoring it or banning it will not work. The question is how to make thinking visible and keep responsibility human. Danielle Eisenberg's default-or-design framing is the sharpest version of this: AI is already in the classroom, so the only remaining choice is whether its role was decided or inherited. The cost of deciding is that design takes time teachers do not have, which is why Chapter 24 treats workload as the objection this book cannot answer.
 
@@ -3101,9 +3149,11 @@ So the question stays open, and it is better stated plainly than buried. What wo
 
 The Round Table did not answer that, and neither does this book. It is left here as an open question, and it is the most important one this work hands on.
 
-### The Evidence Base Is Uneven and Partly Retrospective
+### The Evidence Base Is Summary, Not Transcript
 
-Meetings three and five left no primary record of the session itself. Part III rests largely on a discussion document written before Meeting 3, which means it reports the questions the organizers posed rather than the answers the room gave. Part V rests on steering-team summaries written after Meeting 5. Several attributed positions in both parts are therefore reported at second hand. The book says so in its Editorial Note, but a reader should hold the attributions accordingly: these are reported contributions, filtered through a summarizer, then synthesized by an editor who was himself a participant.
+Every attribution in this book comes from a meeting summary rather than a transcript. The summaries are detailed and were written close to the sessions, and they still render each speaker in reported prose that has already decided what mattered. Three of the six, Meetings 3, 5, and 6, were circulated as drafts for participant comment and are used in that state. Where this book states a position, the reader stands at the end of a chain: a participant spoke, a summarizer compressed, and an editor who was himself in the room synthesized. The compression does not show on the page, and a claim that was hedged in the discussion can read as settled here.
+
+The summaries create a second and less obvious problem. They record who spoke and what each speaker argued. They do not record who stayed quiet, or who disagreed and let it pass. A summary reports agreement far more reliably than it reports the absence of objection, and a book built from summaries will therefore overstate how much the room agreed.
 
 ### The Round Table Saw Part of This and Did Not Solve It
 
@@ -3253,7 +3303,7 @@ Role in the Round Table: Initiator, organizer, opening speaker, moderator, and c
 
 Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) identifies Dr. Eisenberg as a Senior Research Fellow specializing in technological and vocational education and training. His education includes a PhD and MSc in Education in Technology and Science from the Technion and a BSc in Electrical Engineering from the Technion.
 
-Main achievements, publications, and interests: His public profile describes him as a leading pedagogue in TVET, consultant to governments and international organizations, former Senior Deputy Director General of ORT Israel and Head of its Administration for R&D and Training, and author of many publications, research reports, and books in technology education and ICT in education and training. Relevant listed publications and projects include the National Skills Interface Program in STEM Subjects, Faculty Attitudes Toward Integration of Core Skills and Competencies into Academic Courses, the International Round Table for Advancing Skills in STEM Education Phase I and Phase II, Academy Interface, active online education, and engineering education for Industry 4.0.
+Main achievements, publications, and interests: His public profile describes him as a leading pedagogue in TVET, consultant to governments and international organizations, former Senior Deputy Director General of ORT Israel and Head of its Administration for R&D and Training, and author of many publications, research reports, and books in technology education and ICT in education and training. Relevant listed publications and projects include the National Skills Interface Program in STEM Subjects, Faculty Attitudes Toward Integration of Core Skills and Competencies into Academic Courses, the International Round Table for Advancing Skills in STEM Education Phase I and Phase II, Academy Interface, active online education, and engineering education for Industry 4.0. At Meeting 5 he reported that the Interface Skills in STEM Education program has grown from five pilot schools to three hundred and fifty-three over four years, is evaluated annually by the Henrietta Szold Institute, and has produced two findings this book relies on: embedding skills in content is not sufficient without explicit discussion and reflection, and skills must be assessed formatively and summatively or the claim that students developed them cannot be checked.
 
 ### Prof. Arnon Bentur
 
@@ -3269,7 +3319,7 @@ Role in the Round Table: Senior systems and engineering-education voice. The Mee
 
 Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/avigdor-zonnenshain/) identifies Dr. Zonnenshain as a Senior Research Fellow specializing in quality, reliability and safety management, systems engineering and management, systems thinking, advanced manufacturing, engineering education, regional strategic development, and social responsibility. He holds a PhD in Systems Engineering from the University of Arizona, an MSc in Operations Research from the Technion, and a BSc in Industrial Engineering from the Technion.
 
-Main achievements, publications, and interests: His public profile describes senior roles in quality, reliability, project management, and systems engineering at Rafael, leadership of the Center for Quality and Excellence in the Prime Minister's Office, work at the Technion Gordon Center for Systems Engineering, chairing the Standardization Committee for Management and Quality at the Israel Standards Institute, and recognition as an INCOSE Fellow in 2010. Relevant listed publications and projects include AI Integration in Engineering and Systems Engineering, Engineering Leadership: Skills and Competencies, engineering education in the 21st century, digital engineering, lifelong learning, advanced manufacturing, and the methodology of generating information from round-table discussions.
+Main achievements, publications, and interests: His public profile describes senior roles in quality, reliability, project management, and systems engineering at Rafael, leadership of the Center for Quality and Excellence in the Prime Minister's Office, work at the Technion Gordon Center for Systems Engineering, chairing the Standardization Committee for Management and Quality at the Israel Standards Institute, and recognition as an INCOSE Fellow in 2010. Relevant listed publications and projects include AI Integration in Engineering and Systems Engineering, Engineering Leadership: Skills and Competencies, engineering education in the 21st century, digital engineering, lifelong learning, advanced manufacturing, and the methodology of generating information from round-table discussions. His Meeting 5 summary contributes the mechanism behind Chapter 15: a network of teachers of teachers who meet regularly, share field experience, and work alongside teachers in real classrooms instead of advising from a distance.
 
 ### Tamar Dayan
 
@@ -3281,7 +3331,7 @@ Main achievements, publications, and interests: The public profile notes her par
 
 ### Avi Salmon
 
-Role in the Round Table: Industry perspective contributor, speaker at Meeting 1 and Meeting 6, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened the substantive discussion of Phase III with a lecture titled The Future Educator in the Age of AI. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the author of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
+Role in the Round Table: Industry perspective contributor, speaker at Meeting 1 and Meeting 6, discussant at Meetings 3 and 5, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened the substantive discussion of Phase III with a lecture titled The Future Educator in the Age of AI. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the author of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
 
 Bio: Avi Salmon took part as an industry voice from the Innovation Department of Intel Israel.
 
@@ -3293,7 +3343,7 @@ Role in the Round Table: Assessment and policy contributor. This book uses her c
 
 Bio: Dr. Maklada contributed from the Ministry of Education and from the assessment and education-system perspective.
 
-Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
+Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. At Meeting 3 she described the national STEM Skills Interface program, a three-year initiative involving hundreds of teachers that has expanded gradually through motivated lighthouse teachers, and named its dependence on continuous support during implementation and on internal system capacity instead of bought-in solutions. She also named what remains hard: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
 
 ### Dr. Revital Duek
 
@@ -3301,15 +3351,15 @@ Role in the Round Table: Discussion moderator and contributor on teamwork, visib
 
 Bio: Dr. Duek took part as a policy advisor on STEM.
 
-Main achievements, publications, and interests: In this book, her contribution centers on teamwork as a foundational competency, making students' thinking visible when AI is involved, and clarifying the non-delegable human role in learning. Her opening question at Meeting 6, whether learning environments would look different if education were designed around skills and competencies rather than knowledge, frames Chapter 17.
+Main achievements, publications, and interests: In this book, her contribution centers on teamwork as a foundational competency, making students' thinking visible when AI is involved, and clarifying the non-delegable human role in learning. At Meeting 3 she reported a pilot run at Tel Aviv University with Yale and the Edmond de Rothschild Bridge, in which lecturers raised the familiar objections and by the end of the year reported the work had been easier than they expected, and she closed that meeting by naming policy backing, measurement, and an implementation plan as the three conditions for change. At Meeting 5 she asked the question Chapter 16 is built on: how do we know that professional development actually changed teaching and learning? Her opening question at Meeting 6, whether learning environments would look different if education were designed around skills and competencies rather than knowledge, frames Chapter 17.
 
 ### Dr. Yael Granot-Bein
 
-Role in the Round Table: Discussion moderator and contributor on competency development, repeated practice, reflection, and faculty development. The Meeting 4 program lists her as a discussion moderator, the Meeting 5 steering-team materials report her presentation on academic faculty development, and she co-moderated the Meeting 6 discussion.
+Role in the Round Table: Meeting 5 speaker on faculty development, and discussion moderator at Meetings 4 and 6. Her presentation supplies the four-actor framework that structures Chapter 14.
 
 Bio: Dr. Granot-Bein works in higher-education faculty development at the Edmond de Rothschild Bridge for Higher Education and Employment.
 
-Main achievements, publications, and interests: Her Round Table contribution emphasizes that competencies are internalized when linked to a discipline, reinforced over time, and supported by reflection. In the book, she anchors the professional-development question for academic lecturers. At Meeting 6 she asked which educational paradigm most needs breaking, and raised the question of how teachers and professors should redefine their added value when students rely on recorded lectures and AI instead of attending.
+Main achievements, publications, and interests: Her [Meeting 5 presentation](../materials/meeting-5-yael-granot-bein-faculty-development.pdf) reports a Samuel Neaman Institute survey in which ninety percent of faculty consider transferable skills highly important, sixty-one percent have never received formal training in teaching them, and eighty-four percent of those not teaching them would like to learn how. It names lack of training, lack of time, and lack of institutional support as the barriers, and separates two gaps that are usually confused: understanding that skills matter is not knowing how to teach them, and knowing how to teach them is not changing practice. It assesses four possible owners of faculty development, namely individual faculty, teaching and learning centers, institutional leadership, and national support structures, and concludes that each is insufficient alone. It observes that research has national support structures while teaching usually does not, and offers the Maarag Yeda initiative across twenty-three institutions as a working example. Its finding on framing is that faculty engage when transferable skills are linked to academic excellence and disciplinary identity rather than to employability. At Meeting 3 she moved the discussion from pre-service training to veteran educators and argued that skills instruction makes teaching better instead of adding to it. At Meeting 6 she asked which educational paradigm most needs breaking, and how teachers and professors should redefine their added value when students rely on recorded lectures and AI instead of attending.
 
 ### Dr. Noa Ragonis
 
@@ -3321,11 +3371,11 @@ Main achievements, publications, and interests: In the book, her areas of contri
 
 ### Prof. Sigal Tifferet
 
-Role in the Round Table: Critical discussant on evidence and pedagogy. This book uses her questions about whether embedding competencies inside disciplinary courses is evidence-based and whether transdisciplinary instruction or problem-based learning can weaken explicit instruction.
+Role in the Round Table: Meeting 3 speaker on how to train teachers to impart skills, and critical discussant on evidence and pedagogy throughout Phase III. This book uses her Meeting 3 presentation for its treatment of teacher training effectiveness, and her questions about whether embedding competencies inside disciplinary courses is evidence-based and whether transdisciplinary instruction or problem-based learning can weaken explicit instruction.
 
 Bio: Prof. Tifferet took part from Ruppin Academic Center.
 
-Main achievements, publications, and interests: Her Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. In the book, she strengthens the demand for evidence, explicit instruction, and careful design.
+Main achievements, publications, and interests: Her [Meeting 3 presentation](../materials/meeting-3-sigal-tifferet-skills.pptx) reports that meta-analyses of teacher training show small but statistically significant effects, describes the characteristics of programs that work, and proposes extending the TPACK model into TSPAC by adding a skills axis. Its practical conclusion is that beginning teachers and untrained lecturers should be taught concrete tools rather than abstract skills, and that institutions must decide who plans skills activities, how much time is allocated, and how the skills will be assessed. Her wider Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. At Meeting 5 she argued that faculty receive conflicting messages from different levels of their institutions, and questioned whether the Academia 360 initiative was funded at the expense of earlier programs that had already supported skills development.
 
 ### Dr. Gabi Shafat
 
@@ -3341,7 +3391,7 @@ Role in the Round Table: Assessment and trust discussant. This book uses his Mee
 
 Bio: Dr. Karelitz took part from NITE, the National Institute for Testing and Evaluation.
 
-Main achievements, publications, and interests: In the book, his contribution sharpens the trust issue: AI may propose evidence, but student context, bias, relationships, and interpretation still require human judgment.
+Main achievements, publications, and interests: In the book, his contribution sharpens the trust issue: AI may propose evidence, but student context, bias, relationships, and interpretation still require human judgment. At Meeting 5 he argued that the pace of technological change is itself the professional development problem, that educators need not become experts in every tool but must be able to judge a tool's educational value critically, and that the goal is a culture in which experimenting and reflecting together is normal.
 
 ### Dr. Einat Sprinzak
 
@@ -3349,15 +3399,15 @@ Role in the Round Table: Contributor on educator professional learning. This boo
 
 Bio: Dr. Sprinzak took part from the Davidson Institute at the Weizmann Institute of Science.
 
-Main achievements, publications, and interests: Her Round Table contribution concerns teacher development, experiential professional learning, and the need for educators to internalize AI-era pedagogy by experiencing it as learners. At Meeting 6 she argued for the educational value of simulations and technology-enhanced environments while insisting that technology complement rather than replace hands-on learning and active participation.
+Main achievements, publications, and interests: Her Round Table contribution concerns teacher development, experiential professional learning, and the need for educators to internalize AI-era pedagogy by experiencing it as learners. At Meeting 5 she described the Davidson Institute's approach to serving science teachers, which identifies specific teaching skills such as hands-on and minds-on science teaching and builds a framework answering what the skill is, why it matters, and how to implement it, together with tools that let teachers assess their own development. Her constraint on all professional development is that teachers need to know what they can do in the classroom the next morning. At Meeting 6 she argued for the educational value of simulations and technology-enhanced environments while insisting that technology complement rather than replace hands-on learning and active participation.
 
 ### Prof. Russell Tytler
 
-Role in the Round Table: International expert contributor on science education and teacher professional development. The Meeting 5 steering-team materials report his presentation on teacher professional development, and this book uses his warning that AI can reduce deep, sustained thinking if students surrender control of reasoning.
+Role in the Round Table: Meeting 5 speaker on STEM skills for teachers, and international expert contributor across Phase III. His presentation is a main source for Part V, and this book also uses his warning that AI can reduce deep, sustained thinking if students surrender control of reasoning.
 
-Bio: Prof. Tytler is a science education researcher at Deakin University, Australia. No detailed public biography is claimed here beyond his Round Table contribution.
+Bio: Prof. Tytler is Professor of Science Education at Deakin University, Australia, and took part from the OECD and Deakin. No detailed public biography is claimed here beyond his Round Table contribution.
 
-Main achievements, publications, and interests: His areas of interest are science education, teacher professional development, deep thinking, AI literacy, critical reasoning, and the responsibility of teachers to cultivate long-term intellectual habits.
+Main achievements, publications, and interests: His [Meeting 5 presentation](../materials/meeting-5-russell-tytler-stem-skills.pptx) argues that developing STEM skills in teachers means more than disciplinary knowledge or generic competencies, and that teacher education should focus on translating capabilities into classroom practice. It draws on research into the identities of integrated-STEM teachers, whose commitment turns out to rest on personal and pedagogical identity rather than disciplinary identity, and on studies of expert science teachers guiding open-ended inquiry, who intervene actively, prompt metacognitive regulation, and regulate the social aspects of group work. It describes Deakin's shift toward work-integrated learning, industry placements, multidisciplinary client projects, and authentic assessment. Its central claim is that critical thinking is not a generic skill but develops through discipline-specific representational tools such as diagrams, models, measurements, and collaborative explanation. At Meeting 3 he argued that context-dependent competencies do not decompose into fixed components and that training for experienced teachers must begin with pedagogical content knowledge. At Meeting 5 he reported that Australia has no national framework for STEM professional development and said he does not regard the Australian arrangement as a model.
 
 ### Emlen Metz
 
@@ -3381,7 +3431,7 @@ Role in the Round Table: Contributor on the distinction between school teachers 
 
 Bio: The [PEAR profile](https://www.pearinc.org/gil-noam) identifies Gil Noam, Ed.D., Dr. Habil, as an associate professor at Harvard Medical School focusing on prevention and resilience, leader of the Institute for the Study of Resilience in Youth at McLean Hospital, former director of the Risk and Prevention Program, and founder of the RALLY Prevention Program.
 
-Main achievements, publications, and interests: The PEAR profile states that he has published over 200 papers, articles, and books in child and adolescent development, risk and resiliency in clinical, school, and afterschool settings, and served as editor-in-chief of New Directions for Youth Development. In the book, his contribution keeps the educator-profile discussion from flattening school and university contexts and highlights the social and relational risks of AI-rich learning. At Meeting 6 he reframed the debate away from AI versus hands-on learning and toward AI as a collaborative learning partner: systems designed to ask questions rather than give answers, students collaborating with one another while using AI, and teachers strengthened in the role of facilitating collective reflection.
+Main achievements, publications, and interests: The PEAR profile states that he has published over 200 papers, articles, and books in child and adolescent development, risk and resiliency in clinical, school, and afterschool settings, and served as editor-in-chief of New Directions for Youth Development. In the book, his contribution keeps the educator-profile discussion from flattening school and university contexts and highlights the social and relational risks of AI-rich learning. At Meeting 5 he asked for evidence comparing the direct teaching of durable skills against embedding them in STEM activities, warned that the concept of embedding goes vague without defined skills and explicit pedagogy, and described the paradox he sees in medical education, where the more powerful the technology becomes the more the human relationship matters. At Meeting 6 he reframed the debate away from AI versus hands-on learning and toward AI as a collaborative learning partner: systems designed to ask questions rather than give answers, students collaborating with one another while using AI, and teachers strengthened in the role of facilitating collective reflection.
 
 ### Danielle Eisenberg
 
@@ -3401,11 +3451,19 @@ Main achievements, publications, and interests: Her presentation contributes a f
 
 ### Dr. Olena Bekh
 
-Role in the Round Table: Contributor on critical thinking and the human risk of over-dependence on AI. This book uses her argument that critical thinking remains an essential human competency and that excessive AI dependence may reduce curiosity, creativity, empathy, and emotional engagement, together with her Meeting 6 question about how education systems of that size and inertia can equip teachers with the competencies AI integration demands.
+Role in the Round Table: Meeting 3 speaker on educators at the time of new learning, and contributor on critical thinking and the human risk of over-dependence on AI. Her presentation is a main source for the book's treatment of the possession-versus-cultivation dilemma and of teacher vulnerability.
 
-Bio: Dr. Bekh took part from the European Training Foundation.
+Bio: Dr. Bekh took part from the European Training Foundation, which supports human capital development across EU partner countries.
 
-Main achievements, publications, and interests: Her Round Table contribution centers on critical thinking, curiosity, creativity, empathy, emotional engagement, the human consequences of relying too heavily on AI, and the system-scale problem of building teacher capacity quickly enough to matter.
+Main achievements, publications, and interests: Her [Meeting 3 presentation](../materials/meeting-3-olena-bekh.pdf) sets out the ETF reference model for educators, which identifies six domains: learner-driven practice, adaptability, sustainability and inclusion, collaboration and engagement, lifelong learning and reflection, and digital technologies. Her answer to the Meeting 3 dilemma was that teachers are not superhuman, that depth of competency is role- and context-specific, that teacher autonomy and agency are conditions of development, and that educators should possess and model what they advocate. She argued that teacher vulnerability, meaning the recognition of what one does not know, is what drives growth. She also described a physical card deck built with the Joint Research Center that integrates four EU competence frameworks and is designed to reduce screen time while building interpersonal skills, and the FORMA module that translates formative assessment into system-level implementation for policy makers. Her wider contribution centers on critical thinking, curiosity, creativity, empathy, the human consequences of relying too heavily on AI, and her Meeting 6 question about how education systems of that size and inertia can equip teachers quickly enough to matter.
+
+### Dr. Edith Manny-Ikan
+
+Role in the Round Table: Meeting 3 discussant on the classroom reality of competency-based teaching and on competencies in formal assessment. Her contribution is the strongest dissent recorded in Part III.
+
+Bio: Dr. Manny-Ikan took part from the Henrietta Szold Institute and is involved in the writing of the matriculation examinations.
+
+Main achievements, publications, and interests: At Meeting 3 she argued that teachers feel overwhelmed by the expectation to teach extensive content and new competencies at once, that under time and assessment pressure they choose content, and that many lack the clarity and capacity to implement competency-based approaches at all. Her warning was about the distance between policy discussion and classroom reality, and about reform designed around the already motivated. Asked by Prof. Arnon Bentur how competencies are represented in the matriculation examinations, she answered that competencies must be assessed before they can be taught, and that building them into high-stakes examinations is difficult because such questions are perceived as harder and may disadvantage some students, which is why policy makers pilot before they mandate.
 
 ### Dr. Rinat Itzhaki
 
@@ -3444,18 +3502,21 @@ Main achievements, publications, and interests: His stated interest is how ethic
 The following people took part in Phase III sessions. This book does not attribute a specific quoted position to them, and their inclusion here records attendance rather than authorship of any argument above.
 
 - Golan Tamir, Samuel Neaman Institute.
+- Dr. Merav Geva, Davidson Institute, Weizmann Institute of Science.
+- Suzan Hasan, JDC-TEVET.
+- Nadezda Solodjankina, European Training Foundation.
 - Orly Rauch, Social Finance Israel. Her work concerns the measurement of skills development and the generation of actionable insight for STEM initiatives run with several municipalities in partnership with the Cleveland Federation.
 - Ruchie Avital, English-Hebrew interpreter for the sessions.
 
 ## Appendix B - Meeting Timeline
 
-- Meeting 1: 16.12.2025, introduction and AI-era skills. A full meeting summary and a published recording exist for this meeting. The invitation circulated in November 2025 announced 02.12.2025; the meeting summary is headed 16.12.2025, and this book follows the summary.
+- Meeting 1: 16.12.2025, introduction and AI-era skills. A full meeting summary and a published recording exist for this meeting. No presentation file for the opening lecture was found. The invitation circulated in November 2025 announced 02.12.2025; the meeting summary is headed 16.12.2025, and this book follows the summary.
 - Meeting 2: 20.01.2026, uniform or diverse teacher and lecturer profiles. A full meeting summary, both presentation decks, and a published recording exist for this meeting.
-- Meeting 3: 10.03.2026, possessing versus cultivating competencies. No meeting summary was found in the collected materials. The record for this session is the discussion document circulated on 22.02.2026, before the meeting.
+- Meeting 3: 10.03.2026, possessing versus cultivating competencies. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was received as a draft circulated for participant comment. A discussion document was also circulated on 22.02.2026, before the session.
 - Meeting 4: 28.04.2026, teacher-student-AI triangle. A full meeting summary, presentation files, and a published recording exist for this meeting.
-- Meeting 5: 09.06.2026, professional development responsibility. No meeting summary and no presentation files were found. The steering summaries written before and after the session are the only record.
+- Meeting 5: 09.06.2026, professional development responsibility. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was received as a draft circulated for participant comment.
 - Meeting 6: 21.07.2026, learning environments, industry, XR/VR, mentors. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was still circulating as a draft for participant comment when this edition was prepared, so its attributions are reported rather than finally approved.
-- Steering-committee discussions: 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026. Where no full meeting summary or presentation file was available, these steering summaries are the primary record for the synthesis.
+- Steering-committee discussions: 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026. These summaries record the planning behind the sequence of dilemmas and the group's own assessment of how each meeting went. They are the main source for the closing chapters, which draw on the arc of the whole phase, not on any single session.
 
 ## Appendix C - Presentation Inventory
 
@@ -3463,7 +3524,13 @@ Presentation files used in Phase III:
 
 - [Presentation 2nd meeting, 20.01.2026](../materials/meeting-2-presentation.pptx).
 - [TIES Jan Morrison International Round Table Presentation, Future of Teaching, 20.01.2026](../materials/meeting-2-ties-jan-morrison.pptx).
+- [Presentation 3rd meeting, 10.03.2026](../materials/meeting-3-presentation.pptx).
+- [How to train teachers to impart skills, Prof. Sigal Tifferet, 10.03.2026](../materials/meeting-3-sigal-tifferet-skills.pptx).
+- [Educators at the Times of New Learning, Dr. Olena Bekh, 10.03.2026](../materials/meeting-3-olena-bekh.pdf).
 - [Default or Design, Ignite Ed STEM Roundtable Presentation, 04.2026](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+- [Presentation 5th meeting, 09.06.2026](../materials/meeting-5-presentation.pptx).
+- [STEM skills for teachers, Prof. Russell Tytler, 09.06.2026](../materials/meeting-5-russell-tytler-stem-skills.pptx).
+- [Who Sustains Faculty Development for Transferable Skills?, Dr. Yael Granot-Bein, 09.06.2026](../materials/meeting-5-yael-granot-bein-faculty-development.pdf).
 - [Presentation 4th meeting, 28.04.2026](../materials/meeting-4-presentation.pptx).
 - [Presentation 6th meeting, 21.07.2026](../materials/meeting-6-presentation.pptx).
 - [Balancing In-Person vs. Computer-Based and AI Experiences in Education, Emlen Metz, 21.07.2026](../materials/meeting-6-ai-use-in-education.pptx).
@@ -3477,7 +3544,9 @@ Additional presentation or background materials:
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
 - [Meeting 1 summary, 16.12.2025](../materials/meeting-1-summary.docx).
 - [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx).
+- [Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
 - [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx).
+- [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
 - [Meeting 6 summary, 21.07.2026](../materials/meeting-6-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
 - [International Round Table for Advancing Skills in STEM Education, Phase I report](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II report, March 2025](../materials/phase-2-report.pdf).

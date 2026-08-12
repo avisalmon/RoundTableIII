@@ -161,12 +161,19 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 - [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx).
 - [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 - [Meeting 3 discussion document, The Teacher in the AI Era](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
+- [Meeting 3 draft summary, 10.03.2026](../materials/meeting-3-summary.docx).
+- [Meeting 3 presentation](../materials/meeting-3-presentation.pptx).
+- [Prof. Sigal Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx).
+- [Dr. Olena Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf).
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
 - [Meeting 4 draft summary, 28.04.2026](../materials/meeting-4-summary.docx).
 - [Meeting 4 presentation](../materials/meeting-4-presentation.pptx).
 - [Danielle Eisenberg / Ignite Ed presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 - [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
-- Meeting 5, 09.06.2026. No summary, presentation, or discussion document was found. The only record of that meeting is the steering-team summaries listed at the end of this section.
+- [Meeting 5 draft summary, 09.06.2026](../materials/meeting-5-summary.docx).
+- [Meeting 5 presentation](../materials/meeting-5-presentation.pptx).
+- [Prof. Russell Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx).
+- [Dr. Yael Granot-Bein, Who Sustains Faculty Development for Transferable Skills?](../materials/meeting-5-yael-granot-bein-faculty-development.pdf).
 - [Meeting 6 draft summary, 21.07.2026](../materials/meeting-6-summary.docx).
 - [Meeting 6 presentation](../materials/meeting-6-presentation.pptx).
 - [Emlen Metz, Balancing In-Person vs. Computer-Based and AI Experiences in Education](../materials/meeting-6-ai-use-in-education.pptx).
@@ -177,6 +184,6 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 
 ### Recordings
 
-Recordings were published as YouTube links inside the meeting summaries. They cover [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 4](https://youtu.be/zAtAT7lsPac), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo). Meetings 3 and 5 were held on Zoom and no published recording is available.
+Recordings were published as YouTube links inside the meeting summaries, one for each of the six sessions: [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 3](https://youtu.be/lUlr4ZXIr6o), [Meeting 4](https://youtu.be/zAtAT7lsPac), [Meeting 5](https://youtu.be/gyxxiP9WMgA), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo).
 
-The Meeting 1, 2, 4, and 6 summaries were circulated to participants as drafts for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared. No summary was found for Meeting 3 or Meeting 5.
+Every one of the six summaries was circulated to participants as a draft for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared.

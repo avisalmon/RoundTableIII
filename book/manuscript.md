@@ -19,7 +19,7 @@ The author was himself a participant in the Round Table and presented at the six
 
 All six meetings left detailed written summaries, and five of the six also left presentation decks. Meeting 1 was an introductory session and left a summary but no deck, so the opening lecture is reported rather than reproduced. The summaries of Meetings 3, 5, and 6 reached the author as drafts circulated for participant comment, and are used on that basis.
 
-Two consequences follow. The first is that every attribution in this book passes through a summarizer. The meeting records are careful and detailed, and they are still summaries: each speaker appears in reported prose, not in transcript, and the compression is invisible on the page. The second is a matter of sequence. The Meeting 1 summary, the Phase I and Phase II reports, and later the Meeting 3 and Meeting 5 summaries and decks all reached the author after the first draft was written. Each arrival changed chapters that had already been drafted, and those chapters were rewritten rather than patched.
+Two consequences follow. The first is that every attribution in this book passes through a summarizer rather than a transcript, and the compression is invisible on the page. Chapter 24 sets out what that costs the argument. The second is a matter of sequence. The Meeting 1 summary, the Phase I and Phase II reports, and later the Meeting 3 and Meeting 5 summaries and decks all reached the author after the first draft was written. Each arrival changed chapters that had already been drafted, and those chapters were rewritten rather than patched.
 
 Appendix B records, meeting by meeting, exactly what evidence exists. It is short, and a reader who intends to rely on any attribution in this book should read it first.
 
@@ -37,7 +37,7 @@ One name appears on the cover of this book, and that is a statement about editor
 
 Each of the six who led the work, Dr. Eli Eisenberg, Prof. Arnon Bentur, Dr. Avigdor Zonnenshain, Tamar Dayan, Dr. Yael Granot-Bein, and Dr. Revital Duek, was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the author's own, and it would be unfair to attach their names to judgments they did not make.
 
-**The people whose arguments the chapters are built from.** Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation presented at Meeting 3. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6. Their material is the primary evidence behind large parts of this book.
+**The people whose arguments the chapters are built from.** The author gave the opening lecture at Meeting 1 and a second at Meeting 6, and both are cited in these pages on the same basis as everyone else's. Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation presented at Meeting 3. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6, alongside the author. Their material is the primary evidence behind large parts of this book.
 
 Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Edith Manny-Ikan, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser, Orly Rauch, and Golan Tamir took part in the sessions and the steering work behind them.
 
@@ -91,15 +91,6 @@ The number of competencies changes between the phases, and it is worth being cle
 
 The six questions were not chosen in the meetings. They were set by the steering team at its [opening session on 19 October 2025](../materials/steering-2025-10-19.docx), which defined the target of Phase III as the profile of the lecturer and teacher in the era of generative AI for cultivating STEM competencies in higher education and high school, fixed the rhythm at a round table every six weeks from late 2025 to August 2026, and required that the recommendations be practical and separated into personal, institutional, and policy levels. This book keeps that separation and expresses it differently. Chapter 25 is cut by audience, because a reader arrives as a teacher or a dean or a policy maker and not as a level of a system, but every recommendation in it sits at one of the three levels the steering team named.
 
-The main Phase III meetings addressed the following sequence:
-
-1. Introduction and skills in the era of artificial intelligence.
-2. Whether the profile of lecturers and teachers should be uniform or diverse.
-3. Whether teachers and lecturers must themselves possess the competencies they are expected to cultivate.
-4. Whether the educational process should be understood as a teacher-student-AI triangle.
-5. How professional development of teachers and lecturers can be ensured over time.
-6. How physical, virtual, workplace, and industry-connected environments should support future STEM skills.
-
 The meetings ran to a two-hour format that the steering team fixed and then kept to, and that is visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers addressed the dilemma of the day, one from Israel and one from abroad, each followed by a short question period. An open discussion followed. Dr. Avigdor Zonnenshain summarized the meeting, and Dr. Eli Eisenberg closed by introducing the dilemma of the next one. A background document was circulated in advance of each session, prepared by Avi Salmon, Prof. Arnon Bentur, and Dr. Eli Eisenberg.
 
 The format took a meeting or two to settle, and the details matter for the attributions in this book. Meeting 1 was an introductory session: a round of self-introductions from every participant, then a single lecture and discussion. At Meeting 2, Prof. Arnon Bentur presented the Phase III dilemmas and moderated the open discussion, while Dr. Eli Eisenberg moderated the two question periods. From Meeting 4 onward the steering team held to the division of roles it had written down: Prof. Arnon Bentur on the question periods, Dr. Yael Granot-Bein and Dr. Revital Duek on the open discussion. Meeting 6 closed with first insights and the question of what comes next rather than with another dilemma.
@@ -112,7 +103,7 @@ This book follows that sequence. Chapters 1 to 20 are built on the same ten-part
 - **The Dilemma.** The question the meeting was convened to argue, stated as a real choice rather than a settled one.
 - **Main Positions.** The positions taken, each on its own terms.
 - **Pros and Cons.** What each position buys, and what it costs.
-- **Where Each Sector Stands.** How the question looks from schools, higher education, policy, industry, and research, which is rarely the same way.
+- **Where Each Sector Stands.** How the question looks from schools, higher education, policy, and industry, which is rarely the same way. The set follows the dilemma rather than a fixed template, so some chapters add families, technology designers, or researchers, and some drop a sector the meeting never reached.
 - **Round Table Voices.** What named participants said, including where they disagreed with each other.
 - **Synthesis.** What the discussion converged on, and what it left open.
 - **Recommendation.** What the system should do.
@@ -339,7 +330,7 @@ Dr. Yael Granot-Bein's European evidence is the empirical anchor for the repeate
 
 Prof. Sigal Tifferet raised an important question: is embedding competencies inside disciplinary courses evidence-based? This question is central because education systems must avoid adopting attractive language without testing its effectiveness.
 
-Dr. Gabi Shafat described Afeka's practice of defining skills and competencies for courses and evaluating whether students achieved them. His presentation adds operational depth. The Advanced Digital Signal Processing course, which Chapter 6 examines in full, was rebuilt around pre-assessment questionnaires, problems at the beginning of lectures, student presentations, pre-class preparation, immediate formative feedback through Delta-Plus, discussions to bridge knowledge gaps, industry site visits, and guest experts.
+Dr. Gabi Shafat described Afeka's practice of defining skills and competencies for courses and evaluating whether students achieved them. His presentation adds operational depth. The Advanced Digital Signal Processing course, which Chapter 6 examines in full, was rebuilt around pre-assessment questionnaires, problems at the beginning of lectures, student presentations, pre-class preparation, immediate formative feedback through Delta-Plus, the in-class response system Afeka uses to see where a cohort is before the lecture moves on, discussions to bridge knowledge gaps, industry site visits, and guest experts.
 
 Dr. Marwa Maklada described progress in integrating skills in STEM subjects and connecting competency-based tasks to assessment.
 
@@ -1049,7 +1040,7 @@ Dr. Edith Manny-Ikan gave the meeting its dissent, and it was the most useful co
 
 Dr. Revital Duek answered from a pilot run at Tel Aviv University with Yale and the Edmond de Rothschild Bridge, where lecturers raised the same concerns and, by the end of the year, reported that the experience had been easier than they expected. Integrating the approach into syllabus planning, she argued, need not increase workload and can improve student engagement with the content.
 
-Dr. Marwa Maklada described the national STEM Skills Interface program, a three-year initiative involving hundreds of teachers and expanding gradually, driven by motivated lighthouse teachers. Its results rest on continuous support during implementation and on internal system capacity rather than bought-in solutions. Her list of what remains hard is worth keeping: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage.
+Dr. Marwa Maklada described the national Interface Skills in STEM Education program, which at Meeting 3 she put at three years old and involving hundreds of teachers, expanding gradually and driven by motivated lighthouse teachers. Chapter 16 reports the same program from Meeting 5, three months later, counted in schools rather than teachers and dated at four years; the book gives both figures as its sources give them and no source reconciles them. Its results rest on continuous support during implementation and on internal system capacity rather than bought-in solutions. Her list of what remains hard is worth keeping: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage.
 
 Emlen Metz warned at Meeting 6 against students delegating thinking and responsibility to machines, which implies that teachers must be able to guide responsible use.
 
@@ -2004,7 +1995,7 @@ She then named the assumption that the willingness gets wasted on. Understanding
 
 Her framework is the spine of this chapter. Four actors can carry faculty development, and each fails differently. Individual faculty bring autonomy, curiosity, and motivation, and reach mainly innovators, scale poorly, and depend on personal commitment: necessary but insufficient. Teaching and learning centers bring pedagogical expertise, coaching, and consultation, and hold limited authority and resources and often reach only a fraction of the faculty. Institutional leadership sets priorities, allocates resources, creates incentives, and shapes culture, and is what turns faculty development into institutional change. National support structures supply shared language, common tools, cross-institutional collaboration, and capacity building. Her observation about the last of these is the one worth remembering: research has national support structures and teaching usually does not.
 
-She offered a working example, not a proposal. The Maarag Yeda initiative operates across twenty-three higher education institutions, uses teaching and learning centers as local change agents, supports faculty development and course redesign, and builds a national community of practice with shared language and peer learning. It is what the four-actor model looks like when someone actually assembles it.
+She offered a working example, not a proposal. The Maarag Yeda initiative, whose name translates roughly as knowledge fabric, operates across twenty-three higher education institutions, uses teaching and learning centers as local change agents, supports faculty development and course redesign, and builds a national community of practice with shared language and peer learning. It is what the four-actor model looks like when someone actually assembles it.
 
 Her point about framing is easy to skip and expensive to ignore. Faculty engage with transferable skills when the skills are connected to academic excellence, research quality, student learning, and disciplinary identity. They disengage when the case is made through employability and labor market demand. The same program, described in academic terms rather than economic ones, gets a different level of participation. That is a finding about how faculty understand their own work, and it means the argument this book makes in Chapter 1 has to be translated before it will land in a university.
 
@@ -2086,7 +2077,7 @@ Classroom activity examples:
 
 Evaluation method:
 
-Evaluate student success by looking at how well students understand learning as a shared responsibility. The student should be able to identify what they own, what the teacher supports, and what the wider environment contributes. In older classes, success includes proposing a practical support or improvement, not only describing a problem.
+Success here is a student who can divide the work honestly. The student should be able to identify what they own, what the teacher supports, and what the wider environment contributes. In older classes, success includes proposing a practical support or improvement, not only describing a problem.
 
 For your own development, build a responsibility map: what I own, what my department owns, what the institution owns, and what policy or national infrastructure should own. Meeting 5 concluded that no single actor currently carries clear responsibility for this. Dr. Granot-Bein's answer was not to nominate one but to insist that the four levels be aligned, because each of them can block the other three.
 
@@ -2297,7 +2288,7 @@ Dr. Einat Sprinzak named the same gap from the practitioner's side. It is not en
 
 Dr. Eli Eisenberg emphasized that meaningful learning requires reflection and evaluation, and that establishing effective feedback, evaluation, and assessment mechanisms is a major challenge across higher education, schools, and the education system as a whole.
 
-Danielle Eisenberg made the hardest evaluation point in the whole Round Table, and she made it at the last meeting. The obstacle to educational innovation is not the absence of successful programs. It is the inability to scale them, because the systems that decide what counts - assessment regimes, university admissions, and employer expectations - still reward traditional academic achievement rather than the competencies innovative programs are designed to build. This turns the evaluation question around. The problem is not that competency-based learning lacks evidence. It is that the measurement systems with real consequences attached are not measuring it, so a school that succeeds at it is rewarded for nothing and a school that ignores it loses nothing.
+Danielle Eisenberg made the hardest evaluation point in the whole Round Table, and she made it at the last meeting. Innovation fails to scale, she argued, because the systems that decide what counts still reward what they have always rewarded. Chapter 24 takes that objection at full weight. What it does to this chapter is turn the evaluation question around. The problem is not that competency-based learning lacks evidence. It is that the measurement systems with real consequences attached are not measuring it, so a school that succeeds at it is rewarded for nothing and a school that ignores it loses nothing.
 
 ### Synthesis
 
@@ -2433,7 +2424,7 @@ Dr. Gabi Shafat gave the higher-education version. Afeka runs roughly twenty-fou
 
 Prof. Arnon Bentur then named the constraint that blocks most of this in universities: many classes are extremely large, and interactive learning cannot become central until the student-to-faculty ratio changes. This is the environment question in its least glamorous and most decisive form.
 
-Danielle Eisenberg reframed the whole problem. The obstacle to educational innovation, she argued, is not a shortage of successful programs. It is the inability to scale them, because assessment systems, university admissions, and workforce expectations continue to reward traditional academic achievement rather than the competencies these environments are built to develop. Chapter 16 set out the evidence problem that sits behind this, and Chapter 24 treats it as the objection the book cannot dismiss.
+Danielle Eisenberg put the scaling objection to this chapter's material directly: a redesigned environment is worth building only if something beyond the school recognizes what comes out of it, and at present nothing does. Chapter 16 sets out the evidence problem behind that, and Chapter 24 treats it as the objection the book cannot dismiss.
 
 Dr. Rinat Itzhaki argued that the target audience should be teacher education, and that the model and its objectives must be defined before implementation begins, so that everyone involved shares the same understanding of the intended outcome.
 
@@ -2544,6 +2535,8 @@ Virtual and XR environments are strongest when they do one of three things: make
 They are weakest when they are used as novelty. A simulated lab that merely entertains does not build scientific judgment. A VR tour that replaces real inquiry may reduce learning to passive experience. An AI-supported environment that gives answers without requiring explanation may weaken thinking.
 
 Blended learning is strongest when the teacher intentionally connects the virtual and the physical. Students simulate, test, build, compare, revise, explain, and reflect. The virtual environment becomes a bridge into deeper understanding, not an escape from effort.
+
+That is the answer this book would give, and it is worth saying plainly that it is not much of an answer. Naming the blend as the winner does not say how much of each, for which subject, at which age, or against what budget, and the Round Table produced none of those numbers because nobody has them. A head of department choosing between a set of headsets and a set of workbenches gets no help from the word blended. This trade-off is left unresolved here, because resolving it in a sentence would be a claim the evidence does not support.
 
 ### Where Each Sector Stands
 
@@ -2815,7 +2808,15 @@ D --> A
 F --> A
 ```
 
-Figure 13. The support ecosystem around the AI-era educator. Arrows in both directions mark the relationships that must be reciprocal.
+Figure 13. The support ecosystem around the AI-era educator. Four relationships return; three do not.
+
+The diagram is drawn as the system currently runs, not as it should. Seven relationships lead outward from the teacher and four lead back. The three that do not return are AI tools, policy and funding, and researchers and evaluators, and that asymmetry is the recommendation of this chapter rather than an oversight in the drawing.
+
+Each of the three is one-way for a different reason. AI tools take a teacher's judgment, corrections, and classroom knowledge and return a product the teacher had no part in shaping; no mechanism exists by which a teacher's experience of a tool reaches the people who build it. Policy and funding set the conditions a teacher works under and receive, in return, compliance reports written for the system's convenience rather than the teacher's. Researchers and evaluators collect from classrooms and publish to each other, and the teacher whose class supplied the data usually learns nothing from it.
+
+So the recommendation is narrow and it is testable. Make those three relationships return. For AI tools, that means procurement decisions that require a supplier route for classroom feedback and an institution willing to use it. For policy and funding, it means that every requirement placed on teachers arrives with a named resource attached, and that the parts of the system that fail to deliver theirs are as visible as the teachers who fail to deliver theirs. For researchers, it means that a study conducted in a school owes that school a readable account of what was found, before publication rather than after.
+
+None of the three is expensive. All three are currently nobody's job, which is the objection Chapter 24 raises against the whole ecosystem idea, and the only answer to it is to name the piece each actor owes and to notice when it does not arrive.
 
 ### Practical Recommendation for Teachers
 
@@ -3115,7 +3116,7 @@ The book's answer, that each part of the ecosystem needs a name, a budget line, 
 
 ### The Workload Arithmetic Does Not Work
 
-This book makes something close to a hundred practical recommendations. Each is small. Collectively they describe a teacher who redesigns assessment, learns new tools, collects evidence, builds partnerships, mentors colleagues, runs inquiry cycles, and reflects each semester, on top of teaching a full load.
+Counted honestly, the teacher blocks in this book carry more than two hundred practical recommendations. Each is small. Collectively they describe a teacher who redesigns assessment, learns new tools, collects evidence, builds partnerships, mentors colleagues, runs inquiry cycles, and reflects each semester, on top of teaching a full load.
 
 No serious costing accompanies any of it. Neither does any account of what should be removed to make room. A reform program that only adds is not a program. It is a wish, and teachers have learned to recognize the difference.
 
@@ -3185,19 +3186,19 @@ Start with the assessment rather than the syllabus, because the assessment is wh
 
 Create time and structures for teacher collaboration. Support project-based and experiential learning. Build AI policies around learning design.
 
-The first move is protected time on the timetable, not a policy document. Collaboration that depends on goodwill after hours ends when the most committed teacher leaves. The obstacle is that timetabled collaboration is visible and expensive while its returns are slow and hard to attribute, which makes it the first thing cut in a difficult year.
+Protected time on the timetable does more than any policy document. Collaboration that depends on goodwill after hours ends when the most committed teacher leaves. What defeats it is that timetabled collaboration is visible and expensive while its returns are slow and hard to attribute, which makes it the first thing cut in a difficult year.
 
 ### For Higher-Education Leaders
 
 Strengthen teaching and learning centers. Map competencies across programs. Support faculty development as a long-term institutional priority.
 
-The first move is to make teaching development count in promotion. A teaching center with no connection to advancement is a service that busy academics will use last, whatever its quality. The obstacle is that promotion criteria usually sit outside the reach of the people who run those centers, which is why this recommendation is addressed to leaders rather than to the centers themselves.
+Nothing here moves until teaching development counts in promotion. A teaching center with no connection to advancement is a service that busy academics will use last, whatever its quality. Promotion criteria usually sit outside the reach of the people who run those centers, which is why this recommendation is addressed to leaders rather than to the centers themselves.
 
 ### For Policy Makers
 
 Define shared goals and infrastructure. Fund implementation support rather than training events alone. Support mechanisms for continuous professional development.
 
-The first move is to fund the year after the training, which is the year that currently has no budget line. Workshops are cheap, visible, and countable; implementation support is expensive, invisible, and slow. Systems buy what they can count. The obstacle is that evidence for implementation support arrives well after the budget cycles that would have to protect it.
+Fund the year after the training, which is the year that currently has no budget line. Workshops are cheap, visible, and countable; implementation support is expensive, invisible, and slow. Systems buy what they can count, and the evidence for implementation support arrives well after the budget cycles that would have to protect it.
 
 ### For Industry Partners
 
@@ -3267,7 +3268,7 @@ What comes out is a curriculum question, and it is the one the Round Table was b
 
 How much possession is enough is the genuine research question of the four. Chapter 9 offers indicators rather than a threshold, and Chapter 24 explains why the evidence for any threshold is thinner than the confidence around it. Answering the question needs longitudinal data: cohorts followed past graduation, with some measure of whether the competencies their schooling claimed to develop are present, and in use, years later. No participant in Phase III holds data of that kind. Somebody has to collect it.
 
-Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting is the sharpest thing said across the six sessions. Assessment regimes, university admissions, and employer expectations still reward what they have always rewarded. Phase IV would have to engage the institutions that set those rewards rather than the educators who work inside them. That means a different room, with examination authorities, admissions officers, and hiring managers in it.
+Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting, set out in Chapter 24, is the sharpest thing said across the six sessions. Phase IV would have to engage the institutions that set the rewards rather than the educators who work inside them. That means a different room, with examination authorities, admissions officers, and hiring managers in it.
 
 ### What Phase IV Would Have to Do Differently
 
@@ -3338,7 +3339,7 @@ Role in the Round Table: Assessment and policy contributor. This book uses her c
 
 Bio: Dr. Maklada contributed from the Ministry of Education and from the assessment and education-system perspective.
 
-Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. At Meeting 3 she described the national STEM Skills Interface program, a three-year initiative involving hundreds of teachers that has expanded gradually through motivated lighthouse teachers, and named its dependence on continuous support during implementation and on internal system capacity instead of bought-in solutions. She also named what remains hard: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
+Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. At Meeting 3 she described the national Interface Skills in STEM Education program, a three-year initiative involving hundreds of teachers that has expanded gradually through motivated lighthouse teachers, and named its dependence on continuous support during implementation and on internal system capacity instead of bought-in solutions. She also named what remains hard: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
 
 ### Dr. Revital Duek
 

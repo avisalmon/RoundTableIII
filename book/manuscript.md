@@ -17,7 +17,7 @@ This book is not an official publication of the Samuel Neaman Institute or of an
 
 The author was himself a participant in the Round Table and presented at the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
 
-All six meetings left detailed written summaries, and five of the six also left presentation decks. Meeting 1 was an introductory session and left a summary but no deck, so the opening lecture is reported rather than reproduced. The summaries of Meetings 3, 5, and 6 reached the author as drafts circulated for participant comment, and are used on that basis.
+All six meetings left detailed written summaries, and five of the six also left presentation decks. Meeting 1 was an introductory session and left a summary but no deck, so the opening lecture is reported rather than reproduced. All six summaries were issued by the Samuel Neaman Institute as drafts circulated for participant comment, and no final version of any of them was ever circulated. That is the Institute's standing practice and not a sign that any one summary is provisional, so the circulated draft is the document of record in every case, and this book uses all six on that basis.
 
 Two consequences follow. The first is that every attribution in this book passes through a summarizer rather than a transcript, and the compression is invisible on the page. Chapter 24 sets out what that costs the argument. The second is a matter of sequence. The Meeting 1 summary, the Phase I and Phase II reports, and later the Meeting 3 and Meeting 5 summaries and decks all reached the author after the first draft was written. Each arrival changed chapters that had already been drafted, and those chapters were rewritten rather than patched.
 
@@ -2937,6 +2937,10 @@ mindmap
 
 Figure 15. The compass: all twelve guiding principles, grouped into four bearings.
 
+A list this clean hides where it came from, and this is the one chapter in the book where twelve claims arrive without a source attached. Each was argued somewhere in these pages by someone who was in the room, and a reader who wants to weigh a principle should be able to find that argument, not just the sentence. The first two came out of the fourth meeting and the teacher-student-AI triangle; Chapters 10 and 13 carry them. The third and fourth came out of the second and third meetings, where the group worked through what it means to possess a competency rather than perform one; Chapters 6, 7, and 9 carry them. The fifth came out of the second meeting's central question, whether the field needs one teacher profile or many; Chapters 4 and 5 carry it. The sixth, seventh, and tenth came out of the fifth meeting on who owns professional development and what happens after the workshop ends; Chapters 14, 15, and 16 carry them. The eighth, ninth, and twelfth came out of the sixth meeting on learning environments, industry partnership, and mentors; Chapters 18, 19, and 20 carry them. The eleventh runs through all six meetings and is argued hardest in Chapter 19.
+
+Three things here are the author's and not the room's, and it would be dishonest to let them pass as findings. The Round Table never ranked the principles: the ordering set out below, which puts the first, the fourth, and the eleventh ahead of the rest, is a judgment made while writing this book, and no participant endorsed it. The Round Table never named the conflicts either. The three pairs described next were visible in the discussions, and nobody set them out as conflicts. And the four bearings in Figure 15 are a grouping imposed afterwards for legibility. The principles belong to the Round Table. The architecture around them does not.
+
 Three pairs of these principles conflict. Pretending otherwise is how a compass becomes decoration.
 
 Rigor and visible thinking compete for time. The third principle asks for disciplinary depth and the fourth asks students to show their reasoning throughout. Both are right, and both spend the same hours. The workable resolution is to make thinking visible at a few well-chosen moments rather than continuously, which is the design Chapter 23 uses.
@@ -2946,6 +2950,12 @@ Diverse ecosystems and continuous development compete for people. The fifth prin
 Industry connection and equity compete structurally, and this is the sharpest conflict in the list. The eighth principle asks for real-world partnership and the eleventh asks for equity by design. Partnerships form where partners already are, so pursuing the eighth will undermine the eleventh unless allocation is deliberate. Chapter 19 treats this at length and does not fully solve it.
 
 If resources force a choice, the order is the first, the fourth, and the eleventh. Keeping human judgment above the machine, making thinking visible, and designing for equity are the three that cannot be recovered later, because a system that loses them stops generating the evidence that would show anything was lost. The other nine can be built once those hold. A reader who adopts only those three has taken the argument of this book. A reader who adopts the other nine without them has taken its vocabulary.
+
+Cost is the other thing the list conceals, and it is the reason compasses of this kind so often stay on the wall. Four of the twelve are free in the sense that matters. The first, the third, the fourth, and the tenth ask a teacher or an institution to decide differently, not to spend. They cost attention and the willingness to break a habit, which is not nothing, but they need no budget line and no permission from above.
+
+Four need money. The sixth asks for teachers to be released long enough to experience a new learning model themselves, which means paying for cover. The seventh asks for development that continues, which means recurring hours rather than a one-off day. The ninth asks for physical, virtual, and AI environments used purposefully, which means equipment, licenses, and someone to maintain them. The eleventh, taken seriously, means spending more per student on the students who are hardest to reach, which is the point at which Danielle Eisenberg's question about what scales stops being rhetorical.
+
+The last four cannot be bought at all. The second, the fifth, the eighth, and the twelfth ask an institution to change its shape: how it staffs a department, who counts as an educator, whom it partners with, and what it believes it owes a graduate five years on. These move slowest, and a school that begins with them will have nothing to show for two years. A school that begins with the free four will have something to show within a term, and will have generated the evidence it needs to argue for the other eight.
 
 Chapter 23 turns these principles into a single teachable sequence.
 
@@ -3114,7 +3124,7 @@ The Round Table did not answer that, and neither does this book. It is left here
 
 ### The Evidence Base Is Summary, Not Transcript
 
-Every attribution in this book comes from a meeting summary rather than a transcript. The summaries are detailed and were written close to the sessions, and they still render each speaker in reported prose that has already decided what mattered. Three of the six, Meetings 3, 5, and 6, were circulated as drafts for participant comment and are used in that state. Where this book states a position, the reader stands at the end of a chain: a participant spoke, a summarizer compressed, and an editor who was himself in the room synthesized. The compression does not show on the page, and a claim that was hedged in the discussion can read as settled here.
+Every attribution in this book comes from a meeting summary rather than a transcript. The summaries are detailed and were written close to the sessions, and they still render each speaker in reported prose that has already decided what mattered. All six were circulated as drafts for participant comment, and none was ever superseded by a version marked final, so the book uses the draft in every case. Where this book states a position, the reader stands at the end of a chain: a participant spoke, a summarizer compressed, and an editor who was himself in the room synthesized. The compression does not show on the page, and a claim that was hedged in the discussion can read as settled here.
 
 The summaries create a second and less obvious problem. They record who spoke and what each speaker argued. They do not record who stayed quiet, or who disagreed and let it pass. A summary reports agreement far more reliably than it reports the absence of objection, and a book built from summaries will therefore overstate how much the room agreed.
 
@@ -3482,12 +3492,14 @@ The following people took part in Phase III sessions. This book does not attribu
 
 ## Appendix B - Meeting Timeline
 
+Every summary listed here was issued as a draft circulated for participant comment, under the Samuel Neaman Institute's standard naming. No final version of any of the six was ever circulated. Where an entry says a summary exists, it means the circulated draft exists, and that is the document this book cites.
+
 - Meeting 1: 16.12.2025, introduction and AI-era skills. A full meeting summary and a published recording exist for this meeting. No presentation file for the opening lecture was found. The invitation circulated in November 2025 announced 02.12.2025; the meeting summary is headed 16.12.2025, and this book follows the summary.
 - Meeting 2: 20.01.2026, uniform or diverse teacher and lecturer profiles. A full meeting summary, both presentation decks, and a published recording exist for this meeting.
-- Meeting 3: 10.03.2026, possessing versus cultivating competencies. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was received as a draft circulated for participant comment. A discussion document was also circulated on 22.02.2026, before the session.
+- Meeting 3: 10.03.2026, possessing versus cultivating competencies. A full meeting summary, both presentation decks, and a published recording exist for this meeting. A discussion document was also circulated on 22.02.2026, before the session.
 - Meeting 4: 28.04.2026, teacher-student-AI triangle. A full meeting summary, presentation files, and a published recording exist for this meeting. A discussion document was also circulated before the session.
-- Meeting 5: 09.06.2026, professional development responsibility. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was received as a draft circulated for participant comment.
-- Meeting 6: 21.07.2026, learning environments, industry, XR/VR, mentors. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was still circulating as a draft for participant comment when this edition was prepared, so its attributions are reported rather than finally approved.
+- Meeting 5: 09.06.2026, professional development responsibility. A full meeting summary, both presentation decks, and a published recording exist for this meeting.
+- Meeting 6: 21.07.2026, learning environments, industry, XR/VR, mentors. A full meeting summary, both presentation decks, and a published recording exist for this meeting. The summary was circulated on 10.08.2026, and the comment period on it was still open when this edition was prepared.
 - Steering-committee discussions: 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026. These summaries record the planning behind the sequence of dilemmas and the group's own assessment of how each meeting went. They are the main source for the closing chapters, which draw on the arc of the whole phase, not on any single session.
 
 ## Appendix C - Presentation Inventory
@@ -3516,10 +3528,10 @@ Additional presentation or background materials:
 - [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx).
 - [Meeting 1 summary, 16.12.2025](../materials/meeting-1-summary.docx).
 - [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx).
-- [Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
+- [Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx).
 - [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx).
-- [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
-- [Meeting 6 summary, 21.07.2026](../materials/meeting-6-summary.docx). Received as a draft circulated for participant comment, and used here on that basis.
+- [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx).
+- [Meeting 6 summary, 21.07.2026](../materials/meeting-6-summary.docx).
 - [International Round Table for Advancing Skills in STEM Education, Phase I report](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II report, March 2025](../materials/phase-2-report.pdf).
 - [Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx).

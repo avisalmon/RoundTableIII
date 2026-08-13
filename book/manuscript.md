@@ -91,9 +91,9 @@ The number of competencies changes between the phases, and it is worth being cle
 
 The six questions were not chosen in the meetings. They were set by the steering team at its [opening session on 19 October 2025](../materials/steering-2025-10-19.docx), which defined the target of Phase III as the profile of the lecturer and teacher in the era of generative AI for cultivating STEM competencies in higher education and high school, fixed the rhythm at a round table every six weeks from late 2025 to August 2026, and required that the recommendations be practical and separated into personal, institutional, and policy levels. This book keeps that separation and expresses it differently. Chapter 25 is cut by audience, because a reader arrives as a teacher or a dean or a policy maker and not as a level of a system, but every recommendation in it sits at one of the three levels the steering team named.
 
-The meetings ran to a two-hour format that the steering team fixed and then kept to, and that is visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers addressed the dilemma of the day, one from Israel and one from abroad, each followed by a short question period. An open discussion followed. Dr. Avigdor Zonnenshain summarized the meeting, and Dr. Eli Eisenberg closed by introducing the dilemma of the next one. A background document was circulated in advance of each session, prepared by Avi Salmon, Prof. Arnon Bentur, and Dr. Eli Eisenberg.
+The meetings ran to a two-hour format that the steering team fixed and then kept to, and that is visible in the program outlines circulated beforehand. Dr. Eli Eisenberg opened. Two speakers addressed the dilemma of the day, one from Israel and one from abroad, each followed by a short question period. An open discussion followed. Dr. Zonnenshain summarized the meeting, and Dr. Eli Eisenberg closed by introducing the dilemma of the next one. A background document was circulated in advance of each session, prepared by Avi Salmon, Prof. Bentur, and Dr. Eli Eisenberg.
 
-The format took a meeting or two to settle, and the details matter for the attributions in this book. Meeting 1 was an introductory session: a round of self-introductions from every participant, then a single lecture and discussion. At Meeting 2, Prof. Arnon Bentur presented the Phase III dilemmas and moderated the open discussion, while Dr. Eli Eisenberg moderated the two question periods. From Meeting 4 onward the steering team held to the division of roles it had written down: Prof. Arnon Bentur on the question periods, Dr. Yael Granot-Bein and Dr. Revital Duek on the open discussion. Meeting 6 closed with first insights and the question of what comes next rather than with another dilemma.
+The format took a meeting or two to settle, and the details matter for the attributions in this book. Meeting 1 was an introductory session: a round of self-introductions from every participant, then a single lecture and discussion. At Meeting 2, Prof. Bentur presented the Phase III dilemmas and moderated the open discussion, while Dr. Eli Eisenberg moderated the two question periods. From Meeting 4 onward the steering team held to the division of roles it had written down: Prof. Bentur on the question periods, Dr. Granot-Bein and Dr. Duek on the open discussion. Meeting 6 closed with first insights and the question of what comes next rather than with another dilemma.
 
 The proportions of that format matter too. In the Meeting 4 and Meeting 6 outlines, the two presentations and their question periods occupy fifty minutes and the open discussion forty; Meeting 2 gave the discussion five minutes more than the presentations. Either way, a good deal of what this book reports as a Round Table position was stated by an invited speaker rather than argued out by the group. Chapter 24 returns to what follows from a group that mostly heard from its own members.
 
@@ -136,7 +136,7 @@ A student can now ask an AI system to explain a concept, solve a calculation, wr
 
 The second Round Table meeting placed this pressure inside a broader historical shift. Prof. Arnon Bentur described education as moving away from a model centered mainly on transmission of disciplinary knowledge toward a model in which teachers and lecturers must also cultivate cross-disciplinary competencies such as critical thinking, teamwork, curiosity, reflection, and AI literacy. That was the working vocabulary of the second meeting. Chapter 3 sets out the five competencies that this book uses from that point onward, and curiosity, creativity, communication, and reflection are treated there as ways those five show themselves in practice rather than as separate items on the list. What matters here is the direction of the shift: disciplinary knowledge matters as much as ever, and must now be taught as something learners can use, question, connect, and apply in uncertain situations.
 
-The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx) sharpened the point further. It set out five competencies for an AI-rich world. Four came from the Phase I Round Table consensus; the fifth, ethical judgment, was added because AI raises questions of integrity, intellectual ownership, fairness, transparency, and accountability that cut across all the others. The document's guiding principle was clear: keep the human above the machine. Across all competencies, human judgment and moral responsibility must remain the final authority over any tool or system.
+The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx) sharpened the point further. It set out the five competencies for an AI-rich world that Chapter 3 examines in full. Its guiding principle was clear: keep the human above the machine. Across all competencies, human judgment and moral responsibility must remain the final authority over any tool or system.
 
 This is the new pressure on STEM education. The system must still teach foundations, but it can no longer be satisfied when students reproduce procedures or submit correct-looking products. It must cultivate learners who can ask whether an answer makes sense, whether a tool should be trusted, whether a model fits the situation, whether a method is fair, and whether a decision can be defended.
 
@@ -156,9 +156,9 @@ The second position is competency-first. This view argues that the future value 
 
 The third position, which best reflects the spirit of the Round Table, is integrated. STEM education must preserve disciplinary depth, but it must use disciplinary learning as the arena in which students develop human competencies. Students should not learn critical thinking as a slogan. They should learn it by testing claims, comparing models, identifying failure modes, explaining assumptions, and reflecting on evidence inside real STEM work.
 
-Jan Morrison's presentation from TIES supported this integrated view from the education-system perspective. She argued that success requires transdisciplinary teaching, career-connected learning, real-world experiences, team-based teaching, and systems designed for iteration and improvement. Her examples showed that problem-based and transdisciplinary learning fail when they are placed inside systems that were never designed to support them. Time for teacher collaboration, cross-sector training, and structured teamwork are not decorations. They are conditions for success.
+Jan Morrison's presentation from TIES supported this integrated view from the education-system perspective. She argued that success requires transdisciplinary teaching, career-connected learning, real-world experiences, team-based teaching, and systems designed for iteration and improvement. Time for teacher collaboration, cross-sector training, and structured teamwork are not decorations in that account. They are the conditions on which the rest depends, and Chapters 5 and 20 both turn on what happens when they are absent.
 
-Dr. Gabi Shafat's presentation from Afeka brought the same issue into higher education. The shift from "teaching engineering" to "engineering education" means starting from the desired graduate profile and working back to course content. AI can provide assistance, summaries, explanations, and feedback, but it lacks accountability and human interaction, and it can be confidently wrong. Therefore, students must learn to use AI while understanding its limits.
+Dr. Gabi Shafat's presentation from Afeka brought the same issue into higher education. The shift from teaching engineering to engineering education, which Chapter 6 takes up in full, means starting from the desired graduate profile and working back to course content. AI can provide assistance, summaries, explanations, and feedback, but it lacks accountability and human interaction, and it can be confidently wrong. Therefore, students must learn to use AI while understanding its limits.
 
 ### Pros and Cons
 
@@ -174,7 +174,7 @@ The failure mode is predictable. Institutions adopt the language and skip the sc
 
 From a school perspective, the challenge is implementation. Teachers face prescribed curricula, external exams, mixed student motivation, class size, limited time, and different expectations across age groups. The Meeting 2 discussion made clear that middle school, upper secondary school, and higher education cannot be treated as identical settings.
 
-From a higher education perspective, the challenge is to protect foundations while redesigning programs around graduate profiles and competencies. Prof. Arnon Bentur noted that the first years of higher education, especially in mathematics, physics, and chemistry foundations, often resemble secondary education in their constraints. Later years may allow more autonomy, differentiation, and specialization.
+From a higher education perspective, the challenge is to protect foundations while redesigning programs around graduate profiles and competencies. Prof. Bentur noted that the first years of higher education, especially in mathematics, physics, and chemistry foundations, often resemble secondary education in their constraints. Later years may allow more autonomy, differentiation, and specialization.
 
 From an industry perspective, Avi Salmon emphasized that employers, especially in high technology, are becoming less interested in routine technical skills that AI can easily perform and more interested in deep conceptual understanding, curiosity, and genuine engagement with the profession. His point was not that technical skill no longer matters. It was that technical skill must be connected to judgment, meaning, and the ability to keep learning. Schools should help develop love of the profession. Higher education should deepen conceptual understanding beyond curriculum coverage.
 
@@ -194,21 +194,21 @@ Dr. Einat Sprinzak argued that the first need is foundational AI literacy, becau
 
 Dr. Olena Bekh widened the frame. Learning now happens across blurred boundaries between formal and informal education, digital and physical environments, and cognitive and emotional development. She also raised the cost side: digital saturation can erode empathy, so educators have to nurture emotional awareness deliberately rather than assume it survives on its own.
 
-Danielle Eisenberg raised the objection that returns in Chapter 24. Expectations of educators keep rising while professional development, institutional support, and systemic guidance often do not. Teachers cannot carry a transformation of this size alone, and a system that asks them to will not sustain it.
+Danielle Eisenberg raised the objection this book returns to more than any other. Expectations of educators keep rising while professional development, institutional support, and systemic guidance often do not. Teachers cannot carry a transformation of this size alone, and a system that asks them to will not sustain it.
 
 Dr. Avigdor Zonnenshain closed the first meeting with the insight that framed the sessions that followed: the pressing need is to understand students better, in their diverse abilities, interests, and ways of learning, and to move away from one-size-fits-all teaching.
 
 Dr. Eli Eisenberg opened Meeting 2 by emphasizing that the initiative's value lies not only in documentation but also in active participation and brainstorming. This matters because the dilemmas are not administrative. They concern the future purpose of education.
 
-Prof. Arnon Bentur framed Phase III as a sequence of connected dilemmas: the educator profile, possession versus cultivation of competencies, the teacher-student-AI relationship, professional development, and the learning environment. This framing prevents the discussion from treating AI as a stand-alone technology issue. AI is part of a larger redesign of educational purpose, roles, environments, and evidence.
+Prof. Bentur framed Phase III as a sequence of connected dilemmas: the educator profile, possession versus cultivation of competencies, the teacher-student-AI relationship, professional development, and the learning environment. This framing prevents the discussion from treating AI as a stand-alone technology issue. AI is part of a larger redesign of educational purpose, roles, environments, and evidence.
 
-Jan Morrison argued that teaching must become a team-driven, cross-sector profession connected to real-world experience. Her warning is important: transdisciplinary and problem-based learning cannot succeed when inserted into systems built for isolated individual teaching.
+Jan Morrison argued that teaching must become a team-driven, cross-sector profession connected to real-world experience, and that the systems most schools run on were built for the opposite.
 
-Dr. Gabi Shafat's answer, described earlier in this chapter, was to design the program backward from the graduate profile. What made it useful to the discussion was not the principle, which several people shared, but that Afeka had already done it and could say what it cost. Chapter 6 takes the case in full.
+Dr. Shafat's answer, described earlier in this chapter, was to design the program backward from the graduate profile. What made it useful to the discussion was not the principle, which several people shared, but that Afeka had already done it and could say what it cost. Chapter 6 takes the case in full.
 
 Avi Salmon brought the industry perspective into the conversation. His contribution was not that education should become narrow job training. It was that STEM education must cultivate the kind of thinking, curiosity, and meaning that remain valuable when routine production is automated.
 
-Emlen Metz and Prof. Russell Tytler added a warning that belongs already in the opening chapter. AI can support learning, but it can also reduce independent thinking if students rely on it passively. Decision-making and responsibility cannot be delegated to machines. Long-term habits of independent, reflective STEM learning must be deliberately cultivated.
+Emlen Metz and Prof. Russell Tytler added a warning that belongs already in the opening chapter. AI can support learning, and it can also reduce independent thinking if students lean on it passively. Chapter 3 takes up what follows from that. Here the point is narrower: long-term habits of independent, reflective STEM learning do not appear on their own and have to be deliberately cultivated.
 
 ### Synthesis
 
@@ -252,15 +252,15 @@ Classroom activity examples:
 
 Evaluation method:
 
-A correct answer settles nothing on its own. The student should be able to explain assumptions, identify tool use, verify claims, correct errors, and take responsibility for the conclusion. A strong performance includes a defensible answer, a clear reasoning trail, and at least one explicit check of reliability.
+The student should be able to explain assumptions, identify tool use, verify claims, correct errors, and take responsibility for the conclusion. A correct answer alone does not show any of this. A strong performance includes a defensible answer, a clear reasoning trail, and at least one explicit check of reliability.
 
 For your own development, practice the same task yourself. Take one familiar lesson, use AI to solve or explain it in several ways, identify where the tool is strong and weak, and redesign the lesson so students must think beyond the output.
 
 ### Sources
 
-*A note on this section, which appears at the end of chapters one to twenty. Titles set in italic are Round Table documents that were never published and therefore cannot be linked; Appendix C lists all of them. Titles that appear as links point to material anyone can open.*
+*A note on this section, which appears at the end of chapters one to twenty. Titles linked to the working library are Round Table documents held by the project. Most are third-party files the project has no right to republish, so the link records the chain of evidence rather than offering access; Appendix C inventories them. Titles linked to a web address can be opened by anyone.*
 
-[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [TALIS 2024 background](../materials/talis-2024-us-short.pdf).
+[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 
 ## Chapter 2 - From Knowledge Transmission to Competency Formation
 
@@ -300,7 +300,7 @@ The ecosystem position goes one step further. It argues that competencies requir
 
 ### Pros and Cons
 
-Separate skills courses are easy to schedule, easy to describe, and easy to point at when someone asks what the institution is doing. Students read them accurately as peripheral, because a course that no later course depends on is peripheral. Transfer into disciplinary work rarely happens on its own.
+Separate skills courses are easy to schedule, easy to describe, and easy to point at when someone asks what the institution is doing. Students are right to read them as peripheral, because a course that no later course depends on is peripheral. Transfer into disciplinary work rarely happens on its own.
 
 Embedded competencies connect to real problems, repeated practice, and disciplinary identity, which is why they work when they work. They also depend entirely on teacher preparation. Without it, "embedded" means the competency appears in the syllabus and nowhere in the teaching, and from outside the room the two are indistinguishable.
 
@@ -326,13 +326,13 @@ Industry needs graduates who can perform in uncertain and collaborative settings
 
 ### Round Table Voices
 
-Dr. Yael Granot-Bein's European evidence is the empirical anchor for the repeated-practice position set out above, and it carries a warning inside it. The three conditions have to hold together. A competency named in a single workshop, or practiced without reflection, or reflected on without being tied to any discipline, does not survive the term.
+Dr. Granot-Bein's European evidence is the empirical anchor for the repeated-practice position set out above, and it carries a warning inside it. The three conditions have to hold together. A competency named in a single workshop, or practiced without reflection, or reflected on without being tied to any discipline, does not survive the term.
 
 Prof. Sigal Tifferet raised an important question: is embedding competencies inside disciplinary courses evidence-based? This question is central because education systems must avoid adopting attractive language without testing its effectiveness.
 
-Dr. Gabi Shafat described Afeka's practice of defining skills and competencies for courses and evaluating whether students achieved them. His presentation adds operational depth. The Advanced Digital Signal Processing course, which Chapter 6 examines in full, was rebuilt around pre-assessment questionnaires, problems at the beginning of lectures, student presentations, pre-class preparation, immediate formative feedback through Delta-Plus, the in-class response system Afeka uses to see where a cohort is before the lecture moves on, discussions to bridge knowledge gaps, industry site visits, and guest experts.
+Dr. Shafat described Afeka's practice of defining skills and competencies for courses and evaluating whether students achieved them. His presentation adds operational depth. The Advanced Digital Signal Processing course, which Chapter 6 examines in full, was rebuilt around pre-assessment questionnaires, problems at the beginning of lectures, student presentations, pre-class preparation, immediate formative feedback through Delta-Plus, the in-class response system Afeka uses to see where a cohort is before the lecture moves on, discussions to bridge knowledge gaps, industry site visits, and guest experts.
 
-Dr. Marwa Maklada described progress in integrating skills in STEM subjects and connecting competency-based tasks to assessment.
+Dr. Maklada described progress in integrating skills in STEM subjects and connecting competency-based tasks to assessment.
 
 Dr. Avigdor Zonnenshain emphasized that education must go beyond knowledge transmission and foster a love of the profession and lifelong learning. He connected this to team-driven education, industry realities, project-based learning, active learning, meaningful assessment, and student motivation.
 
@@ -385,13 +385,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-Look for the competency inside the discipline, not beside it. The student should show accurate content knowledge and also demonstrate the named competency in action: explaining, collaborating, questioning, reflecting, or making a justified decision. Use a rubric with two equal parts: disciplinary quality and competency evidence.
+The student should show accurate content knowledge and demonstrate the named competency in action within it: explaining, collaborating, questioning, reflecting, or making a justified decision. Use a rubric with two equal parts: disciplinary quality and competency evidence.
 
 For your own development, map one course or semester and ask: where is each competency introduced, practiced, assessed, and revisited?
 
 ### Sources
 
-[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [TALIS 2024 background](../materials/talis-2024-us-short.pdf).
+[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [TALIS 2024 background](../materials/talis-2024-us-short.pdf).
 
 ## Chapter 3 - The Five Competencies in an AI-Rich World
 
@@ -449,7 +449,7 @@ The [UNESCO AI competency framework](https://www.unesco.org/en/articles/ai-compe
 
 ### Round Table Voices
 
-Dr. Eli Eisenberg, Prof. Arnon Bentur, and Avi Salmon framed the Meeting 3 question around the role of the teacher in cultivating competencies. The discussion document emphasized a guiding principle: the human must remain above the machine.
+Dr. Eli Eisenberg, Prof. Bentur, and Avi Salmon framed the Meeting 3 question around the role of the teacher in cultivating competencies. The discussion document emphasized a guiding principle: the human must remain above the machine.
 
 This phrase is more than a slogan. It means that AI can support analysis, explanation, production, and feedback, but responsibility remains human. The learner must remain responsible. The teacher must remain responsible. The institution must remain responsible.
 
@@ -474,7 +474,7 @@ An AI-era competency is therefore not a simple skill. It has at least four layer
 
 This four-layer model helps prevent a common mistake. AI literacy should not be reduced to knowing how to prompt a system. Prompting may be useful, but it is not enough. The deeper educational question is whether the student remains intellectually present and morally responsible.
 
-The same applies to teachers. Teachers need enough AI literacy to design meaningful learning, enough ethical judgment to set boundaries, enough pedagogical confidence to make thinking visible, and enough professional agency to adapt as tools change.
+The same applies to teachers. Teachers need enough AI literacy to design meaningful learning, enough ethical judgment to set boundaries, enough pedagogical confidence to make thinking visible, and enough professional agency to adapt as tools change. Figure 1 sets out the five competencies and what each one asks of a learner.
 
 ```mermaid
 mindmap
@@ -542,11 +542,11 @@ For your own development, build a personal AI competency journal. Once a week, t
 
 ### Sources
 
-[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Steering-team summary, 03.02.2026](../materials/steering-2026-02-03.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 # Part II - The Future Profile of the Teacher and Lecturer
 
-Meeting 2, on 20 January 2026, asked whether the profile of teachers and lecturers should be uniform or diverse. Prof. Arnon Bentur set out the sequence of dilemmas that Phase III would follow, Jan Morrison spoke from the school system and Dr. Gabi Shafat from higher education. These three chapters take the profile question outward in stages: from the individual educator, to the teaching team, to a whole engineering faculty that rebuilt its curriculum around it.
+Meeting 2, on 20 January 2026, asked whether the profile of teachers and lecturers should be uniform or diverse. Prof. Bentur set out the sequence of dilemmas that Phase III would follow, Jan Morrison spoke from the school system and Dr. Shafat from higher education. These three chapters take the profile question outward in stages: from the individual educator, to the teaching team, to a whole engineering faculty that rebuilt its curriculum around it.
 
 ## Chapter 4 - One Profile or Many?
 
@@ -556,7 +556,7 @@ Teachers and lecturers are now expected to do many things at once. They must tea
 
 No single person can be equally strong in all these areas. This creates the central dilemma of Meeting 2: should the future profile of teachers and lecturers be uniform, or should education systems build diversity of profiles within a coordinated ecosystem?
 
-The question reaches the identity of the profession, and no technical answer will settle it. If the system defines one ideal teacher profile, it may create clarity but also overload. If the system accepts many profiles, it may gain realism but lose coherence. If it builds a common foundation with differentiated roles, it may support both equity and excellence, but only if institutions are designed to coordinate those differences.
+The question goes to the identity of the profession, and no technical answer will settle it. If the system defines one ideal teacher profile, it may create clarity but also overload. If the system accepts many profiles, it may gain realism but lose coherence. If it builds a common foundation with differentiated roles, it may support both equity and excellence, but only if institutions are designed to coordinate those differences.
 
 [Jan Morrison's TIES presentation](../materials/meeting-2-ties-jan-morrison.pptx) framed the issue as a shift from "no alternative" toward a strategic approach to defining the future teacher or lecturer. Her proposal included openness to recruiting individuals from diverse backgrounds, including industry, not as a temporary solution but as part of a systemic strategy. It also included team-based models in which teachers and lecturers with different strengths complement one another rather than all being expected to fit a single mold.
 
@@ -590,11 +590,7 @@ The Round Table discussion suggests that this is the real tradeoff. Uniformity w
 
 ### Where Each Sector Stands
 
-School teachers often work under prescribed curricula and closer regulation. University lecturers may have greater academic freedom, especially in advanced courses. Prof. Gil Noam warned against treating school teachers and university lecturers as identical. His concern is important because a shared vocabulary can hide very different professional conditions.
-
-Prof. Arnon Bentur complicated the distinction. He noted that early higher education and secondary education may share important constraints, especially in large foundational courses in mathematics, physics, chemistry, and other basic subjects. In those settings, lecturers often work within predefined programs because later courses depend on those foundations. Greater academic freedom appears more strongly in later years.
-
-Dr. Eli Eisenberg added a governance distinction. Schools in Israel operate under prescribed curricula and close supervision by the Ministry of Education, while universities usually grant more academic autonomy. This changes what can reasonably be expected from the individual educator.
+School teachers work under prescribed curricula and close regulation. University lecturers have more academic freedom, but mostly in later years: large foundational courses in mathematics, physics, and chemistry are nearly as constrained as school teaching, because everything downstream depends on what they cover. The governance gap is sharper in Israel, where schools sit under Ministry of Education supervision and universities are largely autonomous. A shared vocabulary hides all of this, and what can reasonably be asked of an individual educator differs accordingly.
 
 Industry tends to value diverse teams. Complex problems are rarely solved by one ideal worker. This supports an ecosystem view of teaching.
 
@@ -604,11 +600,7 @@ Industry tends to value diverse teams. Complex problems are rarely solved by one
 
 ### Round Table Voices
 
-Prof. Gil Noam emphasized that the terms teacher and lecturer refer to different professional contexts. His warning matters because a book about educator profiles must not flatten those differences.
-
-Prof. Arnon Bentur argued that some parts of higher education, especially foundational first-year courses, resemble secondary education in their constraints and challenges. He also described the shift from academic programs as collections of individual courses toward programs designed backward from a graduate profile.
-
-Dr. Eli Eisenberg pointed to differences in academic freedom between schools and universities.
+Prof. Gil Noam emphasized that the terms teacher and lecturer refer to different professional contexts, and a book about educator profiles must not flatten the difference. Prof. Arnon Bentur complicated it from the other direction, arguing that foundational first-year courses resemble secondary education in their constraints, and describing the shift from academic programs as collections of individual courses toward programs designed backward from a graduate profile. Dr. Eli Eisenberg drew the governance line between the two, pointing to how much more academic freedom a university holds than a school.
 
 Jan Morrison emphasized team-based and system-based teaching. Her contribution supports the idea that the future profile may not be one individual profile but a designed professional ecosystem. She described the need to leave the traditional "yellow brick road" career path and adopt an "interstate road" model with ramps on and off, including industry, nonprofit, post-military, and other entry paths into teaching.
 
@@ -626,7 +618,7 @@ The shared baseline should include disciplinary responsibility, pedagogical care
 
 The differentiated layer should allow educators to specialize. Some may lead deep disciplinary foundations. Some may lead project-based learning. Some may design AI-supported learning. Some may connect with industry. Some may mentor students. Some may develop assessment. Some may coordinate interdisciplinary work.
 
-The institutional layer must make these profiles work together. Without coordination, specialization becomes fragmentation. With coordination, specialization becomes capacity.
+The institutional layer must make these profiles work together. Without coordination, specialization becomes fragmentation. With coordination, specialization becomes capacity. Figure 2 shows the three levels and how they stack.
 
 ```mermaid
 flowchart TD
@@ -685,7 +677,7 @@ For your own development, create a two-layer growth plan: maintain the common fo
 
 ### Sources
 
-[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
+[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 5 - Teaching as a Team Profession
 
@@ -733,9 +725,9 @@ From a teacher perspective, teamwork cannot simply be demanded. It must be suppo
 
 From a policy perspective, collaboration must be funded and recognized.
 
-From a student perspective, teamwork must be explicitly taught. Dr. Revital Duek asked how teamwork can be established as a foundational competency in teacher development and then in student learning. Jan Morrison responded by drawing on medicine, where team-based practice is non-negotiable and "learning to team" is taught intentionally during professional formation. STEM education can learn from that model.
+From a student perspective, teamwork has to be taught rather than assumed. Medicine is the useful comparison, because team-based practice there is non-negotiable and learning to team is taught deliberately during professional formation. STEM education has no equivalent stage.
 
-From an industry perspective, team-based learning reflects how complex work actually happens. Dr. Avigdor Zonnenshain emphasized that education should reflect industry realities, especially in engineering, where teamwork is central. The point is recognition rather than import: isolated individual performance is thin preparation for complex professional life.
+From an industry perspective, team-based learning reflects how complex work actually happens. The point is recognition rather than import: isolated individual performance is thin preparation for complex professional life.
 
 From a recruitment perspective, Morrison's "interstate road" model matters. If teaching remains a narrow pathway in which people enter once and remain until burnout, the profession loses potential talent. A more flexible system can include industry workers, post-military professionals, nonprofit experts, and others who bring complementary strengths into education.
 
@@ -743,9 +735,7 @@ From a recruitment perspective, Morrison's "interstate road" model matters. If t
 
 Jan Morrison described teaching as a profession that should connect to industry and be treated with a status beyond a calling or service role. She emphasized externships, flexible teacher pathways, systemic redesign, and international learning.
 
-Dr. Revital Duek raised teamwork as a foundational competency. If students must learn teamwork, teachers must experience and model it.
-
-Dr. Avigdor Zonnenshain summarized the importance of education that reflects industry realities, especially in engineering, where teamwork is central.
+Dr. Revital Duek raised teamwork as a foundational competency and asked how it could be established first in teacher development and then in student learning. If students must learn teamwork, teachers must experience and model it. Dr. Avigdor Zonnenshain put the same case from the industry side, arguing that education should reflect industry realities, and that in engineering teamwork is not one competency among many but the condition of the work.
 
 Danielle Eisenberg's question to Jan Morrison about whether change was happening only in innovative pockets or also in large traditional systems sharpened the implementation issue. Morrison's answer, pointing to system-level developments in districts such as Chicago and Anaheim and higher-education structures such as UTeach, suggested that team-based redesign is not only a boutique innovation. It can enter mainstream systems when trust, measurement, and political conditions support it.
 
@@ -828,7 +818,7 @@ The dilemma is especially sharp in engineering because foundations are not optio
 
 At the same time, engineering graduates are not hired only to reproduce foundations. They are expected to design under constraints, evaluate tradeoffs, work with uncertainty, collaborate, communicate, use tools responsibly, and continue learning. AI raises the pressure further because some routine technical tasks can now be performed quickly by tools that may also be confidently wrong.
 
-Foundations or projects is the wrong question. The real one is how to connect foundations, projects, AI, assessment, industry, and graduate profiles into one coherent educational design.
+Asking whether to teach foundations or projects is the wrong question. The real one is how to connect foundations, projects, AI, assessment, industry, and graduate profiles into one coherent educational design.
 
 ### Main Positions
 
@@ -858,21 +848,19 @@ Faculty need professional support and evidence. Dr. Shafat's presentation descri
 
 Industry needs graduates who can reason, collaborate, and judge. Industry site visits and guest experts were part of the course design, not external decoration. This connects engineering learning to professional practice.
 
-Institutions need program-level design. Prof. Arnon Bentur emphasized that programs have traditionally been collections of individual courses, while the new direction requires defining a graduate profile and working backward. Afeka's mapping of competencies across courses provides a concrete example.
+Institutions need program-level design. Programs have traditionally been collections of individual courses, and the new direction defines a graduate profile first and works backward from it. Afeka's mapping of competencies across courses is the concrete example.
 
 Policy makers need to understand that innovation requires investment. Dr. Shafat's policy message was that education requires more investment, not less. If institutions want project-based learning, AI integration, feedback, industry links, and meaningful assessment, they must fund the conditions that make them possible.
 
 ### Round Table Voices
 
-Dr. Gabi Shafat described Afeka's shift from teaching engineering to engineering education. This shift includes graduate profiles, skill mapping, AI integration, feedback, industry visits, flipped classrooms, and project-based learning.
+Dr. Shafat put numbers and mechanisms behind the shift described above: graduate profiles, skill mapping across courses, AI integration, formative feedback, industry visits, flipped classrooms, and project-based learning, all running in the same program at the same time.
 
 Avi Salmon emphasized that deep understanding and genuine engagement with the profession matter more as routine technical work becomes automated.
 
 Prof. Arnon Bentur pointed to the importance of defining the graduate profile and designing backward.
 
-Dr. Avigdor Zonnenshain asked what Afeka was doing to demonstrate the effectiveness of these processes. This question is crucial because innovation must not be judged only by enthusiasm. It needs evidence, feedback, and evaluation.
-
-Dr. Gabi Shafat responded that rapid change means there are no definitive answers yet, but that Afeka conducts ongoing cycles of feedback and evaluation through cross-departmental discussions. He also identified practical lessons: take-home assignments must be reconsidered when AI can produce solutions, in-class assessment remains important, large classes constrain innovation, and foundational subjects need stronger applied integration.
+Dr. Avigdor Zonnenshain asked what Afeka was doing to demonstrate that any of it worked, which is the question innovation is least often asked. Dr. Shafat answered that rapid change means there are no definitive answers yet, and that Afeka runs continuous cycles of feedback and evaluation through cross-departmental discussion. He named the practical lessons too: take-home assignments have to be reconsidered when AI can produce the solution, in-class assessment matters more than it did, large classes constrain what can be attempted, and foundational subjects need stronger applied integration.
 
 Avi Salmon later sharpened the faculty-development issue: the real question is how to get professors involved. The challenge runs past curriculum content to enabling teachers and lecturers to personally experience new pedagogical and technological realities.
 
@@ -890,7 +878,7 @@ The Afeka case suggests a concrete model:
 6. Assess process, products, contribution, and understanding.
 7. Support faculty through team models and institutional investment.
 
-This is not a softening of engineering education. It is a more demanding form of rigor. It asks whether students can use foundations in conditions closer to the work they will actually do.
+This is not a softening of engineering education. It is a more demanding form of rigor. It asks whether students can use foundations in conditions closer to the work they will actually do. Figure 3 traces the design working backward from the graduate profile.
 
 ```mermaid
 flowchart LR
@@ -944,7 +932,7 @@ For your own development, redesign one course artifact using the Afeka logic: gr
 
 ### Sources
 
-[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx).
+[Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx).
 
 # Part III - Must Teachers Possess the Skills They Teach?
 
@@ -1101,7 +1089,7 @@ For your own development, choose one competency per semester for deliberate grow
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Prof. Sigal Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx), [Dr. Olena Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Prof. Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing
 
@@ -1155,7 +1143,7 @@ From a policy perspective, teacher vulnerability must not be confused with lower
 
 From the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf) perspective, teachers need agency to navigate complexity and uncertainty. The Compass describes teachers as agents of change who adapt, innovate, and act with professional judgment. That is exactly the authority needed here.
 
-From the AI design perspective, the Meeting 4 and Danielle Eisenberg materials point to the teacher as the interpretive layer. AI can propose, surface evidence, or generate signals. The teacher who knows the student and the context decides.
+From the AI design perspective, the Meeting 4 and Danielle Eisenberg materials point to the teacher as the interpretive layer. AI can propose, surface evidence, or generate signals. The teacher who knows the student and the context decides, which is why every subsequent chapter treats the placement of that decision as a design choice rather than a courtesy.
 
 ### Round Table Voices
 
@@ -1165,7 +1153,7 @@ Avi Salmon argued that teachers and lecturers must remain above AI. That is a cl
 
 The [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) asked whether AI enhances or undermines teacher authority. It suggested that the teacher's role may evolve from knowledge authority toward a guide who teaches judgment, context, and critical evaluation of AI-generated content.
 
-Danielle Eisenberg's presentation added a design formulation: AI proposes, teachers decide. AI may surface skill evidence, but the teacher who knows the student remains the interpretive layer.
+Danielle Eisenberg's presentation compressed it into a design formulation: AI proposes, teachers decide.
 
 The [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf) reinforces this stance through teacher agency, professional identity, ethical values, and the capacity to act under uncertainty.
 
@@ -1223,7 +1211,7 @@ For your own development, rehearse transparent authority. Before class, identify
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Dr. Olena Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
 
 ## Chapter 9 - Assessing Enough Competency
 
@@ -1261,7 +1249,7 @@ Formal standards support accountability but can become bureaucratic. Portfolios 
 
 Program evaluation can reveal whether reforms work, but it requires careful design. Bad metrics may reward superficial compliance. Good metrics must look at student learning processes, teacher practice, institutional support, and long-term outcomes.
 
-AI-supported assessment can help surface patterns, but it introduces bias, privacy, trust, and interpretation problems. The Meeting 4 materials are relevant here: AI can propose analysis and feedback, but the teacher who knows the student and context must remain the interpretive layer.
+AI-supported assessment can help surface patterns, and it introduces bias, privacy, trust, and interpretation problems at the same time. Where the interpreting happens is the question Chapter 10 settles.
 
 The deepest risk is that assessment becomes another burden on teachers without improving learning. Meeting 5 established that professional development cannot be one-time training. It requires implementation coaching, institutional infrastructure, resources, evaluation, and policy backing. The same is true of assessment.
 
@@ -1281,11 +1269,9 @@ Higher education needs course-level and program-level evidence. [Dr. Gabi Shafat
 
 ### Round Table Voices
 
-Dr. Gabi Shafat described assessing students' ability to think critically around AI, including cases where AI tools fail or produce biased output.
+Dr. Shafat described assessing students' ability to think critically around AI, including cases where AI tools fail or produce biased output.
 
-Avi Salmon argued for professional, data-based evaluation of programs.
-
-Dr. Marwa Maklada described work on validating competency-based tasks and assessment processes.
+Dr. Maklada described work on validating competency-based tasks and assessment processes.
 
 Meeting 3 produced the most concrete exchange on this question in the whole Round Table, and it went badly for the optimists. Prof. Arnon Bentur put the contradiction to the room: the education system and academia both describe graduate profiles built on competencies, and neither reflects that emphasis in how it assesses. He then asked Dr. Edith Manny-Ikan, who works on the matriculation examinations, how competencies are actually represented in them.
 
@@ -1312,7 +1298,7 @@ Four assessment objects must remain distinct:
 3. Course design: evidence that competencies are embedded in tasks, feedback, and assessment.
 4. Program or system effectiveness: evidence that reforms improve learning over time and are supported institutionally.
 
-Each object requires different evidence. A student portfolio is not the same as a teacher portfolio. Course redesign evidence is not the same as program evaluation. Confusing these layers creates weak assessment.
+Each object requires different evidence. A student portfolio is not the same as a teacher portfolio. Course redesign evidence is not the same as program evaluation. Confusing these layers creates weak assessment. Figure 4 separates the three kinds of evidence and names what each one cannot show.
 
 | Kind of evidence | What the student produces | What it can show | What it cannot show |
 | --- | --- | --- | --- |
@@ -1357,13 +1343,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-Score the defense. The portfolio is what the student brings to it. The student should show growth, revision, evidence of contribution, and ability to explain decisions under questioning. A successful portfolio contains artifacts from the process and a reflection that connects effort to improved understanding.
+The portfolio is the exhibit and the defense is the assessment. The student should show growth, revision, evidence of contribution, and ability to explain decisions under questioning. A successful portfolio contains artifacts from the process and a reflection that connects effort to improved understanding.
 
 For your own development, build a teacher-practice portfolio as well. Save one redesigned task, one rubric, one student evidence sample, one reflection, and one improvement decision.
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part IV - The Teacher, the Student, and AI
 
@@ -1423,7 +1409,7 @@ Discipline and age matter. A primary school teacher shaping literacy, a high sch
 
 ### Round Table Voices
 
-Dr. Eli Eisenberg framed the Meeting 4 dilemma around whether the teacher alone should lead the process or whether AI becomes part of the educational relationship. He prepared the [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) that explored the new triangle, with Avi Salmon and Prof. Arnon Bentur.
+Dr. Eli Eisenberg framed the Meeting 4 dilemma around whether the teacher alone should lead the process or whether AI becomes part of the educational relationship. He prepared the [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) that explored the new triangle, with Avi Salmon and Prof. Bentur.
 
 UNESCO sources cited in the materials also refer to AI transforming the traditional teacher-student relationship into a teacher-AI-student dynamic.
 
@@ -1433,7 +1419,11 @@ Danielle Eisenberg's presentation complicated the triangle further by arguing th
 
 Avi Salmon argued during the discussion that AI is already an active participant in education. The real question is what the teacher's role should be inside the triangle. He emphasized that teachers must gain hands-on experience with AI, understand its capabilities and limits, think critically about it, and remain educational leaders.
 
-He had set out the underlying model at Meeting 1, and it gives this book its title. There are three levels of AI knowledge. The first is the user level, where the skills that matter are not technical: constructing a real dialogue with the tool, judging outputs for truthfulness and bias, and continuing to learn faster than institutions can absorb new knowledge. The second is the practitioner level, where professionals use AI to accelerate work they already understand, as engineers do when they treat a model as a coding partner rather than a substitute for engineering judgment. Using a tool without understanding the principles beneath it does not survive contact with a hard problem. The third is genuine technical knowledge of how models are built and trained. His argument was that education depends on teachers reaching the second level: able to generate material with AI, able to stay above it, and therefore able to mentor students through it. That cannot be delegated, because no one can teach an experience they have not had.
+He had set out the underlying model at Meeting 1, and it gives this book its title. There are three levels of AI knowledge. The first is the user level, where the skills that matter are not technical: constructing a real dialogue with the tool, judging outputs for truthfulness and bias, and going on learning at a time when the field moves faster than any institution can update a syllabus.
+
+The second is the practitioner level, where professionals use AI to accelerate work they already understand, as engineers do when they treat a model as a coding partner rather than a substitute for engineering judgment. Using a tool without understanding the principles beneath it does not survive contact with a hard problem. The third is genuine technical knowledge of how models are built and trained.
+
+His argument was that education depends on teachers reaching the second level: able to generate material with AI, able to stay above it, and therefore able to mentor students through it. That cannot be delegated, because no one can teach an experience they have not had.
 
 Dr. Marwa Maklada stated that AI should not design learning or control knowledge. The teacher must remain the central architect, responsible for guiding learning, preserving deep thinking, and ensuring values-based education.
 
@@ -1449,7 +1439,7 @@ The Round Table's materials suggest that the teacher-student-AI triangle should 
 2. The student takes responsibility for active learning, disclosure, reflection, and independent thought.
 3. AI supports explanation, practice, feedback, simulation, diagnosis, and exploration, but does not carry moral or educational responsibility.
 
-The triangle becomes dangerous when AI replaces thinking, hides inequity, weakens relationships, or shifts accountability away from humans. It becomes powerful when it makes learning more visible, more personalized, more reflective, and more connected to human judgment.
+The triangle becomes dangerous when AI replaces thinking, hides inequity, weakens relationships, or shifts accountability away from humans. It becomes powerful when it makes learning more visible, more personalized, more reflective, and more connected to human judgment. Figure 5 draws it, with responsibility running along the teacher-student edge.
 
 ```mermaid
 flowchart TB
@@ -1507,7 +1497,7 @@ For your own development, use AI hands-on before setting policy. Test the tool o
 
 ### Sources
 
-[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [Dr. Iris Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
+[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers), [Dr. Pinto, Future Trends Shaping Reality](../materials/meeting-4-iris-pinto-future-trends.pdf).
 
 ## Chapter 11 - Default or Design
 
@@ -1561,27 +1551,19 @@ Teachers need guidance. They must learn to govern the student-AI layer, not only
 
 Assessment systems need redesign. Traditional assessment measures outputs. It cannot detect shallow AI use, equity gaps, or whether the triangle is producing learning. Patterns matter more than single artifacts. A notebook, reflection, peer review, oral defense, draft history, and final product together produce stronger evidence than one polished submission.
 
-Technology designers need to build for human judgment. AI may propose skills, identify evidence, or rate confidence, but the educator should accept, override, or adjust. The teacher who knows the student and context remains the interpretive layer.
+Technology designers need to build for human judgment. AI may propose skills, identify evidence, or rate confidence, but the interface has to let the educator accept, override, or adjust, and it has to record which of those happened.
 
 Policy makers need procurement and accountability rules. The people selecting AI tools for schools must understand the technology, the teacher role, the equity risks, and the preparation required before tools enter classrooms.
 
 ### Round Table Voices
 
-Danielle Eisenberg argued that AI in education is already role-fluid. It can act as content, tutor, evaluator, and collaborator. Her key warning was that without design, AI will produce unintended consequences.
+Danielle Eisenberg's warning followed from the role-fluidity described earlier in this chapter: a system that occupies four roles at once will produce consequences somebody has to live with, and if nobody designed them, nobody chose them either.
 
-Jan Morrison connected this to the larger need for system transformation and equity.
+Two questions from the floor did most of the work. Dr. Tzur Karelitz asked why the teacher should mediate between AI and students at all in evaluation, which is the trust question stated at its sharpest. Danielle Eisenberg's answer conceded the premise and then narrowed it: AI systems may well become effective at assessing collaboration or diligence, and the limits are trust and bias rather than capability, because these systems are trained on datasets that do not represent diverse or neurodivergent students well. Human oversight is what stands between a useful tool and a harmful one.
 
-Dr. Tzur Karelitz asked why the teacher should mediate between AI and students in evaluation, which sharpened the question of trust and interpretation.
+Dr. Revital Duek asked the practical version: how can students' thinking be made visible once AI is in the room? The answer was concrete. AI chatbots can interview students about a portfolio, an assignment, a paper, or a group project, prompting reflection on their own role, their peers' contribution, and what they learned.
 
-Danielle Eisenberg answered that AI systems may become effective in assessing competencies such as collaboration or diligence, but trust remains limited and bias remains a serious concern. AI systems may be trained on datasets that do not fully represent diverse or neurodivergent students. Human oversight is therefore necessary to ensure the tools help rather than harm.
-
-Dr. Revital Duek asked how students' thinking can be made visible when AI is involved. Danielle Eisenberg described using AI chatbots to interview students about portfolios, assignments, papers, or group projects. Such tools can prompt reflection about the student's role, peer contribution, self-assessment, and learning process.
-
-Prof. Sigal Tifferet raised a possible future in which AI takes over much assessment work, allowing teachers to focus more on guidance, relationships, communication, and psychological support. This is an important possibility, but it depends on careful design. If AI takes over assessment without human interpretation, the system may become efficient but blind.
-
-Jan Morrison emphasized that students focus on what educational systems value and measure. If oral communication, defense of ideas, and critical thinking matter, they must become central to assessment.
-
-Avi Salmon warned that teachers must prevent students from "downloading their brains" into AI without real thinking or understanding. This phrase captures the chapter's core educational risk.
+Prof. Sigal Tifferet raised the possibility that runs against all of this, and it deserves to be taken seriously: AI may absorb enough assessment work to free teachers for guidance, relationships, and psychological support. Whether that is liberation or blindness depends entirely on whether human interpretation stays in the loop. Jan Morrison put the constraint that decides it, connecting the question to system transformation and equity: students focus on what the system values and measures, so if oral communication, defense of ideas, and critical thinking matter, they have to be assessed. Avi Salmon named the failure the whole chapter is written against, warning that teachers must stop students from "downloading their brains" into AI without real thinking or understanding.
 
 ### Synthesis
 
@@ -1591,7 +1573,7 @@ Danielle Eisenberg's key contribution is the distinction between a learning tria
 
 This architecture keeps humans in the loop where context matters most. It uses AI to reduce the cognitive load of evidence review so that teachers can invest judgment where it matters, instead of asking them to inspect every detail by hand.
 
-The central principle is: AI proposes, teachers decide.
+The central principle is: AI proposes, teachers decide. Figure 6 puts the default arrangement beside the designed one, line by line.
 
 | Default AI use | Designed AI use |
 | --- | --- |
@@ -1640,7 +1622,7 @@ Classroom activity examples:
 
 Evaluation method:
 
-No single artifact settles this. The pattern across them does. The teacher should look for consistency between prompts, drafts, decisions, checks, and final work. A successful student makes the learning process visible and can explain why AI suggestions were accepted, rejected, or changed.
+The evidence here is a pattern rather than an artifact. The teacher should look for consistency between prompts, drafts, decisions, checks, and final work. A successful student makes the learning process visible and can explain why AI suggestions were accepted, rejected, or changed.
 
 For your own development, learn evidence design, not only AI tool operation. Take one assignment and redesign it so the thinking around AI becomes visible.
 
@@ -1656,7 +1638,7 @@ Education systems often plan from the past. Students are entering a volatile, un
 
 [Dr. Iris Pinto's Meeting 4 lecture, "Future Trends Shaping Reality,"](../materials/meeting-4-iris-pinto-future-trends.pdf) placed this challenge at the center of the Round Table. The point of futures thinking is not prophecy. Futures research is not an attempt to know what has not yet happened. Its practical purpose is to read signals in the present, identify trends, imagine several possible futures, and act now in ways that shape the preferred future.
 
-This is a major shift for STEM education. Traditional education often assumes a relatively stable world: teach known knowledge, prepare for known professions, certify known achievement. Iris Pinto's lecture argued that this assumption no longer holds. The pace of change is accelerating, decision-making is becoming more complex, and human thinking remains linear and biased while reality is increasingly interconnected.
+This is a major shift for STEM education. Traditional education often assumes a relatively stable world: teach known knowledge, prepare for known professions, certify known achievement. Dr. Pinto's lecture argued that this assumption no longer holds. The pace of change is accelerating, decision-making is becoming more complex, and human thinking remains linear and biased while reality is increasingly interconnected.
 
 The challenge is therefore not only technological. It is cognitive, ethical, institutional, and human. Schools and universities must teach learners how to live with uncertainty without surrendering judgment.
 
@@ -1696,23 +1678,23 @@ Policy makers need long-term planning. They must prepare systems for futures tha
 
 Universities need to rethink their relationship with graduates. If knowledge and professional practice change continuously, the university cannot only be a gate through which young adults pass once. It may need to become a long-term learning partner.
 
-Industry sees rapid skill change directly. Iris Pinto connected this to her experience in industry and noted the disconnect between education systems and industry practices. When education and industry solve similar problems separately, both lose time and relevance.
+Industry sees rapid skill change directly. Dr. Pinto connected this to her experience in industry and noted the disconnect between education systems and industry practices. When education and industry solve similar problems separately, both lose time and relevance.
 
-Teachers need preparation to lead students through complexity. Dr. Noa Ragonis raised the teacher development gap, and Iris Pinto strongly supported the importance of STEM teacher leadership. Without prepared teachers, meaningful transformation in competencies, skills, and AI integration will not happen.
+Teachers need preparation to lead students through complexity. Dr. Noa Ragonis raised the teacher development gap, and Dr. Pinto strongly supported the importance of STEM teacher leadership. Without prepared teachers, meaningful transformation in competencies, skills, and AI integration will not happen.
 
 Students need agency and identity in a changing world. In a post-work scenario, where automation reduces the centrality of traditional work, education must help students ask what kind of person and contributor they will become, a question that outlasts any particular job.
 
 ### Round Table Voices
 
-Dr. Iris Pinto presented the futures lens. She described a VUCA world shaped by technological convergence, human-machine integration, bio-convergence, post-work scenarios, and accelerating change.
+Dr. Pinto presented the futures lens. She described a VUCA world shaped by technological convergence, human-machine integration, bio-convergence, post-work scenarios, and accelerating change.
 
 Her presentation described several meta-trends changing the nature of humanity. Convergence brings together AI, biotechnology, quantum technologies, nanotechnology, robotics, and other domains to create new capabilities. Human-machine interfaces blur boundaries through brain-computer interfaces, neural implants, subdermal devices, smart devices, and human-machine symbiosis. Human enhancement and gene editing raise the possibility of a bio-cognitive divide between enhanced and non-enhanced people. Automation, AI, robotics, abundant energy, biomanufacturing, and radical life extension raise questions about work, meaning, learning, identity, and equity.
 
-Iris Pinto also described AI as an enabler, but not the endpoint. Human-centric AI may interpret emotion, cognition, senses, and body. Action and creation AI may plan, act, create, and collaborate. Multimodal and phygital AI may expand learning through hybrid physical and digital environments. These trends make STEM broader than technical knowledge.
+She also described AI as an enabler, but not the endpoint. Human-centric AI may interpret emotion, cognition, senses, and body. Action and creation AI may plan, act, create, and collaborate. Multimodal and phygital AI may expand learning through hybrid physical and digital environments. These trends make STEM broader than technical knowledge.
 
 Prof. Arnon Bentur connected the discussion to lifelong learning and the idea of a long-term relationship between universities and graduates. He referred to models in which universities maintain learning relationships across a career, sometimes described as a long curriculum. This reframes higher education from a one-time credentialing institution into a continuing knowledge partner.
 
-Iris Pinto gave a similar example. After graduation, universities often lose contact with graduates except when requesting donations. She proposed that universities could provide regular professional updates in fields such as engineering, similar to software or smartphone updates. This would help graduates remain current and would keep universities connected to professional reality.
+Dr. Pinto gave a similar example. After graduation, universities often lose contact with graduates except when requesting donations. She proposed that universities could provide regular professional updates in fields such as engineering, similar to software or smartphone updates. This would help graduates remain current and would keep universities connected to professional reality.
 
 Dr. Revital Duek noted that industry may force workers into continuous learning as the price of remaining relevant.
 
@@ -1726,7 +1708,7 @@ The futures lens changes the definition of STEM education. STEM is not only scie
 
 This is why the Meeting 4 discussion reached toward STEAM rather than only STEM. Art, ethics, humanities, philosophy, social understanding, and communication are not decorations around technical knowledge. They are necessary for judging what technology means and how it should be used.
 
-The teacher's role becomes even more important under this lens. AI can provide information and simulation, but teachers help students frame questions, compare futures, examine values, and resist simplistic answers.
+The teacher's role becomes even more important under this lens. AI can provide information and simulation, but teachers help students frame questions, compare futures, examine values, and resist simplistic answers. Figure 7 sets out the futures lens as a sequence a class can actually run.
 
 ```mermaid
 flowchart LR
@@ -1776,13 +1758,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-Assess the assumptions, not the forecast. The student should identify signals, consider more than one possible future, explain assumptions, and connect preferred futures to present choices. Strong work avoids prediction as certainty and shows thoughtful links between technology, society, values, and action.
+The student should identify signals, consider more than one possible future, explain the assumptions behind each, and connect preferred futures to present choices. The assumptions are the assessable part; the forecast is not. Strong work avoids prediction as certainty and shows thoughtful links between technology, society, values, and action.
 
-For your own development, keep a small futures notebook. Once a month, record one emerging technology or social trend, one classroom implication, and one question for students. Dr. Iris Pinto's futures approach is what makes this workable: do not predict the future as prophecy, identify signals already present and act toward a preferred version of it.
+For your own development, keep a small futures notebook. Once a month, record one emerging technology or social trend, one classroom implication, and one question for students. Dr. Pinto's futures approach is what makes this workable: do not predict the future as prophecy, identify signals already present and act toward a preferred version of it.
 
 ### Sources
 
-[Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx), [Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
+[Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx), [Dr. Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx).
 
 ## Chapter 13 - Risks and Design Principles for AI in Learning
 
@@ -1834,19 +1816,11 @@ Society needs graduates who can use AI without surrendering agency. In an AI-ric
 
 Emlen Metz emphasized that students must use AI thoughtfully and critically, and that responsibility cannot be delegated to machines. Her warning rejects a shallow definition of AI literacy. AI literacy is not only knowing how to prompt a tool. It includes knowing when not to accept an answer, how to verify, how to decide, and how to remain responsible for one's own judgment.
 
-Prof. Russell Tytler warned that AI may reduce deep thinking if students surrender control over their reasoning. As AI becomes more sophisticated, students may avoid deep, sustained thinking and shorten cognitive processes. This is a formation problem as much as a learning problem, because habits of independent and reflective reasoning take time to build.
+The same worry arrived from four directions. Prof. Russell Tytler put it as a matter of formation rather than performance: as the tools get better, students shorten their cognitive processes, and habits of independent reasoning take years to build and months to lose. Prof. Gil Noam added isolation to the list, because a student who can get a quick answer has less reason to ask a person for a slow one. Dr. Olena Bekh went furthest, arguing that critical thinking is the competency a society cannot afford to lose, and connecting heavy AI dependence to reductions in curiosity, creativity, empathy, and emotional engagement. Avi Salmon's version was the practical one: the question is no longer whether to use AI but how to use it wisely, and teachers and lecturers have to stay above it. He later sharpened this into the warning quoted in Chapter 11, which is a precise description of cognitive offloading as an educational failure.
 
-Avi Salmon argued that the challenge has moved from whether to use AI to how to use it wisely, and that teachers and lecturers must remain above AI. He later sharpened the point by warning that teachers must prevent students from downloading their brains into AI without real thinking or understanding. That is a precise description of cognitive offloading as an educational failure.
+Dr. Gabi Shafat offered the one concrete counter-design in the discussion. He described setting students problems where the tools fail or show bias, so that students should not only meet AI where it works smoothly. Comparing tools and discussing their failures turns AI from an answer machine into an object of inquiry.
 
-Dr. Gabi Shafat described using AI on challenging problems where tools may fail or show bias, so that students learn critical evaluation. The design principle behind it matters more than the example. Students should not only use AI where it works smoothly. They should also encounter cases where AI gives biased, incomplete, or incorrect responses. Comparing different tools and discussing their failures turns AI from an answer machine into an object of inquiry.
-
-Dr. Marwa Maklada's position, set out in Chapter 10, applies directly to risk: if AI is allowed to design learning or control knowledge, there is no longer a human decision point at which any of these risks can be caught.
-
-Prof. Gil Noam warned that AI may increase isolation and encourage students to seek quick answers rather than genuine learning. He emphasized curiosity, critical thinking, teamwork, and human relationships.
-
-Dr. Olena Bekh argued that critical thinking remains the most essential human competency. If society loses it, it risks losing an important part of humanity. She also connected excessive AI dependence to possible reductions in curiosity, creativity, empathy, and emotional engagement.
-
-Dr. Eli Eisenberg raised a concern about pace. AI should be integrated, but society may need time to study ethical, moral, social, and cognitive implications before moving too quickly.
+Two speakers pressed on where the decision sits. Dr. Marwa Maklada's position, set out in Chapter 10, applies directly to risk: if AI is allowed to design learning or control knowledge, there is no longer a human decision point at which any of these risks can be caught. Dr. Eli Eisenberg raised the question of pace, arguing that AI should be integrated but that society may need time to study the ethical, moral, social, and cognitive implications before moving faster.
 
 ### Synthesis
 
@@ -1862,7 +1836,7 @@ Third, AI use must be relational. It should strengthen teacher guidance, peer di
 
 Fourth, AI use must be equitable. Systems must prevent a pattern where privileged students augment their thinking while disadvantaged students replace their thinking.
 
-Fifth, AI use must preserve accountability. The student remains responsible for learning, the teacher remains responsible for educational judgment, and the institution remains responsible for tool adoption and safeguards.
+Fifth, AI use must preserve accountability. The student remains responsible for learning, the teacher remains responsible for educational judgment, and the institution remains responsible for tool adoption and safeguards. Figure 8 pairs each risk in this chapter with the design response that addresses it.
 
 | AI learning risk | Classroom sign | Design response |
 | --- | --- | --- |
@@ -1919,7 +1893,7 @@ For your own development, collect a bank of AI failure cases from the discipline
 
 # Part V - Professional Development as System Infrastructure
 
-Meeting 5, on 9 June 2026, asked who is responsible for sustaining the professional development of teachers and lecturers over time, and who has the capacity to do it. Prof. Russell Tytler and Dr. Yael Granot-Bein presented.
+Meeting 5, on 9 June 2026, asked who is responsible for sustaining the professional development of teachers and lecturers over time, and who has the capacity to do it. Prof. Tytler and Dr. Yael Granot-Bein presented.
 
 Dr. Granot-Bein's presentation gives this part its structure. She put four candidate owners on the table, namely individual faculty, teaching and learning centers, institutional leadership, and national support structures, and worked through what each can and cannot carry. Chapter 14 follows that analysis directly. Prof. Tytler supplied the school-system half of the same question, and his answer from Australia was that no national framework exists there either.
 
@@ -1963,7 +1937,7 @@ The shared responsibility position says that professional development must be or
 
 ### Pros and Cons
 
-Individual responsibility is motivating and inequitable, because it rewards the educators who already have time, money, and a supportive institution. Institutional responsibility sits close to practice and varies enormously between institutions that look similar on paper. National responsibility creates scale and reliably produces compliance rather than change. Shared responsibility is the strongest of the four, and the only one that requires somebody to govern it.
+Individual responsibility is motivating, but it rewards the educators who already have time, money, and a supportive institution. Institutional responsibility sits close to practice, though it varies enormously between institutions that look similar on paper. National responsibility creates scale, and what it reliably produces is compliance rather than change. Shared responsibility is the strongest of the four. It is also the only one nobody can implement alone.
 
 The [steering discussion of 12 May 2026](../materials/steering-2026-05-12.docx), held before Meeting 5, highlighted major differences between schools and higher education. In schools, teaching is the core profession. In academia, many lecturers are promoted mainly through research rather than teaching quality. A single professional development model may therefore fail unless it is adapted to different incentive systems.
 
@@ -1989,7 +1963,7 @@ Funders and foundations can support innovation, but the Round Table logic implie
 
 ### Round Table Voices
 
-Dr. Yael Granot-Bein brought numbers to a question the Round Table had until then argued from impression. A Samuel Neaman Institute survey of faculty found that ninety percent regard transferable skills as highly important, sixty-one percent have never received any formal training in teaching them, and eighty-four percent of those not currently teaching them would like to learn how. The three figures together dismantle the most common explanation for why nothing changes. Faculty are not the obstacle. The willingness is already there and the training is not.
+Dr. Granot-Bein brought numbers to a question the Round Table had until then argued from impression. A Samuel Neaman Institute survey of faculty found that ninety percent regard transferable skills as highly important, sixty-one percent have never received any formal training in teaching them, and eighty-four percent of those not currently teaching them would like to learn how. The three figures together dismantle the most common explanation for why nothing changes. Faculty are not the obstacle. The willingness is already there and the training is not.
 
 She then named the assumption that the willingness gets wasted on. Understanding that skills matter is not the same as knowing how to teach them, and knowing how to teach them does not by itself change what happens in a lecture hall. Two gaps, not one, and most institutional effort is spent closing the first, which was never the binding constraint.
 
@@ -2027,7 +2001,7 @@ The Round Table's deeper insight is that teacher development is the mechanism th
 
 Professional development therefore has to be continuous, differentiated, evidence-informed, and connected to implementation. It must support both school teachers and higher education lecturers, while recognizing that their conditions and incentives differ.
 
-The question "who is responsible?" should not be answered by naming one actor. It should be answered by designing a responsibility chain.
+The question "who is responsible?" should not be answered by naming one actor. It should be answered by designing a responsibility chain. Figure 9 shows what such a chain contains.
 
 ```mermaid
 flowchart TD
@@ -2055,7 +2029,7 @@ The model should assign clear responsibilities:
 5. Teachers and lecturers take active responsibility for growth, experimentation, and reflection.
 6. Funders support innovation only when it connects to sustainability and evaluation.
 
-The Round Table recommendation is to stop treating professional development as a sequence of courses. It should become a permanent infrastructure for educational adaptation.
+Professional development should stop being a sequence of courses and become permanent infrastructure for educational adaptation. That was the Round Table's position, and it has a budget consequence that no participant disputed.
 
 ### Practical Recommendation for Teachers
 
@@ -2083,7 +2057,7 @@ For your own development, build a responsibility map: what I own, what my depart
 
 ### Sources
 
-[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Dr. Yael Granot-Bein, Who Sustains Faculty Development for Transferable Skills?](../materials/meeting-5-yael-granot-bein-faculty-development.pdf), [Prof. Russell Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Dr. Granot-Bein, Who Sustains Faculty Development for Transferable Skills?](../materials/meeting-5-yael-granot-bein-faculty-development.pdf), [Prof. Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx), [Steering-team summary, 23.06.2026](../materials/steering-2026-06-23.docx), [Steering-team summary, 12.05.2026](../materials/steering-2026-05-12.docx).
 
 ## Chapter 15 - Beyond One-Off Training
 
@@ -2123,7 +2097,7 @@ Implementation accompaniment is strongest when it is close to real problems. It 
 
 ### Where Each Sector Stands
 
-Teachers need to experience new learning processes themselves. Dr. Einat Sprinzak argued in Meeting 2 that teachers must first experience these processes as learners, gaining a firsthand understanding of the student journey. This is especially important for AI use and competency-based learning. Educators cannot meaningfully guide what they have never experienced.
+Teachers need to experience new learning processes themselves, for the reason Chapter 7 sets out from Dr. Einat Sprinzak's Meeting 2 contribution. This is especially important for AI use and competency-based learning. Educators cannot meaningfully guide what they have never experienced.
 
 Lecturers need a path that respects academic identity. Many university lecturers are experts in research and disciplinary knowledge, but may not have been trained in competency development, active learning, or AI-supported assessment. Professional development for lecturers must therefore connect pedagogy to disciplinary depth, not present it as generic teaching advice.
 
@@ -2137,7 +2111,7 @@ The central challenge is the absence of a clear, coordinated, binding system for
 
 Dr. Avigdor Zonnenshain gave the closest thing to a working mechanism, drawn from the national STEM skills initiative. It runs through a network of teachers of teachers who meet regularly, share what is happening in the field, and provide continuous guidance. His emphasis was on how the guidance is delivered rather than that it exists. Advice from a distance does not work. Mentors have to sit alongside teachers, watch them teach, and help them implement in a real classroom. He also noted what such a network produces that a course cannot: the learning runs both ways, and the mentors keep improving too.
 
-Dr. Einat Sprinzak turned the same instinct into a design at the Davidson Institute, where the work is with serving science teachers. Rather than treating professional development as exposure to ideas, she and her colleagues identified specific teaching skills they consider essential, such as hands-on and minds-on science teaching, and built a framework that answers three questions for each: what the skill is, why it matters, and how a teacher can implement it better tomorrow. They are also building tools that let teachers assess their own development in each skill.
+Dr. Sprinzak turned the same instinct into a design at the Davidson Institute, where the work is with serving science teachers. Rather than treating professional development as exposure to ideas, she and her colleagues identified specific teaching skills they consider essential, such as hands-on and minds-on science teaching, and built a framework that answers three questions for each: what the skill is, why it matters, and how a teacher can implement it better tomorrow. They are also building tools that let teachers assess their own development in each skill.
 
 Her constraint is worth stating plainly, because it disqualifies most of what is offered to teachers. Teachers and professors are extremely busy and need to know what they can do in their classroom the next morning. Theoretical discussion does not survive that filter. Her example makes the point concrete: teachers running an experiment need support not only to conduct the activity but to help students analyze and make sense of what they did, and that second part is where the professional skill actually lies.
 
@@ -2149,7 +2123,7 @@ Dr. Tzur Karelitz raised the problem underneath all of this, which is pace. Educ
 
 Avi Salmon emphasized that educators must become involved by experiencing new pedagogical and technological realities for themselves, and argued that this applies to AI with particular force. Professional development should spend less time teaching specific tools and more time giving educators hands-on experience with AI, because only an educator who is comfortable using it can guide a student in using it responsibly.
 
-Jan Morrison's Meeting 2 contribution adds another warning. Problem-based and transdisciplinary learning are often criticized when they are implemented inside systems not designed to support them. Without time for faculty collaboration, cross-sector training, and structured teamwork, strong pedagogical ideas can fail for organizational reasons.
+Jan Morrison's Meeting 2 contribution adds the organizational version of the same warning. Without time for faculty collaboration, cross-sector training, and structured teamwork, a sound pedagogical idea fails for reasons that have nothing to do with the pedagogy.
 
 [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) offered a concrete institutional orientation: course skills are defined, assessed, evaluated, and continuously improved. This connects professional development to curriculum and evidence rather than isolated inspiration.
 
@@ -2184,7 +2158,7 @@ A serious professional development model should include:
 7. Iteration across semesters or school years.
 8. Institutional recognition of participation and improvement.
 
-The Round Table recommendation is to stop asking whether professional development occurred and start asking whether professional practice changed. The unit of success is not the workshop. The unit of success is sustained improvement in teaching and learning.
+Ask whether professional practice changed, not whether professional development occurred. The unit of success is not the workshop. It is sustained improvement in teaching and learning, and only the second of those is currently counted.
 
 ### Practical Recommendation for Teachers
 
@@ -2212,7 +2186,7 @@ For your own development, experience the new pedagogy as a learner before teachi
 
 ### Sources
 
-[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Prof. Russell Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Prof. Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 16 - Evidence, Evaluation, and Institutional Learning
 
@@ -2252,7 +2226,7 @@ The main risk of mixed evaluation is complexity. It requires institutions to bui
 
 The main risk of developmental evaluation is discomfort. Leaders may prefer simple answers, while complex reforms require learning from partial and changing evidence.
 
-The risk running under all four is that an evaluation reports on whatever its commissioner asked about. A ministry funding an evaluation of its own reform receives an account of that reform's activities, because that is what the terms of reference requested. Danielle Eisenberg's point about scale applies here as well: the measurement systems with real consequences attached are not the ones being redesigned, and an evaluation that never touches them changes nothing whatever its method.
+The risk running under all four is that an evaluation reports on whatever its commissioner asked about. A ministry funding an evaluation of its own reform receives an account of that reform's activities, because that is what the terms of reference requested. The scaling objection stated later in this chapter applies here as well: an evaluation that never reaches the measurement systems with real consequences attached changes nothing, whatever its method.
 
 ### Where Each Sector Stands
 
@@ -2268,13 +2242,9 @@ Industry needs graduates who can perform in authentic contexts. This requires ev
 
 ### Round Table Voices
 
-Avi Salmon proposed professional, data-based evaluation of programs. He made the proposal at Meeting 5 about Academia 360, and as Chapter 14 records, he wanted an independent evaluation rather than a report written by the people running the program. The significance for this chapter is narrower and harder: a large educational initiative that is never evaluated cannot be defended when its budget is questioned, and cannot be corrected when it is wrong.
+Three participants described evaluation systems they had actually built, at three different scales. Avi Salmon's was the program level: his Meeting 5 proposal for Academia 360, recorded in Chapter 14, asked for independent evaluation rather than a report written by the people running the program, on the grounds that an initiative nobody evaluates cannot be defended when its budget is questioned and cannot be corrected when it is wrong. Dr. Gabi Shafat's was the course level, where Afeka defines skills and competencies for each course, asks each lecturer what students should acquire, and then examines how those things are assessed. The question is whether intended capabilities were achieved, which is a different test from whether content was taught. Dr. Marwa Maklada's was the national level, where competency-based tasks inside matriculation and student assessment require formal validation rather than enthusiasm, and without it competency language stays a parallel discourse.
 
-Dr. Gabi Shafat described continuous feedback and evaluation in courses. In his Meeting 2 Afeka material, the approach included defining skills and competencies for each course, asking each lecturer to identify what students should acquire, and examining how those skills are assessed and tested. The question was whether intended capabilities were achieved, which is a different test from whether content was taught.
-
-Dr. Marwa Maklada described competency-based tasks and validation processes, which connects evaluation to national school assessment. Competency-based tasks within matriculation and student assessment processes require validation, not only enthusiasm. This is essential if competency language is to become part of formal education rather than remain a parallel discourse.
-
-Jan Morrison described TIES as using measurement for continuous improvement and iteration rather than accountability alone. She also pointed to systems where sustained implementation is supported by long-term data and continuous iteration.
+Jan Morrison contributed the orientation rather than a method: TIES uses measurement for continuous improvement and iteration rather than accountability alone, and the systems that sustain implementation are the ones supported by long-term data.
 
 [Danielle Eisenberg's Meeting 4 presentation](../materials/meeting-4-default-or-design-ignite-ed.pptx) added the idea of evidence design. AI may propose skill evidence and confidence ratings, but the teacher interprets. Patterns across artifacts are stronger than single submissions. This is a practical evaluation principle for AI-rich learning.
 
@@ -2288,7 +2258,7 @@ Dr. Einat Sprinzak named the same gap from the practitioner's side. It is not en
 
 Dr. Eli Eisenberg emphasized that meaningful learning requires reflection and evaluation, and that establishing effective feedback, evaluation, and assessment mechanisms is a major challenge across higher education, schools, and the education system as a whole.
 
-Danielle Eisenberg made the hardest evaluation point in the whole Round Table, and she made it at the last meeting. Innovation fails to scale, she argued, because the systems that decide what counts still reward what they have always rewarded. Chapter 24 takes that objection at full weight. What it does to this chapter is turn the evaluation question around. The problem is not that competency-based learning lacks evidence. It is that the measurement systems with real consequences attached are not measuring it, so a school that succeeds at it is rewarded for nothing and a school that ignores it loses nothing.
+Danielle Eisenberg made the hardest evaluation point in the whole Round Table, and she made it at the last meeting. Innovation fails to scale, she argued, because the systems that decide what counts still reward what they have always rewarded. What that does to this chapter is turn the evaluation question around. The problem is not that competency-based learning lacks evidence. It is that the measurement systems with real consequences attached are not measuring it, so a school that succeeds at it is rewarded for nothing and a school that ignores it loses nothing.
 
 ### Synthesis
 
@@ -2302,7 +2272,7 @@ At the teacher level, evidence should show changes in practice: new assessment d
 
 At the institutional level, evidence should show adoption, sustainability, equity, and improvement over time.
 
-The key is to treat evidence as a feedback loop. Institutions should ask: What did we intend? What changed? Who benefited? Who was left out? What should we adjust next?
+The key is to treat evidence as a feedback loop. Institutions should ask: What did we intend? What changed? Who benefited? Who was left out? What should we adjust next? Figure 10 closes that loop, and the closing step is the one institutions usually skip.
 
 ```mermaid
 flowchart LR
@@ -2352,13 +2322,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-Nothing here can be judged from a single moment. The teacher should compare early and later artifacts, looking for stronger reasoning, better questions, improved accuracy, and clearer reflection. Student feedback about the learning design can also become evidence, but it should be interpreted with the teacher's professional judgment.
+The teacher should compare early and later artifacts, looking for stronger reasoning, better questions, improved accuracy, and clearer reflection. A single moment carries no information about any of these. Student feedback about the learning design can also become evidence, but it should be interpreted with the teacher's professional judgment.
 
 For your own development, conduct a small practice inquiry each semester. Choose a question about your teaching, collect evidence, interpret it with a colleague, and revise the design.
 
 ### Sources
 
-[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Gabi Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part VI - Environments, Industry, and Experiential Learning
 
@@ -2416,21 +2386,21 @@ The preparation summary listed questions that should guide this chapter: Does re
 
 Dr. Revital Duek opened the Meeting 6 discussion with the sharpest version of the question: would learning environments look different if education were designed around skills and competencies rather than around knowledge? The rest of the session was an attempt to answer it.
 
-[Avi Salmon's Meeting 6 lecture](../materials/meeting-6-avi-salmon-training-by-experience.pptx) answered from industry. He described hands-on environments - makerspaces, hackathons, technical challenges, and innovation hubs - as places where people learn by designing, building, testing, and improving real solutions, and reported that in engineering training the participants who explored independently and used AI as a support tool were considerably more successful than those who waited for instructions or predefined solutions. He named three qualities that decided the difference: curiosity, determination, and humility. He also described programs in which students teach younger peers or work with their parents on technological challenges, and argued that talented students need room to pursue projects outside the constraints of the curriculum.
+[Avi Salmon's Meeting 6 lecture](../materials/meeting-6-avi-salmon-training-by-experience.pptx) answered from industry. He described hands-on environments, meaning makerspaces, hackathons, technical challenges, and innovation hubs, as places where people learn by designing, building, testing, and improving real solutions. He reported that in engineering training the participants who explored independently and used AI as a support tool were considerably more successful than those who waited for instructions or predefined solutions. He named three qualities that decided the difference: curiosity, determination, and humility. He also described programs in which students teach younger peers or work with their parents on technological challenges, and argued that talented students need room to pursue projects outside the constraints of the curriculum.
 
 Prof. Arnon Bentur put the scaling question to him directly: should experiential learning become an integral part of formal education, or remain an external program? Avi Salmon answered that it must become part of the formal system, and that the obstacle is teacher confidence rather than student interest. Student leadership, peer teaching, and authentic hands-on work are what bridge that gap.
 
 Dr. Gabi Shafat gave the higher-education version. Afeka runs roughly twenty-four maker clubs in fields ranging from electronics to accessibility to music, one of them designing and building musical instruments with 3D printing. Students also work on applied engineering projects, including a fuel-free electric vehicle designed to travel from Dan to Eilat and an autonomous marine vessel entered in an international competition. The decisive feature is that faculty members take part as mentors and that the college funds the space, the equipment, and the academic supervision. Equipment alone would have produced none of it.
 
-Prof. Arnon Bentur then named the constraint that blocks most of this in universities: many classes are extremely large, and interactive learning cannot become central until the student-to-faculty ratio changes. This is the environment question in its least glamorous and most decisive form.
+Prof. Bentur then named the constraint that blocks most of this in universities: many classes are extremely large, and interactive learning cannot become central until the student-to-faculty ratio changes. This is the environment question in its least glamorous and most decisive form.
 
-Danielle Eisenberg put the scaling objection to this chapter's material directly: a redesigned environment is worth building only if something beyond the school recognizes what comes out of it, and at present nothing does. Chapter 16 sets out the evidence problem behind that, and Chapter 24 treats it as the objection the book cannot dismiss.
+Danielle Eisenberg put the scaling objection to this chapter's material directly: a redesigned environment is worth building only if something beyond the school recognizes what comes out of it, and at present nothing does.
 
 Dr. Rinat Itzhaki argued that the target audience should be teacher education, and that the model and its objectives must be defined before implementation begins, so that everyone involved shares the same understanding of the intended outcome.
 
 Dr. Avigdor Zonnenshain closed the meeting by reaffirming learning by doing as the foundation. Makerspaces, Fab Labs, and project-based programs work because they let learners tackle authentic challenges, collaborate, and develop technical and leadership capability together, with mentors and teachers acting as facilitators who guide rather than supply solutions.
 
-[Jan Morrison's TIES material](../materials/meeting-2-ties-jan-morrison.pptx) argued for career-connected learning infused with real-world experiences and expertise. It also warned that transdisciplinary and problem-based learning fail when placed inside systems not designed to support them. This directly supports the Meeting 6 environment question.
+[Jan Morrison's TIES material](../materials/meeting-2-ties-jan-morrison.pptx) argued for career-connected learning infused with real-world experiences and expertise. The environment question Meeting 6 asked is the same question from the other end: what has to be true of a building, a timetable, and a budget before career-connected learning is possible in it.
 
 The sixth meeting treated environment as a way to connect teacher profile, AI, competencies, and institutional design, rather than as a side topic.
 
@@ -2442,7 +2412,7 @@ A learning environment is a curriculum made visible. It tells students what matt
 
 The key Round Table insight is that teacher development and learning environments must be designed together. A teacher trained for project-based, AI-supported, competency-centered learning will struggle in a system that provides only frontal classrooms, fixed schedules, isolated courses, and product-only assessment.
 
-The problem is not the classroom as a physical room. The problem is the assumption that changing the teacher is enough while the environment remains unchanged.
+The problem is not the classroom as a physical room. The problem is the assumption that changing the teacher is enough while the environment remains unchanged. Figure 11 sets the frontal classroom beside the competency-rich alternative.
 
 | Learning environment | What it supports | Main risk |
 | --- | --- | --- |
@@ -2468,7 +2438,7 @@ Every institution should audit its learning environments with the following ques
 7. Does assessment reward process and capability, not only final answers?
 8. Can the environment support lifelong learning for teachers as well as students?
 
-The Round Table recommendation is to treat the physical and organizational environment as part of pedagogy. If the goal is competency development, the environment must be designed for competence, not only content delivery.
+The physical and organizational environment belongs inside pedagogy, not around it. If the goal is competency development, the environment has to be designed for competence and not only for content delivery.
 
 ### Practical Recommendation for Teachers
 
@@ -2490,13 +2460,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-Ask what the room made possible that a desk would not have. The student should participate actively, use space or materials purposefully, collaborate with others, and explain how the setting affected thinking. Evidence can include prototypes, observation notes, peer feedback, and a short environment reflection.
+The student should participate actively, use space or materials purposefully, collaborate with others, and explain how the setting affected their thinking. The test is whether the room made something possible that a desk would not have. Evidence can include prototypes, observation notes, peer feedback, and a short environment reflection.
 
 For your own development, keep an environment log for one month. Record which arrangements supported active learning and which pushed the class back toward passive listening. Meeting 6 opened on exactly this question: whether a classroom built for frontal learning can develop creativity, teamwork, and complex problem solving at all.
 
 ### Sources
 
-[Meeting 6 summary](../materials/meeting-6-summary.docx), [Avi Salmon's Meeting 6 presentation](../materials/meeting-6-avi-salmon-training-by-experience.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
+[Meeting 6 summary](../materials/meeting-6-summary.docx), [Avi Salmon's Meeting 6 presentation](../materials/meeting-6-avi-salmon-training-by-experience.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx).
 
 ## Chapter 18 - Virtual, XR, VR, and AI-Supported Learning Spaces
 
@@ -2504,7 +2474,7 @@ For your own development, keep an environment log for one month. Record which ar
 
 Virtual, XR, VR, and AI-supported environments create possibilities for simulation, access, and repetition. But they may also detach students from physical, social, and ethical realities.
 
-The Meeting 6 preparation material asked what kinds of learning environments allow students and teachers to work alongside AI. It also asked how digital tools and AI can be integrated without damaging the development of human skills. This is the right framing for XR, VR, virtual learning, and AI-supported spaces.
+The Meeting 6 preparation material asked what kinds of learning environments allow students and teachers to work alongside AI. It also asked how digital tools and AI can be integrated without damaging the development of human skills, and which human competencies require the organization of learning to change. That is the right framing for XR, VR, virtual learning, and AI-supported spaces.
 
 The question is not whether new technologies are impressive. The question is whether they deepen the learner's encounter with reality, complexity, evidence, collaboration, and judgment. A virtual environment can make an invisible process visible. It can also become a polished substitute for authentic practice.
 
@@ -2542,29 +2512,27 @@ That is the answer this book would give, and it is worth saying plainly that it 
 
 The sector that most often gets this wrong is the one holding the budget. New learning technology is usually bought at institutional level, specified by people who will not teach with it, and handed to teachers as a completed decision. What each group needs is not hard to state. What is hard is that the needs are usually met in reverse order of their importance.
 
-Students need opportunities to practice in multiple modes: physical, digital, collaborative, reflective, and AI-supported. They also need to understand the limits of each mode.
+Taking them in the order they are actually served, institutions come first, because they hold the procurement decision. The discipline they lack is a simple one: adopt a learning technology because it serves a defined learning goal, not because it looks modern.
 
-Teachers need professional development in learning design. They should not be handed XR, VR, or AI tools and expected to invent pedagogy alone.
+Industry comes second, since it supplies the authentic scenarios, tools, and constraints that make a virtual environment worth entering at all. That contribution is real, and it arrives whether or not anyone has asked what the classroom needs.
 
-Institutions need procurement discipline. New learning technologies should be adopted because they serve defined learning goals, not because they look modern.
+Teachers come third, and what they need is professional development in learning design rather than another tool. Handing an educator XR, VR, or an AI system and expecting them to invent the pedagogy alone is the most common failure in this chapter's subject.
 
-Industry can help provide authentic scenarios, tools, and constraints. This is especially valuable when virtual environments model real professional practice.
+Students come last, and their need is the one the budget was supposedly for: practice in multiple modes, physical, digital, collaborative, reflective, and AI-supported, together with an understanding of what each mode cannot do. Reverse that order and most of the procurement decisions in this field would come out differently.
 
 ### Round Table Voices
 
 Meeting 6 directly raised the balance between physical environments and virtual ones such as XR and VR.
 
-The preparation summary asked what environments would allow work alongside AI, how digital tools and AI can be integrated without harming human skill development, and which human competencies require changes in the organization of learning.
+[Emlen Metz's Meeting 6 lecture](../materials/meeting-6-ai-use-in-education.pptx) answered the question at the level of classroom practice rather than technology. She separated productive uses of AI from unproductive ones. Productive use is dialogic: asking the system to generate counterarguments, challenge an assumption, or explain a concept at a chosen level, rather than requesting a finished answer. Translation into another language or reading level widens access. Active evaluation means checking what AI asserts, and she gave lateral reading as the working example. That skill is difficult when no sources are offered, so the student should ask the system for its sources and then examine those sources for reliability and relevance. Think-first means brainstorming independently before consulting AI, because consulting it early narrows the range of ideas a student will consider.
 
-[Emlen Metz's Meeting 6 lecture](../materials/meeting-6-ai-use-in-education.pptx) answered the question at the level of classroom practice rather than technology. She separated productive uses of AI from unproductive ones. Productive use is dialogic: asking the system to generate counterarguments, challenge an assumption, or explain a concept at a chosen level, rather than requesting a finished answer. Translation into another language or reading level widens access. Active evaluation means checking what AI asserts, and she gave lateral reading as the working example - the skill is difficult when no sources are offered, so the student should ask the system for its sources and then examine those sources for reliability and relevance. Think-first means brainstorming independently before consulting AI, because consulting it early narrows the range of ideas a student will consider.
-
-She also proposed a category the environment discussion needs: AI-robust tasks. These are activities whose value does not collapse when a language model is available - laboratory work, drawing or building models, card sorts, handwriting, pairwise and group discussion, jigsaw grouping, collaborative work with a defined role for each student. Alongside them she argued for deliberate no-AI practice: students must still practice reading, writing, and mathematics with pen and paper, oral examination, or locked machines, because difficulty and effort are where learning happens and students should not outsource a skill they have not yet mastered. Her term for the failure mode is cognitive surrender, the point at which a student accepts an output because checking it is harder than believing it.
+She also proposed a category the environment discussion needs: AI-robust tasks. These are activities whose value does not collapse when a language model is available: laboratory work, drawing or building models, card sorts, handwriting, pairwise and group discussion, jigsaw grouping, and collaborative work with a defined role for each student. Alongside them she argued for deliberate no-AI practice: students must still practice reading, writing, and mathematics with pen and paper, oral examination, or locked machines, because difficulty and effort are where learning happens and students should not outsource a skill they have not yet mastered. Her term for the failure mode is cognitive surrender, the point at which a student accepts an output because checking it is harder than believing it.
 
 Danielle Eisenberg asked how these environments should serve neurodiverse students and what the design trade-offs are. Emlen Metz answered that AI offers real flexibility and personalization for neurodiverse learners but should complement rather than replace face-to-face interaction, because structured collaborative activity and hands-on experience are what build social confidence and meaningful participation. Dr. Olena Bekh asked the system-scale version: how can education systems, given their size and inertia, equip teachers with the competencies this requires? The answer was accessible professional learning, and more importantly communities of practice in which educators learn from one another rather than from a single training event.
 
 Dr. Noa Ragonis brought the question back to a case the field has already run. During the COVID-19 pandemic, whether virtual laboratories could replace physical ones became a live issue, and the conclusion was that the two must be combined, because each carries distinct educational value. Virtual laboratories, AI, and digital tools improve access and flexibility, but physical experimentation, prototyping, and engineering design remain essential. She pointed to at-home making kits and to teacher training that uses 3D printers, laser cutters, and Arduino as evidence that hands-on learning has not been superseded. Dr. Einat Sprinzak made the parallel point for simulation: it has genuine educational value, and it complements rather than replaces hands-on work and active student participation.
 
-Prof. Gil Noam argued that the debate is framed too narrowly. Framing this as AI or hands-on learning misses the more interesting question, which is how AI can act as a collaborative learning partner - systems designed to ask questions rather than supply answers, students collaborating with each other while interacting with AI, and the teacher strengthened in the role of facilitating collective reflection. Emlen Metz extended this into classroom design: have students compare AI-generated arguments, evaluate the reliability of sources, and analyze together why two AI responses differ. Avi Salmon noted that current systems can already be prompted to guide a student through questions rather than answer them, and that the teacher's job is to create the discussion and independent thinking that happen before a student turns to the tool.
+Prof. Gil Noam argued that the debate is framed too narrowly. Framing this as AI or hands-on learning misses the more interesting question, which is how AI can act as a collaborative learning partner. He meant systems designed to ask questions rather than supply answers, students collaborating with each other while interacting with AI, and the teacher strengthened in the role of facilitating collective reflection. Emlen Metz extended this into classroom design: have students compare AI-generated arguments, evaluate the reliability of sources, and analyze together why two AI responses differ. Avi Salmon noted that current systems can already be prompted to guide a student through questions rather than answer them, and that the teacher's job is to create the discussion and independent thinking that happen before a student turns to the tool.
 
 Dr. Yael Granot-Bein widened the frame to the educator's own position. When students increasingly rely on recorded lectures and AI rather than attending class, teachers and professors have to redefine what their added value is beyond delivering content. Avi Salmon offered the flipped classroom as one answer: content studied independently, and contact time spent on discussion, experiential learning, mentorship, and the practical work that neither a recording nor a model can replicate.
 
@@ -2620,7 +2588,7 @@ For your own development, test one digital or AI-supported environment as a lear
 
 ### Sources
 
-[Meeting 6 summary](../materials/meeting-6-summary.docx), [Emlen Metz's Meeting 6 presentation](../materials/meeting-6-ai-use-in-education.pptx), [Dr. Iris Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html).
+[Meeting 6 summary](../materials/meeting-6-summary.docx), [Emlen Metz's Meeting 6 presentation](../materials/meeting-6-ai-use-in-education.pptx), [Dr. Pinto presentation](../materials/meeting-4-iris-pinto-future-trends.pdf).
 
 ## Chapter 19 - Industry as a Learning Partner
 
@@ -2650,7 +2618,7 @@ Guest visits are easy but limited. Mentorship creates human connection but requi
 
 Equity is the risk most often underestimated. Partnerships form where the partners already are. Schools near a technology corridor accumulate mentors, equipment, and site visits. Schools in peripheral regions accumulate none of it. A partnership strategy that grows by enthusiasm alone will widen the gap it was meant to close, and only deliberate allocation, remote formats, and shared regional programs will prevent that.
 
-Continuity is the second risk. Partnerships are usually built on one committed engineer and one committed teacher. When either moves on, the partnership ends. Partnerships survive when they are attached to a role and a calendar rather than to two individuals.
+Continuity is the second risk. Partnerships are usually built on one committed engineer and one committed teacher, which is why so few of them outlive a job change.
 
 ### Where Each Sector Stands
 
@@ -2668,11 +2636,11 @@ Jan Morrison emphasized externships, industry collaboration, and career-connecte
 
 Avi Salmon brought the industry perspective on future skills and AI as a working tool. His point was that industry no longer needs graduates who can perform routine technical production, because AI performs it. Industry needs people who understand a problem deeply enough to know when the automated answer is wrong.
 
-[His Meeting 6 lecture](../materials/meeting-6-avi-salmon-training-by-experience.pptx) made the partnership concrete rather than aspirational. The programs he described run in both directions. Inside the company, engineering upskilling happens through hands-on formats - a hardware challenge, a processor teardown workshop, a crash-course technical competition, an autonomous-driving contest - built on the finding that people who tolerate uncertainty and explore independently learn more than people who wait for the specification. Outside it, the same logic produces young technology leadership programs, students teaching younger students, and challenges that parents and children build together. The common element is that the learner produces something under real constraints, which is precisely what a site visit cannot deliver.
+[His Meeting 6 lecture](../materials/meeting-6-avi-salmon-training-by-experience.pptx) made the partnership concrete rather than aspirational. The programs he described run in both directions. Inside the company, engineering upskilling happens through hands-on formats: a hardware challenge, a processor teardown workshop, a crash-course technical competition, an autonomous-driving contest. All of them are built on the finding that people who tolerate uncertainty and explore independently learn more than people who wait for the specification. Outside it, the same logic produces young technology leadership programs, students teaching younger students, and challenges that parents and children build together. The common element is that the learner produces something under real constraints, which is precisely what a site visit cannot deliver.
 
-Jan Morrison pressed the point that matters most for scale: how should teacher education institutions prepare future teachers to use makerspaces and experiential learning, rather than concentrating only on the needs of teachers already in post? Avi Salmon answered that teacher educators have to experience it first. Until they have been learners in a makerspace themselves, they cannot integrate the approach into what they teach. Prof. Arnon Bentur asked the companion question - whether such programs should become part of formal education or stay external - and the answer was that they must become formal, with teacher confidence as the binding constraint.
+Jan Morrison pressed the point that matters most for scale: how should teacher education institutions prepare future teachers to use makerspaces and experiential learning, rather than concentrating only on the needs of teachers already in post? Avi Salmon answered that teacher educators have to experience it first. Until they have been learners in a makerspace themselves, they cannot integrate the approach into what they teach. Prof. Arnon Bentur's companion question, taken up in Chapter 17, asked whether such programs belong inside formal education at all.
 
-Dr. Iris Pinto described the disconnect she observed between education and industry after moving from Intel into the Ministry of Education.
+Dr. Pinto described the disconnect she observed between education and industry after moving from Intel into the Ministry of Education.
 
 Dr. Avigdor Zonnenshain connected the same theme to lifelong learning: the professional context students meet in school should teach them that learning does not stop at graduation, because in industry it does not.
 
@@ -2684,7 +2652,7 @@ The practical test of a partnership is what changes in student work. If the indu
 
 ### Recommendation
 
-Build sustained education-industry partnerships around mentoring, real problems, teacher externships, student projects, site visits, and feedback loops.
+Build sustained education-industry partnerships around mentoring, real problems, teacher externships, student projects, site visits, and feedback loops. Figure 12 arranges those forms as a ladder, and most partnerships never leave the bottom rung.
 
 ```mermaid
 flowchart LR
@@ -2737,7 +2705,7 @@ For your own development, build one sustained professional connection per year: 
 
 Expecting individual teachers to transform STEM education alone is unrealistic.
 
-Almost every recommendation in this book adds something to a teacher's workload. Design tasks so thinking is visible. Learn the tools before setting policy. Collect evidence. Build partnerships. Reflect each semester. Taken one at a time, each is reasonable. Taken together, they describe a job no one has time to do. This is the point at which reform proposals usually fail, and it fails quietly: teachers do not refuse, they simply run out of hours, and the reform survives as language in a document.
+Almost every recommendation in this book adds something to a teacher's workload. Design tasks so thinking is visible. Learn the tools before setting policy. Collect evidence. Build partnerships. Reflect each semester. Taken one at a time, each is reasonable. Taken together, they describe a job no one has time to do. This is where reform proposals usually fail, and they fail quietly. Teachers do not refuse. They run out of hours, and the reform survives as language in a document.
 
 The TALIS material named the same problem from the teacher's side. Workload, pressure, behavior, diverse learning needs, and constant change are job demands. Learning opportunities, agency, leadership, support, and professional status are resources. When demands rise and resources do not, the system gets exhaustion instead of transformation.
 
@@ -2757,15 +2725,23 @@ The strongest objection to the ecosystem position deserves stating plainly: when
 
 ### Pros and Cons
 
-Teacher-centered responsibility empowers educators and quietly transfers the system's unsolved problems to them. It is also the cheapest of the three and therefore the one most often chosen, because it needs no budget line and no reorganization. Institution-centered responsibility creates real support and tends to arrive top-down, reaching teachers as a program they were enrolled in rather than one they shaped. Ecosystem responsibility is the strongest of the three, and the only one that cannot be put in place by a single decision.
+Teacher-centered responsibility empowers educators while quietly transferring the system's unsolved problems to them. Being the cheapest of the three, it is also the one most often chosen: no budget line, no reorganization. Institution-centered responsibility creates real support, but it tends to arrive top-down, reaching teachers as a program they were enrolled in rather than one they shaped. Ecosystem responsibility is the strongest of the three. No single decision can put it in place.
 
 Coordination is not free. Every additional partner adds meetings, alignment work, and points of failure. An ecosystem with seven weak links is worse than three strong ones. The practical advice is to build the ecosystem one link at a time and to strengthen a link before adding another.
 
-The failure mode specific to ecosystems is diffusion of accountability. When a school, a university, a ministry, and an industry partner each hold part of a commitment, the part nobody explicitly owns is the part that does not happen, and every party can point at the others once it has not. The remedy is unglamorous: name one accountable role for each link, and put a date on it.
+The remedy is unglamorous. Name one accountable role for each link in the chain and put a date on it, because the alternative is four institutions each able to point at the other three.
 
 ### Where Each Sector Stands
 
-Teachers need support, not only expectations. Leaders must create enabling conditions. Industry and community can contribute context. Policy must support continuity beyond individual champions.
+This is the chapter where the sector question is the whole subject, so it is worth stating in terms of what each actor owes rather than what each actor wants.
+
+Teachers owe the system their practice and their judgment, and they are the only actor in the chain currently delivering in full. What they are owed in return is support rather than expectation, which in practice means time that appears on a timetable and not in an evening.
+
+Institutional leaders owe enabling conditions, and the test of whether they have delivered is whether a teacher can name the specific hour, room, or budget line that was created for this work. A statement of institutional commitment that survives contact with no calendar is not a condition.
+
+Industry and community owe context: real problems, real constraints, and people who will come back a second time. The contribution is usually offered as generosity, which is why it stops when the person who offered it changes jobs.
+
+Policy owes continuity beyond individual champions. Every actor above can be replaced by an equally capable successor except the policy that funded them, and reforms in this field die far more often from an expired budget line than from a bad idea.
 
 The [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf) material adds a practical design discipline to this ecosystem view. New educator roles should not be invented as slogans. They should be specified through concrete questions: what is the role called, where does it sit in the system, what responsibilities does it carry, what is it not responsible for, what qualifications are required or preferred, what compensation and working conditions make it sustainable, and what happens if the role is or is not filled. This turns the idea of an ecosystem into an organizational design task.
 
@@ -2781,7 +2757,7 @@ Dr. Eli Eisenberg and Prof. Arnon Bentur framed the overall Phase III process ar
 
 Jan Morrison's ecosystem argument from Meeting 2 returns here in a different form. She argued that transdisciplinary and problem-based learning fail when inserted into systems built for isolated individual teaching. The ecosystem is the precondition for the reform rather than an enhancement to it. At the closing session she extended the same logic to the Round Table itself, urging it to connect with other international round tables and professional networks so that expertise is exchanged, effort is not duplicated, and the group's work reaches practice. A group that argues for ecosystems should not operate as an island.
 
-Dr. Eli Eisenberg's closing remarks drew the six meetings together around the same claim. Preparing learners for the future means rethinking which competencies students should develop and, at the same time, the roles of teachers, higher education, industry, and the learning environment. Three findings recurred: there is no single ideal educator profile, and effective education may need diverse and complementary roles; teachers need to develop the competencies they are expected to cultivate, particularly around AI and experiential learning; and learning should increasingly incorporate authentic workplace experience, industry mentors, and hands-on activity. He also insisted that the outcome be a product rather than a conversation - a draft report circulated for comment, finalized collectively, and published.
+Dr. Eli Eisenberg's closing remarks drew the six meetings together around the same claim. Preparing learners for the future means rethinking which competencies students should develop and, at the same time, the roles of teachers, higher education, industry, and the learning environment. Three findings recurred: there is no single ideal educator profile, and effective education may need diverse and complementary roles; teachers need to develop the competencies they are expected to cultivate, particularly around AI and experiential learning; and learning should increasingly incorporate authentic workplace experience, industry mentors, and hands-on activity. He also insisted that the outcome be a product rather than a conversation: a draft report circulated for comment, finalized collectively, and published.
 
 ### Synthesis
 
@@ -2791,7 +2767,7 @@ Central means the teacher still holds the judgment that cannot be delegated: wha
 
 ### Recommendation
 
-Define the AI-era educator as the center of a designed support ecosystem: peers, leaders, mentors, AI tools, teaching centers, industry, policy, and community.
+Define the AI-era educator as the center of a designed support ecosystem: peers, leaders, mentors, AI tools, teaching centers, industry, policy, and community. Figure 13 draws that ecosystem as it currently runs, which is not the same as how it should.
 
 ```mermaid
 flowchart TD
@@ -2841,7 +2817,7 @@ Evaluation method:
 
 Look for a student who asked for help early and gave some back. The student should identify available supports, seek help appropriately, contribute to peers, and explain how the ecosystem improved learning. Strong performance includes both independence and wise use of others.
 
-For your own development, move from self-improvement to ecosystem-building. This means developing personal competence while also creating conditions that help colleagues and students. It follows Dr. Avigdor Zonnenshain's system perspective and the Meeting 6 question of whether skill development belongs to the teacher alone or to a full support system.
+For your own development, move from self-improvement to ecosystem-building. This means developing personal competence while also creating conditions that help colleagues and students. It follows Dr. Zonnenshain's system perspective and the Meeting 6 question of whether skill development belongs to the teacher alone or to a full support system.
 
 ### Sources
 
@@ -2853,9 +2829,9 @@ The Round Table closed in August 2026. These chapters stop reporting and start a
 
 ## Chapter 21 - Insights Across the Six Meetings
 
-Seven insights survived the six meetings. The word is chosen carefully. These are not the ideas that were most popular, and they are not a summary of what was said. They are the points that were put under pressure by people who disagreed and were still standing at the end. The coherence between them is partly imposed by this book. The meetings themselves were less tidy, and Chapter 24 records where the tidiness is doing work it has not earned.
+Seven insights survived the six meetings. Survived is the right verb. These are not the ideas that were most popular, and they are not a summary of what was said. They are the points that were put under pressure by people who disagreed and were still standing at the end. The coherence between them is partly imposed by this book. The meetings themselves were less tidy, and Chapter 24 records where the tidiness is doing work it has not earned.
 
-First, the future educator profile should be common in foundation but diverse in expression. Every educator needs a baseline of AI literacy, ethical judgment, pedagogical responsibility, and commitment to student agency. Not every educator needs the same strengths or roles. Meeting 2 opened on this question expecting to produce a profile and closed without one, for a reason worth stating: a single profile is either so general that it commits to nothing or so demanding that nobody meets it. The cost of the diverse answer is coordination. A group of specialists that nobody coordinates is not a team, it is a staffing accident.
+First, the future educator profile should be common in foundation but diverse in expression. Every educator needs a baseline of AI literacy, ethical judgment, pedagogical responsibility, and commitment to student agency. Not every educator needs the same strengths or roles. Meeting 2 opened on this question expecting to produce a profile and closed without one, for a reason worth stating: a single profile is either so general that it commits to nothing or so demanding that nobody meets it. The cost of the diverse answer is coordination. A group of specialists that nobody coordinates is not a team. It is a staffing accident.
 
 Second, competencies must be embedded in disciplinary learning. Skills become real through practice, reflection, feedback, and repeated use in meaningful contexts. [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) is the strongest evidence for this, because it shows competency work built into engineering courses rather than added beside them. The cost is curriculum time, and no meeting produced an account of what comes out to make room.
 
@@ -2867,7 +2843,7 @@ Fifth, professional development must become infrastructure. Workshops are not en
 
 Sixth, environments matter. Physical space, virtual tools, industry connections, mentoring, organizational structures, and assessment systems all shape what learning is possible. Dr. Revital Duek's opening question at Meeting 6 is the one worth keeping: would learning environments look different if education had been designed around competencies rather than knowledge? The honest answer is that most of them would be unrecognizable, and almost none of them have changed.
 
-Seventh, equity must be designed from the start. AI can widen gaps if advantaged students use it to amplify thinking while disadvantaged students use it to replace thinking. This is the insight the Round Table stated most often and examined least. It appears at Meetings 1, 4, and 6 as a warning and never as a measurement, and no participant brought data on how AI use actually differs across student populations.
+Seventh, equity must be designed from the start. AI can widen gaps if advantaged students use it to amplify thinking while disadvantaged students use it to replace thinking. This is the insight the Round Table stated most often and examined least. It appears at Meetings 1, 4, and 6 as a warning and never as a measurement, and no participant brought data on how AI use actually differs across student populations. Figure 14 lays the six meetings out in sequence with the question each one opened.
 
 ```mermaid
 timeline
@@ -2917,13 +2893,13 @@ Classroom activity examples:
 
 Evaluation method:
 
-The unit of assessment here is the connection, not the activity. The student should connect classroom experience to the larger Round Table insights: human judgment, competencies, evidence, equity, AI responsibility, and support systems. Strong work shows that the student can move from one activity to a broader principle.
+The student should connect classroom experience to the larger themes of this book: human judgment, competencies, evidence, equity, AI responsibility, and support systems. What is assessed is the connection rather than the activity that prompted it. Strong work shows that the student can move from one activity to a broader principle.
 
 For your own development, review the seven insights at the end of each semester and ask: where did I keep human judgment central, where did I make thinking visible, where did I support equity, and where did I still work alone? This turns the Round Table synthesis into a recurring teacher reflection tool.
 
 ## Chapter 22 - Guiding Principles
 
-Twelve principles carry the argument of this book. They are not independent, they are not equally important, and several of them pull against each other. Setting them out as a list is a convenience; the paragraphs after the diagram say what the list conceals.
+Twelve principles carry the argument of this book. They are not independent, they are not equally important, and several of them pull against each other. Setting them out as a list is a convenience, and Figure 15 groups them into four bearings; the paragraphs after it say what both the list and the grouping conceal.
 
 1. Keep the human above the machine.
 2. Treat AI as part of the learning ecology, not as a replacement for teachers.
@@ -3082,7 +3058,7 @@ Classroom activity examples:
 
 Evaluation method:
 
-Evaluate the path, not the artifact. A strong performance shows a specific initial thesis, evidence that was actually collected, an identified disagreement between the student's understanding and the AI output, a resolution of that disagreement, and a clear statement of what the student verified personally. A polished simulator with no disagreement log is weak work, however impressive it looks.
+A strong performance shows a specific initial thesis, evidence that was actually collected, an identified disagreement between the student's understanding and the AI output, a resolution of that disagreement, and a clear statement of what the student verified personally. A polished simulator with no disagreement log is weak work, however impressive it looks.
 
 For your own development, run the cycle on yourself first, on a topic you know well. Notice how strongly the AI explanation pulls you toward its framing, even when you have taught the topic for years. That pull is what the sequence is designed to resist.
 
@@ -3094,7 +3070,7 @@ A book that asks students to state a position before checking it against a stron
 
 The central claim of Part I is that STEM education should reorganize around a set of transferable human competencies. Prof. Sigal Tifferet asked the question that this book has not fully answered: is that evidence-based?
 
-The honest answer is partly. Abrami and colleagues, in the meta-analytic work listed in Appendix D, found that critical thinking instruction does work when it is domain-specific and explicit. There is much weaker evidence that critical thinking taught inside a discipline transfers to other disciplines, and half a century of work on transfer by Perkins and Salomon is, at best, mixed. Transfer is precisely what the competency argument assumes. A recommendation to redesign national curricula around transferable competencies is a large bet placed on a contested literature.
+The honest answer is partly. Abrami and colleagues, in the meta-analysis listed in Appendix D, found that critical thinking instruction does work when it is domain-specific and explicit. There is much weaker evidence that critical thinking taught inside a discipline transfers to other disciplines, and half a century of work on transfer by Perkins and Salomon is, at best, mixed. Transfer is precisely what the competency argument assumes. A recommendation to redesign national curricula around transferable competencies is a large bet placed on a contested literature.
 
 This book proceeds anyway, on the grounds that the alternative, assessing students only on outputs AI can produce, is clearly failing. But "the current approach is failing" is an argument for change, not evidence that this particular change works.
 
@@ -3108,11 +3084,11 @@ A reader who takes this objection seriously should use the cycle sparingly, on p
 
 ### "Ecosystem" Can Mean Nobody Is Responsible
 
-Chapter 20 states this objection and then argues past it. It deserves to be stated once more, harder.
+Chapter 20 concedes most of this. It names the three relationships in the ecosystem that run one way only, and it says what each actor owes the others. That is further than most treatments go, and it does not go far enough.
 
 Distributed responsibility is the standard way institutions avoid accountability. Every actor in an ecosystem can point to another actor. Policy blames funding, funding blames priorities, leadership blames policy, and the teacher is still alone in the classroom at eight in the morning. The ecosystem framing is attractive to everyone except the person it is supposed to help, because for everyone else it converts a demand into a diagram.
 
-The book's answer, that each part of the ecosystem needs a name, a budget line, and something it can be held to, is correct and almost never implemented.
+What Chapter 20 does not supply is a mechanism. It says what each actor owes and is silent on what happens to an actor who does not pay. Obligations without consequences are descriptions of good behavior, and the reason the ecosystem model keeps failing is that every actor in it has always been free to opt out at no cost. Until one of the relationships in Figure 13 carries a sanction, a funding condition, or an accreditation requirement, the diagram records what ought to happen rather than what will.
 
 ### The Workload Arithmetic Does Not Work
 
@@ -3166,7 +3142,7 @@ That is a narrower thesis than the one in the Preface. It is also the part most 
 
 ### Sources
 
-This chapter is the one exception to the rule that the closing chapters carry no source list, because it brings in material the Round Table never discussed. [Steering-team summary, 24.03.2026](../materials/steering-2026-03-24.docx); Kirschner, Sweller, and Clark, *Why Minimal Guidance During Instruction Does Not Work*, Educational Psychologist, 2006; Abrami and colleagues on critical thinking instruction and Perkins and Salomon on transfer of learning, both listed in Appendix D and both reached through the [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx); [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx) for Prof. Sigal Tifferet's evidence question and [Meeting 6 summary](../materials/meeting-6-summary.docx) for Danielle Eisenberg's scaling objection.
+This chapter is the one exception to the rule that the closing chapters carry no source list, because it brings in material the Round Table never discussed. [Steering-team summary, 24.03.2026](../materials/steering-2026-03-24.docx); Kirschner, Sweller, and Clark, *Why Minimal Guidance During Instruction Does Not Work*, Educational Psychologist, 2006; Abrami and colleagues on critical thinking instruction and the transfer literature that Perkins and Salomon summarized, both listed in Appendix D and both reached through the [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx); [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx) for Prof. Tifferet's evidence question and [Meeting 6 summary](../materials/meeting-6-summary.docx) for Danielle Eisenberg's scaling objection.
 
 ## Chapter 25 - Recommendations by Audience
 
@@ -3210,7 +3186,7 @@ The first move is to attach the partnership to a role and a calendar rather than
 
 Study AI-era learning processes, teacher development, assessment, equity, and long-term outcomes.
 
-Two studies would be worth more than the rest. The first is a comparison of how AI use differs across student populations within the same task, because the equity claim in this book is asserted throughout and evidenced nowhere. The second is a longitudinal check on whether competency-rich programs change anything measurable after graduation. The obstacle is that both run longer than the funding cycles that would pay for them, which is part of why Chapter 24 rates this book's evidence base as thin.
+Two studies would be worth more than the rest. The first is a comparison of how AI use differs across student populations within the same task, because the equity claim in this book is asserted throughout and evidenced nowhere. The second is a longitudinal check on whether competency-rich programs change anything measurable after graduation. The obstacle is that both run longer than the funding cycles that would pay for them, which is part of why Chapter 24 rates this book's evidence base as thin. Figure 16 sets out what each audience should do next and what evidence would show it worked.
 
 | Audience | Main action | Evidence to collect |
 | --- | --- | --- |
@@ -3252,7 +3228,7 @@ For your own development, become a bridge among audiences. Keep a small stakehol
 
 The Round Table did not close every question. It opened the next layer.
 
-Dr. Eli Eisenberg set out the direction in his closing remarks at the sixth meeting, and invited participants to shape it collectively rather than receive it from the organizers. Three themes were proposed. The first is how rising global uncertainty - technological disruption, geopolitical instability, and social change - affects not only cognitive competencies but the social and emotional ones that learners and professionals depend on. The second is the relationship between top-down policy and bottom-up innovation: rather than waiting for ministries to define change, the next phase should study how initiatives that already work in schools, universities, industry, and local communities can inform policy. The third is STEM leadership - moving past the preparation of technically expert engineers and scientists to the leadership capability needed to guide organizations, education systems, and innovation ecosystems. Jan Morrison added a fourth direction that is procedural rather than thematic: connect the Round Table to other international round tables and professional networks, so that expertise is shared and effort is not duplicated.
+Dr. Eli Eisenberg set out the direction in his closing remarks at the sixth meeting, and invited participants to shape it collectively rather than receive it from the organizers. Three themes were proposed. The first is how rising global uncertainty, whether technological disruption, geopolitical instability, or social change, affects not only cognitive competencies but the social and emotional ones that learners and professionals depend on. The second is the relationship between top-down policy and bottom-up innovation: rather than waiting for ministries to define change, the next phase should study how initiatives that already work in schools, universities, industry, and local communities can inform policy. The third is STEM leadership, which means moving past the preparation of technically expert engineers and scientists to the leadership capability needed to guide organizations, education systems, and innovation ecosystems. Jan Morrison added a fourth direction that is procedural rather than thematic: connect the Round Table to other international round tables and professional networks, so that expertise is shared and effort is not duplicated.
 
 Those three themes and Morrison's procedural one are what the Round Table itself proposed. Two further directions belong to this book rather than to the group, and are marked as such: systems thinking and multidisciplinarity, which Chapter 17 shows the learning environments question keeps running into, and the place of values and attitudes alongside skills, which Chapter 8 raises and no meeting took up.
 
@@ -3262,19 +3238,19 @@ The next phase should move from defining the AI-era educator profile to designin
 
 Chapter 21 named four questions that the six meetings raised and nobody closed: who pays, what comes out, how much possession is enough, and whether any of it scales. Phase IV inherits all four. It is worth being precise about what answering each would require, because only one of them is a research question.
 
-Who pays is a budget question, and it will be settled by whoever writes a budget line, not by whoever writes a report. The [Meeting 5 summary](../materials/meeting-5-summary.docx) established that no actor currently owns the cost of sustained teacher and faculty development for competencies. Answering the question means naming a payer - a ministry, a university, an employer consortium, a philanthropic fund - and costing one concrete program from end to end. Phase IV could do that for a single case and would learn more from it than from another round of principles.
+Who pays is a budget question, and it will be settled by whoever writes a budget line, not by whoever writes a report. The [Meeting 5 summary](../materials/meeting-5-summary.docx) established that no actor currently owns the cost of sustained teacher and faculty development for competencies. Answering the question means naming a payer (a ministry, a university, an employer consortium, a philanthropic fund) and costing one concrete program from end to end. Phase IV could do that for a single case and would learn more from it than from another round of principles.
 
-What comes out is a curriculum question, and it is the one the Round Table was best placed to answer and did not. Embedding competencies inside disciplinary courses means something already in those courses leaves. Answering the question means taking one real syllabus, in one real institution, and marking what would be cut. Until somebody does that, the recommendation to embed competencies is a request for time that nobody has.
+What comes out is a curriculum question, and it is the one the Round Table was best placed to answer and did not. Nothing is added to a full timetable without something else coming off it. Answering the question means taking one real syllabus, in one real institution, and marking what would be cut. Until somebody does that, the recommendation to embed competencies is a request for time that nobody has.
 
-How much possession is enough is the genuine research question of the four. Chapter 9 offers indicators rather than a threshold, and Chapter 24 explains why the evidence for any threshold is thinner than the confidence around it. Answering the question needs longitudinal data: cohorts followed past graduation, with some measure of whether the competencies their schooling claimed to develop are present, and in use, years later. No participant in Phase III holds data of that kind. Somebody has to collect it.
+How much possession is enough is the genuine research question of the four. Chapter 9 offers indicators rather than a threshold, and the evidence for any threshold is thinner than the confidence usually placed in it. Answering the question needs longitudinal data: cohorts followed past graduation, with some measure of whether the competencies their schooling claimed to develop are present, and in use, years later. No participant in Phase III holds data of that kind. Somebody has to collect it.
 
-Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting, set out in Chapter 24, is the sharpest thing said across the six sessions. Phase IV would have to engage the institutions that set the rewards rather than the educators who work inside them. That means a different room, with examination authorities, admissions officers, and hiring managers in it.
+Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting is the sharpest thing said across the six sessions. Phase IV would have to engage the institutions that set the rewards rather than the educators who work inside them. That means a different room, with examination authorities, admissions officers, and hiring managers in it.
 
 ### What Phase IV Would Have to Do Differently
 
 Phase III was a conversation among people who already agreed with each other. That is what made it productive, and it is also its main limitation. Six meetings of educators and researchers who share a starting position will refine that position. They will not test it.
 
-Three changes would make the next phase harder and better. The first is to bring in the actors who can say no: the examination authority, the admissions office, the employer who screens on grades. Their objections are the ones Chapter 24 had to reconstruct from the research literature, because the room did not supply them. The second is to commit to at least one piece of primary evidence - one costed program, one revised syllabus, one cohort followed - rather than a further synthesis of what the participants already believe. The third is to publish the disagreements. The Phase III summaries record convergence more faithfully than they record dissent, and this book has had to work against that grain in several chapters.
+Three changes would make the next phase harder and better. The first is to bring in the actors who can say no: the examination authority, the admissions office, the employer who screens on grades. Their objections are the ones Chapter 24 had to reconstruct from the research literature, because the room did not supply them. The second is to commit to at least one piece of primary evidence, whether a costed program, a revised syllabus, or a cohort followed, rather than a further synthesis of what the participants already believe. The third is to publish the disagreements. The Phase III summaries record convergence more faithfully than they record dissent, and this book has had to work against that grain in several chapters.
 
 The [steering discussion of 4 August 2026](../materials/steering-2026-08-04.docx) points the same way. The next challenge is not only to define the educator profile but to design the wider STEM education system around leadership, practice, tools, environments, values, and evidence. Designing a system means committing to specifics that a profile can avoid.
 
@@ -3339,7 +3315,7 @@ Role in the Round Table: Assessment and policy contributor. This book uses her c
 
 Bio: Dr. Maklada contributed from the Ministry of Education and from the assessment and education-system perspective.
 
-Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. At Meeting 3 she described the national Interface Skills in STEM Education program, a three-year initiative involving hundreds of teachers that has expanded gradually through motivated lighthouse teachers, and named its dependence on continuous support during implementation and on internal system capacity instead of bought-in solutions. She also named what remains hard: variability across disciplines, shallow capacity among teacher educators, and school leadership that is difficult to engage. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
+Main achievements, publications, and interests: The [Dr. Eli Eisenberg profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) lists Marwa Maklada as a co-author of The National Skills Interface Program in STEM Subjects summary report and the International Round Table Phase II report. At Meeting 3 she described the national Interface Skills in STEM Education program, a three-year initiative involving hundreds of teachers that has expanded gradually through motivated lighthouse teachers, and named its dependence on continuous support during implementation and on internal system capacity instead of bought-in solutions. She was equally direct about the obstacles, which she put at three: disciplines that vary too much to share one approach, teacher educators without depth in the material, and school leaders who are hard to bring into the work. In this book, her areas of interest are STEM competency assessment, validation of competency-based tasks, and preserving teacher authority in AI-rich learning.
 
 ### Dr. Revital Duek
 
@@ -3355,7 +3331,7 @@ Role in the Round Table: Meeting 5 speaker on faculty development, and discussio
 
 Bio: Dr. Granot-Bein works in higher-education faculty development at the Edmond de Rothschild Bridge for Higher Education and Employment.
 
-Main achievements, publications, and interests: Her [Meeting 5 presentation](../materials/meeting-5-yael-granot-bein-faculty-development.pdf) reports a Samuel Neaman Institute survey in which ninety percent of faculty consider transferable skills highly important, sixty-one percent have never received formal training in teaching them, and eighty-four percent of those not teaching them would like to learn how. It names lack of training, lack of time, and lack of institutional support as the barriers, and separates two gaps that are usually confused: understanding that skills matter is not knowing how to teach them, and knowing how to teach them is not changing practice. It assesses four possible owners of faculty development, namely individual faculty, teaching and learning centers, institutional leadership, and national support structures, and concludes that each is insufficient alone. It observes that research has national support structures while teaching usually does not, and offers the Maarag Yeda initiative across twenty-three institutions as a working example. Its finding on framing is that faculty engage when transferable skills are linked to academic excellence and disciplinary identity rather than to employability. At Meeting 3 she moved the discussion from pre-service training to veteran educators and argued that skills instruction makes teaching better instead of adding to it. At Meeting 6 she asked which educational paradigm most needs breaking, and how teachers and professors should redefine their added value when students rely on recorded lectures and AI instead of attending.
+Main achievements, publications, and interests: Her [Meeting 5 presentation, Who Sustains Faculty Development for Transferable Skills?](../materials/meeting-5-yael-granot-bein-faculty-development.pdf) reports a Samuel Neaman Institute survey in which ninety percent of faculty consider transferable skills highly important, sixty-one percent have never received formal training in teaching them, and eighty-four percent of those not teaching them would like to learn how. It names lack of training, lack of time, and lack of institutional support as the barriers, and separates two gaps that are usually confused: understanding that skills matter is not knowing how to teach them, and knowing how to teach them is not changing practice. It assesses four possible owners of faculty development, namely individual faculty, teaching and learning centers, institutional leadership, and national support structures, and concludes that each is insufficient alone. It observes that research has national support structures while teaching usually does not, and offers the Maarag Yeda initiative across twenty-three institutions as a working example. Its finding on framing is that faculty engage when transferable skills are linked to academic excellence and disciplinary identity rather than to employability. At Meeting 3 she moved the discussion from pre-service training to veteran educators and argued that skills instruction makes teaching better instead of adding to it. At Meeting 6 she asked which educational paradigm most needs breaking, and how teachers and professors should redefine their added value when students rely on recorded lectures and AI instead of attending.
 
 ### Dr. Noa Ragonis
 
@@ -3363,7 +3339,7 @@ Role in the Round Table: Participant and contributor on teacher-development gaps
 
 Bio: Dr. Ragonis took part from Beit Berl Academic College.
 
-Main achievements, publications, and interests: In the book, her areas of contribution are teacher preparation for AI-era STEM complexity, the development gap that appears when schools expect transformation without preparing educators, and the continuing educational value of physical experimentation, prototyping, and engineering design alongside digital tools. She pointed to at-home making kits and to teacher training with 3D printers, laser cutters, and Arduino as evidence that hands-on learning has not been superseded.
+Main achievements, publications, and interests: In the book, her areas of contribution are teacher preparation for AI-era STEM complexity, the development gap that appears when schools expect transformation without preparing educators, and the continuing educational value of physical experimentation, prototyping, and engineering design alongside digital tools. Her evidence was concrete: at-home making kits still sell, and teacher training still runs on 3D printers, laser cutters, and Arduino boards.
 
 ### Prof. Sigal Tifferet
 
@@ -3371,7 +3347,7 @@ Role in the Round Table: Meeting 3 speaker on how to train teachers to impart sk
 
 Bio: Prof. Tifferet took part from Ruppin Academic Center.
 
-Main achievements, publications, and interests: Her [Meeting 3 presentation](../materials/meeting-3-sigal-tifferet-skills.pptx) reports that meta-analyses of teacher training show small but statistically significant effects, describes the characteristics of programs that work, and proposes extending the TPACK model into TSPAC by adding a skills axis. Its practical conclusion is that beginning teachers and untrained lecturers should be taught concrete tools rather than abstract skills, and that institutions must decide who plans skills activities, how much time is allocated, and how the skills will be assessed. Her wider Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. At Meeting 5 she argued that faculty receive conflicting messages from different levels of their institutions, and questioned whether the Academia 360 initiative was funded at the expense of earlier programs that had already supported skills development.
+Main achievements, publications, and interests: Her [Meeting 3 presentation on teaching skills](../materials/meeting-3-sigal-tifferet-skills.pptx) reports that meta-analyses of teacher training show small but statistically significant effects, describes the characteristics of programs that work, and proposes extending the TPACK model into TSPAC by adding a skills axis. Its practical conclusion is that beginning teachers and untrained lecturers should be taught concrete tools rather than abstract skills, and that institutions must decide who plans skills activities, how much time is allocated, and how the skills will be assessed. Her wider Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. At Meeting 5 she argued that faculty receive conflicting messages from different levels of their institutions, and questioned whether the Academia 360 initiative was funded at the expense of earlier programs that had already supported skills development.
 
 ### Dr. Gabi Shafat
 
@@ -3403,7 +3379,7 @@ Role in the Round Table: Meeting 5 speaker on STEM skills for teachers, and inte
 
 Bio: Prof. Tytler is Professor of Science Education at Deakin University, Australia, and took part from the OECD and Deakin. No detailed public biography is claimed here beyond his Round Table contribution.
 
-Main achievements, publications, and interests: His [Meeting 5 presentation](../materials/meeting-5-russell-tytler-stem-skills.pptx) argues that developing STEM skills in teachers means more than disciplinary knowledge or generic competencies, and that teacher education should focus on translating capabilities into classroom practice. It draws on research into the identities of integrated-STEM teachers, whose commitment turns out to rest on personal and pedagogical identity rather than disciplinary identity, and on studies of expert science teachers guiding open-ended inquiry, who intervene actively, prompt metacognitive regulation, and regulate the social aspects of group work. It describes Deakin's shift toward work-integrated learning, industry placements, multidisciplinary client projects, and authentic assessment. Its central claim is that critical thinking is not a generic skill but develops through discipline-specific representational tools such as diagrams, models, measurements, and collaborative explanation. At Meeting 3 he argued that context-dependent competencies do not decompose into fixed components and that training for experienced teachers must begin with pedagogical content knowledge. At Meeting 5 he reported that Australia has no national framework for STEM professional development and said he does not regard the Australian arrangement as a model.
+Main achievements, publications, and interests: His [Meeting 5 presentation, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx) argues that developing STEM skills in teachers means more than disciplinary knowledge or generic competencies, and that teacher education should focus on translating capabilities into classroom practice. It draws on research into the identities of integrated-STEM teachers, whose commitment turns out to rest on personal and pedagogical identity rather than disciplinary identity, and on studies of expert science teachers guiding open-ended inquiry, who intervene actively, prompt metacognitive regulation, and regulate the social aspects of group work. It describes Deakin's shift toward work-integrated learning, industry placements, multidisciplinary client projects, and authentic assessment. Its central claim is that critical thinking is not a generic skill but develops through discipline-specific representational tools such as diagrams, models, measurements, and collaborative explanation. At Meeting 3 he argued that context-dependent competencies do not decompose into fixed components and that training for experienced teachers must begin with pedagogical content knowledge. At Meeting 5 he reported that Australia has no national framework for STEM professional development and said he does not regard the Australian arrangement as a model.
 
 ### Emlen Metz
 
@@ -3451,7 +3427,7 @@ Role in the Round Table: Meeting 3 speaker on educators at the time of new learn
 
 Bio: Dr. Bekh took part from the European Training Foundation, which supports human capital development across EU partner countries.
 
-Main achievements, publications, and interests: Her [Meeting 3 presentation](../materials/meeting-3-olena-bekh.pdf) sets out the ETF reference model for educators, which identifies six domains: learner-driven practice, adaptability, sustainability and inclusion, collaboration and engagement, lifelong learning and reflection, and digital technologies. Her answer to the Meeting 3 dilemma was that teachers are not superhuman, that depth of competency is role- and context-specific, that teacher autonomy and agency are conditions of development, and that educators should possess and model what they advocate. She argued that teacher vulnerability, meaning the recognition of what one does not know, is what drives growth. She also described a physical card deck built with the Joint Research Center that integrates four EU competence frameworks and is designed to reduce screen time while building interpersonal skills, and the FORMA module that translates formative assessment into system-level implementation for policy makers. Her wider contribution centers on critical thinking, curiosity, creativity, empathy, the human consequences of relying too heavily on AI, and her Meeting 6 question about how education systems of that size and inertia can equip teachers quickly enough to matter.
+Main achievements, publications, and interests: Her [Meeting 3 presentation on the ETF reference model](../materials/meeting-3-olena-bekh.pdf) sets out the model for educators, which identifies six domains: learner-driven practice, adaptability, sustainability and inclusion, collaboration and engagement, lifelong learning and reflection, and digital technologies. Her answer to the Meeting 3 dilemma was that teachers are not superhuman, that depth of competency is role- and context-specific, that teacher autonomy and agency are conditions of development, and that educators should possess and model what they advocate. She argued that teacher vulnerability, meaning the recognition of what one does not know, is what drives growth. She also described a physical card deck built with the Joint Research Center that integrates four EU competence frameworks and is designed to reduce screen time while building interpersonal skills, and the FORMA module that translates formative assessment into system-level implementation for policy makers. Her wider contribution centers on critical thinking, curiosity, creativity, empathy, the human consequences of relying too heavily on AI, and her Meeting 6 question about how education systems of that size and inertia can equip teachers quickly enough to matter.
 
 ### Dr. Edith Manny-Ikan
 
@@ -3459,7 +3435,7 @@ Role in the Round Table: Meeting 3 discussant on the classroom reality of compet
 
 Bio: Dr. Manny-Ikan took part from the Henrietta Szold Institute and is involved in the writing of the matriculation examinations.
 
-Main achievements, publications, and interests: At Meeting 3 she argued that teachers feel overwhelmed by the expectation to teach extensive content and new competencies at once, that under time and assessment pressure they choose content, and that many lack the clarity and capacity to implement competency-based approaches at all. Her warning was about the distance between policy discussion and classroom reality, and about reform designed around the already motivated. Asked by Prof. Arnon Bentur how competencies are represented in the matriculation examinations, she answered that competencies must be assessed before they can be taught, and that building them into high-stakes examinations is difficult because such questions are perceived as harder and may disadvantage some students, which is why policy makers pilot before they mandate.
+Main achievements, publications, and interests: At Meeting 3 she argued that teachers feel overwhelmed by the expectation to teach extensive content and new competencies at once, that under time and assessment pressure they choose content, and that many lack the clarity and capacity to implement competency-based approaches at all. The warning underneath it concerned who reform is designed for, and how far a policy conversation sits from the room where the teaching happens. Asked by Prof. Arnon Bentur how competencies are represented in the matriculation examinations, she answered that competencies must be assessed before they can be taught, and that building them into high-stakes examinations is difficult because such questions are perceived as harder and may disadvantage some students, which is why policy makers pilot before they mandate.
 
 ### Dr. Rinat Itzhaki
 

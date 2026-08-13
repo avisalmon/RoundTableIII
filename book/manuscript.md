@@ -3549,6 +3549,35 @@ External references appearing in the collected materials include:
 - [Rest and Narvaez on moral development in the professions, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 - [Abrami and colleagues on critical thinking instruction, listed in the Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 
+The web addresses behind the links above are printed in full in Appendix E, for readers of the paper edition.
+
+## Appendix E - Web Addresses
+
+Twelve web addresses appear as links in this book. A printed page cannot be clicked, so every one of them is set out in full below. All were reachable in August 2026. Addresses move, and where one no longer resolves the title should still find the document.
+
+**Frameworks and standards.**
+
+- OECD Learning Compass 2030. `https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html`
+- UNESCO AI Competency Framework for Teachers. `https://www.unesco.org/en/articles/ai-competency-framework-teachers`
+- UNESCO competency frameworks hub, carrying both the teacher and the student frameworks. `https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks`
+- AI Literacy Framework, a joint European Commission and OECD initiative. `https://ailiteracyframework.org/`
+- ISTE Standards for Educators. `https://iste.org/standards/educators`
+- ISTE Standards for Students. `https://iste.org/standards/students`
+
+**Contributor profiles cited in Appendix A.**
+
+- Dr. Eli Eisenberg, Samuel Neaman Institute. `https://www.neaman.org.il/en/experts/eli-eisenberg/`
+- Dr. Avigdor Zonnenshain, Samuel Neaman Institute. `https://www.neaman.org.il/en/experts/avigdor-zonnenshain/`
+- Tamar Dayan, Samuel Neaman Institute. `https://www.neaman.org.il/en/experts/tamar-dayan/`
+- Prof. Gil Noam, PEAR. `https://www.pearinc.org/gil-noam`
+
+**Organizations.**
+
+- TIES, about the organization. `https://www.tiesteach.org/about-ties/`
+- TIES, its work. `https://www.tiesteach.org/our-work/`
+
+Citations set as *Meeting 3 summary* and the like point to the project's internal working library and have no public address. The Editorial Note explains that convention, and Appendix C lists the presentation files by name.
+
 # Closing Note
 
 The Round Table did not settle the question it opened. It sharpened it.

@@ -316,7 +316,8 @@ p.first, .opener-rule + p {{ text-indent: 0; }}
 a {{ color: inherit; text-decoration: none; }}
 strong {{ font-weight: 600; }}
 em {{ font-style: italic; }}
-code {{ font-family: 'Inter', monospace; font-size: 0.92em; }}
+/* Web addresses in Appendix E have no break points a hyphenator can find. */
+code {{ font-family: 'Inter', monospace; font-size: 0.92em; overflow-wrap: anywhere; }}
 
 /* ---------- front matter ---------- */
 .halftitle, .titlepage, .copyright {{ text-align: center; }}

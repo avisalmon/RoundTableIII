@@ -3393,7 +3393,7 @@ Main achievements, publications, and interests: Her presentation sets out four p
 
 Role in the Round Table: Meeting 2 education-system speaker. The [TIES presentation](../materials/meeting-2-ties-jan-morrison.pptx) is a major source for the book's chapters on team-based teaching, transdisciplinary learning, externships, diverse educator pathways, career-connected learning, and STEM ecosystems.
 
-Bio: The [TIES About page](https://www.tiesteach.org/about-ties/) identifies Jan Morrison as Founder of TIES and describes the organization as emerging from the vision of a 35-year veteran teacher and principal. The [TIES Our Work page](https://www.tiesteach.org/our-work/) describes TIES as working across STEM ecosystems, emerging technologies, digital fabrication, school design, workforce development, government engagement, and STEM investment strategy.
+Bio: The [TIES About page](https://www.tiesteach.org/about/) identifies Jan Morrison as Founder of TIES and describes the organization as emerging from the vision of a 35-year veteran teacher and principal. The [TIES Our Work page](https://www.tiesteach.org/our-work/) describes TIES as working across STEM ecosystems, emerging technologies, digital fabrication, school design, workforce development, government engagement, and STEM investment strategy.
 
 Main achievements, publications, and interests: The public TIES pages describe a 22-year organizational history, a mission to advance education and employment outcomes, STEM ecosystem work across almost 120 national and global communities, and more than 40 million learners connected to ecosystem spaces. In the Round Table, Morrison's main contribution is the argument that STEM teaching must become team-based, cross-sector, career-connected, and designed as a system rather than left to isolated teachers. At Meeting 6 she pressed the question of how teacher education institutions should prepare future teachers to work in makerspaces, and proposed that the Round Table itself connect with other international round tables and professional networks to exchange expertise and avoid duplicated effort.
 
@@ -3573,7 +3573,7 @@ Twelve web addresses appear as links in this book. A printed page cannot be clic
 
 **Organizations.**
 
-- TIES, about the organization. `https://www.tiesteach.org/about-ties/`
+- TIES, about the organization. `https://www.tiesteach.org/about/`
 - TIES, its work. `https://www.tiesteach.org/our-work/`
 
 Citations set as *Meeting 3 summary* and the like point to the project's internal working library and have no public address. The Editorial Note explains that convention, and Appendix C lists the presentation files by name.

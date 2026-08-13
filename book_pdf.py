@@ -207,11 +207,11 @@ def front_matter_html(meta: BookMeta, editorial_note: str, contents: str, figure
   <p class="copyright-note-heading">About this book</p>
     <p>This book is a synthesis of the {series}, written by a Round Table participant.
       It is not an official publication of the Samuel Neaman Institute or of any other
-     organisation represented in the discussions, and it does not speak on behalf of the
+     organization represented in the discussions, and it does not speak on behalf of the
      participants named in it.</p>
   <p>The manuscript was drafted with the assistance of generative AI tools working from the
       collected Round Table materials, and every part of it was reviewed and edited by the author,
-      who is responsible for the final text. Where the sources named speakers and summarised their
+      who is responsible for the final text. Where the sources named speakers and summarized their
      contributions, the book refers to them by name and role rather than by direct quotation.</p>
   <p>Comments, corrections, and suggestions are welcome at {html.escape(CONTACT)}.</p>
   <p class="colophon">Set in EB Garamond and Inter. Generated from the manuscript on {meta.generated}.</p>

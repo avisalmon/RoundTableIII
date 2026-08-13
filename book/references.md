@@ -184,6 +184,6 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 
 ### Recordings
 
-Recordings were published as YouTube links inside the meeting summaries, one for each of the six sessions: [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 3](https://youtu.be/lUlr4ZXIr6o), [Meeting 4](https://youtu.be/zAtAT7lsPac), [Meeting 5](https://youtu.be/gyxxiP9WMgA), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo).
+Recordings were published as YouTube links inside the meeting summaries, one for each of the six sessions: [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 3](https://youtu.be/lUlr4ZXIr6o), [Meeting 4](https://youtu.be/X-C2gp6n5dU), [Meeting 5](https://youtu.be/gyxxiP9WMgA), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo).
 
-Every one of the six summaries was circulated to participants as a draft for review and comment. This book treats them as the primary record of those sessions, and readers should note that their attributions had not been finally approved when this edition was prepared.
+Every one of the six summaries was issued as a draft circulated to participants for review and comment, under the Samuel Neaman Institute's standard naming, and no final version of any of them was ever circulated. The draft is therefore the document of record, and this book treats it as the primary record of each session.

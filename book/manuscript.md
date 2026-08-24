@@ -15,17 +15,11 @@ This book is built from the collected Round Table materials. It is written as a 
 
 This book is not an official publication of the Samuel Neaman Institute or of any organization represented in the discussions, and it does not speak on behalf of the participants named in it. The text was developed with assistance from generative AI tools working from the collected Round Table materials, then reviewed and edited by the author, who is responsible for the final text.
 
-The author was himself a participant in the Round Table and presented at the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
-
-All six meetings left detailed written summaries, and five of the six also left presentation decks. Meeting 1 was an introductory session and left a summary but no deck, so the opening lecture is reported rather than reproduced. All six summaries were issued by the Samuel Neaman Institute as drafts circulated for participant comment, and no final version of any of them was ever circulated. That is the Institute's standing practice and not a sign that any one summary is provisional, so the circulated draft is the document of record in every case, and this book uses all six on that basis.
-
-Two consequences follow. The first is that every attribution in this book passes through a summarizer rather than a transcript, and the compression is invisible on the page. Chapter 24 sets out what that costs the argument. The second is a matter of sequence. The Meeting 1 summary, the Phase I and Phase II reports, and later the Meeting 3 and Meeting 5 summaries and decks all reached the author after the first draft was written. Each arrival changed chapters that had already been drafted, and those chapters were rewritten rather than patched.
+The author was himself a participant in the Round Table and presented at the first and the sixth meeting. His own contributions are cited on the same basis as those of every other participant, and readers should weigh them in that light. The Contributors section that follows names the people whose work this book rests on.
 
 Appendix B records, meeting by meeting, exactly what evidence exists. It is short, and a reader who intends to rely on any attribution in this book should read it first.
 
 This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
-
-Source citations that point to `../materials/` refer to the project's internal working library. Those files are third-party documents that the project does not hold publication rights to, so they are not distributed with the book or the public repository. They are listed so that the chain of evidence behind each chapter is visible. The steering-team summaries are part of that library and are cited on the same basis as everything else in it. They are working documents in Hebrew, and several of this book's most self-critical passages rest on them, so they are named individually rather than in a block.
 
 Figures are numbered in a single sequence whether they are diagrams or tables. Eleven of the sixteen are diagrams and five are tables. The numbering does not distinguish them, so that a cross-reference to Figure 8 finds it without the reader having to know which kind it is.
 
@@ -35,7 +29,7 @@ One name appears on the cover of this book, and that is a statement about editor
 
 **The people who made Phase III happen.** Dr. Eli Eisenberg initiated and led the Round Table. He opened the meetings, introduced each dilemma, moderated the discussion, and insisted that the process be an active professional inquiry rather than a documentation exercise. Prof. Arnon Bentur gave the inquiry its conceptual spine. At the second meeting he set out the sequence of dilemmas this book follows chapter by chapter: educator profile, possession versus cultivation of competencies, the teacher-student-AI relationship, professional development, and learning environments. Dr. Avigdor Zonnenshain brought the systems and engineering-education perspective and summarized the sessions. Tamar Dayan organized the meetings and built the source library on which every citation in this book depends; without that record there would be nothing to synthesize. Dr. Yael Granot-Bein and Dr. Revital Duek moderated discussions and shaped the treatment of competency development, repeated practice, teamwork, and visible thinking. Inna Zertser supported the Round Table process throughout Phase III.
 
-Each of the six who led the work, Dr. Eli Eisenberg, Prof. Arnon Bentur, Dr. Avigdor Zonnenshain, Tamar Dayan, Dr. Yael Granot-Bein, and Dr. Revital Duek, was closely involved in producing this book, and an earlier draft carried their names on the cover. They are credited here instead because the drafting decisions, the structure, the interpretations, and any errors that follow from them are the author's own, and it would be unfair to attach their names to judgments they did not make.
+Each of the six who led the work, Dr. Eli Eisenberg, Prof. Arnon Bentur, Dr. Avigdor Zonnenshain, Tamar Dayan, Dr. Yael Granot-Bein, and Dr. Revital Duek, was closely involved in producing this book.
 
 **The people whose arguments the chapters are built from.** The author gave the opening lecture at Meeting 1 and a second at Meeting 6, and both are cited in these pages on the same basis as everyone else's. Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation presented at Meeting 3. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6, alongside the author. Their material is the primary evidence behind large parts of this book.
 
@@ -260,7 +254,7 @@ For your own development, practice the same task yourself. Take one familiar les
 
 *A note on this section, which appears at the end of chapters one to twenty. Titles linked to the working library are Round Table documents held by the project. Most are third-party files the project has no right to republish, so the link records the chain of evidence rather than offering access; Appendix C inventories them. Titles linked to a web address can be opened by anyone.*
 
-[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
+[Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 
 ## Chapter 2 - From Knowledge Transmission to Competency Formation
 
@@ -1089,7 +1083,7 @@ For your own development, choose one competency per semester for deliberate grow
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Prof. Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Prof. Tifferet, How to train teachers to impart skills](../materials/meeting-3-sigal-tifferet-skills.pptx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 6 summary](../materials/meeting-6-summary.docx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 8 - Teacher Vulnerability, Authority, and Not-Knowing
 
@@ -1097,7 +1091,7 @@ For your own development, choose one competency per semester for deliberate grow
 
 AI destabilizes traditional authority. A student may use a tool the teacher has not yet mastered. A system may generate an answer faster than the teacher can. Knowledge changes quickly. The teacher can no longer rely only on being the person who knows.
 
-The [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) described the classical educational relationship as a teacher who knows and a student who learns. The teacher decides what to present, how to present it, when the student is ready, and whether understanding has been achieved. AI challenges this model because it can explain, tutor, quiz, adapt, and respond continuously. The teacher remains, and AI now occupies the space between teacher and student.
+The [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) set out the classical relationship this displaces, in which the teacher decides what a student meets and when they are ready for it. Chapter 10 takes that account in full. What matters here is the consequence: the teacher remains, and AI now occupies the space between teacher and student.
 
 This creates a new professional pressure. If a student can get an instant answer, the teacher's authority cannot rest only on speed, access, or factual possession. The teacher's authority must rest on judgment, context, trust, care, interpretation, and the ability to guide inquiry.
 
@@ -1211,7 +1205,7 @@ For your own development, rehearse transparent authority. Before class, identify
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Dr. Bekh, Educators at the Times of New Learning](../materials/meeting-3-olena-bekh.pdf), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx), [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf).
 
 ## Chapter 9 - Assessing Enough Competency
 
@@ -1349,7 +1343,7 @@ For your own development, build a teacher-practice portfolio as well. Save one r
 
 ### Sources
 
-[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 3 summary, 10.03.2026](../materials/meeting-3-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx), [Meeting 4 summary, 28.04.2026](../materials/meeting-4-summary.docx), [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx), [Meeting 4 presentation](../materials/meeting-4-presentation.pptx), [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part IV - The Teacher, the Student, and AI
 
@@ -2107,9 +2101,7 @@ Students are the final test. A professional development system is successful onl
 
 ### Round Table Voices
 
-The central challenge is the absence of a clear, coordinated, binding system for continuous professional development. Initiatives and training opportunities are plentiful. This is a crucial distinction. The problem is not activity. The problem is system design.
-
-Dr. Avigdor Zonnenshain gave the closest thing to a working mechanism, drawn from the national STEM skills initiative. It runs through a network of teachers of teachers who meet regularly, share what is happening in the field, and provide continuous guidance. His emphasis was on how the guidance is delivered rather than that it exists. Advice from a distance does not work. Mentors have to sit alongside teachers, watch them teach, and help them implement in a real classroom. He also noted what such a network produces that a course cannot: the learning runs both ways, and the mentors keep improving too.
+Dr. Avigdor Zonnenshain gave the closest thing to a working mechanism, and it addresses the problem the meeting kept circling. Initiatives and training opportunities are plentiful; what is missing is anything that binds them into a system. His answer, drawn from the national STEM skills initiative, runs through a network of teachers of teachers who meet regularly, share what is happening in the field, and provide continuous guidance. His emphasis was on how the guidance is delivered rather than that it exists. Advice from a distance does not work. Mentors have to sit alongside teachers, watch them teach, and help them implement in a real classroom. He also noted what such a network produces that a course cannot: the learning runs both ways, and the mentors keep improving too.
 
 Dr. Sprinzak turned the same instinct into a design at the Davidson Institute, where the work is with serving science teachers. Rather than treating professional development as exposure to ideas, she and her colleagues identified specific teaching skills they consider essential, such as hands-on and minds-on science teaching, and built a framework that answers three questions for each: what the skill is, why it matters, and how a teacher can implement it better tomorrow. They are also building tools that let teachers assess their own development in each skill.
 
@@ -2186,7 +2178,7 @@ For your own development, experience the new pedagogy as a learner before teachi
 
 ### Sources
 
-[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Prof. Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Prof. Tytler, STEM skills for teachers](../materials/meeting-5-russell-tytler-stem-skills.pptx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf).
 
 ## Chapter 16 - Evidence, Evaluation, and Institutional Learning
 
@@ -2328,7 +2320,7 @@ For your own development, conduct a small practice inquiry each semester. Choose
 
 ### Sources
 
-[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
+[Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx), [Meeting 6 summary](../materials/meeting-6-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Dr. Shafat STEM material](../materials/meeting-2-gabi-shafat-stem.pdf), [Danielle Eisenberg, Default or Design](../materials/meeting-4-default-or-design-ignite-ed.pptx).
 
 # Part VI - Environments, Industry, and Experiential Learning
 
@@ -2380,11 +2372,7 @@ Industry can help connect learning environments to real practice. It can provide
 
 ### Round Table Voices
 
-The Meeting 6 steering-team materials identified physical and organizational environment as a central issue.
-
-The preparation summary listed questions that should guide this chapter: Does real change require organizational redesign, not only teacher training? Are new models of collaborative work among teachers and lecturers needed? Does the current organizational structure support or block innovation? Is responsibility for skill development placed on the individual teacher, or is a broader ecosystem of support required?
-
-Dr. Revital Duek opened the Meeting 6 discussion with the sharpest version of the question: would learning environments look different if education were designed around skills and competencies rather than around knowledge? The rest of the session was an attempt to answer it.
+Dr. Revital Duek opened the Meeting 6 discussion with the sharpest version of the question the steering team had set: would learning environments look different if education were designed around skills and competencies rather than around knowledge? The preparation materials had put the same thing in four parts. Does real change require organizational redesign, not only teacher training? Are new models of collaborative work among teachers and lecturers needed? Does the current organizational structure support or block innovation? Is responsibility for skill development placed on the individual teacher, or is a broader ecosystem of support required? The rest of the session was an attempt to answer them.
 
 [Avi Salmon's Meeting 6 lecture](../materials/meeting-6-avi-salmon-training-by-experience.pptx) answered from industry. He described hands-on environments, meaning makerspaces, hackathons, technical challenges, and innovation hubs, as places where people learn by designing, building, testing, and improving real solutions. He reported that in engineering training the participants who explored independently and used AI as a support tool were considerably more successful than those who waited for instructions or predefined solutions. He named three qualities that decided the difference: curiosity, determination, and humility. He also described programs in which students teach younger peers or work with their parents on technological challenges, and argued that talented students need room to pursue projects outside the constraints of the curriculum.
 
@@ -2522,9 +2510,7 @@ Students come last, and their need is the one the budget was supposedly for: pra
 
 ### Round Table Voices
 
-Meeting 6 directly raised the balance between physical environments and virtual ones such as XR and VR.
-
-[Emlen Metz's Meeting 6 lecture](../materials/meeting-6-ai-use-in-education.pptx) answered the question at the level of classroom practice rather than technology. She separated productive uses of AI from unproductive ones. Productive use is dialogic: asking the system to generate counterarguments, challenge an assumption, or explain a concept at a chosen level, rather than requesting a finished answer. Translation into another language or reading level widens access. Active evaluation means checking what AI asserts, and she gave lateral reading as the working example. That skill is difficult when no sources are offered, so the student should ask the system for its sources and then examine those sources for reliability and relevance. Think-first means brainstorming independently before consulting AI, because consulting it early narrows the range of ideas a student will consider.
+[Emlen Metz's Meeting 6 lecture](../materials/meeting-6-ai-use-in-education.pptx) took the balance between physical environments and virtual ones such as XR and VR, and answered it at the level of classroom practice rather than technology. She separated productive uses of AI from unproductive ones. Productive use is dialogic: asking the system to generate counterarguments, challenge an assumption, or explain a concept at a chosen level, rather than requesting a finished answer. Translation into another language or reading level widens access. Active evaluation means checking what AI asserts, and she gave lateral reading as the working example. That skill is difficult when no sources are offered, so the student should ask the system for its sources and then examine those sources for reliability and relevance. Think-first means brainstorming independently before consulting AI, because consulting it early narrows the range of ideas a student will consider.
 
 She also proposed a category the environment discussion needs: AI-robust tasks. These are activities whose value does not collapse when a language model is available: laboratory work, drawing or building models, card sorts, handwriting, pairwise and group discussion, jigsaw grouping, and collaborative work with a defined role for each student. Alongside them she argued for deliberate no-AI practice: students must still practice reading, writing, and mathematics with pen and paper, oral examination, or locked machines, because difficulty and effort are where learning happens and students should not outsource a skill they have not yet mastered. Her term for the failure mode is cognitive surrender, the point at which a student accepts an output because checking it is harder than believing it.
 
@@ -2749,9 +2735,7 @@ The question about what a role is *not* responsible for is the one most often sk
 
 ### Round Table Voices
 
-Meeting 6 asked whether the teacher alone can carry the responsibility or whether a full ecosystem is needed.
-
-Dr. Avigdor Zonnenshain emphasized education that fosters lifelong learning and team-driven practice, and brought a systems-engineering habit to the discussion: a system that depends on the exceptional performance of its individual components is a badly designed system.
+Dr. Avigdor Zonnenshain answered the question Meeting 6 put to the room, whether the teacher alone can carry the responsibility or whether a full ecosystem is needed, with a systems-engineering habit: a system that depends on the exceptional performance of its individual components is a badly designed system. He emphasized education that fosters lifelong learning and team-driven practice.
 
 Dr. Eli Eisenberg and Prof. Arnon Bentur framed the overall Phase III process around the future educator profile and its system conditions. Their sequence of dilemmas was deliberate: profile, competencies, AI, professional development, environments. Each earlier answer creates a system requirement that a later one has to meet.
 
@@ -2821,7 +2805,7 @@ For your own development, move from self-improvement to ecosystem-building. This
 
 ### Sources
 
-[OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), [Meeting 6 summary](../materials/meeting-6-summary.docx).
+[Meeting 6 summary](../materials/meeting-6-summary.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [TIES Jan Morrison presentation](../materials/meeting-2-ties-jan-morrison.pptx), [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf), [TALIS 2024 material](../materials/talis-2024-us-short.pdf).
 
 # Part VII - A Compass for STEM Education in the AI Era
 
@@ -2883,7 +2867,7 @@ In practice:
 2. Define one teaching behavior that would make the insight real.
 3. Design one student task that reflects it.
 4. Collect evidence that the practice changed learning.
-5. Share the result with colleagues and revise.
+5. Decide whether the insight earned its place, and let that decide which one you take next term.
 
 Classroom activity examples:
 
@@ -3080,7 +3064,7 @@ A book that asks students to state a position before checking it against a stron
 
 The central claim of Part I is that STEM education should reorganize around a set of transferable human competencies. Prof. Sigal Tifferet asked the question that this book has not fully answered: is that evidence-based?
 
-The honest answer is partly. Abrami and colleagues, in the meta-analysis listed in Appendix D, found that critical thinking instruction does work when it is domain-specific and explicit. There is much weaker evidence that critical thinking taught inside a discipline transfers to other disciplines, and half a century of work on transfer by Perkins and Salomon is, at best, mixed. Transfer is precisely what the competency argument assumes. A recommendation to redesign national curricula around transferable competencies is a large bet placed on a contested literature.
+The honest answer is partly. Abrami and colleagues, in the meta-analysis listed in Appendix D, found that critical thinking instruction does work when it is domain-specific and explicit. There is much weaker evidence that critical thinking taught inside a discipline transfers to other disciplines, and the transfer literature, which Perkins and Salomon summarized, is at best mixed after half a century of work. Transfer is precisely what the competency argument assumes. A recommendation to redesign national curricula around transferable competencies is a large bet placed on a contested literature.
 
 This book proceeds anyway, on the grounds that the alternative, assessing students only on outputs AI can produce, is clearly failing. But "the current approach is failing" is an argument for change, not evidence that this particular change works.
 
@@ -3238,7 +3222,15 @@ For your own development, become a bridge among audiences. Keep a small stakehol
 
 The Round Table did not close every question. It opened the next layer.
 
-Dr. Eli Eisenberg set out the direction in his closing remarks at the sixth meeting, and invited participants to shape it collectively rather than receive it from the organizers. Three themes were proposed. The first is how rising global uncertainty, whether technological disruption, geopolitical instability, or social change, affects not only cognitive competencies but the social and emotional ones that learners and professionals depend on. The second is the relationship between top-down policy and bottom-up innovation: rather than waiting for ministries to define change, the next phase should study how initiatives that already work in schools, universities, industry, and local communities can inform policy. The third is STEM leadership, which means moving past the preparation of technically expert engineers and scientists to the leadership capability needed to guide organizations, education systems, and innovation ecosystems. Jan Morrison added a fourth direction that is procedural rather than thematic: connect the Round Table to other international round tables and professional networks, so that expertise is shared and effort is not duplicated.
+Dr. Eli Eisenberg set out the direction in his closing remarks at the sixth meeting, and invited participants to shape it collectively rather than receive it from the organizers. Three themes were proposed.
+
+The first is how rising global uncertainty, whether technological disruption, geopolitical instability, or social change, affects not only cognitive competencies but the social and emotional ones that learners and professionals depend on.
+
+The second is the relationship between top-down policy and bottom-up innovation. Rather than waiting for ministries to define change, the next phase should study how initiatives that already work in schools, universities, industry, and local communities can inform policy.
+
+The third is STEM leadership, which means moving past the preparation of technically expert engineers and scientists to the leadership capability needed to guide organizations, education systems, and innovation ecosystems.
+
+Jan Morrison added a fourth direction that is procedural rather than thematic: connect the Round Table to other international round tables and professional networks, so that expertise is shared and effort is not duplicated.
 
 Those three themes and Morrison's procedural one are what the Round Table itself proposed. Two further directions belong to this book rather than to the group, and are marked as such: systems thinking and multidisciplinarity, which Chapter 17 shows the learning environments question keeps running into, and the place of values and attitudes alongside skills, which Chapter 8 raises and no meeting took up.
 
@@ -3357,7 +3349,7 @@ Role in the Round Table: Meeting 3 speaker on how to train teachers to impart sk
 
 Bio: Prof. Tifferet took part from Ruppin Academic Center.
 
-Main achievements, publications, and interests: Her [Meeting 3 presentation on teaching skills](../materials/meeting-3-sigal-tifferet-skills.pptx) reports that meta-analyses of teacher training show small but statistically significant effects, describes the characteristics of programs that work, and proposes extending the TPACK model into TSPAC by adding a skills axis. Its practical conclusion is that beginning teachers and untrained lecturers should be taught concrete tools rather than abstract skills, and that institutions must decide who plans skills activities, how much time is allocated, and how the skills will be assessed. Her wider Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. At Meeting 5 she argued that faculty receive conflicting messages from different levels of their institutions, and questioned whether the Academia 360 initiative was funded at the expense of earlier programs that had already supported skills development.
+Main achievements, publications, and interests: Her [Meeting 3 presentation on teaching skills](../materials/meeting-3-sigal-tifferet-skills.pptx) reports that meta-analyses of teacher training show small but statistically significant effects, describes the characteristics of programs that work, and proposes extending the TPACK model into TSPAC by adding a skills axis. Its practical conclusion is that beginning teachers and untrained lecturers should be taught concrete tools rather than abstract skills, and that institutions must decide who plans skills activities, how much time is allocated, and how the skills will be assessed. Her wider Round Table contribution is methodological and evaluative: do not assume a fashionable pedagogy works merely because it sounds progressive. That register is sceptical but not only sceptical. At Meeting 4 she raised the constructive possibility that AI might absorb enough assessment work to free teachers for guidance, relationships, and psychological support, which is the strongest case anyone in the Round Table made for the technology. At Meeting 5 she argued that faculty receive conflicting messages from different levels of their institutions, and questioned whether the Academia 360 initiative was funded at the expense of earlier programs that had already supported skills development.
 
 ### Dr. Gabi Shafat
 
@@ -3588,7 +3580,7 @@ Twelve web addresses appear as links in this book. A printed page cannot be clic
 - TIES, about the organization. `https://www.tiesteach.org/about/`
 - TIES, its work. `https://www.tiesteach.org/our-work/`
 
-Citations set as *Meeting 3 summary* and the like point to the project's internal working library and have no public address. The Editorial Note explains that convention, and Appendix C lists the presentation files by name.
+Citations set as *Meeting 3 summary* and the like point to the project's internal working library and have no public address. The note at the head of every chapter's Sources list explains that convention, and Appendix C lists the presentation files by name.
 
 # Closing Note
 

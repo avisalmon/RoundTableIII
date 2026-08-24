@@ -2,7 +2,7 @@
 
 This page lists every document behind the book and records where each one is used. It covers the external frameworks, the research named in the Round Table's own reading, and all thirty-five project materials.
 
-Two kinds of entry appear below, and the difference matters. A title printed as a link can be opened by anyone. A title printed in italic is an internal project material: a third-party document the project does not hold publication rights to, so it is named here but not distributed with the book or this site. Naming them is what makes the chain of evidence checkable even where the file itself cannot be handed over.
+Two kinds of entry appear below, and the difference matters. A title printed as a link can be opened: the Round Table's materials are published with this site, so a citation can be followed to the document it rests on rather than merely named. A title printed in italic is held back. That applies to the seven steering-team summaries, which are internal working documents in Hebrew recording the group's own assessment of its meetings. They were written for the people in the room rather than for a reader, so they are named here and not distributed.
 
 ## Core External Frameworks
 

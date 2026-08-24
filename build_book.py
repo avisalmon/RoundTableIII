@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import re
+import subprocess
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -13,7 +14,13 @@ import kdp_report
 
 ROOT = Path(__file__).resolve().parent
 MANUSCRIPT = ROOT / "book" / "manuscript.md"
+MATERIALS_DIR = ROOT / "materials"
 INDEX_HTML = ROOT / "index.html"
+
+# Round Table materials are published alongside the site so a citation can be opened.
+# The steering-team summaries are withheld: internal working documents in Hebrew that
+# record the group's own assessment of its meetings. They are named, never distributed.
+WITHHELD_MATERIAL_PREFIXES = ("steering-",)
 BOOK_HTML = ROOT / "book.html"
 BOOK_PDF = ROOT / "book.pdf"
 COVER_PDF = ROOT / "cover.pdf"
@@ -89,11 +96,19 @@ def inline_markdown(text: str) -> str:
     return escaped.replace("  \n", "<br>")
 
 
+def material_is_published(filename: str) -> bool:
+    """Steering-team summaries are named but never distributed. Everything else is."""
+    return not filename.startswith(WITHHELD_MATERIAL_PREFIXES)
+
+
 def convert_link(match: re.Match[str]) -> str:
     label = match.group(1)
     target = html.unescape(match.group(2))
     if target.startswith("../materials/"):
-        return f'<span class="source-ref">{label}</span>'
+        filename = target.rsplit("/", 1)[-1]
+        if not material_is_published(filename):
+            return f'<span class="source-ref">{label}</span>'
+        target = f"{MATERIALS_DIR.name}/{filename}"
     elif target.startswith("../book/"):
         target = target.replace("../book/", "book/", 1)
     return f'<a href="{html.escape(target, quote=True)}">{label}</a>'
@@ -770,9 +785,52 @@ def write_outputs(markdown: str, headings: list[Heading]) -> str:
     return body
 
 
+def check_materials() -> list[str]:
+    """Every published citation must resolve, and no withheld file may be tracked.
+
+    Getting this wrong is not a broken link, it is a disclosure, so the build stops
+    rather than shipping a site that publishes a document the project chose to hold.
+    """
+    problems: list[str] = []
+    cited = set()
+    for source in (MANUSCRIPT, ROOT / "book" / "references.md"):
+        cited.update(
+            re.findall(r"\.\./materials/([A-Za-z0-9._-]+)", source.read_text(encoding="utf-8"))
+        )
+
+    for filename in sorted(cited):
+        if not (MATERIALS_DIR / filename).exists():
+            problems.append(f"cited but missing from materials/: {filename}")
+
+    tracked = subprocess.run(
+        ["git", "ls-files", "materials/"],
+        cwd=ROOT, capture_output=True, text=True, check=False,
+    ).stdout.split()
+    for path in tracked:
+        name = path.rsplit("/", 1)[-1]
+        if not material_is_published(name):
+            problems.append(f"withheld material is tracked by git: {name}")
+
+    published = sorted(f.name for f in MATERIALS_DIR.glob("*") if material_is_published(f.name))
+    withheld = sorted(f.name for f in MATERIALS_DIR.glob("*") if not material_is_published(f.name))
+    print(
+        f"Materials: {len(published)} published, {len(withheld)} withheld "
+        f"({', '.join(w.split('.')[0] for w in withheld) or 'none'})"
+    )
+    return problems
+
+
 def main() -> int:
     markdown = read_manuscript()
     headings = extract_headings(markdown)
+
+    material_problems = check_materials()
+    if material_problems:
+        for problem in material_problems:
+            print(f"  - {problem}")
+        print("Materials check failed; nothing was written.")
+        return 1
+
     body = write_outputs(markdown, headings)
     page_names = ", ".join(output for _, output, _, _ in COMPANION_PAGES)
     print(f"Generated {INDEX_HTML.name}, {BOOK_HTML.name} and {page_names}")

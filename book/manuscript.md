@@ -19,7 +19,7 @@ The author was himself a participant in the Round Table and presented at the fir
 
 Appendix B records, meeting by meeting, exactly what evidence exists. It is short, and a reader who intends to rely on any attribution in this book should read it first.
 
-This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). Some working sources are internal Round Table or steering-team documents and are cited by document type and date when no public link is available.
+This book uses external references that appear in the collected materials, including the [OECD Teaching Compass](../materials/oecd-teaching-compass.pdf), [OECD Learning Compass 2030](https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html), [UNESCO AI competency frameworks](https://www.unesco.org/en/digital-education/ai-future-learning/competency-frameworks), [TALIS 2024 material](../materials/talis-2024-us-short.pdf), and research references listed in the [Meeting 3 Round Table discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx). The Round Table's own materials are published together with this book, so that a citation can be followed to the document it rests on; Appendix C gives the address. The steering-team summaries are held back, because they are internal working documents in Hebrew, and they are cited by document type and date instead.
 
 Figures are numbered in a single sequence whether they are diagrams or tables. Eleven of the sixteen are diagrams and five are tables. The numbering does not distinguish them, so that a cross-reference to Figure 8 finds it without the reader having to know which kind it is.
 
@@ -252,7 +252,7 @@ For your own development, practice the same task yourself. Take one familiar les
 
 ### Sources
 
-*A note on this section, which appears at the end of chapters one to twenty. Titles linked to the working library are Round Table documents held by the project. Most are third-party files the project has no right to republish, so the link records the chain of evidence rather than offering access; Appendix C inventories them. Titles linked to a web address can be opened by anyone.*
+*A note on this section, which appears at the end of chapters one to twenty. Titles set as links can be opened. The Round Table materials are published alongside this book, so a reader who wants to check a claim can go to the document it rests on; Appendix C inventories them and Appendix E gives the address. The steering-team summaries are the one exception. They are internal working documents in Hebrew, written for the group rather than for a reader, and they are named here rather than distributed.*
 
 [Meeting 1 summary](../materials/meeting-1-summary.docx), [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx), [Meeting 2 presentation](../materials/meeting-2-presentation.pptx), [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx).
 
@@ -3496,6 +3496,8 @@ Every summary listed here was issued as a draft circulated for participant comme
 
 ## Appendix C - Presentation Inventory
 
+Every document listed here is published at `https://avisalmon.github.io/RoundTableIII/materials/`, followed by the file name. The steering-team summaries at the end of this appendix are the exception, and are named rather than distributed.
+
 Presentation files used in Phase III:
 
 - [Presentation 2nd meeting, 20.01.2026](../materials/meeting-2-presentation.pptx).
@@ -3580,7 +3582,7 @@ Twelve web addresses appear as links in this book. A printed page cannot be clic
 - TIES, about the organization. `https://www.tiesteach.org/about/`
 - TIES, its work. `https://www.tiesteach.org/our-work/`
 
-Citations set as *Meeting 3 summary* and the like point to the project's internal working library and have no public address. The note at the head of every chapter's Sources list explains that convention, and Appendix C lists the presentation files by name.
+**Round Table materials.** The documents behind the chapters are published together at `https://avisalmon.github.io/RoundTableIII/materials/`. Add the file name given in Appendix C to that address to open any one of them. Citations set in italic, such as *Steering-team summary, 24.03.2026*, are the exception: those are internal working documents in Hebrew and have no public address.
 
 # Closing Note
 

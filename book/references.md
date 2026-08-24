@@ -1,6 +1,8 @@
-# References and External Source Notes
+# Materials and Sources
 
-This page lists the external references and frameworks the book draws on, and records where each one is used. Entries marked as internal project materials are third-party documents the project does not hold publication rights to, so they are named but not distributed.
+This page lists every document behind the book and records where each one is used. It covers the external frameworks, the research named in the Round Table's own reading, and all thirty-five project materials.
+
+Two kinds of entry appear below, and the difference matters. A title printed as a link can be opened by anyone. A title printed in italic is an internal project material: a third-party document the project does not hold publication rights to, so it is named here but not distributed with the book or this site. Naming them is what makes the chain of evidence checkable even where the file itself cannot be handed over.
 
 ## Core External Frameworks
 
@@ -45,6 +47,18 @@ Used in the manuscript for:
 Source status:
 
 - Local tracked source: [TALIS 2024 short material](../materials/talis-2024-us-short.pdf).
+
+### [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf)
+
+Used in the manuscript for:
+
+- Specifying new educator roles as organizational design rather than as slogans.
+- The seven questions a role has to answer: its name, where it sits, what it is responsible for, what it is not responsible for, the qualifications it needs, the compensation and conditions that make it sustainable, and what happens if it goes unfilled.
+- Chapter 20's argument that an ecosystem is only real when each part of it has a name and a budget line.
+
+Source status:
+
+- Local tracked source: [Envisioning Educator Roles for Transformation](../materials/envisioning-educator-roles-for-transformation.pdf).
 
 ### [UNESCO AI Competency Framework for Teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers)
 
@@ -180,7 +194,18 @@ The [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-dis
 - [Avi Salmon, Training by Experience](../materials/meeting-6-avi-salmon-training-by-experience.pptx).
 - [International Round Table Phase I for Advancing Skills in STEM Education](https://www.neaman.org.il/en/international-round-table-phase-i-for-advancing-skills-in-stem-education/), also held as a [report file](../materials/phase-1-report.pdf).
 - [International Round Table for Advancing Skills in STEM Education, Phase II](https://www.neaman.org.il/en/advancing-skills-in-stem-education-phase-ii/), also held as a [report file](../materials/phase-2-report.pdf).
-- Steering-team summaries of 19.10.2025, 16.12.2025, 03.02.2026, 24.03.2026, 12.05.2026, 23.06.2026, and 04.08.2026, held as internal Round Table documents.
+
+### Steering-Team Summaries
+
+Seven steering discussions ran alongside the six meetings, and they are the main source for the closing chapters. They are working documents in Hebrew. Several of the book's most self-critical passages rest on them, so they are named individually here rather than in a block.
+
+- [Steering-team summary, 19.10.2025](../materials/steering-2025-10-19.docx). The opening session: sets the Phase III target, fixes the six-week rhythm, and requires recommendations separated into personal, institutional, and policy levels. Also the source for Chapter 14 on teaching promotion centers and the teacher-college/university training gap.
+- [Steering-team summary, 16.12.2025](../materials/steering-2025-12-16.docx). Steering around Meeting 1; records Avi Salmon joining the steering team.
+- [Steering-team summary, 03.02.2026](../materials/steering-2026-02-03.docx). Records the decision that the literature review behind the Meeting 3 discussion document would be prepared with AI assistance, which is the basis for the disclosure in Chapter 3.
+- [Steering-team summary, 24.03.2026](../materials/steering-2026-03-24.docx). Reviews Meeting 3 and records two faults against it, plus the decision to prefer speakers from among the Round Table's own participants. Chapter 24 rests on this document.
+- [Steering-team summary, 12.05.2026](../materials/steering-2026-05-12.docx). The pre-Meeting-5 record, including the differences between schools and higher education in how teaching is rewarded.
+- [Steering-team summary, 23.06.2026](../materials/steering-2026-06-23.docx). The post-Meeting-5 record, and the source of the sentence Chapter 14 is built on: that no single body carries overall responsibility for continuous professional development.
+- [Steering-team summary, 04.08.2026](../materials/steering-2026-08-04.docx). Sets the Phase IV direction taken up in Chapter 26.
 
 ### Recordings
 

@@ -44,9 +44,10 @@ COMPANION_PAGES = [
     (
         "book/references.md",
         "references.html",
-        "Source References",
-        "The external frameworks and project materials behind the book, with a note on "
-        "where each one is used.",
+        "Materials & Sources",
+        "Every document behind the book: the external frameworks, the research the Round "
+        "Table was reading, and all thirty-five project materials, with a note on where "
+        "each one is used and whether it can be opened.",
     ),
 ]
 
@@ -357,6 +358,7 @@ def site_nav() -> str:
         <a href="skills.html">Main Skills</a>
         <a href="model.html">Lesson Model</a>
         <a href="training.html">Training Proposal</a>
+        <a href="references.html">Materials &amp; Sources</a>
     </nav>
 </header>
 """
@@ -691,7 +693,7 @@ def render_index(headings: list[Heading]) -> str:
         <div class="actions">
           <a class="button primary" href="book.html">Read the book</a>
           <a class="button" href="book.pdf">Download KDP interior PDF</a>
-          <a class="button" href="references.html">Source references</a>
+          <a class="button" href="references.html">Materials &amp; sources</a>
         </div>
       </div>
     </section>

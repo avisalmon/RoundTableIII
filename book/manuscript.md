@@ -33,7 +33,7 @@ Each of the six who led the work, Dr. Eli Eisenberg, Prof. Arnon Bentur, Dr. Avi
 
 **The people whose arguments the chapters are built from.** The author gave the opening lecture at Meeting 1 and a second at Meeting 6, and both are cited in these pages on the same basis as everyone else's. Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering presented at Meeting 2. Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation presented at Meeting 3. Danielle Eisenberg of Ignite/Ed and ETS and Dr. Iris Pinto of the Institute for Futures Research in Education presented at Meeting 4. Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge presented at Meeting 5. Emlen Metz of the OECD and Berkeley presented at Meeting 6, alongside the author. Their material is the primary evidence behind large parts of this book.
 
-Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Edith Manny-Ikan, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser, Orly Rauch, and Golan Tamir took part in the sessions and the steering work behind them.
+Positions, objections, and questions that shaped the argument came from Dr. Marwa Maklada, Dr. Noa Ragonis, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Edith Manny-Ikan, Dr. Rinat Itzhaki, Dr. Yair Noam, and Oren Baratz. Several of them disagreed with directions the group was taking, and Chapter 24 exists because they did. Inna Zertser took part in the sessions and in the steering work behind them. Orly Rauch, Golan Tamir, Dr. Merav Geva, Suzan Hasan, and Nadezda Solodjankina took part in the sessions, and Ruchie Avital interpreted them.
 
 Appendix A records each contributor's role and background in full. The attributions throughout the book are drawn from meeting summaries, presentation files, discussion documents, and steering-team records. Where a source reported a contribution rather than recording it verbatim, the book says so. Any misattribution is unintended, and corrections are welcome.
 
@@ -1979,7 +1979,7 @@ Dr. Granot-Bein's response to Prof. Bentur split the difference and conceded not
 
 Dr. Eli Eisenberg asked for time. The program is still being implemented, its effects will vary between institutions, and it is too early to judge. That is a fair procedural point and it is also the answer that every large initiative receives during the years in which it cannot be evaluated.
 
-Avi Salmon supported a data-based examination and proposed a professional evaluation of the program, similar to evaluations conducted in other projects. This links professional development to institutional learning rather than anecdotal success.
+Avi Salmon made the proposal after the meeting rather than in it. The steering team's [summary of 23 June 2026](../materials/steering-2026-06-23.docx) records him supporting a data-based examination and proposing a professional evaluation of the program, similar to evaluations conducted in other projects. This links professional development to institutional learning rather than anecdotal success.
 
 The steering team had reached the core of this question much earlier. Its [summary of 19 October 2025](../materials/steering-2025-10-19.docx) argued that teaching promotion centers in higher education can no longer be satisfied with a technical role supporting instruction. In an era when STEM teaching requires the integration of learning technologies and artificial intelligence, those centers have to become a strategic actor leading pedagogical change. The summary gave them a double task: developing individual members of the teaching staff, and driving the cultural and systemic change that would make competency-based teaching an integral part of STEM instruction rather than an initiative at the edge of it. It added a third task that is easy to overlook, which is brokering between the institution and the wider ecosystem of teaching, research, and innovation outside it, so that evidence-based methods travel in both directions.
 
@@ -2234,7 +2234,7 @@ Industry needs graduates who can perform in authentic contexts. This requires ev
 
 ### Round Table Voices
 
-Three participants described evaluation systems they had actually built, at three different scales. Avi Salmon's was the program level: his Meeting 5 proposal for Academia 360, recorded in Chapter 14, asked for independent evaluation rather than a report written by the people running the program, on the grounds that an initiative nobody evaluates cannot be defended when its budget is questioned and cannot be corrected when it is wrong. Dr. Gabi Shafat's was the course level, where Afeka defines skills and competencies for each course, asks each lecturer what students should acquire, and then examines how those things are assessed. The question is whether intended capabilities were achieved, which is a different test from whether content was taught. Dr. Marwa Maklada's was the national level, where competency-based tasks inside matriculation and student assessment require formal validation rather than enthusiasm, and without it competency language stays a parallel discourse.
+Three participants took up evaluation at three different scales, two of them describing systems already running and one asking for a system that did not exist. Avi Salmon's was the program level: his proposal for Academia 360, made in the steering discussion of 23 June 2026 and recorded in Chapter 14, asked for independent evaluation rather than a report written by the people running the program, on the grounds that an initiative nobody evaluates cannot be defended when its budget is questioned and cannot be corrected when it is wrong. Dr. Gabi Shafat's was the course level, where Afeka defines skills and competencies for each course, asks each lecturer what students should acquire, and then examines how those things are assessed. The question is whether intended capabilities were achieved, which is a different test from whether content was taught. Dr. Marwa Maklada's was the national level, where competency-based tasks inside matriculation and student assessment require formal validation rather than enthusiasm, and without it competency language stays a parallel discourse.
 
 Jan Morrison contributed the orientation rather than a method: TIES uses measurement for continuous improvement and iteration rather than accountability alone, and the systems that sustain implementation are the ones supported by long-term data.
 
@@ -2817,7 +2817,7 @@ Seven insights survived the six meetings. Survived is the right verb. These are 
 
 First, the future educator profile should be common in foundation but diverse in expression. Every educator needs a baseline of AI literacy, ethical judgment, pedagogical responsibility, and commitment to student agency. Not every educator needs the same strengths or roles. Meeting 2 opened on this question expecting to produce a profile and closed without one, for a reason worth stating: a single profile is either so general that it commits to nothing or so demanding that nobody meets it. The cost of the diverse answer is coordination. A group of specialists that nobody coordinates is not a team. It is a staffing accident.
 
-Second, competencies must be embedded in disciplinary learning. Skills become real through practice, reflection, feedback, and repeated use in meaningful contexts. [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) is the strongest evidence for this, because it shows competency work built into engineering courses rather than added beside them. The cost is curriculum time, and no meeting produced an account of what comes out to make room.
+Second, competencies must be embedded in disciplinary learning. Skills become real through practice, reflection, feedback, and repeated use in meaningful contexts. [Dr. Gabi Shafat's Afeka material](../materials/meeting-2-gabi-shafat-stem.pdf) is the fullest worked example in the record, because it shows competency work built into engineering courses rather than added beside them. Asked at Meeting 2 what Afeka had done to show that any of it worked, Dr. Shafat answered that the pace of change in technology and pedagogy leaves no definitive answers yet. The cost is curriculum time, and no meeting produced an account of what comes out to make room.
 
 Third, teachers need lived experience with the competencies they cultivate, but they do not need to be perfect models of everything. The system should distribute expertise. Meeting 3 was convened to settle this and did not. It relocated the question instead. Prof. Sigal Tifferet argued that for educators without pedagogical training the workable answer is concrete tools rather than abstract skills, and Prof. Russell Tytler replied that competencies such as creativity and problem solving are context-dependent and do not decompose into fixed components. What this book adopts is that a teacher needs enough lived practice to model a competency and to judge it. That is a lower bar than mastery and a higher one than familiarity. Chapter 9 admits that nobody has defined enough.
 
@@ -2827,7 +2827,7 @@ Fifth, professional development must become infrastructure. Workshops are not en
 
 Sixth, environments matter. Physical space, virtual tools, industry connections, mentoring, organizational structures, and assessment systems all shape what learning is possible. Dr. Revital Duek's opening question at Meeting 6 is the one worth keeping: would learning environments look different if education had been designed around competencies rather than knowledge? The honest answer is that most of them would be unrecognizable, and almost none of them have changed.
 
-Seventh, equity must be designed from the start. AI can widen gaps if advantaged students use it to amplify thinking while disadvantaged students use it to replace thinking. This is the insight the Round Table stated most often and examined least. It appears at Meetings 1, 4, and 6 as a warning and never as a measurement, and no participant brought data on how AI use actually differs across student populations. Figure 14 lays the six meetings out in sequence with the question each one opened.
+Seventh, equity must be designed from the start. AI can widen gaps if advantaged students use it to amplify thinking while disadvantaged students use it to replace thinking. This is the insight the Round Table stated most often and examined least. Meeting 4 is the only session that put a source behind it: the [Meeting 4 discussion document](../materials/meeting-4-discussion-document.docx) and Danielle Eisenberg's presentation both cite the Brookings Global Task Force report of 2026 for the split. No participant tested that finding against data from their own system. Figure 14 lays the six meetings out in sequence with the question each one opened.
 
 ```mermaid
 timeline
@@ -2973,6 +2973,8 @@ The guiding principles become practical when teachers design a learning sequence
 
 This is the book's single most transferable proposal. Everything else in these pages describes what should be true of AI-era STEM education. This chapter describes an order of operations that a teacher can use on Monday.
 
+The sequence is the author's and not the room's. The Round Table never set out a lesson cycle. What the record holds is the ordering principle, argued at Meeting 6 and reported in Chapter 18: Emlen Metz's think-first rule, that a student should brainstorm independently before consulting AI, and Avi Salmon's point that discussion and independent thinking are the teacher's job and come before the tool. The ten steps below, the swing, and the simulator checked against measurements are this book's construction, and no participant endorsed them.
+
 ### Why Order Matters
 
 The sequence is the whole argument. The same ten activities in a different order produce a different education.
@@ -3070,7 +3072,7 @@ This book proceeds anyway, on the grounds that the alternative, assessing studen
 
 ### Explicit Instruction Usually Beats Discovery for Novices
 
-The book repeatedly recommends inquiry, projects, problem-based learning, and student-led investigation. The research on novice learners points the other way. For students who lack domain knowledge, minimally guided instruction is generally less effective than explicit instruction with worked examples, because novices lack the schemas needed to direct their own search and their working memory is consumed by the search itself. The argument is set out at length by Kirschner, Sweller, and Clark in *Why Minimal Guidance During Instruction Does Not Work* (Educational Psychologist, 2006), and it rests on a substantial body of cognitive load research. No participant in the Round Table raised it.
+The book repeatedly recommends inquiry, projects, problem-based learning, and student-led investigation. The research on novice learners points the other way. For students who lack domain knowledge, minimally guided instruction is generally less effective than explicit instruction with worked examples, because novices lack the schemas needed to direct their own search and their working memory is consumed by the search itself. The argument is set out at length by Kirschner, Sweller, and Clark in *Why Minimal Guidance During Instruction Does Not Work* (Educational Psychologist, 2006), and it rests on a substantial body of cognitive load research. Prof. Sigal Tifferet raised the objection at the second meeting, in the form that transdisciplinary instruction means more problem-based learning and less explicit instruction. Jan Morrison answered that criticism of these approaches usually reflects their implementation in systems not designed to support them. That is an answer about conditions rather than about evidence, and the objection went no further.
 
 The Human-First Learning Cycle in Chapter 23 is vulnerable to this objection. Asking a student to form a thesis about a phenomenon they have no conceptual vocabulary for may produce confident nonsense rather than productive struggle. The defense is that the cycle is bounded, guided, and followed by instruction, not that discovery works.
 
@@ -3136,7 +3138,7 @@ That is a narrower thesis than the one in the Preface. It is also the part most 
 
 ### Sources
 
-This chapter is the one exception to the rule that the closing chapters carry no source list, because it brings in material the Round Table never discussed. [Steering-team summary, 24.03.2026](../materials/steering-2026-03-24.docx); Kirschner, Sweller, and Clark, *Why Minimal Guidance During Instruction Does Not Work*, Educational Psychologist, 2006; Abrami and colleagues on critical thinking instruction and the transfer literature that Perkins and Salomon summarized, both listed in Appendix D and both reached through the [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx); [Meeting 5 summary, 09.06.2026](../materials/meeting-5-summary.docx) for Prof. Tifferet's evidence question and [Meeting 6 summary](../materials/meeting-6-summary.docx) for Danielle Eisenberg's scaling objection.
+This chapter is the one exception to the rule that the closing chapters carry no source list, because it brings in research the Round Table never discussed. [Steering-team summary, 24.03.2026](../materials/steering-2026-03-24.docx); Kirschner, Sweller, and Clark, *Why Minimal Guidance During Instruction Does Not Work*, Educational Psychologist, 2006; Abrami and colleagues on critical thinking instruction and the transfer literature that Perkins and Salomon summarized, both listed in Appendix D and both reached through the [Meeting 3 discussion document](../materials/meeting-3-teacher-in-ai-era-discussion.docx); [Meeting 2 summary, 20.01.2026](../materials/meeting-2-summary.docx) for Prof. Tifferet's evidence question and [Meeting 6 summary](../materials/meeting-6-summary.docx) for Danielle Eisenberg's scaling objection.
 
 ## Chapter 25 - Recommendations by Audience
 
@@ -3180,7 +3182,7 @@ The first move is to attach the partnership to a role and a calendar rather than
 
 Study AI-era learning processes, teacher development, assessment, equity, and long-term outcomes.
 
-Two studies would be worth more than the rest. The first is a comparison of how AI use differs across student populations within the same task, because the equity claim in this book is asserted throughout and evidenced nowhere. The second is a longitudinal check on whether competency-rich programs change anything measurable after graduation. The obstacle is that both run longer than the funding cycles that would pay for them, which is part of why Chapter 24 rates this book's evidence base as thin. Figure 16 sets out what each audience should do next and what evidence would show it worked.
+Two studies would be worth more than the rest. The first is a comparison of how AI use differs across student populations within the same task, because the equity claim in this book rests on one report cited at Meeting 4 and on no data from the participants' own systems. The second is a longitudinal check on whether competency-rich programs change anything measurable after graduation. The obstacle is that both run longer than the funding cycles that would pay for them, which is part of why Chapter 24 rates this book's evidence base as thin. Figure 16 sets out what each audience should do next and what evidence would show it worked.
 
 | Audience | Main action | Evidence to collect |
 | --- | --- | --- |
@@ -3232,7 +3234,7 @@ The third is STEM leadership, which means moving past the preparation of technic
 
 Jan Morrison added a fourth direction that is procedural rather than thematic: connect the Round Table to other international round tables and professional networks, so that expertise is shared and effort is not duplicated.
 
-Those three themes and Morrison's procedural one are what the Round Table itself proposed. Two further directions belong to this book rather than to the group, and are marked as such: systems thinking and multidisciplinarity, which Chapter 17 shows the learning environments question keeps running into, and the place of values and attitudes alongside skills, which Chapter 8 raises and no meeting took up.
+The steering team took the list further two weeks later. Its [summary of 4 August 2026](../materials/steering-2026-08-04.docx) adds a fourth topic, systems thinking and multidisciplinarity in the AI era, on the ground that a STEM graduate can no longer work from expertise in a single field. It also proposes widening the frame to values and attitudes, noting that the OECD treats competence as skills, values, and attitudes together while Phase III looked at skills alone. Chapter 17 shows the learning environments question running into the first of those, and Chapter 8 reaches the second from inside the classroom.
 
 The next phase should move from defining the AI-era educator profile to designing the AI-era STEM education system: leadership, institutions, policy, practice, tools, environments, and evidence.
 
@@ -3246,19 +3248,19 @@ What comes out is a curriculum question, and it is the one the Round Table was b
 
 How much possession is enough is the genuine research question of the four. Chapter 9 offers indicators rather than a threshold, and the evidence for any threshold is thinner than the confidence usually placed in it. Answering the question needs longitudinal data: cohorts followed past graduation, with some measure of whether the competencies their schooling claimed to develop are present, and in use, years later. No participant in Phase III holds data of that kind. Somebody has to collect it.
 
-Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting is the sharpest thing said across the six sessions. Phase IV would have to engage the institutions that set the rewards rather than the educators who work inside them. That means a different room, with examination authorities, admissions officers, and hiring managers in it.
+Whether any of it scales is a systems question, and Danielle Eisenberg's objection at the final meeting is the sharpest thing said across the six sessions. Phase IV would have to engage the institutions that set the rewards rather than the educators who work inside them. Phase III already had the examination side in the room: Dr. Tzur Karelitz of the National Institute for Testing and Evaluation at five of the six meetings, and Dr. Edith Manny-Ikan, who writes matriculation questions, at the third. Both described those systems from the inside, and neither brought a decision their institution had taken. That means a room with people who can take one: examination authorities, admissions officers, and hiring managers.
 
 ### What Phase IV Would Have to Do Differently
 
 Phase III was a conversation among people who already agreed with each other. That is what made it productive, and it is also its main limitation. Six meetings of educators and researchers who share a starting position will refine that position. They will not test it.
 
-Three changes would make the next phase harder and better. The first is to bring in the actors who can say no: the examination authority, the admissions office, the employer who screens on grades. Their objections are the ones Chapter 24 had to reconstruct from the research literature, because the room did not supply them. The second is to commit to at least one piece of primary evidence, whether a costed program, a revised syllabus, or a cohort followed, rather than a further synthesis of what the participants already believe. The third is to publish the disagreements. The Phase III summaries record convergence more faithfully than they record dissent, and this book has had to work against that grain in several chapters.
+Three changes would make the next phase harder and better. The first is to bring in the actors who can say no, at a level where they can also say yes: the examination authority, the admissions office, the employer who screens on grades. The examination side was already there and supplied the objection rather than the power to act on it. The second is to commit to at least one piece of primary evidence, whether a costed program, a revised syllabus, or a cohort followed, rather than a further synthesis of what the participants already believe. The third is to publish the disagreements. The Phase III summaries record convergence more faithfully than they record dissent, and this book has had to work against that grain in several chapters.
 
 The [steering discussion of 4 August 2026](../materials/steering-2026-08-04.docx) points the same way. The next challenge is not only to define the educator profile but to design the wider STEM education system around leadership, practice, tools, environments, values, and evidence. Designing a system means committing to specifics that a profile can avoid.
 
 ### Who Would Carry It
 
-Phase III worked because Dr. Eli Eisenberg convened it and the Samuel Neaman Institute at the Technion carried it. Continuity of that kind is not automatic, and it is worth saying that the whole enterprise currently depends on a small number of people continuing to do it. Jan Morrison's procedural proposal, to connect this Round Table to other international round tables and professional networks, is partly an answer to that fragility. A network survives the departure of any single organizer. A round table often does not.
+Phase III worked because Dr. Eli Eisenberg convened it, the Samuel Neaman Institute at the Technion carried it, and somebody paid for it. When Phase III closed, neither the topic of Phase IV nor its funding had been settled. The [steering summary of 4 August 2026](../materials/steering-2026-08-04.docx) leaves Dr. Eisenberg and Prof. Bentur to formulate the topic, records that this year the Rothschild Foundation Center and the Samuel Neaman Institute financed the project, and states that it is not clear whether that funding will continue. Phase IV therefore opens as an instance of the first of the four questions rather than an answer to it: work whose value nobody in the room disputes, and whose cost nobody yet owns. Continuity of that kind is not automatic, and it is worth saying that the whole enterprise currently depends on a small number of people continuing to do it and on a budget line being renewed. Jan Morrison's procedural proposal, to connect this Round Table to other international round tables and professional networks, is partly an answer to that fragility. A network survives the departure of any single organizer. A round table often does not.
 
 For a teacher reading this at the end of the book, none of the four questions has to be answered before Monday. The direction of this book is that practice can improve while the large questions stay open, and that improving practice is itself one of the ways the questions get answered. But the reverse should not be claimed. A teacher who redesigns one unit has not solved who pays, what comes out, how much is enough, or whether it scales.
 
@@ -3273,7 +3275,7 @@ This appendix records who took part in the International STEM Skills Round Table
 
 ### Dr. Eli Eisenberg
 
-Role in the Round Table: Initiator, organizer, opening speaker, moderator, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened Meeting 2, Meeting 4, and Meeting 6, introduced later meeting dilemmas, delivered the closing remarks that set the Phase IV agenda, and helped frame the Round Table as an active professional inquiry rather than only a documentation project. He is not related to Danielle Eisenberg, the Meeting 4 speaker listed later in this appendix.
+Role in the Round Table: Initiator, organizer, opening speaker, moderator, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened Meeting 2, Meeting 4, and Meeting 6, introduced later meeting dilemmas, delivered the closing remarks that opened the Phase IV agenda to the participants, and helped frame the Round Table as an active professional inquiry rather than only a documentation project. He is not related to Danielle Eisenberg, the Meeting 4 speaker listed later in this appendix.
 
 Bio: The [Samuel Neaman Institute profile](https://www.neaman.org.il/en/experts/eli-eisenberg/) identifies Dr. Eisenberg as a Senior Research Fellow specializing in technological and vocational education and training. His education includes a PhD and MSc in Education in Technology and Science from the Technion and a BSc in Electrical Engineering from the Technion.
 
@@ -3305,7 +3307,7 @@ Main achievements, publications, and interests: The public profile notes her par
 
 ### Avi Salmon
 
-Role in the Round Table: Industry perspective contributor, speaker at Meeting 1 and Meeting 6, discussant at Meetings 3 and 5, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened the substantive discussion of Phase III with a lecture titled The Future Educator in the Age of AI. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the author of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
+Role in the Round Table: Industry perspective contributor, speaker at Meeting 1 and Meeting 6, discussant at Meetings 2, 3, 4, and 5, and co-author of the Meeting 3 and Meeting 4 discussion documents. He opened the substantive discussion of Phase III with a lecture titled The Future Educator in the Age of AI. This book uses his arguments about deep understanding, curiosity, authentic professional engagement, AI as a working tool, makerspaces, evidence-based program evaluation, and the principle that teachers and lecturers must remain above AI. He is also the author of this book, which means his own contributions appear here more often than a neutral count would justify; readers should weigh them accordingly.
 
 Bio: Avi Salmon took part as an industry voice from the Innovation Department of Intel Israel, where his work concerns emerging technology and the engineering capability needed to use it. He joined Phase III at the first meeting, joined the steering team in December 2025, and prepared the literature review behind the Meeting 3 discussion document. He is not an education researcher, and the book's judgments should be read as those of a practitioner who works on how engineers learn.
 
@@ -3363,7 +3365,7 @@ Main achievements, publications, and interests: His presentation describes Afeka
 
 Role in the Round Table: Assessment and trust discussant. This book uses his Meeting 4 question about why the teacher should mediate between AI and students in evaluation.
 
-Bio: Dr. Karelitz took part from NITE, the National Institute for Testing and Evaluation.
+Bio: Dr. Karelitz leads research and development at NITE, the National Institute for Testing and Evaluation, which is responsible for national assessments such as the psychometric examination. He took part in the first five meetings.
 
 Main achievements, publications, and interests: In the book, his contribution sharpens the trust issue: AI may propose evidence, but student context, bias, relationships, and interpretation still require human judgment. At Meeting 5 he argued that the pace of technological change is itself the professional development problem, that educators need not become experts in every tool but must be able to judge a tool's educational value critically, and that the goal is a culture in which experimenting and reflecting together is normal.
 
@@ -3449,7 +3451,7 @@ Main achievements, publications, and interests: Her Round Table contribution con
 
 ### Dr. Yair Noam
 
-Role in the Round Table: Contributor from the defense sector. Lt. Col. (res.) Dr. Noam took part from the Behavioral Sciences Department of the Israel Defense Forces and joined the Phase III sessions from the first meeting onward. He is not related to Prof. Gil Noam, listed earlier in this appendix.
+Role in the Round Table: Contributor from the defense sector. Lt. Col. (res.) Dr. Noam took part from the Behavioral Sciences Department of the Israel Defense Forces and took part at the first, second, and fifth meetings. He is not related to Prof. Gil Noam, listed earlier in this appendix.
 
 Bio: Dr. Noam represents the Behavioral Sciences Center of the IDF.
 
@@ -3465,7 +3467,7 @@ Main achievements, publications, and interests: Her contribution to Phase III wa
 
 ### Oren Baratz
 
-Role in the Round Table: Contributor on ethics and values in STEM education, taking part from the first meeting.
+Role in the Round Table: Contributor on ethics and values in STEM education, taking part at Meetings 1 and 3.
 
 Bio: Oren Baratz is a former Senior Deputy at the Jewish Federation of Cleveland and led the Federation's STEM program in Israel.
 

@@ -8,6 +8,7 @@ from datetime import date
 from pathlib import Path
 
 import book_pdf
+import brief_pdf
 import cover_pdf
 import kdp_report
 
@@ -24,31 +25,62 @@ WITHHELD_MATERIAL_PREFIXES = ("steering-",)
 BOOK_HTML = ROOT / "book.html"
 BOOK_PDF = ROOT / "book.pdf"
 COVER_PDF = ROOT / "cover.pdf"
+BRIEF_PDF = ROOT / "short-version.pdf"
 
-# Standalone companion pages: (markdown source, output file, card title, card blurb).
+
+@dataclass(frozen=True)
+class Page:
+    """A standalone page generated from its own markdown source.
+
+    `pdf` and `markdown` name the downloadable forms of the same page. `markdown` is
+    published as a copy at the site root rather than linked at its source path, so that
+    the three forms of the short version share one name and one folder.
+    """
+
+    source: str
+    output: str
+    label: str
+    blurb: str
+    pdf: str | None = None
+    markdown: str | None = None
+
+
+# The second way into the argument. Not a companion to a chapter and not an extract:
+# a stand-alone report of Phase III, and the only generated page that also ships as a PDF.
+SHORT_VERSION = Page(
+    source="book/pages/short_version.md",
+    output="short.html",
+    label="Short Version",
+    blurb="The whole of Phase III in a short report: the six meetings and who was in "
+    "them, the finding that survives scrutiny, the seven findings and what each costs, "
+    "the twelve principles, the lesson cycle, the case against, and what was left open.",
+    pdf="short-version.pdf",
+    markdown="short-version.md",
+)
+
 COMPANION_PAGES = [
-    (
+    Page(
         "book/pages/main_skills.md",
         "skills.html",
         "Main Skills",
         "The five competencies the Round Table converged on, what AI changed about each, "
         "and why AI literacy is a layer across all five rather than a sixth item.",
     ),
-    (
+    Page(
         "book/pages/lesson_model.md",
         "model.html",
         "Lesson Model",
         "The Human-First AI Learning Cycle as a lesson skeleton: ten steps, a worked example, "
         "the three ways it fails, and how to assess the path rather than the artifact.",
     ),
-    (
+    Page(
         "book/pages/training_program.md",
         "training.html",
         "Training Proposal",
         "A six-day teacher training program in three sections \u2014 AI knowledge, pedagogy, "
         "and leading change \u2014 with a deliverable and an evaluation for every day.",
     ),
-    (
+    Page(
         "book/references.md",
         "references.html",
         "Materials & Sources",
@@ -57,6 +89,8 @@ COMPANION_PAGES = [
         "each one is used and whether it can be opened.",
     ),
 ]
+
+ALL_PAGES = [SHORT_VERSION, *COMPANION_PAGES]
 
 
 @dataclass
@@ -363,11 +397,14 @@ def site_nav() -> str:
     <nav aria-label="Main site navigation">
         <a href="index.html">Home</a>
         <a href="book.html">Book</a>
+        <a href="short.html">Short Version</a>
         <details class="nav-menu">
-            <summary>PDF</summary>
+            <summary>Download</summary>
             <div class="nav-menu-panel">
-                <a href="cover.pdf">KDP Cover</a>
-                <a href="book.pdf">KDP Interior</a>
+                <a href="short-version.pdf">Short Version (PDF)</a>
+                <a href="short-version.md">Short Version (Markdown)</a>
+                <a href="book.pdf">KDP Interior (PDF)</a>
+                <a href="cover.pdf">KDP Cover (PDF)</a>
             </div>
         </details>
         <a href="skills.html">Main Skills</a>
@@ -685,8 +722,9 @@ def render_index(headings: list[Heading]) -> str:
     toc = build_toc(headings)
     summaries = build_summaries(headings)
     cards = "\n".join(
-        f'<a class="link-card" href="{output}"><h3>{html.escape(label)}</h3><p>{html.escape(blurb)}</p></a>'
-        for _, output, label, blurb in COMPANION_PAGES
+        f'<a class="link-card" href="{page.output}"><h3>{html.escape(page.label)}</h3>'
+        f"<p>{html.escape(page.blurb)}</p></a>"
+        for page in COMPANION_PAGES
     )
     return f"""<!doctype html>
 <html lang="en">
@@ -707,6 +745,7 @@ def render_index(headings: list[Heading]) -> str:
         <p class="subtitle">This web page serves as a gateway to: Read the full book, download the PDF, review chapters and appendices, and open the source material library. Please send any comment for improvements, edits and changes to <a href="mailto:avi.salmon@gmail.com">avi.salmon@gmail.com</a>.</p>
         <div class="actions">
           <a class="button primary" href="book.html">Read the book</a>
+          <a class="button" href="short.html">Read the short version</a>
           <a class="button" href="book.pdf">Download KDP interior PDF</a>
           <a class="button" href="references.html">Materials &amp; sources</a>
         </div>
@@ -717,6 +756,18 @@ def render_index(headings: list[Heading]) -> str:
             <div class="overview">
                 <p>This work organizes the International STEM Skills Round Table Phase III material into a coherent book about the teacher and lecturer profile in the age of generative AI. The manuscript draws from meeting programs, presentations, discussion documents, background sources, and participant voices, then turns them into a structured argument about STEM education, competencies, assessment, professional development, learning environments, and the human role above AI.</p>
                 <p>The main understanding is that AI does not reduce the importance of teachers. It changes the evidence of learning and raises the level of professional judgment required from educators. The central direction is a human-first STEM learning ecosystem: teachers design learning, students keep responsibility for thinking, AI supports but does not govern, and institutions build the conditions that make responsible practice possible.</p>
+            </div>
+        </section>
+        <section class="section" id="short-version">
+            <h2>The Short Version</h2>
+            <div class="overview">
+                <p>A stand-alone report on Phase III, written to be read on its own in about twenty minutes. It sets out the six meetings and the people in them, then states the finding that survives scrutiny: producing a correct-looking answer no longer demonstrates learning, so educators need new ways to see whether a student understands.</p>
+                <p>It carries the seven findings and what each one costs, the twelve principles sorted by whether they need attention, money, or a change in the shape of an institution, the ten-step lesson cycle, the strongest objections to all of it, and the four questions the six meetings left open. It is also published as an A4 booklet for printing and circulation.</p>
+            </div>
+            <div class="actions">
+                <a class="button primary" href="short.html">Read the short version</a>
+                <a class="button" href="short-version.pdf">Download the PDF</a>
+                <a class="button" href="short-version.md">Download the Markdown</a>
             </div>
         </section>
         <section class="section" id="site-sections">
@@ -737,8 +788,15 @@ def render_index(headings: list[Heading]) -> str:
 """
 
 
-def render_companion_page(source: Path) -> str:
-    markdown = source.read_text(encoding="utf-8")
+def render_standalone_page(page: Page) -> tuple[str, str]:
+    """Render one markdown page. Returns (html document, body html).
+
+    The body is handed back because the short version is also typeset as a PDF, and
+    re-parsing the same markdown a second time would let the two drift apart.
+    """
+    markdown = (ROOT / page.source).read_text(encoding="utf-8")
+    if PUBLISHED_MARKER in markdown:
+        markdown = markdown.replace(PUBLISHED_MARKER, published_resource_index())
     headings = extract_headings(markdown)
     body = markdown_to_html(markdown, headings)
     title = title_from_headings(headings)
@@ -748,7 +806,20 @@ def render_companion_page(source: Path) -> str:
         for heading in headings
         if heading.level == 2
     )
-    return f"""<!doctype html>
+    # Only the pages that actually carry a diagram pay for the renderer.
+    mermaid = (
+        "<script type=\"module\">import mermaid from "
+        "'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; "
+        "mermaid.initialize({ startOnLoad: true });</script>"
+        if 'class="mermaid"' in body
+        else ""
+    )
+    downloads = ""
+    if page.pdf:
+        downloads += f'<a class="top-link" href="{page.pdf}">Download as PDF</a>'
+    if page.markdown:
+        downloads += f'<a class="top-link" href="{page.markdown}">Download as Markdown</a>'
+    document = f"""<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -756,6 +827,7 @@ def render_companion_page(source: Path) -> str:
     <meta name="robots" content="noindex,nofollow">
     <title>{html.escape(title)}</title>
     <style>{stylesheet()}</style>
+    {mermaid}
 </head>
 <body>
     {site_nav()}
@@ -763,6 +835,7 @@ def render_companion_page(source: Path) -> str:
         <nav class="reader-nav">
             <a class="top-link" href="index.html">Gateway</a>
             <a class="top-link" href="book.html">Full book</a>
+            {downloads}
             {section_links}
         </nav>
         <main class="page-content">
@@ -772,17 +845,222 @@ def render_companion_page(source: Path) -> str:
 </body>
 </html>
 """
+    return document, body
 
 
-def write_outputs(markdown: str, headings: list[Heading]) -> str:
+def write_outputs(markdown: str, headings: list[Heading]) -> tuple[str, str]:
+    """Write every HTML output. Returns the book body and the short version body."""
     body = markdown_to_html(markdown, headings)
     BOOK_HTML.write_text(render_book(body, headings), encoding="utf-8")
     INDEX_HTML.write_text(render_index(headings), encoding="utf-8")
-    for source_name, output_name, _, _ in COMPANION_PAGES:
-        (ROOT / output_name).write_text(
-            render_companion_page(ROOT / source_name), encoding="utf-8"
-        )
-    return body
+    bodies = {}
+    for page in ALL_PAGES:
+        # Copied before the pages are rendered, so the index of published files that
+        # references.html generates can see it and report its size.
+        if page.markdown:
+            (ROOT / page.markdown).write_text(
+                (ROOT / page.source).read_text(encoding="utf-8"), encoding="utf-8"
+            )
+    for page in ALL_PAGES:
+        document, page_body = render_standalone_page(page)
+        (ROOT / page.output).write_text(document, encoding="utf-8")
+        bodies[page.output] = page_body
+    return body, bodies[SHORT_VERSION.output]
+
+
+# references.md carries this marker where the index of published files belongs. The list
+# is generated from the repository rather than maintained by hand, because a hand-kept
+# list of what is downloadable is the first thing to go stale.
+PUBLISHED_MARKER = "<!-- generated: published-files -->"
+
+# Written by this build, so they are published whether or not they exist yet on a first run.
+SITE_OUTPUTS = (
+    "index.html", "book.html", "short.html", "skills.html", "model.html",
+    "training.html", "references.html",
+    "book.pdf", "cover.pdf", "short-version.pdf", "short-version.md",
+)
+
+READING_PAGES = {
+    "index.html": "The gateway page: what the project is, and every way into it.",
+    "book.html": "The full book in the browser, with its table of contents and figures.",
+    "short.html": "The short version in the browser: the whole of Phase III in about twenty minutes.",
+    "skills.html": "The five competencies, one page each, and what AI changed about them.",
+    "model.html": "The Human-First AI Learning Cycle written out as a lesson.",
+    "training.html": "The six-day teacher training proposal, with a deliverable for each day.",
+    "references.html": "This page.",
+}
+
+DOWNLOADS = {
+    "short-version.pdf": "The short version as an A4 booklet, for printing and circulation.",
+    "short-version.md": "The short version as plain markdown, for reuse, translation or quoting.",
+    "book.pdf": "The print-ready paperback interior, 6 x 9 in, as uploaded to KDP.",
+    "cover.pdf": "The paperback wrap cover: back, spine and front on one sheet.",
+}
+
+TEXT_SOURCES = {
+    "book/manuscript.md": "The manuscript every page of the book is generated from.",
+    "book/references.md": "The source text of this page.",
+    "book/pages/short_version.md": "The source text of the short version.",
+    "book/pages/main_skills.md": "The source text of the competencies page.",
+    "book/pages/lesson_model.md": "The source text of the lesson model page.",
+    "book/pages/training_program.md": "The source text of the training proposal.",
+}
+
+BUILD_FILES = {
+    "build_book.py": "The build: parses the manuscript, writes the site, checks the links.",
+    "book_pdf.py": "The paperback design: page geometry, front matter, print stylesheet.",
+    "brief_pdf.py": "The short version's A4 booklet design.",
+    "cover_pdf.py": "The wrap-cover design and the spine arithmetic.",
+    "chrome_pdf.py": "Headless Chrome over the DevTools protocol, and the asset cache.",
+    "kdp_report.py": "The KDP compliance checks the build refuses to ship without.",
+    "README.md": "How to rebuild all of the above.",
+    "LICENSE": "The terms this material is published under.",
+    ".gitignore": "What is deliberately not published, including the steering-team summaries.",
+    "robots.txt": "The crawler instructions for this site.",
+}
+
+MATERIAL_TITLE_OVERRIDES = {
+    "phase-1-report.pdf": "International Round Table Phase I report",
+    "phase-2-report.pdf": "International Round Table Phase II report",
+}
+
+
+def published_files() -> list[str]:
+    """Every path this site actually serves.
+
+    Tracked files, plus the outputs and sources this build writes, which are published on
+    the next commit even when they are new. Untracked files in general are deliberately
+    excluded: scratch left in the working tree is not published and must not be listed.
+    """
+    result = subprocess.run(
+        ["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=False
+    )
+    listed = {line.strip() for line in result.stdout.splitlines() if line.strip()}
+    listed.update(SITE_OUTPUTS)
+    listed.update(name for name in TEXT_SOURCES if (ROOT / name).exists())
+    listed.update(name for name in BUILD_FILES if (ROOT / name).exists())
+    return sorted(listed)
+
+
+def file_size(relative: str) -> str:
+    path = ROOT / relative
+    if not path.exists():
+        return ""
+    kilobytes = path.stat().st_size / 1024
+    return f"{kilobytes / 1024:.1f} MB" if kilobytes >= 1024 else f"{kilobytes:.0f} KB"
+
+
+def material_titles() -> dict[str, str]:
+    """Reuse the titles the page already gives each material, so the index agrees with it."""
+    text = (ROOT / "book" / "references.md").read_text(encoding="utf-8")
+    found: dict[str, str] = {}
+    for label, filename in re.findall(r"\[([^\]]+)\]\(\.\./materials/([A-Za-z0-9._-]+)\)", text):
+        # A file cited more than once picks up its fullest title rather than its first.
+        if len(label) > len(found.get(filename, "")):
+            found[filename] = label
+    found.update(MATERIAL_TITLE_OVERRIDES)
+    return found
+
+
+def published_resource_index() -> str:
+    """Render the list of every published file as markdown, grouped by what it is for."""
+    files = published_files()
+    titles = material_titles()
+
+    def entry(target: str, label: str, note: str = "") -> str:
+        size = file_size(target.replace("../", ""))
+        suffix = f" ({size})" if size else ""
+        return f"- [{label}]({target}){suffix}.{' ' + note if note else ''}"
+
+    def described(group: dict[str, str], present: list[str]) -> list[str]:
+        return [entry(name, name, group[name]) for name in group if name in present]
+
+    materials = [name for name in files if name.startswith("materials/")]
+    lines: list[str] = []
+
+    lines.append("### Pages")
+    lines.append("")
+    lines.extend(described(READING_PAGES, files))
+    lines.append("")
+    lines.append("### Downloads")
+    lines.append("")
+    lines.extend(described(DOWNLOADS, files))
+    lines.append("")
+    lines.append("### Source Text")
+    lines.append("")
+    lines.append(
+        "Every page on this site is generated from one of these files. They are published "
+        "so that the text can be read, quoted or corrected without going through the HTML."
+    )
+    lines.append("")
+    lines.extend(
+        entry(f"../{name}", name.split("/")[-1], TEXT_SOURCES[name])
+        for name in TEXT_SOURCES
+        if name in files
+    )
+    lines.append("")
+    lines.append("### Round Table Materials")
+    lines.append("")
+    lines.append(
+        f"All {len(materials)} published documents, in one list. Each is described above under "
+        "the claim it supports; here they are simply the files, with their sizes."
+    )
+    lines.append("")
+    for path in materials:
+        filename = path.split("/")[-1]
+        title = titles.get(filename, filename)
+        lines.append(entry(f"../materials/{filename}", title, f"`{filename}`"))
+    lines.append("")
+    lines.append("### The Build")
+    lines.append("")
+    lines.append(
+        "The site is a set of Python scripts and a manuscript. Nothing here is needed to read "
+        "the book, and all of it is published so the result can be reproduced or checked."
+    )
+    lines.append("")
+    lines.extend(described(BUILD_FILES, files))
+
+    unlisted = sorted(
+        name
+        for name in files
+        if name not in READING_PAGES
+        and name not in DOWNLOADS
+        and name not in TEXT_SOURCES
+        and name not in BUILD_FILES
+        and not name.startswith("materials/")
+    )
+    if unlisted:
+        lines.append("")
+        lines.append("### Also Published")
+        lines.append("")
+        lines.extend(entry(name, name) for name in unlisted)
+    return "\n".join(lines)
+
+
+def check_site_links() -> list[str]:
+    """Every link the site writes must resolve, on disk and to a real anchor.
+
+    The site is read as files rather than served, so a wrong relative path fails silently
+    in a browser and not at all in the build. This is the check that would have caught it.
+    """
+    problems: list[str] = []
+    pages = [INDEX_HTML, BOOK_HTML] + [ROOT / page.output for page in ALL_PAGES]
+    anchors: dict[str, set[str]] = {}
+    for page in pages:
+        anchors[page.name] = set(re.findall(r'id="([^"]+)"', page.read_text(encoding="utf-8")))
+
+    for page in pages:
+        for href in re.findall(r'href="([^"]+)"', page.read_text(encoding="utf-8")):
+            if href.startswith(("http://", "https://", "mailto:")):
+                continue
+            target, _, anchor = href.partition("#")
+            if target and not (ROOT / target).exists():
+                problems.append(f"{page.name}: {href} does not exist")
+                continue
+            known = anchors.get(target or page.name)
+            if anchor and known is not None and anchor not in known:
+                problems.append(f"{page.name}: {href} points at no anchor")
+    return problems
 
 
 def check_materials() -> list[str]:
@@ -831,15 +1109,19 @@ def main() -> int:
         print("Materials check failed; nothing was written.")
         return 1
 
-    body = write_outputs(markdown, headings)
-    page_names = ", ".join(output for _, output, _, _ in COMPANION_PAGES)
+    generated = date.today().isoformat()
+    body, short_body = write_outputs(markdown, headings)
+    page_names = ", ".join(page.output for page in ALL_PAGES)
     print(f"Generated {INDEX_HTML.name}, {BOOK_HTML.name} and {page_names}")
+
+    brief = brief_pdf.build_pdf(body_html=short_body, generated=generated)
+    print(f"Generated {BRIEF_PDF.name}: {brief.get('pages')} pages on A4")
 
     result = book_pdf.build_pdf(
         markdown=markdown,
         headings=headings,
         body_html=body,
-        generated=date.today().isoformat(),
+        generated=generated,
         figures=collect_figures(body),
     )
     report = kdp_report.check(BOOK_PDF, result, headings)
@@ -853,6 +1135,14 @@ def main() -> int:
         f"Generated {COVER_PDF.name}: {cover.full_width:.3f}x{cover.full_height:.3f}in, "
         f"spine {cover.spine_width:.3f}in for {page_count} pages"
     )
+
+    link_problems = check_site_links()
+    if link_problems:
+        for problem in link_problems:
+            print(f"  - {problem}")
+        print(f"Link check failed: {len(link_problems)} broken links.")
+        return 1
+    print("Links: every internal link and anchor resolves")
     return 0
 
 

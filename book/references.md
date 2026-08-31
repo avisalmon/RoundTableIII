@@ -212,3 +212,9 @@ Seven steering discussions ran alongside the six meetings, and they are the main
 Recordings were published as YouTube links inside the meeting summaries, one for each of the six sessions: [Meeting 1](https://youtu.be/bBE8Fd6UvI4), [Meeting 2](https://youtu.be/tZySjVJaZbQ), [Meeting 3](https://youtu.be/lUlr4ZXIr6o), [Meeting 4](https://youtu.be/X-C2gp6n5dU), [Meeting 5](https://youtu.be/gyxxiP9WMgA), and [Meeting 6](https://www.youtube.com/watch?v=cAcV6y6swgo).
 
 Every one of the six summaries was issued as a draft circulated to participants for review and comment, under the Samuel Neaman Institute's standard naming, and no final version of any of them was ever circulated. The draft is therefore the document of record, and this book treats it as the primary record of each session.
+
+## Everything Published Here
+
+The list below is every file this site publishes: the pages, the downloads, the markdown each page is generated from, all twenty-eight Round Table documents, and the build itself. It is generated from the repository each time the site is rebuilt, so it cannot fall out of step with what is actually there. If a file is not on this list, it is not published, and the only files in that position are the seven steering-team summaries named above.
+
+<!-- generated: published-files -->

@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>AI and the STEM Educator</title>
+    <style>
+:root {
+  --ink: #17201a;
+  --muted: #5b655d;
+  --paper: #fffdf6;
+  --panel: #f4efe2;
+  --line: #d9ceb7;
+  --accent: #1f6b5b;
+  --accent-2: #b6532b;
+  --shadow: rgba(44, 35, 20, 0.13);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #f2e1c8 0, transparent 34rem), var(--paper);
+  color: var(--ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+.source-ref { color: var(--muted); font-style: italic; }
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 253, 246, 0.96);
+    backdrop-filter: blur(12px);
+    font-family: Verdana, sans-serif;
+}
+.brand { font-weight: 700; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.site-nav nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 16px; }
+.site-nav nav a { color: var(--ink); font-size: 0.86rem; text-decoration: none; }
+.site-nav nav a:hover { color: var(--accent); }
+.nav-menu { position: relative; font-family: Verdana, sans-serif; }
+.nav-menu summary { cursor: pointer; list-style: none; color: var(--ink); font-size: 0.86rem; }
+.nav-menu summary::-webkit-details-marker { display: none; }
+.nav-menu summary::after { content: "▾"; margin-left: 5px; font-size: 0.72rem; color: var(--muted); }
+.nav-menu-panel {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 132px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    background: #fffdf6;
+    box-shadow: 0 12px 28px var(--shadow);
+}
+.nav-menu-panel a { display: block; padding: 6px 8px; white-space: nowrap; }
+.site-shell { max-width: 1180px; margin: 0 auto; padding: 18px 24px 64px; }
+.hero {
+  min-height: 74vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.eyebrow { color: var(--accent-2); font: 700 0.8rem/1.2 Verdana, sans-serif; letter-spacing: 0; text-transform: uppercase; }
+h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20px; font-weight: 500; }
+.subtitle { font-size: 1.25rem; color: var(--muted); max-width: 48rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  font: 700 0.9rem/1.2 Verdana, sans-serif;
+  background: #fffaf0;
+}
+.button.primary { background: var(--ink); color: #fffdf6; }
+.note-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 22px;
+  box-shadow: 0 16px 40px var(--shadow);
+}
+.section { padding: 42px 0; border-bottom: 1px solid var(--line); }
+.section h2 { font-size: 2rem; line-height: 1.1; margin: 0 0 18px; }
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.overview p { margin-top: 0; }
+.toc-grid { columns: 2 280px; column-gap: 36px; }
+.toc-grid a { display: block; break-inside: avoid; padding: 5px 0; text-decoration: none; }
+.toc-level-1 { font-weight: 700; color: var(--accent-2); margin-top: 12px; }
+.toc-level-2 { padding-left: 12px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.summary-card { min-height: 86px; display: flex; align-items: end; padding: 14px; background: #fffaf0; border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.summary-card:hover { border-color: var(--accent); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.link-card {
+  display: block;
+  padding: 20px;
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.link-card:hover { border-color: var(--accent); box-shadow: 0 10px 24px var(--shadow); }
+.link-card h3 { margin: 0 0 10px; font-size: 1.2rem; color: var(--accent-2); }
+.link-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+.page-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 40px; max-width: 1180px; margin: 0 auto; padding: 24px; }
+.page-content { max-width: 780px; }
+.page-content h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 8px 0 22px; }
+.page-content h2 { font-size: 1.75rem; margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line); line-height: 1.15; }
+.page-content h3 { font-size: 1.15rem; margin-top: 30px; color: var(--accent-2); }
+.page-content p, .page-content li { font-size: 1.05rem; }
+.page-content h1 + p { font-size: 1.22rem; color: var(--muted); }
+.page-content table { width: 100%; margin: 24px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.steps-card {
+  width: min(100%, 520px);
+  aspect-ratio: 1.586;
+  margin: 30px 0;
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 12px;
+  color: #fff8e6;
+  font-family: Verdana, sans-serif;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(235, 185, 82, 0.5), transparent 38%),
+    radial-gradient(circle at 12% 84%, rgba(111, 182, 164, 0.42), transparent 36%),
+    linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+  box-shadow: 0 14px 34px var(--shadow);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.steps-card-head { color: #efc978; font: 700 0.72rem/1.3 Verdana, sans-serif; letter-spacing: 0.11em; text-transform: uppercase; }
+.steps-card-list {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.steps-card-list li { display: flex; align-items: center; gap: 9px; font-size: 0.78rem; line-height: 1.15; }
+.steps-card .step-number {
+  flex: none;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 201, 120, 0.55);
+  color: #efc978;
+  font-size: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-card .step-highlight { color: #f8e7bd; font-weight: 700; }
+.steps-card .step-highlight .step-number { background: #efc978; border-color: #efc978; color: #10251f; }
+@media (max-width: 520px) {
+  .steps-card { aspect-ratio: auto; }
+  .steps-card-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; row-gap: 7px; }
+}
+.book-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 36px; max-width: 1320px; margin: 0 auto; padding: 24px; }
+.reader-nav { position: sticky; top: 0; align-self: start; height: 100vh; overflow: auto; border-right: 1px solid var(--line); padding: 16px 18px 16px 0; font-family: Verdana, sans-serif; font-size: 0.88rem; }
+.reader-nav a { display: block; text-decoration: none; padding: 4px 0; }
+.reader-nav .toc-level-1 { margin-top: 10px; }
+.book-content { max-width: 820px; background: rgba(255, 253, 246, 0.92); }
+.book-cover-gate {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(250px, 0.62fr) minmax(280px, 0.9fr);
+    gap: 38px;
+    align-items: center;
+    padding: 18px 0 46px;
+    border-bottom: 1px solid var(--line);
+}
+.cover-card {
+    aspect-ratio: 2 / 3;
+    max-width: 390px;
+    padding: 34px 30px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff8e6;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(235, 185, 82, 0.62), transparent 34%),
+        radial-gradient(circle at 18% 70%, rgba(111, 182, 164, 0.5), transparent 32%),
+        linear-gradient(130deg, #18382f 0%, #10251f 48%, #241b13 100%);
+    box-shadow: 0 18px 44px var(--shadow);
+}
+.cover-card .series { color: #efc978; font: 700 0.72rem/1.35 Verdana, sans-serif; letter-spacing: 0.12em; text-transform: uppercase; }
+.cover-card h2 { margin: 1.6rem 0 0.8rem; font-size: clamp(2.6rem, 7vw, 4.8rem); line-height: 0.9; color: #fff8e6; }
+.cover-card .cover-subtitle { color: #f8e7bd; font-size: 1.22rem; line-height: 1.12; }
+.cover-card .cover-authors { color: #efc978; font: 700 0.75rem/1.35 Verdana, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.book-entry h2 { margin: 0 0 14px; font-size: 2.2rem; line-height: 1.05; }
+.book-entry p { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+.book-entry .actions { margin-top: 22px; }
+.book-start { padding-top: 28px; }
+.book-content h1, .book-content h2, .book-content h3, .book-content h4 { line-height: 1.15; scroll-margin-top: 24px; }
+.book-content h1 { font-size: 3.2rem; margin-top: 28px; }
+.book-content h2 { font-size: 2rem; margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); }
+.book-content h3 { font-size: 1.25rem; margin-top: 28px; color: var(--accent-2); }
+.book-content h4 { font-size: 1.05rem; margin-top: 22px; font-family: Verdana, sans-serif; color: var(--ink); }
+.book-content p, .book-content li { font-size: 1.05rem; }
+pre { white-space: pre-wrap; overflow: auto; background: #f0eadc; border: 1px solid var(--line); padding: 14px; }
+pre.mermaid { background: none; border: 0; text-align: center; }
+.book-content table { width: 100%; margin: 22px 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 0.86rem; }
+.book-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
+.book-content th, .book-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.book-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.figure { margin: 26px 0; padding: 0; }
+.figure figcaption { margin-top: 10px; font-family: Verdana, sans-serif; font-size: 0.82rem; color: var(--muted); text-align: center; }
+.top-link { font-family: Verdana, sans-serif; font-size: 0.85rem; }
+@media (max-width: 820px) {
+    .site-nav { align-items: flex-start; flex-direction: column; }
+    .site-nav nav { justify-content: flex-start; }
+    .nav-menu-panel { left: 0; right: auto; }
+    .hero, .book-layout, .book-cover-gate, .page-layout { grid-template-columns: 1fr; }
+  .reader-nav { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media print {
+  body { background: #fff; }
+    .site-nav, .reader-nav, .top-link { display: none; }
+  .book-layout { display: block; padding: 0; }
+  .book-content { max-width: none; }
+  .book-content h1 { page-break-before: always; }
+  .book-content h1:first-child { page-break-before: auto; }
+  .book-content h2 { page-break-before: always; border-top: 0; }
+  a { color: #17201a; text-decoration: none; }
+}
+</style>
+    
+</head>
+<body>
+    
+<header class="site-nav" id="top">
+    <a class="brand" href="index.html">International STEM Skills Round Table Phase III</a>
+    <nav aria-label="Main site navigation">
+        <a href="index.html">Home</a>
+        <a href="book.html">Book</a>
+        <a href="short.html">Short Version</a>
+        <details class="nav-menu">
+            <summary>Download</summary>
+            <div class="nav-menu-panel">
+                <a href="short-version.pdf">Short Version (PDF)</a>
+                <a href="short-version.md">Short Version (Markdown)</a>
+                <a href="book.pdf">KDP Interior (PDF)</a>
+                <a href="cover.pdf">KDP Cover (PDF)</a>
+            </div>
+        </details>
+        <a href="skills.html">Main Skills</a>
+        <a href="model.html">Lesson Model</a>
+        <a href="training.html">Training Proposal</a>
+        <a href="references.html">Materials &amp; Sources</a>
+    </nav>
+</header>
+
+    <div class="page-layout">
+        <nav class="reader-nav">
+            <a class="top-link" href="index.html">Gateway</a>
+            <a class="top-link" href="book.html">Full book</a>
+            <a class="top-link" href="short-version.pdf">Download as PDF</a><a class="top-link" href="short-version.md">Download as Markdown</a>
+            <a class="toc-level-2" href="#the-round-table">The Round Table</a>
+<a class="toc-level-2" href="#what-changed">What Changed</a>
+<a class="toc-level-2" href="#seven-findings">Seven Findings</a>
+<a class="toc-level-2" href="#twelve-principles-and-what-they-cost">Twelve Principles, and What They Cost</a>
+<a class="toc-level-2" href="#the-lesson-cycle">The Lesson Cycle</a>
+<a class="toc-level-2" href="#the-case-against">The Case Against</a>
+<a class="toc-level-2" href="#do-this-first">Do This First</a>
+<a class="toc-level-2" href="#what-was-left-open">What Was Left Open</a>
+<a class="toc-level-2" href="#further-material">Further Material</a>
+        </nav>
+        <main class="page-content">
+            <h1 id="ai-and-the-stem-educator">AI and the STEM Educator</h1>
+<p>The International STEM Skills Round Table Phase III met six times between December 2025 and July 2026 to define what a teacher and a lecturer have to be in the age of generative AI. Its two earlier phases had described the STEM graduate; this one turned to the people who teach. It was convened by Dr. Eli Eisenberg and carried by the Samuel Neaman Institute at the Technion, with participants from universities and colleges, government, research institutes, international agencies and industry.</p>
+<p><strong>The profile that came out rests on one change: producing a correct-looking answer no longer demonstrates learning, so educators need new ways to see whether a student understands.</strong> Everything below follows from that: what it implies, what acting on it costs, and where the reasoning is weakest.</p>
+<h2 id="the-round-table">The Round Table</h2>
+<p>Each meeting ran to two hours, and from the second one to a fixed shape. Dr. Eli Eisenberg opened and put one dilemma to the room, two invited speakers addressed it, one from Israel and one from abroad, and an open discussion took the rest of the time. The first meeting was an introduction: every participant spoke for themselves, then a single lecture opened the argument. Dr. Avigdor Zonnenshain summarized each session. Prof. Arnon Bentur set the sequence of dilemmas, Tamar Dayan built the library of thirty-five source documents the record depends on, and Dr. Yael Granot-Bein and Dr. Revital Duek moderated the discussions.</p>
+<figure class="figure figure-table" id="figure-1"><table><thead><tr><th class="align-left">Meeting</th><th class="align-left">Date</th><th class="align-left">The question it turned on</th></tr></thead><tbody><tr><td class="align-left">1</td><td class="align-left">16.12.2025</td><td class="align-left">What is a STEM education for, once a machine can produce a fluent answer?</td></tr><tr><td class="align-left">2</td><td class="align-left">20.01.2026</td><td class="align-left">Should the profile of teachers and lecturers be uniform, or diverse?</td></tr><tr><td class="align-left">3</td><td class="align-left">10.03.2026</td><td class="align-left">Must educators possess the competencies they are asked to cultivate?</td></tr><tr><td class="align-left">4</td><td class="align-left">28.04.2026</td><td class="align-left">Is teaching still teacher and student, or a triangle that includes AI?</td></tr><tr><td class="align-left">5</td><td class="align-left">09.06.2026</td><td class="align-left">Who is responsible for sustaining professional development over time?</td></tr><tr><td class="align-left">6</td><td class="align-left">21.07.2026</td><td class="align-left">What balance of physical, virtual, and workplace environments does STEM learning need?</td></tr></tbody></table><figcaption>Figure 1. The six meetings, and the question each one turned on.</figcaption></figure>
+<p>From the second meeting on, the invited speakers were, in order: Jan Morrison of TIES and Dr. Gabi Shafat of Afeka Academic College of Engineering; Prof. Sigal Tifferet of Ruppin Academic Center and Dr. Olena Bekh of the European Training Foundation; Dr. Iris Pinto of the Institute for Futures Research in Education with Danielle Eisenberg of Ignite/Ed and ETS; Prof. Russell Tytler of Deakin University and Dr. Yael Granot-Bein of the Edmond de Rothschild Bridge; and Emlen Metz of the OECD and Berkeley with Avi Salmon of Intel Israel, who also gave the first meeting’s single lecture. The positions, objections and questions that shaped the outcome came from Dr. Marwa Maklada, Dr. Noa Ragonis, Dr. Tzur Karelitz, Dr. Einat Sprinzak, Prof. Gil Noam, Dr. Edith Manny-Ikan, Dr. Rinat Itzhaki, Dr. Yair Noam and Oren Baratz.</p>
+<h2 id="what-changed">What Changed</h2>
+<p>STEM education rests on the belief that disciplined knowledge matters, and it still does. What changed is the evidence. A student can ask a machine to explain a concept, solve a calculation, write code or draft a laboratory report, and the result may be excellent, or shallow, biased and wrong. Either way it no longer shows what the student understands.</p>
+<p>This is not an argument for replacing content with skills. A student who can repeat a procedure but cannot evaluate an AI-generated solution is not prepared, and neither is one who can talk about critical thinking without the foundation to apply it anywhere. The position taken was integrated: keep disciplinary depth, and use disciplinary learning as the arena in which human competencies are formed.</p>
+<p>Five competencies carry that work. Four were inherited from the initiative’s earlier phases: critical thinking, self-directed learning, teamwork and interpersonal communication, and solving complex problems. Phase III added ethical judgment and responsible use, because integrity, fairness, transparency, accountability and authorship now cut across the other four rather than sitting beside them. This report treats AI literacy as a layer across all five rather than a sixth item; the room did not settle that.</p>
+<p>What matters is not that an item was added but that AI changed the meaning of every item already there. Critical thinking now has to be turned on fluent output that carries no signal of its own reliability. Self-directed learning has to survive an automated answer that feels like the end of the task. Teamwork has to account for a group producing work no member can explain. Problem solving moved its difficulty from execution, which became cheap, to framing, which became decisive.</p>
+<p>One caveat belongs here rather than in a footnote. All of this assumes transfer, that judgment cultivated in one discipline shows up in another, and the research on transfer is mixed after half a century of work. Critical thinking instruction does work when it is domain-specific and explicit; the evidence that it travels is much weaker. Redesigning a curriculum around transferable competencies is a large bet placed on a contested literature.</p>
+<h2 id="seven-findings">Seven Findings</h2>
+<p>Seven points survived the six meetings. Survived is the right verb: each was argued against before it held. Each carries a cost, stated alongside it, because a finding without its price is advocacy.</p>
+<p><strong>The educator profile should be common in foundation and diverse in expression.</strong> The second meeting opened expecting to produce a profile and closed without one, because a single profile is either so general that it commits to nothing or so demanding that nobody meets it. <em>The cost is coordination: a group of specialists that nobody coordinates is a staffing accident rather than a team.</em></p>
+<p><strong>Competencies have to be embedded in disciplinary learning.</strong> Dr. Gabi Shafat’s account of Afeka is the fullest worked example in the record, because it describes competency work built into engineering courses rather than added beside them, and he told the meeting there are no definitive answers yet on whether it works. <em>The cost is curriculum time, and no meeting said what comes out to make room.</em></p>
+<p><strong>Teachers need lived experience with the competencies they cultivate, but not mastery of them.</strong> Prof. Sigal Tifferet argued that educators without pedagogical training need concrete tools rather than abstract skills; Prof. Russell Tytler replied that competencies such as creativity are context-dependent and do not decompose into fixed components. Enough practice to model a competency and judge it is a lower bar than mastery and a higher one than familiarity. <em>The cost is that nobody has defined enough.</em></p>
+<p><strong>AI has to be designed into learning, because ignoring it and banning it both fail.</strong> Danielle Eisenberg put it sharpest: AI is already in the classroom, so the only choice left is whether its role was decided or inherited. <em>The cost is design time that teachers do not have, and that objection has no good answer here.</em></p>
+<p><strong>Professional development has to become infrastructure rather than events.</strong> The fifth meeting named a problem with no owner. Dr. Yael Granot-Bein set out the four actors who share responsibility in higher education: individual faculty members, teaching and learning centers, institutional leadership and national support structures. Each holds part of it, and none holds enough to act alone. Prof. Russell Tytler described the same gap in schools, where whether a teacher gets development at all depends on what their own school decides to organize. What the meeting agreed on was the shape: support that accompanies a teacher through the change rather than a workshop that precedes it. <em>The cost is recurring money in a budget line that does not exist.</em></p>
+<p><strong>Environments matter, and almost none of them have changed.</strong> Dr. Revital Duek asked whether learning environments would look different if education had been designed around competencies rather than knowledge. Most of them would be unrecognizable. The sixth meeting put the alternative concretely: workplaces, maker spaces and laboratories where students work on real problems alongside industry mentors. <em>The cost is capital and timetable, and a room is easier to photograph than to redesign.</em></p>
+<p><strong>Equity has to be designed in from the start.</strong> AI widens gaps if advantaged students use it to amplify thinking while others use it to replace thinking. <em>This was stated most often and examined least.</em> It was raised as a warning and never as a measurement. One meeting put a source behind it, the fourth, whose discussion document and whose presentation by Danielle Eisenberg both cite a 2026 Brookings report for the split. No participant tested it against evidence from their own students.</p>
+<h2 id="twelve-principles-and-what-they-cost">Twelve Principles, and What They Cost</h2>
+<ol>
+<li>Keep the human above the machine.
+</li>
+<li>Treat AI as part of the learning ecology, not as a replacement for teachers.
+</li>
+<li>Preserve disciplinary rigor while embedding human competencies.
+</li>
+<li>Design for visible thinking, not polished outputs.
+</li>
+<li>Build diverse educator ecosystems, not one impossible ideal profile.
+</li>
+<li>Give teachers and lecturers lived experience with new learning models.
+</li>
+<li>Make professional development continuous and supported.
+</li>
+<li>Connect STEM learning to real-world practice and industry.
+</li>
+<li>Use physical, virtual, and AI environments purposefully.
+</li>
+<li>Evaluate reforms with evidence and feedback loops.
+</li>
+<li>Design for equity from the start.
+</li>
+<li>Build institutions for lifelong learning.
+</li>
+</ol>
+<p>A flat list conceals three conflicts, and pretending they are absent is how a compass becomes decoration. Rigor and visible thinking compete for the same hours, so make thinking visible at a few chosen moments rather than continuously. Diverse ecosystems and continuous development compete for the same people, so build the team first, because a team can absorb development that an individual cannot. Industry connection and equity conflict structurally, because partnerships form where partners already are, so the eighth principle undermines the eleventh unless allocation is deliberate.</p>
+<figure class="figure figure-table" id="figure-2"><table><thead><tr><th class="align-left">What it costs</th><th class="align-left">Principles</th><th class="align-left">What is being asked</th></tr></thead><tbody><tr><td class="align-left">Nothing but attention</td><td class="align-left">1, 3, 4, 10</td><td class="align-left">Decide differently. No budget line, no permission from above, and the willingness to break a habit.</td></tr><tr><td class="align-left">Money</td><td class="align-left">6, 7, 9, 11</td><td class="align-left">Cover for released teachers, recurring development hours, equipment with someone to maintain it, and more per student on those hardest to reach.</td></tr><tr><td class="align-left">Cannot be bought</td><td class="align-left">2, 5, 8, 12</td><td class="align-left">Change the institution’s shape: how it staffs a department, who counts as an educator, whom it partners with, and what it owes a graduate five years on.</td></tr></tbody></table><figcaption>Figure 2. The twelve principles sorted by what adopting them actually costs.</figcaption></figure>
+<p>An institution that begins with what cannot be bought will have nothing to show for two years; one that begins with what costs only attention will have something to show within a term, and the evidence to argue for the rest. If resources force a choice, take the first principle, the fourth and the eleventh: keep human judgment above the machine, make thinking visible, design for equity. A system that loses those stops producing the evidence that would show anything was lost. That ranking, the three conflicts above it, and the grouping in the table are the author’s rather than the room’s.</p>
+<h2 id="the-lesson-cycle">The Lesson Cycle</h2>
+<p>The most transferable proposal here is an order of operations, and like the ranking above it, it is the author’s rather than the room’s. Students meet the world before they meet AI, which enters after observation, early reasoning, measurement and prediction, and whose job from that point is to expand, compare, model and validate.</p>
+<div class="steps-card"><div class="steps-card-head">Human-First AI Learning Cycle</div><ol class="steps-card-list"><li><span class="step-number">1</span><span>Observe reality</span></li><li><span class="step-number">2</span><span>Form a human explanation</span></li><li><span class="step-number">3</span><span>Measure or experiment</span></li><li><span class="step-number">4</span><span>Predict before AI</span></li><li class="step-highlight"><span class="step-number">5</span><span>Use AI to learn and compare</span></li><li><span class="step-number">6</span><span>Explain verbally</span></li><li><span class="step-number">7</span><span>Build a simulator with AI</span></li><li><span class="step-number">8</span><span>Validate against reality</span></li><li><span class="step-number">9</span><span>Present and defend</span></li><li><span class="step-number">10</span><span>Reflect on human responsibility</span></li></ol></div>
+<p>The sequence is the argument, because the same ten activities in a different order produce a different education. If AI comes first it supplies the frame, and the thinking has been outsourced at the one point where it was formative. If it comes after the student’s own explanation, it becomes something to compare against and check, and the student has a position to defend or revise. A swing in a park is enough to run it: students say what they think governs its timing, then measure, and find that pushing harder changes it very little, which contradicts almost everyone’s first intuition. That contradiction, discovered before AI enters, drives the rest.</p>
+<p>Two to four lessons is the right size, and if it needs a month the phenomenon was too ambitious. It fails when the opening thesis is too vague to be revised, and when the simulator is built but never checked against the measurements. It is not a replacement for direct instruction, since novices learning a new formalism need explicit teaching and worked examples, and two or three cycles a term is enough. Assess the path rather than the artifact: a specific initial thesis, evidence the student collected, a disagreement with the AI output and its resolution, and a statement of what they verified personally. A polished simulator with no record of disagreement is weak work.</p>
+<h2 id="the-case-against">The Case Against</h2>
+<p>A document that asks students to test their position against a stronger one should do the same.</p>
+<p><strong>The competency claims are under-evidenced.</strong> Prof. Sigal Tifferet asked whether the competency argument is evidence-based, and the honest answer is partly. The evidence that instruction transfers across disciplines is weak, and transfer is what the argument assumes.</p>
+<p><strong>Explicit instruction usually beats discovery for novices.</strong> Minimally guided instruction is generally less effective than explicit instruction with worked examples, because novices lack the schemas needed to direct their own search. The case is set out by Kirschner, Sweller and Clark on a substantial body of cognitive load research. Prof. Sigal Tifferet raised it in the second meeting, and the answer she was given addressed implementation rather than evidence. The cycle above is exposed to it, since a student asked for a thesis about a phenomenon they have no vocabulary for can produce confident nonsense. The defense is that the cycle is bounded, guided and followed by instruction, not that discovery works.</p>
+<p><strong>An ecosystem can mean that nobody is responsible.</strong> Policy blames funding, funding blames priorities, leadership blames policy, and the teacher is still alone in the classroom at eight in the morning. Until one of these relationships carries a sanction, a funding condition or an accreditation requirement, it records what ought to happen rather than what will.</p>
+<p><strong>The workload arithmetic does not work.</strong> Counted honestly, the recommendations describe a teacher who redesigns assessment, learns new tools, collects evidence, builds partnerships and mentors colleagues on top of a full teaching load, with no costing and nothing removed to make room. A program that only adds is a wish, and teachers have learned to tell the difference. The next section answers this one as far as it can.</p>
+<p><strong>None of it scales while the gatekeepers reward something else.</strong> Danielle Eisenberg put this to the final meeting and it has no adequate answer here. Assessment systems, university admissions and employer hiring continue to reward traditional academic achievement, so a student who spends a term building judgment still faces an admissions process that reads a grade. Saying that measurement systems should change is true, and it is not a plan.</p>
+<p><strong>The line between human and machine work moves.</strong> It has moved before. That responsibility cannot be delegated to a machine is a claim about accountability, which is a social and legal fact rather than a technical one, and those change too.</p>
+<h2 id="do-this-first">Do This First</h2>
+<p>The workload objection defeats most reform documents, so this section ranks rather than lists. The criterion is learning gained per hour of teacher time.</p>
+<ol>
+<li><strong>Require a short oral or written explanation of one submitted piece of work per unit.</strong> It costs minutes, it is the most reliable way to see whether understanding sits behind an answer, and it needs no tool, no budget and no permission.
+</li>
+<li><strong>Run the cycle on one unit per term.</strong> It makes the AI question concrete instead of theoretical, and it fits inside an existing syllabus.
+</li>
+<li><strong>Keep one deliberately AI-free task per unit.</strong> It costs nothing to design and it protects the practice that the rest of this depends on.
+</li>
+</ol>
+<p>Take one, run it for a term, and ignore the rest until it works. For everyone not standing in a classroom, the obstacle below matters more than the move.</p>
+<figure class="figure figure-table" id="figure-3"><table><thead><tr><th class="align-left">Audience</th><th class="align-left">The one move</th><th class="align-left">What will stop it</th></tr></thead><tbody><tr><td class="align-left">Teachers and lecturers</td><td class="align-left">Add a step where the student says what the tool got wrong</td><td class="align-left">The task takes longer to mark and nothing was removed to pay for it</td></tr><tr><td class="align-left">Institution leaders</td><td class="align-left">Put collaboration time on the timetable, and teaching development into the promotion criteria</td><td class="align-left">Both are visible and expensive while their returns are slow and hard to attribute</td></tr><tr><td class="align-left">Policy makers</td><td class="align-left">Fund the year after the training</td><td class="align-left">Workshops are cheap and countable; implementation support is expensive and invisible</td></tr><tr><td class="align-left">Industry partners</td><td class="align-left">Attach the partnership to a role and a calendar, not to one enthusiastic engineer</td><td class="align-left">Partnerships form where partners already are, so enthusiasm widens the gap it meant to close</td></tr><tr><td class="align-left">Researchers</td><td class="align-left">Measure how AI use differs across student populations in the same task</td><td class="align-left">The study runs longer than the funding cycle that would pay for it</td></tr></tbody></table><figcaption>Figure 3. One move per audience, and the obstacle that is more informative than the move.</figcaption></figure>
+<h2 id="what-was-left-open">What Was Left Open</h2>
+<p>Four questions sit under the six meetings and were closed by nobody. One of them was never opened. Only one of them is a research question.</p>
+<p><strong>Who pays.</strong> Every recommendation carries a cost and no actor owns it. It is settled by whoever writes a budget line rather than by whoever writes a report, and answering it means naming a payer and costing one concrete program end to end.</p>
+<p><strong>What comes out.</strong> Embedding competencies inside disciplinary courses means something already in those courses leaves, and no meeting named what. Answering it means taking one real syllabus and marking what would be cut. Until somebody does, the recommendation is a request for time that nobody has.</p>
+<p><strong>How much possession is enough.</strong> This is the research question of the four. Settling it needs cohorts followed past graduation, with some measure of whether the competencies their schooling claimed to develop are present, and in use, years later. No participant holds data of that kind.</p>
+<p><strong>Whether any of it scales.</strong> This is the systems question and the sharpest thing said across the six sessions. It needs a room where the examination authorities, admissions officers and hiring managers answer for their systems rather than describe them. The examination side was already here: Dr. Tzur Karelitz of the national testing institute, at five of the six meetings, and Dr. Edith Manny-Ikan, who writes matriculation questions, at the third. Both described those systems from the inside, and neither brought a decision their institution had taken. Attendance was never the missing thing. Authority to change an examination, an admissions rule or a hiring screen was.</p>
+<p>Phase IV, whose topic and funding were both unsettled when Phase III closed, inherits all four and would move from defining the AI-era educator profile to designing the AI-era STEM education system. The group named three themes for it: how rising global uncertainty affects social and emotional competencies and not only cognitive ones, how bottom-up innovation that already works can inform top-down policy, and STEM leadership beyond technical expertise. Jan Morrison added a fourth, procedural: connect this Round Table to other international networks so that effort is not duplicated. The steering team afterwards added two more, systems thinking and multidisciplinarity in the AI era, and the widening of skills to include values and attitudes.</p>
+<p>Phase III was a conversation among people who largely agreed with each other. That is what made it productive and it is also its main limitation. Six meetings of people who share a starting position will refine that position; they will not test it.</p>
+<h2 id="further-material">Further Material</h2>
+<ul>
+<li><a href="book.html">The full record</a> – the six meetings at length, with the positions, the disagreements, and the source behind each one.
+</li>
+<li><a href="skills.html">The five competencies</a> and <a href="model.html">the lesson model</a> – one page on each competency, and the cycle written out as a lesson.
+</li>
+<li><a href="training.html">The training program</a> – six days of teacher training built on it.
+</li>
+<li><a href="references.html">Materials and sources</a> – the thirty-five Round Table documents, and whether each can be opened.
+</li>
+</ul>
+<p>Comments, corrections and suggestions are welcome at <a href="mailto:avi.salmon@gmail.com">avi.salmon@gmail.com</a>.</p>
+        </main>
+    </div>
+</body>
+</html>

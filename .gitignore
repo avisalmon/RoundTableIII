@@ -25,6 +25,7 @@ materials/steering-*
 assets/
 book-print.html
 cover-print.html
+short-print.html
 preview-*.png
 
 # Python bytecode

@@ -32,9 +32,12 @@ BRIEF_PDF = ROOT / "short-version.pdf"
 class Page:
     """A standalone page generated from its own markdown source.
 
-    `pdf` and `markdown` name the downloadable forms of the same page. `markdown` is
-    published as a copy at the site root rather than linked at its source path, so that
-    the three forms of the short version share one name and one folder.
+    `pdf`, `markdown` and `docx` name the downloadable forms of the same page. `markdown`
+    is published as a copy at the site root rather than linked at its source path, so that
+    every form of the short version shares one name and one folder.
+
+    `front_matter` marks a source authored for Word rather than for the web, which the
+    build adapts through `report_page_markdown` before parsing it.
     """
 
     source: str
@@ -43,19 +46,24 @@ class Page:
     blurb: str
     pdf: str | None = None
     markdown: str | None = None
+    docx: str | None = None
+    front_matter: bool = False
 
 
-# The second way into the argument. Not a companion to a chapter and not an extract:
-# a stand-alone report of Phase III, and the only generated page that also ships as a PDF.
+# The second way into the argument. Not a companion to a chapter and not an extract: the
+# Phase III summary report, structured as the steering committee asked for it in August
+# 2026, and the only generated page that also ships as a PDF and as a Word document.
 SHORT_VERSION = Page(
-    source="book/pages/short_version.md",
+    source="report/phase3_report.md",
     output="short.html",
     label="Short Version",
-    blurb="The whole of Phase III in a short report: the six meetings and who was in "
-    "them, the finding that survives scrutiny, the seven findings and what each costs, "
-    "the twelve principles, the lesson cycle, the case against, and what was left open.",
+    blurb="The Phase III summary report: why the Round Table turned to the educator, how "
+    "it worked, one chapter per meeting with its dilemma, presentations and discussion, "
+    "and the insights, principles and recommendations the six meetings produced.",
     pdf="short-version.pdf",
     markdown="short-version.md",
+    docx="phase3-report.docx",
+    front_matter=True,
 )
 
 COMPANION_PAGES = [
@@ -143,8 +151,10 @@ def convert_link(match: re.Match[str]) -> str:
         if not material_is_published(filename):
             return f'<span class="source-ref">{label}</span>'
         target = f"{MATERIALS_DIR.name}/{filename}"
-    elif target.startswith("../book/"):
-        target = target.replace("../book/", "book/", 1)
+    elif target.startswith("../"):
+        # Sources live a directory down and link out of it; the site is served from the
+        # root, so the hop up is dropped rather than special-cased per folder.
+        target = target[3:]
     return f'<a href="{html.escape(target, quote=True)}">{label}</a>'
 
 
@@ -152,6 +162,64 @@ def read_manuscript() -> str:
     if not MANUSCRIPT.exists():
         raise FileNotFoundError(f"Missing source manuscript: {MANUSCRIPT}")
     return MANUSCRIPT.read_text(encoding="utf-8")
+
+
+def parse_front_matter(text: str) -> tuple[dict[str, str], str]:
+    """Read a leading `---` block. Supports `key: value` and `key: |` block scalars.
+
+    Shared with `report_docx.py`, which builds the Word edition from the same source.
+    """
+    if not text.startswith("---\n"):
+        return {}, text
+    end = text.index("\n---\n", 3)
+    head, body = text[4:end], text[end + 5 :]
+
+    meta: dict[str, str] = {}
+    block: list[str] = []
+    key: str | None = None
+
+    def close() -> None:
+        if key is not None:
+            meta[key] = "\n".join(block).strip("\n")
+
+    for line in head.splitlines():
+        # Inside a `|` block, a blank line is a paragraph break and has to survive.
+        if key is not None and (line.startswith("  ") or not line.strip()):
+            block.append(line[2:] if line.strip() else "")
+            continue
+        close()
+        key, block = None, []
+        match = re.match(r"^([A-Za-z_]+):\s*(.*)$", line)
+        if not match:
+            continue
+        name, value = match.group(1), match.group(2).strip()
+        if value == "|":
+            key = name
+        else:
+            meta[name] = value
+    close()
+    return meta, body
+
+
+def report_page_markdown(text: str) -> str:
+    """Adapt the Phase III report, which is authored for Word, into a site page.
+
+    The report carries front matter, contents and page-break markers, and one H1 per
+    numbered section, because that is what produces a Word file with a title page and a
+    table of contents Word can rebuild. A site page wants one H1 and everything under it
+    demoted, so that the page's section list is the nine sections and the appendices.
+    """
+    meta, body = parse_front_matter(text)
+    body = re.sub(r"^(#{1,3})(?= )", r"#\1", body, flags=re.M)
+
+    standfirst = meta.get("standfirst", "").strip()
+    byline = " ".join(part for part in (meta.get("status"), meta.get("date")) if part)
+    front = [f"# {meta.get('subtitle') or meta.get('title', '')}"]
+    if standfirst:
+        front.append(standfirst)
+    if byline:
+        front.append(f"*International STEM Skills Round Table Phase III. {byline}.*")
+    return "\n\n".join(front) + "\n" + body
 
 
 def extract_headings(markdown: str) -> list[Heading]:
@@ -329,6 +397,16 @@ def markdown_to_html(markdown: str, headings: list[Heading]) -> str:
             output.append(render_table(table_lines))
             continue
 
+        if line.lstrip().startswith(">"):
+            close_paragraph()
+            close_lists()
+            quote = [line.lstrip().lstrip(">").strip()]
+            while index < len(lines) and lines[index].lstrip().startswith(">"):
+                quote.append(lines[index].lstrip().lstrip(">").strip())
+                index += 1
+            output.append(f"<blockquote><p>{inline_markdown(' '.join(quote))}</p></blockquote>")
+            continue
+
         if not line.strip():
             close_paragraph()
             close_lists()
@@ -401,6 +479,7 @@ def site_nav() -> str:
         <details class="nav-menu">
             <summary>Download</summary>
             <div class="nav-menu-panel">
+                <a href="phase3-report.docx">Phase III Report (Word)</a>
                 <a href="short-version.pdf">Short Version (PDF)</a>
                 <a href="short-version.md">Short Version (Markdown)</a>
                 <a href="book.pdf">KDP Interior (PDF)</a>
@@ -536,6 +615,8 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
 .page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
 .page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+blockquote { margin: 24px 0; padding: 2px 0 2px 20px; border-left: 3px solid var(--line); color: var(--muted); }
+blockquote p { font-style: italic; }
 .steps-card {
   width: min(100%, 520px);
   aspect-ratio: 1.586;
@@ -761,11 +842,12 @@ def render_index(headings: list[Heading]) -> str:
         <section class="section" id="short-version">
             <h2>The Short Version</h2>
             <div class="overview">
-                <p>A stand-alone report on Phase III, written to be read on its own in about twenty minutes. It sets out the six meetings and the people in them, then states the finding that survives scrutiny: producing a correct-looking answer no longer demonstrates learning, so educators need new ways to see whether a student understands.</p>
-                <p>It carries the seven findings and what each one costs, the twelve principles sorted by whether they need attention, money, or a change in the shape of an institution, the ten-step lesson cycle, the strongest objections to all of it, and the four questions the six meetings left open. It is also published as an A4 booklet for printing and circulation.</p>
+                <p>The Phase III summary report, structured as the steering committee asked for it: why the Round Table turned from the profile of the graduate to the profile of the educator, how the six meetings were run and what evidence exists for them, and then one chapter per meeting setting out its dilemma, its two presentations and its discussion.</p>
+                <p>It closes with the seven insights that recur across the six sessions, eight guiding principles, recommendations separated into personal, institutional and policy levels, and the four questions the phase left open. Published as a Word document for editing, as an A4 booklet for printing, and as plain markdown.</p>
             </div>
             <div class="actions">
-                <a class="button primary" href="short.html">Read the short version</a>
+                <a class="button primary" href="short.html">Read the report</a>
+                <a class="button" href="phase3-report.docx">Download the Word file</a>
                 <a class="button" href="short-version.pdf">Download the PDF</a>
                 <a class="button" href="short-version.md">Download the Markdown</a>
             </div>
@@ -788,13 +870,19 @@ def render_index(headings: list[Heading]) -> str:
 """
 
 
+def page_markdown(page: Page) -> str:
+    """The page's source, adapted first if it was authored for Word."""
+    text = (ROOT / page.source).read_text(encoding="utf-8")
+    return report_page_markdown(text) if page.front_matter else text
+
+
 def render_standalone_page(page: Page) -> tuple[str, str]:
     """Render one markdown page. Returns (html document, body html).
 
     The body is handed back because the short version is also typeset as a PDF, and
     re-parsing the same markdown a second time would let the two drift apart.
     """
-    markdown = (ROOT / page.source).read_text(encoding="utf-8")
+    markdown = page_markdown(page)
     if PUBLISHED_MARKER in markdown:
         markdown = markdown.replace(PUBLISHED_MARKER, published_resource_index())
     headings = extract_headings(markdown)
@@ -815,6 +903,8 @@ def render_standalone_page(page: Page) -> tuple[str, str]:
         else ""
     )
     downloads = ""
+    if page.docx:
+        downloads += f'<a class="top-link" href="{page.docx}">Download as Word</a>'
     if page.pdf:
         downloads += f'<a class="top-link" href="{page.pdf}">Download as PDF</a>'
     if page.markdown:
@@ -858,9 +948,7 @@ def write_outputs(markdown: str, headings: list[Heading]) -> tuple[str, str]:
         # Copied before the pages are rendered, so the index of published files that
         # references.html generates can see it and report its size.
         if page.markdown:
-            (ROOT / page.markdown).write_text(
-                (ROOT / page.source).read_text(encoding="utf-8"), encoding="utf-8"
-            )
+            (ROOT / page.markdown).write_text(page_markdown(page), encoding="utf-8")
     for page in ALL_PAGES:
         document, page_body = render_standalone_page(page)
         (ROOT / page.output).write_text(document, encoding="utf-8")
@@ -878,12 +966,13 @@ SITE_OUTPUTS = (
     "index.html", "book.html", "short.html", "skills.html", "model.html",
     "training.html", "references.html",
     "book.pdf", "cover.pdf", "short-version.pdf", "short-version.md",
+    "phase3-report.docx",
 )
 
 READING_PAGES = {
     "index.html": "The gateway page: what the project is, and every way into it.",
     "book.html": "The full book in the browser, with its table of contents and figures.",
-    "short.html": "The short version in the browser: the whole of Phase III in about twenty minutes.",
+    "short.html": "The Phase III summary report in the browser: the six meetings, and what they add up to.",
     "skills.html": "The five competencies, one page each, and what AI changed about them.",
     "model.html": "The Human-First AI Learning Cycle written out as a lesson.",
     "training.html": "The six-day teacher training proposal, with a deliverable for each day.",
@@ -891,8 +980,9 @@ READING_PAGES = {
 }
 
 DOWNLOADS = {
-    "short-version.pdf": "The short version as an A4 booklet, for printing and circulation.",
-    "short-version.md": "The short version as plain markdown, for reuse, translation or quoting.",
+    "phase3-report.docx": "The Phase III summary report as a Word document, for editing and comment.",
+    "short-version.pdf": "The Phase III summary report as an A4 booklet, for printing and circulation.",
+    "short-version.md": "The report as plain markdown, for reuse, translation or quoting.",
     "book.pdf": "The print-ready paperback interior, 6 x 9 in, as uploaded to KDP.",
     "cover.pdf": "The paperback wrap cover: back, spine and front on one sheet.",
 }
@@ -900,7 +990,7 @@ DOWNLOADS = {
 TEXT_SOURCES = {
     "book/manuscript.md": "The manuscript every page of the book is generated from.",
     "book/references.md": "The source text of this page.",
-    "book/pages/short_version.md": "The source text of the short version.",
+    "report/phase3_report.md": "The source text of the Phase III summary report.",
     "book/pages/main_skills.md": "The source text of the competencies page.",
     "book/pages/lesson_model.md": "The source text of the lesson model page.",
     "book/pages/training_program.md": "The source text of the training proposal.",

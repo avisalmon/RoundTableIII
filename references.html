@@ -124,6 +124,8 @@ h1 { font-size: clamp(2.6rem, 6vw, 5.8rem); line-height: 0.95; margin: 14px 0 20
 .page-content thead th { border-bottom: 2px solid var(--ink); text-align: left; }
 .page-content th, .page-content td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
 .page-content tbody tr:last-child td { border-bottom: 2px solid var(--ink); }
+blockquote { margin: 24px 0; padding: 2px 0 2px 20px; border-left: 3px solid var(--line); color: var(--muted); }
+blockquote p { font-style: italic; }
 .steps-card {
   width: min(100%, 520px);
   aspect-ratio: 1.586;
@@ -258,6 +260,7 @@ pre.mermaid { background: none; border: 0; text-align: center; }
         <details class="nav-menu">
             <summary>Download</summary>
             <div class="nav-menu-panel">
+                <a href="phase3-report.docx">Phase III Report (Word)</a>
                 <a href="short-version.pdf">Short Version (PDF)</a>
                 <a href="short-version.md">Short Version (Markdown)</a>
                 <a href="book.pdf">KDP Interior (PDF)</a>
@@ -571,7 +574,7 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 </li>
 <li><a href="book.html">book.html</a> (432 KB). The full book in the browser, with its table of contents and figures.
 </li>
-<li><a href="short.html">short.html</a> (38 KB). The short version in the browser: the whole of Phase III in about twenty minutes.
+<li><a href="short.html">short.html</a> (89 KB). The Phase III summary report in the browser: the six meetings, and what they add up to.
 </li>
 <li><a href="skills.html">skills.html</a> (21 KB). The five competencies, one page each, and what AI changed about them.
 </li>
@@ -579,14 +582,16 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 </li>
 <li><a href="training.html">training.html</a> (33 KB). The six-day teacher training proposal, with a deliverable for each day.
 </li>
-<li><a href="references.html">references.html</a> (37 KB). This page.
+<li><a href="references.html">references.html</a> (38 KB). This page.
 </li>
 </ul>
 <h3 id="downloads">Downloads</h3>
 <ul>
-<li><a href="short-version.pdf">short-version.pdf</a> (155 KB). The short version as an A4 booklet, for printing and circulation.
+<li><a href="phase3-report.docx">phase3-report.docx</a> (62 KB). The Phase III summary report as a Word document, for editing and comment.
 </li>
-<li><a href="short-version.md">short-version.md</a> (21 KB). The short version as plain markdown, for reuse, translation or quoting.
+<li><a href="short-version.pdf">short-version.pdf</a> (341 KB). The Phase III summary report as an A4 booklet, for printing and circulation.
+</li>
+<li><a href="short-version.md">short-version.md</a> (66 KB). The report as plain markdown, for reuse, translation or quoting.
 </li>
 <li><a href="book.pdf">book.pdf</a> (2.1 MB). The print-ready paperback interior, 6 x 9 in, as uploaded to KDP.
 </li>
@@ -600,7 +605,7 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 </li>
 <li><a href="book/references.md">references.md</a> (13 KB). The source text of this page.
 </li>
-<li><a href="book/pages/short_version.md">short_version.md</a> (21 KB). The source text of the short version.
+<li><a href="report/phase3_report.md">phase3_report.md</a> (67 KB). The source text of the Phase III summary report.
 </li>
 <li><a href="book/pages/main_skills.md">main_skills.md</a> (7 KB). The source text of the competencies page.
 </li>
@@ -672,7 +677,7 @@ pre.mermaid { background: none; border: 0; text-align: center; }
 <h3 id="the-build">The Build</h3>
 <p>The site is a set of Python scripts and a manuscript. Nothing here is needed to read the book, and all of it is published so the result can be reproduced or checked.</p>
 <ul>
-<li><a href="build_book.py">build_book.py</a> (48 KB). The build: parses the manuscript, writes the site, checks the links.
+<li><a href="build_book.py">build_book.py</a> (52 KB). The build: parses the manuscript, writes the site, checks the links.
 </li>
 <li><a href="book_pdf.py">book_pdf.py</a> (36 KB). The paperback design: page geometry, front matter, print stylesheet.
 </li>

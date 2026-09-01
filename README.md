@@ -3,8 +3,13 @@
 This repository contains the working manuscript and generated reading site for the International STEM Skills Round Table Phase III personal summary.
 
 Golden source: `book/manuscript.md`. The short version has its own source,
-`book/pages/short_version.md`, because it is a stand-alone report on Phase III rather
-than an extract; it is written by hand and is not generated from the manuscript.
+`report/phase3_report.md`, because it is the Phase III summary report rather than an
+extract: it is structured as the steering committee asked for it in August 2026, and is
+written by hand rather than generated from the manuscript.
+
+That source is authored for Word, with front matter, a contents marker and one H1 per
+numbered section. `build_book.py` adapts it for the web through `report_page_markdown`,
+which drops the markers and demotes every heading one level.
 
 Generated outputs:
 
@@ -12,25 +17,30 @@ Generated outputs:
 - `book.html` - full web reader.
 - `book.pdf` - print-ready paperback interior for Amazon KDP.
 - `cover.pdf` - full-wrap paperback cover for Amazon KDP.
-- `short.html`, `short-version.pdf` and `short-version.md` - the short version on the web, as
-  an A4 booklet, and as plain markdown. All three are generated from the one source, and all
-  three are offered from the site's Download menu.
+- `phase3-report.docx` - the report as an editable Word document, built by `report_docx.py`.
+- `short.html`, `short-version.pdf` and `short-version.md` - the same report on the web, as
+  an A4 booklet, and as plain markdown. All are generated from the one source, and all are
+  offered from the site's Download menu.
 
 `references.html` ends with a generated index of every file the site publishes, built from
 `git ls-files` so it cannot drift from what is actually there. The build fails if any internal
 link or anchor on any generated page does not resolve.
 
-Regenerate the website and PDF with:
+Regenerate the Word report and then the website and PDF with:
 
 ```powershell
+python report_docx.py
 python build_book.py
 ```
 
+The order matters: the site links `phase3-report.docx`, and the build's link check fails
+if it is not on disk.
+
 ## Requirements
 
-- Python 3.11 or later. Only the standard library is needed to build; `pymupdf` is
+- Python 3.11 or later. Only the standard library is needed to build the site; `pymupdf` is
   optional and enables the KDP compliance report, the PDF bookmarks, and the closing
-  blank page (`pip install pymupdf`).
+  blank page (`pip install pymupdf`). `report_docx.py` additionally needs `python-docx`.
 - Google Chrome or Microsoft Edge, used headless to paginate and print the book.
 - Network access on the **first** build only. The build downloads Paged.js, Mermaid,
   and the EB Garamond and Inter web fonts into `assets/` and reuses them afterwards.
@@ -72,6 +82,7 @@ back cover includes a blank barcode area for a KDP-generated barcode.
 | `build_book.py` | Entry point. Parses the manuscript to HTML and writes the website. |
 | `book_pdf.py` | The book design: page geometry, front matter, print stylesheet, diagram fitting. |
 | `brief_pdf.py` | The short version as an A4 booklet: its own geometry and stylesheet, the same renderer. |
+| `report_docx.py` | The Word edition of the report: heading styles, a TOC field, editable tables. |
 | `cover_pdf.py` | The KDP wrap-cover design and cover geometry. |
 | `chrome_pdf.py` | Headless Chrome over the DevTools protocol, plus the asset cache. |
 | `kdp_report.py` | Post-processing (bookmarks, metadata) and the KDP compliance checks. |
